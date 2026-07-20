@@ -1,1 +1,31 @@
-
+{
+  "courses": [
+    {
+      "id": "ind416",
+      "code": "IND416",
+      "title": "Project Management & Procurement",
+      "description": "Learn project planning, scheduling, procurement, stakeholder management, contract management and project execution.",
+      "credits": "7.5 ECTS",
+      "topics": 10,
+      "image": "assets/images/ind416.jpg"
+    },
+    {
+      "id": "ind417",
+      "code": "IND417",
+      "title": "Business Economic Analysis I",
+      "description": "Learn cost accounting, budgeting, profitability analysis, decision making and financial management.",
+      "credits": "7.5 ECTS",
+      "topics": 10,
+      "image": "assets/images/ind417.jpg"
+    },
+    {
+      "id": "ing400",
+      "code": "ING400",
+      "title": "Negotiation and Agreement Processes in Engineering Projects",
+      "description": "Learn negotiation strategies, contract processes, communication, conflict resolution and project agreements.",
+      "credits": "7.5 ECTS",
+      "topics": 10,
+      "image": "assets/images/ing400.jpg"
+    }
+  ]
+}
