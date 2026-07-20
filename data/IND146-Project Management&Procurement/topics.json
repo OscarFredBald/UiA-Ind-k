@@ -1,1 +1,98 @@
-
+{
+  "course": "ind416",
+  "code": "IND416",
+  "title": "Project Management & Procurement",
+  "source": "UiA course description for Autumn 2026",
+  "topics": [
+    {
+      "id": "project-initiation",
+      "number": 1,
+      "title": "Project Initiation and Project Foundations",
+      "description": "Learn how projects are initiated, justified and defined before detailed planning begins.",
+      "moduleCount": 5,
+      "hasQuiz": true,
+      "readingTime": "25 min"
+    },
+    {
+      "id": "stakeholder-analysis",
+      "number": 2,
+      "title": "Stakeholder Analysis and Engagement",
+      "description": "Identify project stakeholders, analyse their influence and interests, and develop suitable engagement strategies.",
+      "moduleCount": 5,
+      "hasQuiz": true,
+      "readingTime": "30 min"
+    },
+    {
+      "id": "project-success",
+      "number": 3,
+      "title": "Project Success and the Project Manager",
+      "description": "Examine project success criteria and the skills, behaviours and responsibilities associated with successful project managers.",
+      "moduleCount": 5,
+      "hasQuiz": true,
+      "readingTime": "25 min"
+    },
+    {
+      "id": "scope-planning",
+      "number": 4,
+      "title": "Project Scope and Work Breakdown",
+      "description": "Define project scope, establish deliverables and organise project work through a work breakdown structure.",
+      "moduleCount": 6,
+      "hasQuiz": true,
+      "readingTime": "35 min"
+    },
+    {
+      "id": "time-planning",
+      "number": 5,
+      "title": "Time Planning and Project Scheduling",
+      "description": "Plan activities, identify dependencies, estimate durations and develop a realistic project schedule.",
+      "moduleCount": 7,
+      "hasQuiz": true,
+      "readingTime": "40 min"
+    },
+    {
+      "id": "cost-planning",
+      "number": 6,
+      "title": "Project Cost Planning and Control",
+      "description": "Estimate project costs, establish cost baselines and understand how project costs can be monitored and controlled.",
+      "moduleCount": 6,
+      "hasQuiz": true,
+      "readingTime": "35 min"
+    },
+    {
+      "id": "project-crashing",
+      "number": 7,
+      "title": "Project Crashing and Time–Cost Trade-offs",
+      "description": "Analyse how project duration can be reduced and evaluate the financial consequences of accelerating project activities.",
+      "moduleCount": 5,
+      "hasQuiz": true,
+      "readingTime": "35 min"
+    },
+    {
+      "id": "procurement-planning",
+      "number": 8,
+      "title": "Procurement Planning and Supplier Selection",
+      "description": "Determine what a project should procure, plan the procurement process and evaluate potential suppliers.",
+      "moduleCount": 7,
+      "hasQuiz": true,
+      "readingTime": "40 min"
+    },
+    {
+      "id": "contract-management",
+      "number": 9,
+      "title": "Contract Management in Supplier Relationships",
+      "description": "Understand contract formation, contractual responsibilities, performance monitoring, changes, claims and contract close-out.",
+      "moduleCount": 7,
+      "hasQuiz": true,
+      "readingTime": "45 min"
+    },
+    {
+      "id": "buyer-supplier-collaboration",
+      "number": 10,
+      "title": "Buyer–Supplier Relationships and Project Follow-up",
+      "description": "Explore collaboration between buyers and suppliers and apply project planning, implementation and follow-up methods in practical cases.",
+      "moduleCount": 6,
+      "hasQuiz": true,
+      "readingTime": "40 min"
+    }
+  ]
+}
