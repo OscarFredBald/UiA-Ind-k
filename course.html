@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Course | Learning Platform</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <script defer src="js/course.js"></script>
+</head>
+
+<body>
+
+<header class="course-header">
+    <div class="container">
+
+        <a href="index.html" class="back-link">
+            ← Back to courses
+        </a>
+
+        <p id="course-code" class="course-page-code">
+            Loading course...
+        </p>
+
+        <h1 id="course-title">
+            Course
+        </h1>
+
+        <p id="course-description" class="course-page-description">
+            Course information is being loaded.
+        </p>
+
+        <div id="course-details" class="course-details">
+            <!-- Course details will be loaded automatically -->
+        </div>
+
+    </div>
+</header>
+
+<main class="container">
+
+    <section class="topics-intro">
+
+        <div>
+            <p class="section-label">Course content</p>
+
+            <h2>Topics</h2>
+
+            <p>
+                Select a topic to open the reading material, examples
+                and quiz.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="topic-grid" class="topic-grid">
+
+        <div class="status-message">
+            <p>Loading topics...</p>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Learning Platform © 2026</p>
+</footer>
+
+</body>
+</html>
