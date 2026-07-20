@@ -181,3 +181,31 @@ footer {
     }
 
 }
+
+/* ==========================================
+   STATUS MESSAGES
+========================================== */
+
+.status-message {
+    grid-column: 1 / -1;
+    background: white;
+    padding: 35px;
+    border-radius: 16px;
+    text-align: center;
+    color: #6b7280;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.status-message h3 {
+    margin-bottom: 8px;
+    color: #1f2937;
+}
+
+.error-message {
+    border: 1px solid #fecaca;
+    background: #fff7f7;
+}
+
+.error-message h3 {
+    color: #b91c1c;
+}
