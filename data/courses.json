@@ -6,7 +6,10 @@
       "title": "Project Management & Procurement",
       "description": "Learn project planning, scheduling, procurement, stakeholder management, contract management and project execution.",
       "credits": "7.5 ECTS",
+      "semester": "Autumn 2026",
       "topics": 10,
+      "difficulty": "Intermediate",
+      "color": "#2563eb",
       "image": "assets/images/ind416.jpg"
     },
     {
@@ -15,7 +18,10 @@
       "title": "Business Economic Analysis I",
       "description": "Learn cost accounting, budgeting, profitability analysis, decision making and financial management.",
       "credits": "7.5 ECTS",
+      "semester": "Autumn 2026",
       "topics": 10,
+      "difficulty": "Intermediate",
+      "color": "#059669",
       "image": "assets/images/ind417.jpg"
     },
     {
@@ -24,7 +30,10 @@
       "title": "Negotiation and Agreement Processes in Engineering Projects",
       "description": "Learn negotiation strategies, contract processes, communication, conflict resolution and project agreements.",
       "credits": "7.5 ECTS",
+      "semester": "Autumn 2026",
       "topics": 10,
+      "difficulty": "Intermediate",
+      "color": "#dc2626",
       "image": "assets/images/ing400.jpg"
     }
   ]
