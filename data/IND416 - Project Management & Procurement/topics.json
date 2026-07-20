@@ -1,1 +1,78 @@
-
+{
+  "course": "IND416 - Project Management & Procurement",
+  "description": "Learn the principles, methods and tools used to successfully plan, execute and manage projects, with a strong focus on procurement, supplier relationships and practical project management.",
+  "topics": [
+    {
+      "title": "Project Initiation",
+      "description": "Understand how projects are started, defined and approved.",
+      "readingTime": "20 min",
+      "quiz": "project-initiation"
+    },
+    {
+      "title": "Stakeholder Analysis",
+      "description": "Identify stakeholders, analyse their influence and manage expectations.",
+      "readingTime": "25 min",
+      "quiz": "stakeholder-analysis"
+    },
+    {
+      "title": "Project Success & The Project Manager",
+      "description": "Explore success criteria and the characteristics of successful project managers.",
+      "readingTime": "20 min",
+      "quiz": "project-success"
+    },
+    {
+      "title": "Scope Management",
+      "description": "Define project scope and prevent scope creep.",
+      "readingTime": "25 min",
+      "quiz": "scope-management"
+    },
+    {
+      "title": "Time Planning",
+      "description": "Plan activities using scheduling tools such as Gantt charts and Critical Path Method.",
+      "readingTime": "30 min",
+      "quiz": "time-planning"
+    },
+    {
+      "title": "Cost Planning & Budgeting",
+      "description": "Estimate costs, build project budgets and monitor project finances.",
+      "readingTime": "30 min",
+      "quiz": "cost-planning"
+    },
+    {
+      "title": "Project Crashing",
+      "description": "Reduce project duration while balancing additional costs.",
+      "readingTime": "20 min",
+      "quiz": "project-crashing"
+    },
+    {
+      "title": "Procurement Planning",
+      "description": "Understand procurement strategies and purchasing within projects.",
+      "readingTime": "30 min",
+      "quiz": "procurement-planning"
+    },
+    {
+      "title": "Contract Management",
+      "description": "Learn how contracts are created, managed and monitored throughout a project.",
+      "readingTime": "30 min",
+      "quiz": "contract-management"
+    },
+    {
+      "title": "Buyer-Supplier Relationships",
+      "description": "Develop effective collaboration with suppliers and manage long-term partnerships.",
+      "readingTime": "25 min",
+      "quiz": "buyer-supplier-relationships"
+    },
+    {
+      "title": "Project Execution & Follow-up",
+      "description": "Monitor progress, manage risks and ensure successful project delivery.",
+      "readingTime": "30 min",
+      "quiz": "project-execution"
+    },
+    {
+      "title": "Project Simulation & Practical Cases",
+      "description": "Apply project management tools and techniques through realistic business cases and simulations.",
+      "readingTime": "40 min",
+      "quiz": "project-simulation"
+    }
+  ]
+}
