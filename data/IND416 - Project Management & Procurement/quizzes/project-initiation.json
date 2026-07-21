@@ -1,101 +1,366 @@
 {
   "title": "Project Initiation",
+  "description": "Advanced quiz on project selection, business cases, project charters, governance, sponsorship, benefits, assumptions and early-stage decision-making.",
   "questions": [
     {
-      "question": "A shipping company is considering investing in a new fleet management software. Before any planning begins, what should be the primary objective of the initiation phase?",
+      "question": "What is the primary purpose of the project initiation phase?",
       "options": [
-        "Create the detailed project schedule",
-        "Determine whether the project is worth undertaking and define its objectives",
-        "Assign every team member to specific tasks",
-        "Negotiate contracts with software vendors"
+        "To create a detailed activity schedule",
+        "To determine whether a proposed project is justified and should be formally authorized",
+        "To assign every team member to a work package",
+        "To negotiate all supplier contracts"
       ],
       "answer": 1,
-      "difficulty": "Easy",
-      "explanation": "The initiation phase determines whether the project should proceed and establishes its purpose, objectives and business justification."
+      "difficulty": "Foundation",
+      "explanation": "Initiation evaluates whether the project is worthwhile and establishes formal authorization. Detailed scheduling, work allocation and contracting normally occur later."
     },
     {
-      "question": "Which document normally gives a project its formal authorization to begin?",
+      "question": "Which document normally provides formal authorization for a project to begin?",
       "options": [
-        "Risk Register",
         "Project Charter",
-        "Procurement Plan",
-        "Work Breakdown Structure"
-      ],
-      "answer": 1,
-      "difficulty": "Easy",
-      "explanation": "The Project Charter formally authorizes the project and gives the project manager authority to use organizational resources."
-    },
-    {
-      "question": "A project manager starts developing a detailed budget before the project has been officially approved. What is the biggest issue with this approach?",
-      "options": [
-        "The project may consume resources before a decision has been made to proceed",
-        "Budgets cannot be estimated until the project is completed",
-        "The project manager must first recruit suppliers",
-        "There is no issue because budgeting always comes first"
+        "Stakeholder Register",
+        "Work Breakdown Structure",
+        "Procurement Schedule"
       ],
       "answer": 0,
-      "difficulty": "Medium",
-      "explanation": "Without formal approval, significant planning may waste both time and organizational resources if the project is later rejected."
+      "difficulty": "Foundation",
+      "explanation": "The Project Charter formally authorizes the project and typically confirms the project purpose, high-level scope, sponsor and project manager."
     },
     {
-      "question": "Which of the following is LEAST likely to be included in a Project Charter?",
+      "question": "What is the main purpose of a Business Case?",
       "options": [
-        "Business case",
-        "High-level project objectives",
-        "Project sponsor",
-        "Detailed day-by-day task schedule"
+        "To describe why the project should be undertaken and what value it is expected to create",
+        "To provide detailed technical specifications for every deliverable",
+        "To record the daily decisions of the project team",
+        "To replace the final project plan"
       ],
-      "answer": 3,
-      "difficulty": "Medium",
-      "explanation": "Detailed schedules are developed later during project planning, not during initiation."
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The Business Case explains the rationale for the project, including the problem, expected benefits, costs, risks and alternatives."
     },
     {
-      "question": "A logistics company wants to automate invoice processing. Management estimates annual savings of $600,000 while implementation will cost $900,000. Which additional factor should be evaluated before approving the project?",
+      "question": "Who normally owns the Business Case and remains accountable for the project's continued business justification?",
       "options": [
-        "Whether employees prefer the current system",
-        "Expected project risks and strategic alignment",
-        "The color scheme of the new software",
-        "How many meeting rooms are available"
+        "Project Sponsor",
+        "Project Scheduler",
+        "Technical Lead",
+        "Procurement Officer"
       ],
-      "answer": 1,
-      "difficulty": "Medium",
-      "explanation": "Projects should be evaluated based on financial value, strategic fit and associated risks before approval."
-    },
-    {
-      "question": "A project is approved because it is expected to improve customer satisfaction, reduce operating costs and support the company's long-term strategy. Which concept best describes these reasons?",
-      "options": [
-        "Critical Path",
-        "Business Case",
-        "Procurement Strategy",
-        "Quality Assurance"
-      ],
-      "answer": 1,
-      "difficulty": "Hard",
-      "explanation": "The business case explains why the project should be undertaken and the value it is expected to deliver."
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The sponsor normally owns the Business Case and ensures that the project continues to support organizational objectives."
     },
     {
       "question": "Which statement best distinguishes project initiation from project planning?",
       "options": [
-        "Initiation decides whether the project should exist, while planning determines how it will be executed.",
-        "Initiation creates the detailed work packages, while planning approves the project.",
-        "Initiation only concerns budgeting, while planning focuses on quality.",
-        "There is no practical difference between the two phases."
+        "Initiation determines why and whether the project should proceed, while planning determines how it will be delivered",
+        "Initiation creates the full schedule, while planning approves the project",
+        "Initiation is only financial, while planning is only technical",
+        "There is no meaningful difference between the two phases"
       ],
       "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Initiation focuses on project justification and authorization, whereas planning develops the roadmap for execution."
+      "difficulty": "Foundation",
+      "explanation": "Initiation concerns justification, alignment and authorization. Planning develops the detailed roadmap for execution."
     },
     {
-      "question": "A company starts several projects without evaluating whether they support its overall strategy. What is the most likely consequence?",
+      "question": "Why should strategic alignment be assessed before a project is approved?",
       "options": [
-        "Projects may succeed individually but provide little organizational value.",
-        "Project schedules automatically become shorter.",
-        "Stakeholders become easier to manage.",
-        "Procurement costs decrease."
+        "Because strategically aligned projects never experience risk",
+        "Because a project can be delivered efficiently yet still create little organizational value",
+        "Because strategy determines the exact project schedule",
+        "Because only strategic projects require sponsors"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "A project may meet time, cost and scope targets but still be a poor investment if it does not support the organization's priorities."
+    },
+    {
+      "question": "Why is a high-level scope included in the Project Charter rather than a fully detailed scope statement?",
+      "options": [
+        "Because no scope information is available before execution",
+        "Because initiation defines boundaries and intent, while detailed decomposition belongs to planning",
+        "Because detailed scope is only required for construction projects",
+        "Because the sponsor should not know what the project will deliver"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "The charter provides enough scope clarity to authorize the project without attempting to complete detailed planning prematurely."
+    },
+    {
+      "question": "Why should alternatives be considered in a Business Case?",
+      "options": [
+        "To demonstrate that the preferred proposal is better than other credible ways of addressing the need",
+        "To delay the approval decision",
+        "To ensure that every alternative is implemented",
+        "To eliminate the need for risk analysis"
       ],
       "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Projects should contribute to organizational strategy. Otherwise, resources may be spent on initiatives that deliver limited business value."
+      "difficulty": "Understanding",
+      "explanation": "A strong Business Case compares the proposed project with realistic alternatives, including doing nothing, improving existing processes or selecting another solution."
+    },
+    {
+      "question": "What is the key distinction between an assumption and a constraint during initiation?",
+      "options": [
+        "An assumption is treated as true for planning purposes, while a constraint limits available choices",
+        "An assumption is mandatory, while a constraint is optional",
+        "An assumption is always financial, while a constraint is always technical",
+        "There is no practical distinction"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Assumptions are uncertain conditions temporarily treated as true. Constraints impose limits, such as fixed deadlines, budgets or regulatory requirements."
+    },
+    {
+      "question": "Why is early identification of major risks important even before detailed planning begins?",
+      "options": [
+        "Because all project risks must be eliminated during initiation",
+        "Because major risks may change whether the project should be approved at all",
+        "Because detailed risk responses must be executed immediately",
+        "Because project risks only affect the sponsor"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Some risks are significant enough to affect feasibility, expected value or strategic acceptability and must therefore inform the approval decision."
+    },
+    {
+      "question": "Why should success criteria be defined during initiation?",
+      "options": [
+        "To create a basis for judging whether the project eventually delivers its intended value",
+        "To guarantee that the schedule will not change",
+        "To replace stakeholder analysis",
+        "To determine individual employee salaries"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Success criteria clarify what outcomes matter and create an early reference point for evaluating project performance and benefits."
+    },
+    {
+      "question": "Why is appointing a project sponsor insufficient unless the sponsor is actively engaged?",
+      "options": [
+        "Because sponsorship is primarily a ceremonial role",
+        "Because the project may still lack timely decisions, organizational support and access to resources",
+        "Because only project managers may make decisions",
+        "Because sponsors are responsible for completing technical tasks"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Effective sponsorship requires active ownership, decision-making, escalation support and protection of the project's business rationale."
+    },
+    {
+      "question": "Why can a technically feasible project still be rejected during initiation?",
+      "options": [
+        "Because technical feasibility is irrelevant",
+        "Because feasibility alone does not prove that the project is strategically valuable, affordable or preferable to alternatives",
+        "Because all technically feasible projects must be delayed",
+        "Because only non-technical projects require approval"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Technical feasibility is only one decision criterion. Strategic fit, financial value, risk and organizational capacity also matter."
+    },
+    {
+      "question": "A shipping company is considering a predictive-maintenance platform. The software is technically strong, but the company has no reliable equipment data. What should management do during initiation?",
+      "options": [
+        "Approve the project because the technology is advanced",
+        "Ignore the data issue until implementation",
+        "Assess whether the data limitation undermines feasibility, benefits and expected value",
+        "Ask the vendor to take full ownership of the Business Case"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "The quality and availability of data are critical assumptions. Management should assess whether the expected benefits remain credible before authorization."
+    },
+    {
+      "question": "A company wants to build a new warehouse because its existing facility is congested. Which initiation activity should occur before selecting the construction option?",
+      "options": [
+        "Compare alternatives such as process redesign, outsourcing, expansion or new construction",
+        "Appoint the construction contractor",
+        "Create the final building schedule",
+        "Purchase the land immediately"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "The organization should first confirm that new construction is the best response to the underlying business problem."
+    },
+    {
+      "question": "A project is expected to save USD 2 million annually, but the estimate assumes full employee adoption from the first day. What is the most appropriate initiation response?",
+      "options": [
+        "Treat the savings as guaranteed",
+        "Document the adoption assumption and test how sensitive the Business Case is to lower adoption",
+        "Remove the benefit estimate entirely",
+        "Approve the project because savings exceed zero"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Important assumptions should be made explicit and tested. Benefits that depend on behavior or adoption are rarely guaranteed."
+    },
+    {
+      "question": "Senior management has verbally approved a project, but no charter exists and departments disagree about whether resources may be assigned. What is the best next step?",
+      "options": [
+        "Begin execution to maintain momentum",
+        "Create formal authorization clarifying authority, ownership, objectives and high-level boundaries",
+        "Let each department interpret the approval independently",
+        "Ask suppliers to begin work at their own risk"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "A formal charter resolves ambiguity by documenting authorization, governance and the project manager's mandate."
+    },
+    {
+      "question": "A port automation project supports the company's strategy, but it requires scarce engineers who are already assigned to a regulatory compliance project. What should be evaluated before approval?",
+      "options": [
+        "Only the financial return of the automation project",
+        "The organization's capacity and the opportunity cost of diverting scarce resources",
+        "Whether the automation vendor offers training",
+        "Whether the project manager prefers the project"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Project selection must consider organizational capacity and competing priorities, not only the attractiveness of the project in isolation."
+    },
+    {
+      "question": "A sponsor asks the project manager to produce a detailed 18-month schedule before the project has passed the feasibility review. What is the most professional response?",
+      "options": [
+        "Refuse to provide any timing information",
+        "Develop a high-level estimate while explaining that detailed planning depends on approval and clearer scope",
+        "Create a fully committed schedule immediately",
+        "Delegate the decision to the supplier"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "A high-level estimate may support decision-making, but detailed commitments should not be presented as reliable before feasibility and scope are sufficiently understood."
+    },
+    {
+      "question": "A project is proposed mainly because a senior executive is enthusiastic about a new technology. Which initiation question is most important?",
+      "options": [
+        "Which technology brand does the executive prefer?",
+        "What business problem will the project solve and what measurable benefits are expected?",
+        "How quickly can the project team begin?",
+        "Which department will receive the largest budget?"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Technology enthusiasm is not a sufficient rationale. The project must be connected to a defined need and credible benefits."
+    },
+    {
+      "question": "A proposed ERP project has strong benefits, but several previous transformation projects failed because departments resisted standardized processes. What should the Business Case include?",
+      "options": [
+        "Only the software acquisition cost",
+        "Organizational change risks, adoption requirements and the resources needed to realize benefits",
+        "A statement that resistance will disappear after launch",
+        "A fully detailed technical design"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The Business Case should reflect the full conditions required to deliver benefits, including organizational change and adoption."
+    },
+    {
+      "question": "A government regulation will require new emissions-reporting capability within twelve months. The project has low direct financial return. What is the strongest justification for approval?",
+      "options": [
+        "The project creates optional product features",
+        "The project prevents non-compliance and protects the organization's ability to operate",
+        "The project will improve employee morale",
+        "The project manager has available capacity"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Mandatory compliance projects may be justified through avoided penalties, operating continuity and legal obligations rather than direct financial return."
+    },
+    {
+      "question": "A project idea has attractive benefits, but the estimated costs are based on informal vendor conversations and omit internal labor. What should happen before approval?",
+      "options": [
+        "Approve it because the benefits are attractive",
+        "Improve the cost estimate and include all material cost categories",
+        "Transfer all estimating responsibility to the project manager after approval",
+        "Remove costs from the Business Case"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "An approval decision based on materially incomplete costs may overstate project value. The estimate should include external and internal resource requirements."
+    },
+    {
+      "question": "A sponsor insists that a project must be approved because a competitor has launched a similar service. What should the initiation team do first?",
+      "options": [
+        "Copy the competitor's solution",
+        "Assess whether the competitor's action changes the organization's own strategic need, customer demand and expected value",
+        "Approve the project immediately to avoid delay",
+        "Reject the project because imitation is always poor strategy"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Competitor behavior is relevant evidence, but it does not replace analysis of the organization's own strategy, customers, capabilities and economics."
+    },
+    {
+      "question": "Two projects have similar financial returns. Project A supports a core strategic priority but has high implementation risk. Project B has lower risk but limited strategic relevance. What is the best conclusion?",
+      "options": [
+        "Project A should automatically be selected",
+        "Project B should automatically be selected",
+        "The choice requires an explicit evaluation of strategic value, risk tolerance and portfolio priorities",
+        "Both projects should be approved because their returns are similar"
+      ],
+      "answer": 2,
+      "difficulty": "Analysis",
+      "explanation": "Project selection requires balanced judgment. Neither strategic alignment nor low risk should be treated as the only criterion."
+    },
+    {
+      "question": "A project's Business Case relies heavily on benefits that will occur five years after implementation. Which concern deserves the greatest attention?",
+      "options": [
+        "Long-term benefits are always invalid",
+        "The further into the future benefits occur, the greater the uncertainty around assumptions, realization and strategic relevance",
+        "The project should have no sponsor",
+        "The detailed schedule must cover all five years"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Long-dated benefits can be legitimate, but they require careful treatment because uncertainty, organizational change and shifting priorities increase over time."
+    },
+    {
+      "question": "A project has been formally approved, but the charter describes success only as 'implement the new system.' What is the most significant weakness?",
+      "options": [
+        "The charter contains too much detail",
+        "The project has defined an output but not the intended outcome or business value",
+        "The project manager has too much authority",
+        "The sponsor should be removed"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Delivering a system is an output. Strong initiation also defines the outcomes and benefits the system is expected to enable."
+    },
+    {
+      "question": "A project appears financially attractive, but success depends on three departments changing established procedures. None of the department heads were involved in the Business Case. What is the most serious issue?",
+      "options": [
+        "The project lacks technical feasibility",
+        "The benefit assumptions may not be credible because key benefit owners were not engaged",
+        "The charter should contain a detailed schedule",
+        "The project manager should personally own all benefits"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Benefits often depend on operational changes outside the project team's direct control. Relevant managers should validate assumptions and accept ownership."
+    },
+    {
+      "question": "A project is approved because its financial model shows a positive return. Six months later, the underlying market demand has fallen significantly. What governance principle is most relevant?",
+      "options": [
+        "Once approved, a project should never be reconsidered",
+        "Business justification should be reviewed when material assumptions change",
+        "Only technical risks justify reassessment",
+        "The project manager should hide the change to protect team morale"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "Authorization is not permanent proof of value. Projects should be challenged when major assumptions, risks or strategic conditions change."
+    },
+    {
+      "question": "A sponsor argues that uncertainty should not delay authorization because detailed planning will eventually resolve all open questions. What is the most accurate response?",
+      "options": [
+        "All uncertainty must be eliminated before approval",
+        "Projects should be approved whenever a sponsor is confident",
+        "Initiation should reduce uncertainty enough to support a responsible decision, while acknowledging that some uncertainty will remain",
+        "Detailed planning makes the Business Case unnecessary"
+      ],
+      "answer": 2,
+      "difficulty": "Expert",
+      "explanation": "Initiation does not require certainty. It requires sufficient evidence, transparency and risk understanding to make a defensible decision about whether to proceed."
     }
   ]
 }
