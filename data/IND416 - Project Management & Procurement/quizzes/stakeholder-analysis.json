@@ -1,1 +1,101 @@
-
+{
+  "title": "Stakeholder Analysis",
+  "questions": [
+    {
+      "question": "A company is building a new automated warehouse. Local residents complain about increased traffic, even though they are not paying for the project. Why are they considered stakeholders?",
+      "options": [
+        "They own the project budget.",
+        "They are affected by the project's outcome.",
+        "They work as project managers.",
+        "They are responsible for procurement."
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Anyone affected by a project is considered a stakeholder, even if they are not directly involved."
+    },
+    {
+      "question": "Which stakeholder should typically receive the most frequent communication?",
+      "options": [
+        "A stakeholder with low power and low interest.",
+        "A stakeholder with high power and high interest.",
+        "A stakeholder with low power but high interest.",
+        "A stakeholder with no influence."
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "High-power, high-interest stakeholders should be managed closely because they can strongly influence project success."
+    },
+    {
+      "question": "A project manager discovers late in the project that the IT department rejects the chosen software because of cybersecurity concerns. Which mistake most likely occurred?",
+      "options": [
+        "The project schedule was too detailed.",
+        "Stakeholder analysis was incomplete.",
+        "The project budget was underestimated.",
+        "The project charter contained too much information."
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "The IT department should have been identified and involved early as an important stakeholder."
+    },
+    {
+      "question": "A government regulator has the authority to stop your project but rarely requests detailed updates. According to the Power-Interest Matrix, how should this stakeholder be managed?",
+      "options": [
+        "Manage Closely",
+        "Keep Satisfied",
+        "Keep Informed",
+        "Monitor"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Stakeholders with high power but relatively low day-to-day interest should generally be kept satisfied."
+    },
+    {
+      "question": "A supplier has little formal authority but provides a unique component without which the project cannot continue. What should the project manager conclude?",
+      "options": [
+        "The supplier can be ignored because they have low organizational power.",
+        "The supplier's practical influence may be greater than the organization chart suggests.",
+        "Only internal stakeholders should be considered during stakeholder analysis.",
+        "Suppliers are never stakeholders."
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Actual influence depends on the stakeholder's ability to affect project success, not only their formal position."
+    },
+    {
+      "question": "During a hospital construction project, doctors request larger operating rooms while the finance department demands cost reductions. What is the project manager's primary responsibility?",
+      "options": [
+        "Automatically follow the finance department.",
+        "Automatically satisfy the doctors.",
+        "Balance stakeholder interests while supporting project objectives.",
+        "Ignore both groups until construction begins."
+      ],
+      "answer": 2,
+      "difficulty": "Hard",
+      "explanation": "Project managers must balance competing stakeholder interests while still delivering the agreed project objectives."
+    },
+    {
+      "question": "Why should stakeholder analysis be updated throughout the project?",
+      "options": [
+        "Because stakeholder influence and interests can change over time.",
+        "Because the project charter expires every month.",
+        "Because project budgets require weekly approval.",
+        "Because procurement contracts automatically change stakeholders."
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Projects evolve, and stakeholders' influence, priorities and expectations often change as the project progresses."
+    },
+    {
+      "question": "A project team communicates only with senior management and ignores employees who will eventually use the new system. The project is delivered on time but employees refuse to adopt it. What is the best explanation?",
+      "options": [
+        "The project failed because of poor stakeholder management.",
+        "The budget was too small.",
+        "The project lacked a Work Breakdown Structure.",
+        "The project should have used Agile instead."
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Project success depends not only on delivering the solution but also on achieving stakeholder acceptance."
+    }
+  ]
+}
