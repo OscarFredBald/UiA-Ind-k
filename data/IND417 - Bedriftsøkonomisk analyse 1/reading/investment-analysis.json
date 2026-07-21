@@ -1,0 +1,237 @@
+{
+  "title": "Investment Analysis",
+  "description": "Learn how managers evaluate long-term investment opportunities using techniques such as Payback Period, Net Present Value (NPV), Internal Rate of Return (IRR), and Return on Investment (ROI). Understand how the time value of money influences investment decisions.",
+  "estimatedReadingTime": "22 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Understand why companies perform investment analysis.",
+        "Explain the concept of the time value of money.",
+        "Calculate and interpret the Payback Period.",
+        "Understand Net Present Value (NPV).",
+        "Explain the Internal Rate of Return (IRR).",
+        "Understand Return on Investment (ROI).",
+        "Recognize the strengths and weaknesses of different investment evaluation methods."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Businesses constantly face investment decisions. Should they purchase new machinery? Build a new factory? Develop new technology? Acquire another company?",
+        "Investment analysis helps managers determine whether an investment is likely to create value.",
+        "Unlike daily operating decisions, investment decisions often involve large amounts of money and have consequences that last for many years."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "What Is an Investment?",
+      "content": [
+        "An investment is the use of resources today in the expectation of receiving future benefits.",
+        "Examples include purchasing equipment, constructing facilities, investing in technology, or expanding into new markets.",
+        "Because investments tie up capital for long periods, managers must carefully evaluate their expected returns and risks."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Purchasing New Equipment",
+      "content": [
+        "A manufacturer considers purchasing an automated production machine for $2 million.",
+        "Management expects lower labor costs and higher production efficiency over the next 10 years.",
+        "Investment analysis helps determine whether the expected savings justify the initial cost."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Time Value of Money",
+      "content": [
+        "Money received today is worth more than the same amount received in the future.",
+        "Money available today can be invested and earn returns.",
+        "Inflation and investment risk also reduce the value of future cash flows.",
+        "Therefore, future cash flows must often be converted into present values before investments are compared."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Receiving Money Today or Later",
+      "content": [
+        "Would you rather receive $10,000 today or $10,000 five years from now?",
+        "Most people would choose today because the money could be invested immediately.",
+        "This illustrates the time value of money."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Payback Period",
+      "content": [
+        "The Payback Period measures how long it takes for an investment to recover its initial cost.",
+        "It focuses on cash inflows rather than accounting profit.",
+        "Shorter payback periods generally reduce investment risk."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Payback Period",
+      "content": [
+        "Investment cost: $500,000.",
+        "Expected annual cash inflow: $100,000.",
+        "Payback Period = 5 years.",
+        "The company recovers its investment after five years."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Limitations of the Payback Period",
+      "content": [
+        "The Payback Period ignores cash flows received after the investment has been recovered.",
+        "It does not consider the time value of money unless using the discounted payback method.",
+        "Therefore, it should not be the only decision criterion."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Net Present Value (NPV)",
+      "content": [
+        "Net Present Value compares the present value of future cash inflows with the initial investment.",
+        "Future cash flows are discounted using the company's required rate of return.",
+        "A positive NPV indicates that the investment is expected to create value."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Positive NPV",
+      "content": [
+        "Investment cost: $1,000,000.",
+        "Present value of future cash inflows: $1,180,000.",
+        "NPV = +$180,000.",
+        "Because the NPV is positive, the investment is financially attractive."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Internal Rate of Return (IRR)",
+      "content": [
+        "The Internal Rate of Return is the discount rate that makes the Net Present Value equal to zero.",
+        "It represents the investment's expected annual rate of return.",
+        "Managers compare the IRR with the company's required rate of return when evaluating projects."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: IRR Decision",
+      "content": [
+        "A project has an IRR of 14%.",
+        "The company's required return is 10%.",
+        "Since the IRR exceeds the required return, the investment would normally be accepted."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Return on Investment (ROI)",
+      "content": [
+        "Return on Investment measures how much profit an investment generates relative to its cost.",
+        "ROI is widely used because it is easy to calculate and understand.",
+        "However, ROI does not directly account for the timing of cash flows."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: ROI",
+      "content": [
+        "Investment cost: $250,000.",
+        "Net profit generated: $50,000.",
+        "ROI = 20%.",
+        "The investment generated a return equal to 20% of its original cost."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Comparing Investment Methods",
+      "content": [
+        "Different methods emphasize different aspects of investment performance.",
+        "Payback focuses on risk and liquidity.",
+        "NPV focuses on value creation.",
+        "IRR focuses on percentage return.",
+        "ROI provides a simple measure of profitability."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Investment Risk",
+      "content": [
+        "Every investment involves uncertainty.",
+        "Future sales, operating costs, inflation, exchange rates and interest rates may differ from expectations.",
+        "Managers therefore evaluate both expected returns and potential risks before investing."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Shipping Example",
+      "content": [
+        "A ship management company is considering installing a Ballast Water Treatment System (BWTS) on an older vessel.",
+        "The installation costs several million dollars but will allow the vessel to comply with international regulations and continue operating worldwide.",
+        "Managers estimate future operating savings, regulatory compliance benefits and expected vessel earnings before deciding whether the investment is worthwhile."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Installing Fuel-Efficient Equipment",
+      "content": [
+        "A shipping company considers installing a new propeller that reduces fuel consumption by 8%.",
+        "Although the installation is expensive, lower annual fuel costs may generate a positive NPV over the vessel's remaining life.",
+        "Investment analysis helps determine whether the savings justify the initial investment."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Mistakes",
+      "content": [
+        "Choosing projects based only on the shortest Payback Period.",
+        "Ignoring investment risk.",
+        "Using unrealistic estimates for future cash flows.",
+        "Confusing accounting profit with cash flow."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Limitations",
+      "content": [
+        "All investment methods rely on forecasts that may prove inaccurate.",
+        "Economic conditions may change during the life of an investment.",
+        "Managers should combine quantitative analysis with professional judgment and strategic considerations."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Professional financial managers rarely rely on a single investment evaluation method. Large investment decisions are typically assessed using multiple techniques—including NPV, IRR, Payback Period and risk analysis—to gain a more complete understanding of the project's financial attractiveness."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Investment analysis evaluates long-term business opportunities.",
+        "Money has a time value, making future cash flows worth less than cash received today.",
+        "The Payback Period measures how quickly an investment recovers its initial cost.",
+        "Net Present Value measures how much value an investment creates.",
+        "Internal Rate of Return estimates an investment's expected annual return.",
+        "Return on Investment measures profitability relative to investment cost.",
+        "Managers should consider both financial returns and investment risk before making major decisions."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Why is the time value of money important when evaluating investments?",
+        "When might a project with a short Payback Period still be a poor investment?",
+        "If you managed a fleet of vessels, what factors besides financial returns would influence your decision to invest in new technology?"
+      ]
+    }
+  ]
+}
