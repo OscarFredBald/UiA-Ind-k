@@ -1,0 +1,367 @@
+{
+  "title": "Investment Analysis",
+  "description": "Test your understanding of investment decisions, the time value of money, Payback Period, Net Present Value, Internal Rate of Return, Return on Investment, and relevant cash flows.",
+  "questions": [
+    {
+      "question": "What is the main purpose of investment analysis?",
+      "options": [
+        "To evaluate whether a long-term investment is expected to create value",
+        "To record the company's historical transactions",
+        "To calculate the annual production volume",
+        "To allocate operating costs between departments"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Investment analysis helps managers evaluate whether the expected future benefits of an investment justify its cost and risk."
+    },
+    {
+      "question": "Which expenditure would normally be classified as a capital investment?",
+      "options": [
+        "Purchasing a new production machine expected to operate for ten years",
+        "Paying the monthly electricity bill",
+        "Purchasing office supplies for current use",
+        "Paying employees for work completed this month"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "A capital investment requires resources today and is expected to generate benefits over several future periods."
+    },
+    {
+      "question": "What does the time value of money mean?",
+      "options": [
+        "Money available today is generally worth more than the same amount received later",
+        "Money automatically loses all value after one year",
+        "Future cash flows are always worth more than current cash flows",
+        "The value of money is determined only by accounting rules"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Money received today can be invested to earn a return, while future money is also affected by inflation and uncertainty."
+    },
+    {
+      "question": "Which investment method measures how long it takes to recover the initial investment?",
+      "options": [
+        "Payback Period",
+        "Net Present Value",
+        "Internal Rate of Return",
+        "Contribution Margin"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The Payback Period measures the time required for cumulative cash inflows to recover the initial investment."
+    },
+    {
+      "question": "Which statement best describes Net Present Value (NPV)?",
+      "options": [
+        "The present value of future cash flows minus the initial investment",
+        "The accounting profit divided by sales revenue",
+        "The number of years required to recover an investment",
+        "The investment cost before depreciation"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "NPV compares the discounted value of expected future cash flows with the investment's initial cost."
+    },
+    {
+      "question": "A machine costs $600,000 and is expected to generate annual cash inflows of $150,000. Assuming equal annual cash flows, what is its Payback Period?",
+      "options": [
+        "4 years",
+        "3 years",
+        "5 years",
+        "6 years"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Payback Period = $600,000 ÷ $150,000 = 4 years."
+    },
+    {
+      "question": "A project has a positive NPV. What does this normally indicate?",
+      "options": [
+        "The project is expected to generate a return above the required rate of return",
+        "The project will recover its cost within one year",
+        "The project has no financial or operational risk",
+        "The project will report an accounting loss"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "A positive NPV means the present value of the project's expected cash inflows exceeds its initial investment."
+    },
+    {
+      "question": "What is the Internal Rate of Return (IRR)?",
+      "options": [
+        "The discount rate that makes the project's NPV equal to zero",
+        "The interest rate charged on all company debt",
+        "The percentage of the investment recovered in the first year",
+        "The annual increase in the project's accounting profit"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "IRR is the discount rate at which the present value of future cash inflows equals the initial investment."
+    },
+    {
+      "question": "A project has an IRR of 13%, while the company's required rate of return is 9%. Based only on the IRR criterion, what should management do?",
+      "options": [
+        "Accept the project because its expected return exceeds the required return",
+        "Reject the project because its IRR is positive",
+        "Reject the project because the required return is lower",
+        "Accept the project only if its Payback Period exceeds ten years"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Under the IRR decision rule, a project is generally accepted when its IRR exceeds the company's required rate of return."
+    },
+    {
+      "question": "A shipping company is evaluating a fuel-saving retrofit. Which cash flows should be included in the investment analysis?",
+      "options": [
+        "The installation cost, expected fuel savings, additional maintenance costs and any residual value",
+        "Only the original purchase price of the vessel",
+        "All historical fuel expenses incurred before the retrofit decision",
+        "Only the retrofit's accounting depreciation expense"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Investment analysis should include future incremental cash flows caused by the decision, including costs, savings and residual value."
+    },
+
+        {
+      "question": "What is the biggest weakness of using only the Payback Period when evaluating investments?",
+      "options": [
+        "It ignores cash flows received after the investment has been recovered",
+        "It cannot be used for long-term projects",
+        "It requires discounting future cash flows",
+        "It only measures accounting profit"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "A project may have a short payback period but generate very little value afterward. The Payback Period ignores these later cash flows."
+    },
+    {
+      "question": "A project requires an initial investment of $800,000. The present value of all expected future cash inflows is $920,000. What is the project's Net Present Value (NPV)?",
+      "options": [
+        "$120,000",
+        "$800,000",
+        "$920,000",
+        "$1,720,000"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "NPV = Present Value of Future Cash Flows − Initial Investment = $920,000 − $800,000 = $120,000."
+    },
+    {
+      "question": "A project has a negative Net Present Value. What does this generally indicate?",
+      "options": [
+        "The project is expected to earn less than the required rate of return",
+        "The project will recover its investment immediately",
+        "The project has no financial risk",
+        "The project should always be accepted"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "A negative NPV means the discounted future cash inflows are less than the initial investment."
+    },
+    {
+      "question": "Which investment evaluation method is most directly focused on maximizing shareholder value?",
+      "options": [
+        "Net Present Value (NPV)",
+        "Payback Period",
+        "Return on Investment (ROI)",
+        "Break-even Analysis"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "NPV measures how much value an investment is expected to add after considering the time value of money."
+    },
+    {
+      "question": "A company is comparing two projects with similar NPVs. Which additional factor would managers most likely evaluate before making a final decision?",
+      "options": [
+        "Investment risk and uncertainty of future cash flows",
+        "The age of the company's accounting software",
+        "The number of employees in the finance department",
+        "Last year's depreciation expense"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Managers rarely rely on one financial measure alone. Risk is an important part of investment decisions."
+    },
+    {
+      "question": "A company chooses Project A because it has the shortest Payback Period. Later they discover Project B would have generated much larger profits over its lifetime. What limitation of the Payback Period does this demonstrate?",
+      "options": [
+        "It ignores cash flows after the payback period",
+        "It always underestimates investment costs",
+        "It only measures accounting profit",
+        "It always overestimates project risk"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Projects with longer payback periods may ultimately create much greater value."
+    },
+    {
+      "question": "A company expects an investment to generate strong cash flows many years into the future. Which evaluation method is most likely to recognize the value of those distant cash flows?",
+      "options": [
+        "Net Present Value (NPV)",
+        "Simple Payback Period",
+        "Inventory Turnover",
+        "Gross Profit Percentage"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "NPV includes all expected discounted cash flows throughout the project's entire life."
+    },
+    {
+      "question": "Why do managers discount future cash flows when calculating NPV?",
+      "options": [
+        "Because money available today is worth more than money received in the future",
+        "Because accounting standards require lower future revenues",
+        "Because future expenses cannot be estimated",
+        "Because discounting eliminates investment risk"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Discounting reflects the time value of money and the opportunity cost of capital."
+    },
+    {
+      "question": "A shipping company is considering installing fuel-saving technology. Fuel prices are expected to fluctuate significantly over the next ten years. Which challenge does this create for investment analysis?",
+      "options": [
+        "Future cash flow estimates become more uncertain",
+        "The investment no longer has an initial cost",
+        "Payback Period automatically becomes shorter",
+        "The project no longer requires budgeting"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Investment analysis depends on estimated future cash flows, which become less certain when market conditions are volatile."
+    },
+    {
+      "question": "Which statement best explains why companies often use multiple investment evaluation methods instead of relying on only one?",
+      "options": [
+        "Each method provides different information about profitability, risk and value creation",
+        "Financial regulations require every method to produce identical answers",
+        "Using multiple methods guarantees the investment will succeed",
+        "One method evaluates costs while another calculates taxes"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Payback, NPV, IRR and ROI each measure different aspects of an investment, so together they provide a more complete evaluation."
+    },
+        {
+      "question": "A company rejects a project because it has a longer Payback Period than another alternative. Five years later, management discovers the rejected project would have generated significantly greater profits. What lesson does this illustrate?",
+      "options": [
+        "The Payback Period should not be used as the only investment decision criterion",
+        "Projects with long payback periods are always poor investments",
+        "Investment analysis should ignore future cash flows",
+        "Payback Period is more reliable than NPV"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "The Payback Period ignores cash flows after the investment has been recovered, which can lead to poor long-term decisions."
+    },
+    {
+      "question": "A company is considering two projects with identical NPVs. Project A has highly predictable cash flows, while Project B depends on uncertain future market conditions. Which project would many managers prefer?",
+      "options": [
+        "Project A because it has lower investment risk",
+        "Project B because uncertainty always increases returns",
+        "Both projects are identical because they have the same NPV",
+        "Neither project because NPV cannot be used when risk exists"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Investment decisions consider both expected returns and risk. More predictable cash flows reduce uncertainty."
+    },
+    {
+      "question": "A shipping company is deciding whether to purchase a new fuel-efficient vessel or continue operating an older ship. Besides financial calculations, which factor should management also consider?",
+      "options": [
+        "Future environmental regulations and operational flexibility",
+        "The color of the vessel",
+        "The age of the accounting software",
+        "The number of office employees"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Strategic, regulatory and operational factors are important in addition to financial returns."
+    },
+    {
+      "question": "A project has a positive NPV but management decides not to proceed because the company cannot obtain financing. What does this demonstrate?",
+      "options": [
+        "A financially attractive investment may still be impossible due to practical constraints",
+        "Positive NPV projects should always be rejected",
+        "Financing has no impact on investment decisions",
+        "NPV automatically includes financing availability"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Investment decisions are influenced by capital availability, liquidity and strategic priorities, not just financial calculations."
+    },
+    {
+      "question": "Why is forecasting future cash flows often the most difficult part of investment analysis?",
+      "options": [
+        "Because future market conditions and business performance are uncertain",
+        "Because accounting standards prohibit forecasts",
+        "Because investment costs are usually unknown",
+        "Because future cash flows never affect investment decisions"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Investment analysis depends heavily on estimates of future revenues, costs and economic conditions."
+    },
+    {
+      "question": "A vessel operator is considering installing a Ballast Water Treatment System (BWTS). The project's direct financial return is modest, but international regulations will soon require compliance. Which factor is influencing the investment decision?",
+      "options": [
+        "Strategic and regulatory considerations beyond financial return",
+        "The Payback Period becomes irrelevant",
+        "The project automatically has a negative NPV",
+        "Regulations eliminate investment risk"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Many investments are undertaken because they are strategically or legally necessary, even if financial returns alone appear limited."
+    },
+    {
+      "question": "A company evaluates an investment using only ROI and ignores the timing of future cash flows. What important concept is being overlooked?",
+      "options": [
+        "The time value of money",
+        "Contribution margin",
+        "Budgetary control",
+        "Variance analysis"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "ROI is simple to calculate but does not explicitly account for when cash flows occur."
+    },
+    {
+      "question": "Which investment evaluation method is generally considered the strongest measure of whether a project creates economic value?",
+      "options": [
+        "Net Present Value (NPV)",
+        "Simple Payback Period",
+        "Accounting Profit",
+        "Return on Sales"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "NPV measures the increase in shareholder value after accounting for the time value of money."
+    },
+    {
+      "question": "After completing an investment analysis, what should management do before making a final decision?",
+      "options": [
+        "Consider strategic objectives, operational risks and qualitative factors in addition to the financial results",
+        "Accept every project with a positive ROI",
+        "Choose the project with the lowest purchase price",
+        "Ignore any uncertainty in the forecasts"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Investment decisions should combine financial analysis with strategic judgment and risk assessment."
+    },
+    {
+      "question": "What is the primary objective of investment analysis in managerial accounting?",
+      "options": [
+        "To allocate capital to projects that create the greatest long-term value while considering risk",
+        "To recover the investment as quickly as possible regardless of profitability",
+        "To maximize accounting profit in the current year only",
+        "To ensure every investment has the same expected return"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "The ultimate goal of investment analysis is to help managers make informed capital allocation decisions that maximize long-term value creation."
+    }
+  ]
+}
