@@ -461,8 +461,12 @@ footer {
 
 /* Main module cards */
 
-.topic-content {
+.topic-content:not([hidden]) {
   display: block;
+}
+
+.topic-content[hidden] {
+  display: none;
 }
 
 .module-options {
