@@ -21,7 +21,7 @@
       "credits": "7.5 Study Points",
       "semester": "Autumn 2026",
       "topicCount": 10,
-      "topics": "data/IND417 - Business Economic Analysis I/topics.json",
+      "topics": "data/IND417 - Bedriftsøkonomisk analyse 1/topics.json",
       "difficulty": "Intermediate",
       "color": "#059669",
       "image": "assets/images/ind417.jpg"
@@ -34,7 +34,7 @@
       "credits": "7.5 Study Points",
       "semester": "Autumn 2026",
       "topicCount": 10,
-      "topics": "data/ING400 - Negotiation and Agreement Processes in Engineering Projects/topics.json",
+      "topics": "data/ING400 - Forhandling og avtaleprosesser i ingeniørprosjekter/topics.json",
       "difficulty": "Intermediate",
       "color": "#dc2626",
       "image": "assets/images/ing400.jpg"
