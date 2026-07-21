@@ -1,271 +1,362 @@
 # Project Initiation
 
-> "A project that starts without a clear purpose often ends without delivering value."
+## Learning Objectives
 
----
-
-# Learning Objectives
-
-After completing this lesson, you should be able to:
+After completing this chapter, you should be able to:
 
 - Explain why projects are initiated.
-- Describe the purpose of a Project Charter.
-- Explain the role of the Project Sponsor.
-- Understand the Business Case.
-- Distinguish Project Initiation from Project Planning.
-- Explain why some project ideas should never become projects.
+- Evaluate whether a project should be approved.
+- Distinguish between a Business Case and a Project Charter.
+- Explain the responsibilities of the Project Sponsor and the Project Manager during initiation.
+- Identify assumptions, constraints and early risks.
+- Evaluate whether a project is strategically aligned.
+- Explain why technically feasible projects may still be rejected.
+- Assess projects from a business perspective rather than a technical perspective.
 
 ---
 
-# What is Project Initiation?
+# Introduction
 
-Project Initiation is the very first phase of a project.
+Every successful project begins long before work starts.
 
-Its purpose is **not** to plan every detail.
+One of the biggest mistakes inexperienced project managers make is believing that projects begin with planning.
 
-Instead, the organization asks a simple question:
+They do not.
 
-> **"Should we even do this project?"**
+Before a single schedule is created, before a budget is approved and before anyone begins assigning tasks, the organization must answer a much more important question:
 
-Before spending money, assigning employees or purchasing equipment, management needs to determine whether the project will create value.
+> **Should this project exist at all?**
 
-If the answer is yes, the project receives formal approval and moves into the planning phase.
+The purpose of Project Initiation is to answer that question.
 
----
+The organization wants to avoid spending millions of dollars solving the wrong problem.
 
-# Why do organizations start projects?
+A well-executed initiation phase ensures that the project is:
 
-Organizations rarely start projects just because they have a good idea.
+- strategically important,
+- financially justified,
+- technically feasible,
+- organizationally achievable,
+- and formally approved.
 
-Projects should support one or more strategic objectives.
-
-Typical reasons include:
-
-- Reduce operating costs
-- Increase revenue
-- Improve customer satisfaction
-- Meet legal or environmental requirements
-- Improve safety
-- Implement new technology
-- Gain competitive advantage
-
-A project without a clear business purpose should normally not be approved.
+Planning the wrong project perfectly is still failure.
 
 ---
 
-# Example
+# Why Projects Exist
 
-A shipping company operates 35 bulk carriers.
+Projects do not exist because someone has an interesting idea.
 
-Engine failures are increasing every year.
+Projects exist because an organization has a business problem or an opportunity.
 
-Management proposes installing an AI-based predictive maintenance system.
+Typical drivers include:
 
-Expected benefits:
+- reducing costs
+- increasing revenue
+- complying with legislation
+- reducing operational risk
+- improving customer satisfaction
+- digital transformation
+- replacing obsolete systems
+- improving safety
+- gaining competitive advantage
 
-- 20% fewer breakdowns
-- Lower repair costs
-- Reduced off-hire time
-- Better fuel efficiency
+Notice that **technology itself is never the objective.**
 
-However, the project costs USD 3 million.
+Installing new software is not success.
 
-Before anyone starts planning the implementation, management must decide:
+Improving business performance through the software is success.
 
-- Is the investment worth it?
-- What are the risks?
-- Does it support the company's strategy?
+---
 
-These questions belong to the **Project Initiation** phase.
+# The Business Problem vs The Solution
+
+One of the most common mistakes in projects is confusing the solution with the problem.
+
+Consider this statement:
+
+> "We need a new ERP system."
+
+Do we?
+
+Perhaps the real problem is:
+
+- poor data quality
+- duplicated processes
+- missing training
+- lack of standardization
+
+An ERP system is only one possible solution.
+
+Professional project managers always define:
+
+1. the business problem
+
+before selecting
+
+2. the preferred solution.
+
+This is why strong Business Cases always evaluate alternatives.
+
+---
+
+# Strategic Alignment
+
+Organizations have limited money.
+
+Limited people.
+
+Limited time.
+
+Every project competes against other projects.
+
+Because of this, management asks:
+
+> Does this project help us achieve our strategy?
+
+Examples:
+
+A shipping company whose strategy is reducing emissions will naturally prioritize projects that:
+
+- reduce fuel consumption
+- optimize voyage planning
+- improve engine monitoring
+
+A project that builds a new cafeteria might be valuable, but probably not strategically important.
+
+Strategic alignment is therefore one of the strongest arguments for project approval.
 
 ---
 
 # The Business Case
 
-One of the most important outputs of initiation is the **Business Case**.
+The Business Case answers one simple question:
 
-The Business Case explains **why** the project should be carried out.
+> Why should we invest in this project?
 
-It normally includes:
+A good Business Case normally includes:
 
-- Current problem
-- Proposed solution
-- Expected benefits
-- Estimated costs
-- Risks
-- Alternatives
-- Recommendation
+- the business problem
+- proposed solution
+- alternative solutions
+- expected benefits
+- estimated costs
+- major risks
+- assumptions
+- constraints
+- strategic alignment
+- financial evaluation
+- recommendation
 
-Management uses the Business Case to decide whether the project should continue.
+The Business Case belongs to the **Project Sponsor**, not the Project Manager.
+
+The Sponsor is responsible for ensuring that the project continues to make business sense throughout its life cycle.
 
 ---
 
 # The Project Charter
 
-If the project is approved, a **Project Charter** is created.
+If the Business Case answers **Why?**
 
-The Project Charter is the document that officially starts the project.
+The Project Charter answers:
 
-It typically contains:
+> **What are we approving?**
 
-- Project title
-- Purpose
-- Objectives
-- High-level scope
-- Sponsor
+The Charter formally authorizes the project.
+
+It normally identifies:
+
 - Project Manager
-- Budget estimate
-- Success criteria
-- Major risks
+- Sponsor
+- objectives
+- high-level scope
+- major milestones
+- major assumptions
+- constraints
+- authority
+- success criteria
 
-The Project Charter **does not** contain a detailed project schedule.
-
-That comes later during Project Planning.
-
----
-
-# Project Sponsor
-
-Every project should have a Project Sponsor.
-
-The Sponsor is usually a senior manager who:
-
-- Owns the Business Case
-- Provides funding
-- Removes organizational obstacles
-- Approves major decisions
-- Ensures the project delivers business value
-
-The Sponsor is **not** responsible for the day-to-day management.
-
-That is the Project Manager's responsibility.
+Without a Charter, projects often experience uncertainty regarding decision-making, ownership and priorities.
 
 ---
 
-# Project Manager
+# The Role of the Project Sponsor
 
-Once the project has been approved, the Project Manager becomes responsible for leading the project.
+The Sponsor owns the business need.
 
 Typical responsibilities include:
 
-- Planning
-- Coordinating the team
-- Managing risks
-- Communicating with stakeholders
-- Monitoring progress
-- Delivering the project objectives
+- approving the project
+- securing funding
+- resolving major conflicts
+- making strategic decisions
+- supporting the Project Manager
+- approving significant scope changes
+- ensuring continued business justification
 
-The Project Manager is responsible for execution—not for deciding whether the project should exist.
+A weak Sponsor is one of the strongest predictors of project failure.
 
 ---
 
-# Initiation vs Planning
+# The Role of the Project Manager During Initiation
 
-Many students confuse these two phases.
+Many students believe the Project Manager owns the Business Case.
 
-## Project Initiation
+Usually, they do not.
 
-Answers:
+Instead, the Project Manager helps transform business objectives into a project that can realistically be delivered.
 
-- Why are we doing this?
-- Should we do it?
-- What value will it create?
-- Who owns it?
+Typical responsibilities include:
 
-## Project Planning
+- advising management
+- identifying risks
+- identifying assumptions
+- supporting feasibility studies
+- estimating resources
+- helping define objectives
+- identifying stakeholders
+- contributing technical knowledge
 
-Answers:
+The Project Manager focuses on **delivery**.
 
-- How will we do it?
-- When will we do it?
-- Who will perform each task?
-- How much will each activity cost?
+The Sponsor focuses on **value**.
 
-Initiation decides **whether** the project should happen.
+---
 
-Planning decides **how** it will happen.
+# Assumptions
+
+An assumption is something believed to be true without complete proof.
+
+Example:
+
+"We assume employees will adopt the new software."
+
+That assumption may later prove wrong.
+
+Large projects often fail because important assumptions are never tested.
+
+Professional project managers document assumptions early.
+
+---
+
+# Constraints
+
+Constraints limit the project's available options.
+
+Typical constraints include:
+
+- fixed budget
+- fixed deadline
+- legal requirements
+- contractual obligations
+- available resources
+- technology limitations
+
+Unlike assumptions, constraints are real limitations that must be respected.
+
+---
+
+# Early Risks
+
+Not every risk can wait until planning.
+
+Some risks determine whether the project should even begin.
+
+Examples:
+
+- required technology does not exist
+- legislation may change
+- insufficient organizational competence
+- missing funding
+- dependency on a single supplier
+
+If these risks are sufficiently severe, management may reject the project entirely.
+
+---
+
+# Project Success Starts Here
+
+Many people think project success is determined during execution.
+
+Experienced project managers know otherwise.
+
+Projects often succeed or fail before planning even begins.
+
+Poor initiation creates:
+
+- unclear objectives
+- weak stakeholder support
+- unrealistic expectations
+- underestimated costs
+- underestimated risks
+- weak governance
+
+Execution cannot fully compensate for poor decisions made during initiation.
 
 ---
 
 # Common Mistakes
 
-## Starting planning too early
+### Confusing ideas with business needs
 
-Some organizations immediately begin creating schedules before the project has been approved.
-
-If management later rejects the project, significant time has been wasted.
+Projects should solve business problems—not implement fashionable technologies.
 
 ---
 
-## Weak Business Case
+### Approving projects because competitors are doing it
 
-Projects sometimes begin because someone believes they are "good ideas."
+Competitive pressure matters.
 
-Without measurable business value, projects often struggle to justify their costs.
-
----
-
-## No Sponsor
-
-Projects without an engaged Sponsor often suffer from:
-
-- Slow decisions
-- Lack of funding
-- Poor organizational support
+It is not sufficient justification.
 
 ---
 
-# Real-Life Example
+### Ignoring assumptions
 
-Imagine a municipality wants to build a new hospital.
-
-During Initiation they ask:
-
-- Is a new hospital actually needed?
-- Where should it be located?
-- Can the current hospital be expanded instead?
-- What will it cost?
-- What benefits will citizens receive?
-
-Only after these questions have been answered does detailed planning begin.
+Hidden assumptions often become major project risks.
 
 ---
 
-# Key Terms
+### Weak Sponsors
 
-| Term | Explanation |
-|------|-------------|
-| Project | A temporary effort to create a unique product, service or result. |
-| Project Initiation | The phase where the project is evaluated and formally authorized. |
-| Business Case | Explains why the project should be undertaken. |
-| Project Charter | Official document authorizing the project. |
-| Project Sponsor | Senior manager responsible for business value. |
-| Project Manager | Person responsible for leading the project. |
+Without active sponsorship, projects often struggle to obtain decisions and organizational support.
 
 ---
 
-# Summary
+### Measuring success only by time and budget
 
-Project Initiation is about deciding **whether a project should exist**.
+Projects exist to create value.
 
-Before resources are committed, organizations evaluate:
-
-- Business value
-- Strategic alignment
-- Expected benefits
-- Costs
-- Risks
-
-If approved, a Project Charter is issued and the project moves into the Planning phase.
-
-Remember:
-
-> **Initiation asks "Why?"**
->
-> **Planning asks "How?"**
+Delivering the wrong solution on time is not success.
 
 ---
 
-# Next Step
+# Expert Insight
 
-When you feel comfortable with these concepts, continue with the **Project Initiation Quiz**.
+One of the most dangerous questions a project manager can ask is:
+
+> "How do we deliver this project?"
+
+The better question is:
+
+> **"Should we be delivering this project at all?"**
+
+Excellent project managers challenge assumptions before they optimize execution.
+
+Poor project managers optimize projects that never should have existed.
+
+---
+
+# Key Takeaways
+
+- Projects begin with business needs.
+- Technology is rarely the objective.
+- The Business Case justifies the investment.
+- The Project Charter authorizes the project.
+- The Sponsor owns the Business Case.
+- The Project Manager prepares the project for delivery.
+- Strategic alignment is essential.
+- Assumptions are uncertain.
+- Constraints are fixed limitations.
+- Major risks influence approval decisions.
+- Project success begins during initiation—not execution.
