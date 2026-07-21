@@ -16,6 +16,7 @@ const backLink = document.querySelector(
 );
 
 let currentTopic = null;
+let resolvedReadingPath = "";
 
 initializeReadingPage();
 
@@ -30,11 +31,31 @@ async function initializeReadingPage() {
   }
 
   try {
-    const readingResponse = await fetch(readingFile);
+    /*
+      Example:
+
+      topicsFile:
+      data/IND417 - Bedriftsøkonomisk analyse 1/topics.json
+
+      readingFile:
+      reading/introduction.json
+
+      Result:
+      data/IND417 - Bedriftsøkonomisk analyse 1/reading/introduction.json
+    */
+    resolvedReadingPath = resolveFilePath(
+      readingFile,
+      topicsFile
+    );
+
+    const readingResponse = await fetch(
+      encodeURI(resolvedReadingPath)
+    );
 
     if (!readingResponse.ok) {
       throw new Error(
-        `The reading file could not be loaded: ${readingFile}. HTTP status: ${readingResponse.status}`
+        `The reading file could not be loaded: ${resolvedReadingPath}. ` +
+        `HTTP status: ${readingResponse.status}`
       );
     }
 
@@ -57,29 +78,105 @@ async function initializeReadingPage() {
   }
 }
 
+function resolveFilePath(filePath, referenceFile) {
+  if (!filePath) {
+    return "";
+  }
+
+  /*
+    Absolute internet URL:
+    https://example.com/file.json
+  */
+  if (
+    filePath.startsWith("http://") ||
+    filePath.startsWith("https://")
+  ) {
+    return filePath;
+  }
+
+  /*
+    Absolute site path:
+    /data/course/reading/file.json
+  */
+  if (filePath.startsWith("/")) {
+    return filePath;
+  }
+
+  /*
+    Already begins from data folder:
+    data/course/reading/file.json
+  */
+  if (filePath.startsWith("data/")) {
+    return filePath;
+  }
+
+  /*
+    Use the folder containing topics.json as the base folder.
+
+    Example:
+    referenceFile:
+    data/IND417 - Bedriftsøkonomisk analyse 1/topics.json
+
+    baseFolder:
+    data/IND417 - Bedriftsøkonomisk analyse 1
+  */
+  if (referenceFile) {
+    const normalizedReference = referenceFile.replace(
+      /\\/g,
+      "/"
+    );
+
+    const lastSlashIndex =
+      normalizedReference.lastIndexOf("/");
+
+    if (lastSlashIndex !== -1) {
+      const baseFolder = normalizedReference.slice(
+        0,
+        lastSlashIndex
+      );
+
+      return `${baseFolder}/${filePath}`;
+    }
+  }
+
+  return filePath;
+}
+
 async function loadCurrentTopic() {
-  const response = await fetch(topicsFile);
+  try {
+    const response = await fetch(encodeURI(topicsFile));
 
-  if (!response.ok) {
-    console.warn(
-      `The topics file could not be loaded: ${topicsFile}`
+    if (!response.ok) {
+      console.warn(
+        `The topics file could not be loaded: ${topicsFile}. ` +
+        `HTTP status: ${response.status}`
+      );
+
+      return null;
+    }
+
+    const data = await response.json();
+
+    if (!data || !Array.isArray(data.topics)) {
+      console.warn(
+        "The topics file does not contain a valid topics array."
+      );
+
+      return null;
+    }
+
+    return (
+      data.topics.find(topic => topic.id === topicId) ||
+      null
     );
+  } catch (error) {
+    console.warn(
+      "Unable to load current topic:",
+      error
+    );
+
     return null;
   }
-
-  const data = await response.json();
-
-  if (!data || !Array.isArray(data.topics)) {
-    console.warn(
-      "The topics file does not contain a valid topics array."
-    );
-    return null;
-  }
-
-  return (
-    data.topics.find(topic => topic.id === topicId) ||
-    null
-  );
 }
 
 function configureBackLink() {
@@ -116,7 +213,10 @@ function validateReadingData(data) {
     );
   }
 
-  if (!data.title || typeof data.title !== "string") {
+  if (
+    !data.title ||
+    typeof data.title !== "string"
+  ) {
     throw new Error(
       "The reading file is missing a valid title."
     );
@@ -133,28 +233,49 @@ function renderReading(data) {
   document.title = `${data.title} | UiA Indøk`;
 
   if (loadingState) {
-    loadingState.remove();
+    loadingState.hidden = true;
   }
 
   if (errorState) {
     errorState.hidden = true;
   }
 
+  if (!readingContent) {
+    console.error(
+      'The element with id "reading-content" was not found.'
+    );
+
+    return;
+  }
+
+  readingContent.innerHTML = "";
+
   const header = createReadingHeader(data);
-  const sectionsContainer = document.createElement("div");
+
+  const sectionsContainer =
+    document.createElement("div");
 
   sectionsContainer.className = "reading-sections";
 
   const validSections = data.sections.filter(
-    section => section && typeof section === "object"
+    section =>
+      section &&
+      typeof section === "object"
   );
 
   validSections.forEach((section, index) => {
-    const sectionElement = createSection(section, index);
+    const sectionElement = createSection(
+      section,
+      index
+    );
+
     sectionsContainer.appendChild(sectionElement);
   });
 
-  readingContent.append(header, sectionsContainer);
+  readingContent.append(
+    header,
+    sectionsContainer
+  );
 
   const quizSection = createQuizSection();
 
@@ -179,8 +300,13 @@ function createReadingHeader(data) {
 
   header.append(eyebrow, title);
 
-  if (data.description) {
-    const description = document.createElement("p");
+  if (
+    typeof data.description === "string" &&
+    data.description.trim() !== ""
+  ) {
+    const description =
+      document.createElement("p");
+
     description.className = "reading-description";
     description.textContent = data.description;
 
@@ -205,6 +331,7 @@ function createReadingHeader(data) {
 
     metaItems.forEach(itemText => {
       const item = document.createElement("span");
+
       item.className = "reading-meta-item";
       item.textContent = itemText;
 
@@ -218,16 +345,21 @@ function createReadingHeader(data) {
 }
 
 function createSection(section, index) {
-  const sectionElement = document.createElement("section");
+  const sectionElement =
+    document.createElement("section");
 
   const sectionId =
     sanitizeId(section.id) ||
+    sanitizeId(section.title) ||
+    sanitizeId(section.heading) ||
     `section-${index + 1}`;
 
   sectionElement.id = sectionId;
-  sectionElement.className = getSectionClass(section.type);
+  sectionElement.className =
+    getSectionClass(section.type);
 
   const headingText =
+    section.title ||
     section.heading ||
     getDefaultHeading(section.type);
 
@@ -238,9 +370,30 @@ function createSection(section, index) {
     sectionElement.appendChild(heading);
   }
 
+  /*
+    Supports both versions:
+
+    Older format:
+    paragraphs, bullets, numberedItems,
+    quote, reflectionQuestions
+
+    Current format:
+    content, items, questions
+  */
+
+  appendTextContent(
+    sectionElement,
+    section.content
+  );
+
   appendParagraphs(
     sectionElement,
     section.paragraphs
+  );
+
+  appendBullets(
+    sectionElement,
+    section.items
   );
 
   appendBullets(
@@ -260,13 +413,47 @@ function createSection(section, index) {
 
   appendReflectionQuestions(
     sectionElement,
+    section.questions
+  );
+
+  appendReflectionQuestions(
+    sectionElement,
     section.reflectionQuestions
   );
 
   return sectionElement;
 }
 
+function appendTextContent(parent, content) {
+  if (typeof content === "string") {
+    appendParagraphs(parent, [content]);
+    return;
+  }
+
+  if (!Array.isArray(content)) {
+    return;
+  }
+
+  content.forEach(item => {
+    if (
+      typeof item !== "string" ||
+      item.trim() === ""
+    ) {
+      return;
+    }
+
+    const paragraph = document.createElement("p");
+    paragraph.textContent = item;
+
+    parent.appendChild(paragraph);
+  });
+}
+
 function appendParagraphs(parent, paragraphs) {
+  if (typeof paragraphs === "string") {
+    paragraphs = [paragraphs];
+  }
+
   if (!Array.isArray(paragraphs)) {
     return;
   }
@@ -279,7 +466,9 @@ function appendParagraphs(parent, paragraphs) {
       return;
     }
 
-    const paragraph = document.createElement("p");
+    const paragraph =
+      document.createElement("p");
+
     paragraph.textContent = paragraphText;
 
     parent.appendChild(paragraph);
@@ -287,58 +476,60 @@ function appendParagraphs(parent, paragraphs) {
 }
 
 function appendBullets(parent, bullets) {
-  if (!Array.isArray(bullets) || bullets.length === 0) {
+  if (!Array.isArray(bullets)) {
+    return;
+  }
+
+  const validBullets = bullets.filter(
+    bullet =>
+      typeof bullet === "string" &&
+      bullet.trim() !== ""
+  );
+
+  if (validBullets.length === 0) {
     return;
   }
 
   const list = document.createElement("ul");
 
-  bullets.forEach(bulletText => {
-    if (
-      typeof bulletText !== "string" ||
-      bulletText.trim() === ""
-    ) {
-      return;
-    }
-
+  validBullets.forEach(bulletText => {
     const item = document.createElement("li");
     item.textContent = bulletText;
 
     list.appendChild(item);
   });
 
-  if (list.children.length > 0) {
-    parent.appendChild(list);
-  }
+  parent.appendChild(list);
 }
 
-function appendNumberedItems(parent, numberedItems) {
-  if (
-    !Array.isArray(numberedItems) ||
-    numberedItems.length === 0
-  ) {
+function appendNumberedItems(
+  parent,
+  numberedItems
+) {
+  if (!Array.isArray(numberedItems)) {
+    return;
+  }
+
+  const validItems = numberedItems.filter(
+    item =>
+      typeof item === "string" &&
+      item.trim() !== ""
+  );
+
+  if (validItems.length === 0) {
     return;
   }
 
   const list = document.createElement("ol");
 
-  numberedItems.forEach(itemText => {
-    if (
-      typeof itemText !== "string" ||
-      itemText.trim() === ""
-    ) {
-      return;
-    }
-
+  validItems.forEach(itemText => {
     const item = document.createElement("li");
     item.textContent = itemText;
 
     list.appendChild(item);
   });
 
-  if (list.children.length > 0) {
-    parent.appendChild(list);
-  }
+  parent.appendChild(list);
 }
 
 function appendQuote(parent, quoteText) {
@@ -349,37 +540,43 @@ function appendQuote(parent, quoteText) {
     return;
   }
 
-  const quote = document.createElement("blockquote");
+  const quote =
+    document.createElement("blockquote");
+
   quote.textContent = quoteText;
 
   parent.appendChild(quote);
 }
 
-function appendReflectionQuestions(parent, questions) {
-  if (!Array.isArray(questions) || questions.length === 0) {
+function appendReflectionQuestions(
+  parent,
+  questions
+) {
+  if (!Array.isArray(questions)) {
+    return;
+  }
+
+  const validQuestions = questions.filter(
+    question =>
+      typeof question === "string" &&
+      question.trim() !== ""
+  );
+
+  if (validQuestions.length === 0) {
     return;
   }
 
   const list = document.createElement("ol");
   list.className = "reflection-questions";
 
-  questions.forEach(questionText => {
-    if (
-      typeof questionText !== "string" ||
-      questionText.trim() === ""
-    ) {
-      return;
-    }
-
+  validQuestions.forEach(questionText => {
     const item = document.createElement("li");
     item.textContent = questionText;
 
     list.appendChild(item);
   });
 
-  if (list.children.length > 0) {
-    parent.appendChild(list);
-  }
+  parent.appendChild(list);
 }
 
 function createQuizSection() {
@@ -387,7 +584,14 @@ function createQuizSection() {
     return null;
   }
 
-  const section = document.createElement("section");
+  const resolvedQuizPath = resolveFilePath(
+    currentTopic.quiz,
+    topicsFile
+  );
+
+  const section =
+    document.createElement("section");
+
   section.className = "reading-complete-card";
 
   const eyebrow = document.createElement("p");
@@ -395,18 +599,24 @@ function createQuizSection() {
   eyebrow.textContent = "Module completed";
 
   const title = document.createElement("h2");
-  title.textContent = "Ready to test your knowledge?";
+  title.textContent =
+    "Ready to test your knowledge?";
 
-  const description = document.createElement("p");
+  const description =
+    document.createElement("p");
+
   description.textContent =
-    "You have reached the end of the reading module. Continue to the quiz and apply what you have learned in practical, scenario-based questions.";
+    "You have reached the end of the reading module. " +
+    "Continue to the quiz and apply what you have learned " +
+    "in practical, scenario-based questions.";
 
   const button = document.createElement("a");
+
   button.className = "button button-primary";
   button.textContent = "Start Quiz →";
 
   button.href =
-    `quiz.html?file=${encodeURIComponent(currentTopic.quiz)}` +
+    `quiz.html?file=${encodeURIComponent(resolvedQuizPath)}` +
     `&course=${encodeURIComponent(courseId || "")}` +
     `&topics=${encodeURIComponent(topicsFile || "")}` +
     `&topic=${encodeURIComponent(topicId || "")}`;
@@ -425,13 +635,26 @@ function getSectionClass(type) {
   const baseClass = "reading-section";
 
   const typeClasses = {
-    learningObjectives: "reading-section-objectives",
-    theory: "reading-section-theory",
-    example: "reading-section-example",
-    expertInsight: "reading-section-insight",
-    warning: "reading-section-warning",
-    summary: "reading-section-summary",
-    reflection: "reading-section-reflection"
+    learningObjectives:
+      "reading-section-objectives",
+
+    theory:
+      "reading-section-theory",
+
+    example:
+      "reading-section-example",
+
+    expertInsight:
+      "reading-section-insight",
+
+    warning:
+      "reading-section-warning",
+
+    summary:
+      "reading-section-summary",
+
+    reflection:
+      "reading-section-reflection"
   };
 
   const typeClass = typeClasses[type];
@@ -443,13 +666,26 @@ function getSectionClass(type) {
 
 function getDefaultHeading(type) {
   const defaultHeadings = {
-    learningObjectives: "Learning Objectives",
-    theory: "Core Theory",
-    example: "Example",
-    expertInsight: "Expert Insight",
-    warning: "Important",
-    summary: "Key Takeaways",
-    reflection: "Reflection"
+    learningObjectives:
+      "Learning Objectives",
+
+    theory:
+      "Core Theory",
+
+    example:
+      "Example",
+
+    expertInsight:
+      "Expert Insight",
+
+    warning:
+      "Important",
+
+    summary:
+      "Key Takeaways",
+
+    reflection:
+      "Reflection"
   };
 
   return defaultHeadings[type] || "";
@@ -466,20 +702,29 @@ function renderNavigation(sections) {
     .map((section, index) => ({
       sectionId:
         sanitizeId(section.id) ||
+        sanitizeId(section.title) ||
+        sanitizeId(section.heading) ||
         `section-${index + 1}`,
+
       heading:
+        section.title ||
         section.heading ||
         getDefaultHeading(section.type)
     }))
     .filter(item => item.heading);
 
   if (navigableSections.length === 0) {
-    const message = document.createElement("p");
-    message.className = "navigation-placeholder";
+    const message =
+      document.createElement("p");
+
+    message.className =
+      "navigation-placeholder";
+
     message.textContent =
       "No section navigation available.";
 
     readingNavigation.appendChild(message);
+
     return;
   }
 
@@ -488,7 +733,8 @@ function renderNavigation(sections) {
 
     link.href = `#${item.sectionId}`;
     link.textContent = item.heading;
-    link.className = "reading-navigation-link";
+    link.className =
+      "reading-navigation-link";
 
     link.addEventListener("click", event => {
       event.preventDefault();
@@ -509,7 +755,9 @@ function renderNavigation(sections) {
       history.replaceState(
         null,
         "",
-        `${window.location.pathname}${window.location.search}#${item.sectionId}`
+        `${window.location.pathname}` +
+        `${window.location.search}` +
+        `#${item.sectionId}`
       );
     });
 
@@ -518,13 +766,15 @@ function renderNavigation(sections) {
 }
 
 function scrollToRequestedSection() {
-  const sectionId = window.location.hash.replace("#", "");
+  const sectionId =
+    window.location.hash.replace("#", "");
 
   if (!sectionId) {
     return;
   }
 
-  const target = document.getElementById(sectionId);
+  const target =
+    document.getElementById(sectionId);
 
   if (!target) {
     return;
@@ -539,7 +789,10 @@ function scrollToRequestedSection() {
 }
 
 function sanitizeId(value) {
-  if (!value || typeof value !== "string") {
+  if (
+    !value ||
+    typeof value !== "string"
+  ) {
     return "";
   }
 
@@ -566,11 +819,17 @@ function showError(message) {
   if (readingNavigation) {
     readingNavigation.innerHTML = "";
 
-    const navigationMessage = document.createElement("p");
-    navigationMessage.className = "navigation-placeholder";
+    const navigationMessage =
+      document.createElement("p");
+
+    navigationMessage.className =
+      "navigation-placeholder";
+
     navigationMessage.textContent =
       "Module navigation unavailable.";
 
-    readingNavigation.appendChild(navigationMessage);
+    readingNavigation.appendChild(
+      navigationMessage
+    );
   }
 }
