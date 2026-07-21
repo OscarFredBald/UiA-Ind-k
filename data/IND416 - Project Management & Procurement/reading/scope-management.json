@@ -1,0 +1,307 @@
+{
+  "title": "Scope Management",
+  "description": "Learn how project scope is defined, decomposed, validated and controlled throughout the project lifecycle.",
+  "estimatedReadingTime": "9 min",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "id": "learning-objectives",
+      "type": "learningObjectives",
+      "heading": "Learning Objectives",
+      "bullets": [
+        "Explain the purpose of project scope management.",
+        "Distinguish between product scope and project scope.",
+        "Describe how requirements are collected and translated into deliverables.",
+        "Explain the purpose of the scope statement and Work Breakdown Structure.",
+        "Distinguish between scope validation and scope control.",
+        "Evaluate how uncontrolled scope changes can affect project performance."
+      ]
+    },
+    {
+      "id": "what-is-scope-management",
+      "type": "theory",
+      "heading": "What Is Scope Management?",
+      "paragraphs": [
+        "Project scope management ensures that the project includes all the work required, and only the work required, to achieve its approved objectives.",
+        "Scope management helps the project team define what must be delivered, what work is necessary to produce those deliverables and what is explicitly excluded.",
+        "Without clear scope, stakeholders may have different expectations, the project team may perform unnecessary work and changes may be introduced without understanding their consequences."
+      ]
+    },
+    {
+      "id": "project-scope-and-product-scope",
+      "type": "theory",
+      "heading": "Project Scope and Product Scope",
+      "paragraphs": [
+        "Product scope describes the features, functions and characteristics of the product, service or result created by the project.",
+        "Project scope describes the work required to produce that product, service or result.",
+        "The distinction is important because a project can deliver the correct product features but still be poorly managed, or it can manage the work efficiently while producing a solution that does not meet user needs."
+      ],
+      "bullets": [
+        "Product scope: what the final solution must do.",
+        "Project scope: the work required to create and deliver the solution.",
+        "Product scope is evaluated against requirements.",
+        "Project scope is evaluated against the approved project plan and scope baseline."
+      ]
+    },
+    {
+      "id": "requirements-collection",
+      "type": "theory",
+      "heading": "Collecting Requirements",
+      "paragraphs": [
+        "Requirements describe the needs and expectations that the project outcome must satisfy.",
+        "Requirement collection normally involves customers, users, technical specialists, regulators, operational teams and other relevant stakeholders.",
+        "Requirements should be clear, testable, traceable and sufficiently detailed to support design, planning and acceptance.",
+        "Weak requirements frequently cause rework because the project team discovers important expectations only after development has begun."
+      ],
+      "bullets": [
+        "Interviews",
+        "Workshops",
+        "Observation",
+        "Surveys",
+        "Document analysis",
+        "Prototypes",
+        "Benchmarking",
+        "Facilitated stakeholder sessions"
+      ]
+    },
+    {
+      "id": "requirement-quality",
+      "type": "theory",
+      "heading": "Characteristics of Good Requirements",
+      "paragraphs": [
+        "A requirement should communicate a specific need without creating unnecessary ambiguity.",
+        "Requirements such as 'the system must be user-friendly' are difficult to verify because different stakeholders may interpret them differently.",
+        "A stronger requirement defines measurable performance, acceptance conditions or observable outcomes."
+      ],
+      "bullets": [
+        "Clear",
+        "Necessary",
+        "Feasible",
+        "Testable",
+        "Traceable",
+        "Consistent",
+        "Prioritized",
+        "Approved by the appropriate stakeholder"
+      ]
+    },
+    {
+      "id": "scope-statement",
+      "type": "theory",
+      "heading": "The Project Scope Statement",
+      "paragraphs": [
+        "The project scope statement provides a detailed description of the approved project scope.",
+        "It explains what the project will deliver, the boundaries of the work, major assumptions, constraints, acceptance criteria and exclusions.",
+        "Clear exclusions are particularly important because they reduce the risk that stakeholders assume the project includes work that was never approved."
+      ],
+      "bullets": [
+        "Project deliverables",
+        "Detailed scope description",
+        "Acceptance criteria",
+        "Major assumptions",
+        "Constraints",
+        "Explicit exclusions",
+        "Relevant interfaces and boundaries"
+      ]
+    },
+    {
+      "id": "example-scope-boundaries",
+      "type": "example",
+      "heading": "Example: Defining Scope Boundaries",
+      "paragraphs": [
+        "A company launches a project to implement a new procurement system.",
+        "The approved scope includes configuration, migration of active supplier data, user training and integration with the finance system.",
+        "Historical data cleansing and renegotiation of supplier contracts are explicitly excluded.",
+        "These exclusions protect the project from being held responsible for work that belongs to separate business initiatives."
+      ]
+    },
+    {
+      "id": "work-breakdown-structure",
+      "type": "theory",
+      "heading": "The Work Breakdown Structure",
+      "paragraphs": [
+        "A Work Breakdown Structure, commonly called a WBS, is a hierarchical decomposition of the total project scope.",
+        "It breaks large deliverables into smaller and more manageable components until the work can be estimated, assigned, scheduled and controlled effectively.",
+        "The WBS should represent the complete approved scope. Work that is not included in the WBS should not normally be performed unless it is approved through change control."
+      ],
+      "bullets": [
+        "Clarifies the total scope",
+        "Supports cost and time estimation",
+        "Improves responsibility assignment",
+        "Supports risk identification",
+        "Creates a foundation for scheduling",
+        "Helps prevent missing work"
+      ]
+    },
+    {
+      "id": "work-packages",
+      "type": "theory",
+      "heading": "Work Packages",
+      "paragraphs": [
+        "The lowest practical level of the WBS is often called a work package.",
+        "A work package should be small enough to estimate and control, but not so small that administration becomes excessive.",
+        "The appropriate level of detail depends on project complexity, risk, uncertainty and reporting needs."
+      ]
+    },
+    {
+      "id": "one-hundred-percent-rule",
+      "type": "theory",
+      "heading": "The 100 Percent Rule",
+      "paragraphs": [
+        "The 100 percent rule states that the WBS should include 100 percent of the work required to complete the project scope.",
+        "It should not omit necessary work, and it should not include work outside the approved scope.",
+        "At each level of the WBS, the child elements should collectively represent the full scope of the parent element."
+      ]
+    },
+    {
+      "id": "scope-baseline",
+      "type": "theory",
+      "heading": "The Scope Baseline",
+      "paragraphs": [
+        "The scope baseline is the approved version of the scope against which actual performance and proposed changes are evaluated.",
+        "It normally consists of the scope statement, the WBS and the WBS dictionary.",
+        "Once approved, the baseline should not be changed informally. Any modification should follow the project's change control process."
+      ],
+      "bullets": [
+        "Approved project scope statement",
+        "Approved Work Breakdown Structure",
+        "WBS dictionary containing supporting details"
+      ]
+    },
+    {
+      "id": "scope-validation",
+      "type": "theory",
+      "heading": "Scope Validation",
+      "paragraphs": [
+        "Scope validation is the formal process of obtaining acceptance of completed deliverables.",
+        "The customer, Sponsor or authorized stakeholder reviews the deliverable against agreed requirements and acceptance criteria.",
+        "Validation confirms that the deliverable is acceptable from the stakeholder's perspective. It is different from internal quality control, which focuses on whether the deliverable is technically correct."
+      ]
+    },
+    {
+      "id": "quality-control-vs-validation",
+      "type": "example",
+      "heading": "Example: Quality Control and Scope Validation",
+      "paragraphs": [
+        "A software team tests a reporting dashboard and confirms that all functions operate according to the technical specification.",
+        "This is quality control.",
+        "The business owner then reviews the dashboard and confirms that it provides the information required for operational decisions.",
+        "This is scope validation.",
+        "A deliverable may pass technical testing but still fail validation if it does not meet stakeholder needs."
+      ]
+    },
+    {
+      "id": "scope-control",
+      "type": "theory",
+      "heading": "Scope Control",
+      "paragraphs": [
+        "Scope control involves monitoring the status of project scope and managing changes to the approved scope baseline.",
+        "The purpose is not to prevent all changes. Projects often need to adapt when requirements, regulations, technology or business conditions change.",
+        "The purpose is to ensure that proposed changes are evaluated and approved before the project team commits resources."
+      ],
+      "bullets": [
+        "Identify the proposed change",
+        "Assess impact on time, cost, quality, risk and benefits",
+        "Determine whether the change is within delegated authority",
+        "Obtain approval or rejection",
+        "Update baselines and plans if approved",
+        "Communicate the decision to affected stakeholders"
+      ]
+    },
+    {
+      "id": "scope-creep",
+      "type": "theory",
+      "heading": "Scope Creep",
+      "paragraphs": [
+        "Scope creep is the uncontrolled expansion of project scope without corresponding adjustments to time, cost, resources or formal approval.",
+        "It often begins with small requests that appear harmless, such as adding a report, modifying a feature or including an additional stakeholder group.",
+        "Individually, these changes may seem minor. Collectively, they can create significant schedule delays, budget overruns and quality problems."
+      ]
+    },
+    {
+      "id": "example-scope-creep",
+      "type": "example",
+      "heading": "Example: A Small Request With Large Consequences",
+      "paragraphs": [
+        "During implementation of a supplier portal, a senior manager asks the project team to add contract renewal alerts.",
+        "The request sounds simple, but it requires new data fields, revised integration logic, user testing and changes to training material.",
+        "The Project Manager should not accept the request informally. The team should assess the impact and submit it through change control."
+      ]
+    },
+    {
+      "id": "gold-plating",
+      "type": "theory",
+      "heading": "Gold Plating",
+      "paragraphs": [
+        "Gold plating occurs when the project team adds features or performs work that was not approved, often because they believe it will improve the final result.",
+        "Even well-intentioned additions can create risk because they consume resources, may introduce defects and may not be valued by the customer.",
+        "Professional scope management requires the team to deliver the approved scope rather than unilaterally expanding it."
+      ]
+    },
+    {
+      "id": "managing-uncertain-scope",
+      "type": "theory",
+      "heading": "Managing Scope Under Uncertainty",
+      "paragraphs": [
+        "Not every project can define the full scope in detail at the beginning.",
+        "In innovative, complex or agile environments, requirements may emerge through experimentation, prototypes and stakeholder feedback.",
+        "This does not eliminate the need for scope management. Instead, the project should define how scope decisions will be prioritized, approved and incorporated over time."
+      ],
+      "bullets": [
+        "Use iterative planning",
+        "Prioritize requirements",
+        "Define decision authority",
+        "Maintain traceability",
+        "Review value frequently",
+        "Control changes to agreed iteration or release boundaries"
+      ]
+    },
+    {
+      "id": "requirements-traceability",
+      "type": "theory",
+      "heading": "Requirements Traceability",
+      "paragraphs": [
+        "Requirements traceability connects each requirement to its source, related deliverables, tests and acceptance evidence.",
+        "Traceability helps the project team determine whether all approved requirements have been addressed and whether proposed changes affect other parts of the solution.",
+        "It is especially useful in regulated, safety-critical or technically complex projects."
+      ]
+    },
+    {
+      "id": "stakeholder-involvement",
+      "type": "theory",
+      "heading": "Stakeholder Involvement in Scope Management",
+      "paragraphs": [
+        "Scope cannot be defined effectively by the Project Manager alone.",
+        "Customers, users, technical experts, suppliers and operational teams may all contribute important requirements and constraints.",
+        "Early involvement improves understanding and reduces the risk of late objections. However, the Project Manager must also manage conflicting expectations and ensure that final scope decisions follow governance rules."
+      ]
+    },
+    {
+      "id": "expert-insight",
+      "type": "expertInsight",
+      "heading": "Expert Insight",
+      "paragraphs": [
+        "Many scope problems are actually decision-making problems. The project may have requirements, but no clear authority for prioritizing them or approving trade-offs.",
+        "Strong scope management depends on three elements: clear boundaries, measurable acceptance criteria and disciplined change control.",
+        "A flexible project is not one where anyone can add work at any time. It is one where change can be evaluated and incorporated deliberately."
+      ]
+    },
+    {
+      "id": "key-takeaways",
+      "type": "summary",
+      "heading": "Key Takeaways",
+      "bullets": [
+        "Scope management ensures that the project includes all required work and only the required work.",
+        "Product scope describes the solution, while project scope describes the work required to deliver it.",
+        "Requirements should be clear, testable, traceable and approved.",
+        "The scope statement defines deliverables, boundaries, acceptance criteria and exclusions.",
+        "The WBS decomposes the total project scope into manageable components.",
+        "The scope baseline normally consists of the scope statement, WBS and WBS dictionary.",
+        "Scope validation obtains formal acceptance of completed deliverables.",
+        "Scope control manages proposed changes to the approved baseline.",
+        "Scope creep is uncontrolled expansion without formal approval or corresponding resource adjustments.",
+        "Gold plating is unauthorized extra work, even when it is intended to improve the solution.",
+        "Uncertain projects still require clear rules for prioritization, approval and traceability."
+      ]
+    }
+  ]
+}
