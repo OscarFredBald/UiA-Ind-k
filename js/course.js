@@ -8,239 +8,253 @@ const courseDetails = document.getElementById("course-details");
 const topicGrid = document.getElementById("topic-grid");
 
 if (!courseId) {
-    showCourseError(
-        "No course was selected.",
-        "Return to the front page and select a course."
-    );
+  showCourseError(
+    "No course was selected.",
+    "Return to the front page and select a course."
+  );
 } else {
-    loadCourse();
+  loadCourse();
 }
 
 async function loadCourse() {
-    try {
-        showLoadingMessage();
+  try {
+    showLoadingMessage();
 
-        const [coursesResponse, topicsResponse] = await Promise.all([
-            fetch("data/courses.json"),
-            fetch(`data/${courseId}/topics.json`)
-        ]);
+    const coursesResponse = await fetch("data/courses.json");
 
-        if (!coursesResponse.ok) {
-            throw new Error(
-                `Could not load data/courses.json. HTTP status: ${coursesResponse.status}`
-            );
-        }
-
-        if (!topicsResponse.ok) {
-            throw new Error(
-                `Could not load data/${courseId}/topics.json. HTTP status: ${topicsResponse.status}`
-            );
-        }
-
-        const coursesData = await coursesResponse.json();
-        const topicsData = await topicsResponse.json();
-
-        validateCoursesData(coursesData);
-        validateTopicsData(topicsData);
-
-        const selectedCourse = coursesData.courses.find(
-            (course) => course.id === courseId
-        );
-
-        if (!selectedCourse) {
-            throw new Error(
-                `The course "${courseId}" was not found in data/courses.json.`
-            );
-        }
-
-        renderCourseHeader(selectedCourse);
-        renderTopics(topicsData.topics);
-    } catch (error) {
-        console.error("Error loading course:", error);
-
-        showCourseError(
-            "The course could not be loaded.",
-            "Check that the course exists in data/courses.json and that its topics.json file is valid."
-        );
+    if (!coursesResponse.ok) {
+      throw new Error(
+        `Could not load data/courses.json. HTTP status: ${coursesResponse.status}`
+      );
     }
+
+    const coursesData = await coursesResponse.json();
+
+    validateCoursesData(coursesData);
+
+    const selectedCourse = coursesData.courses.find(
+      course =>
+        String(course.id).toLowerCase() ===
+        String(courseId).toLowerCase()
+    );
+
+    if (!selectedCourse) {
+      throw new Error(
+        `The course "${courseId}" was not found in data/courses.json.`
+      );
+    }
+
+    if (
+      !selectedCourse.topics ||
+      typeof selectedCourse.topics !== "string"
+    ) {
+      throw new Error(
+        `The course "${courseId}" does not contain a valid topics file path.`
+      );
+    }
+
+    const topicsResponse = await fetch(selectedCourse.topics);
+
+    if (!topicsResponse.ok) {
+      throw new Error(
+        `Could not load ${selectedCourse.topics}. HTTP status: ${topicsResponse.status}`
+      );
+    }
+
+    const topicsData = await topicsResponse.json();
+
+    validateTopicsData(topicsData);
+
+    renderCourseHeader(selectedCourse, topicsData.topics.length);
+    renderTopics(topicsData.topics, selectedCourse);
+  } catch (error) {
+    console.error("Error loading course:", error);
+
+    showCourseError(
+      "The course could not be loaded.",
+      error.message ||
+        "Check that the course exists and that its topics.json file is valid."
+    );
+  }
 }
 
 function validateCoursesData(data) {
-    if (!data || !Array.isArray(data.courses)) {
-        throw new Error(
-            "Invalid courses.json structure. Expected a courses array."
-        );
-    }
+  if (!data || !Array.isArray(data.courses)) {
+    throw new Error(
+      "Invalid courses.json structure. Expected a courses array."
+    );
+  }
 }
 
 function validateTopicsData(data) {
-    if (!data || !Array.isArray(data.topics)) {
-        throw new Error(
-            "Invalid topics.json structure. Expected a topics array."
-        );
-    }
+  if (!data || !Array.isArray(data.topics)) {
+    throw new Error(
+      "Invalid topics.json structure. Expected a topics array."
+    );
+  }
 }
 
-function renderCourseHeader(course) {
-    document.title = `${course.code} | Learning Platform`;
+function renderCourseHeader(course, topicCount) {
+  document.title = `${course.code} | Learning Platform`;
 
-    courseCode.textContent = course.code || "Course";
-    courseTitle.textContent = course.title || "Untitled course";
-    courseDescription.textContent =
-        course.description || "No course description is available.";
+  courseCode.textContent = course.code || "Course";
+  courseTitle.textContent = course.title || "Untitled course";
 
-    courseDetails.innerHTML = "";
+  courseDescription.textContent =
+    course.description ||
+    "No course description is available.";
 
-    const detailItems = [
-        course.credits,
-        course.semester,
-        typeof course.topics === "number"
-            ? formatTopicCount(course.topics)
-            : null,
-        course.difficulty
-    ];
+  courseDetails.innerHTML = "";
 
-    detailItems
-        .filter(Boolean)
-        .forEach((item) => {
-            const detail = document.createElement("span");
-            detail.classList.add("course-detail");
-            detail.textContent = item;
-            courseDetails.appendChild(detail);
-        });
-}
+  const detailItems = [
+    course.credits,
+    course.semester,
+    formatTopicCount(topicCount),
+    course.difficulty
+  ];
 
-function renderTopics(topics) {
-    topicGrid.innerHTML = "";
-
-    if (topics.length === 0) {
-        showEmptyMessage();
-        return;
-    }
-
-    topics.forEach((topic, index) => {
-        const topicCard = createTopicCard(topic, index);
-        topicGrid.appendChild(topicCard);
+  detailItems
+    .filter(Boolean)
+    .forEach(item => {
+      const detail = document.createElement("span");
+      detail.classList.add("course-detail");
+      detail.textContent = item;
+      courseDetails.appendChild(detail);
     });
 }
 
-function createTopicCard(topic, index) {
-    const article = document.createElement("article");
-    article.classList.add("topic-card");
+function renderTopics(topics, course) {
+  topicGrid.innerHTML = "";
 
-    const number = document.createElement("p");
-    number.classList.add("topic-number");
-    number.textContent = `Topic ${topic.number || index + 1}`;
+  if (topics.length === 0) {
+    showEmptyMessage(course);
+    return;
+  }
 
-    const title = document.createElement("h3");
-    title.classList.add("topic-title");
-    title.textContent = topic.title || "Untitled topic";
+  topics.forEach((topic, index) => {
+    const topicCard = createTopicCard(topic, index, course);
+    topicGrid.appendChild(topicCard);
+  });
+}
 
-    const description = document.createElement("p");
-    description.classList.add("topic-description");
-    description.textContent =
-        topic.description || "No topic description is available.";
+function createTopicCard(topic, index, course) {
+  const article = document.createElement("article");
+  article.classList.add("topic-card");
 
-    article.appendChild(number);
-    article.appendChild(title);
-    article.appendChild(description);
+  const number = document.createElement("p");
+  number.classList.add("topic-number");
+  number.textContent = `Topic ${topic.number || index + 1}`;
 
-    const meta = createTopicMeta(topic);
+  const title = document.createElement("h3");
+  title.classList.add("topic-title");
+  title.textContent = topic.title || "Untitled topic";
 
-    if (meta) {
-        article.appendChild(meta);
-    }
+  const description = document.createElement("p");
+  description.classList.add("topic-description");
+  description.textContent =
+    topic.description ||
+    "No topic description is available.";
 
-    const button = document.createElement("a");
-    button.classList.add("topic-button");
-    button.textContent = "Open topic →";
-    button.href =
-        `topic.html?course=${encodeURIComponent(courseId)}` +
-        `&topic=${encodeURIComponent(topic.id)}`;
+  article.append(number, title, description);
 
-    article.appendChild(button);
+  const meta = createTopicMeta(topic);
 
-    return article;
+  if (meta) {
+    article.appendChild(meta);
+  }
+
+  const button = document.createElement("a");
+  button.classList.add("topic-button");
+  button.textContent = "Open topic →";
+
+  button.href =
+    `topic.html?topics=${encodeURIComponent(course.topics)}` +
+    `&topic=${encodeURIComponent(topic.id)}` +
+    `&course=${encodeURIComponent(course.id)}`;
+
+  article.appendChild(button);
+
+  return article;
 }
 
 function createTopicMeta(topic) {
-    const tags = [];
+  const tags = [];
 
-    if (Array.isArray(topic.modules)) {
-        tags.push(formatModuleCount(topic.modules.length));
-    } else if (typeof topic.moduleCount === "number") {
-        tags.push(formatModuleCount(topic.moduleCount));
-    }
+  if (topic.estimatedReadingTime) {
+    tags.push(`Reading: ${topic.estimatedReadingTime}`);
+  } else if (topic.readingTime) {
+    tags.push(topic.readingTime);
+  }
 
-    if (topic.hasQuiz === true) {
-        tags.push("Quiz");
-    }
+  if (topic.estimatedQuizTime) {
+    tags.push(`Quiz: ${topic.estimatedQuizTime}`);
+  }
 
-    if (topic.readingTime) {
-        tags.push(topic.readingTime);
-    }
+  if (topic.questionCount) {
+    tags.push(`${topic.questionCount} questions`);
+  }
 
-    if (tags.length === 0) {
-        return null;
-    }
+  if (topic.quiz) {
+    tags.push("Quiz");
+  }
 
-    const meta = document.createElement("div");
-    meta.classList.add("topic-meta");
+  if (tags.length === 0) {
+    return null;
+  }
 
-    tags.forEach((tagText) => {
-        const tag = document.createElement("span");
-        tag.classList.add("topic-tag");
-        tag.textContent = tagText;
-        meta.appendChild(tag);
-    });
+  const meta = document.createElement("div");
+  meta.classList.add("topic-meta");
 
-    return meta;
+  tags.forEach(tagText => {
+    const tag = document.createElement("span");
+    tag.classList.add("topic-tag");
+    tag.textContent = tagText;
+    meta.appendChild(tag);
+  });
+
+  return meta;
 }
 
 function formatTopicCount(count) {
-    return count === 1 ? "1 topic" : `${count} topics`;
-}
-
-function formatModuleCount(count) {
-    return count === 1 ? "1 module" : `${count} modules`;
+  return count === 1 ? "1 topic" : `${count} topics`;
 }
 
 function showLoadingMessage() {
-    topicGrid.innerHTML = `
-        <div class="status-message">
-            <p>Loading topics...</p>
-        </div>
-    `;
+  topicGrid.innerHTML = `
+    <div class="status-message">
+      <p>Loading topics...</p>
+    </div>
+  `;
 }
 
-function showEmptyMessage() {
-    topicGrid.innerHTML = `
-        <div class="status-message">
-            <h3>No topics found</h3>
-            <p>Add topics to data/${escapeHtml(courseId)}/topics.json.</p>
-        </div>
-    `;
+function showEmptyMessage(course) {
+  topicGrid.innerHTML = `
+    <div class="status-message">
+      <h3>No topics found</h3>
+      <p>Add topics to ${escapeHtml(course.topics)}.</p>
+    </div>
+  `;
 }
 
 function showCourseError(title, message) {
-    courseCode.textContent = "Course unavailable";
-    courseTitle.textContent = title;
-    courseDescription.textContent = message;
-    courseDetails.innerHTML = "";
+  courseCode.textContent = "Course unavailable";
+  courseTitle.textContent = title;
+  courseDescription.textContent = message;
+  courseDetails.innerHTML = "";
 
-    topicGrid.innerHTML = `
-        <div class="status-message error-message">
-            <h3>${escapeHtml(title)}</h3>
-            <p>${escapeHtml(message)}</p>
-        </div>
-    `;
+  topicGrid.innerHTML = `
+    <div class="status-message error-message">
+      <h3>${escapeHtml(title)}</h3>
+      <p>${escapeHtml(message)}</p>
+    </div>
+  `;
 }
 
 function escapeHtml(value) {
-    return String(value)
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 }
