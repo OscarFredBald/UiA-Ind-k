@@ -1,1 +1,124 @@
-
+{
+  "title": "Cost Planning",
+  "description": "Quiz covering cost estimating, budgeting, cost control, estimating techniques, reserves, cost baselines and earned value management.",
+  "questions": [
+    {
+      "question": "What is the primary objective of project cost planning?",
+      "options": [
+        "To minimize project duration",
+        "To estimate, budget and control the costs required to complete the project",
+        "To identify project stakeholders",
+        "To assign project resources"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Cost planning ensures that sufficient financial resources are available and managed throughout the project lifecycle."
+    },
+    {
+      "question": "Which activity comes first in the project cost management process?",
+      "options": [
+        "Cost Control",
+        "Cost Budgeting",
+        "Cost Estimating",
+        "Earned Value Analysis"
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "Before creating a budget, the project team must first estimate the costs of the individual activities."
+    },
+    {
+      "question": "What is a project cost estimate?",
+      "options": [
+        "The final amount the project will definitely cost",
+        "An informed prediction of the expected cost to perform project work",
+        "The project's approved budget",
+        "A record of actual project expenses"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "A cost estimate predicts the expected cost based on available information before the project begins."
+    },
+    {
+      "question": "What is the purpose of a project budget?",
+      "options": [
+        "To estimate project risks",
+        "To combine approved cost estimates into an authorized spending plan",
+        "To identify project stakeholders",
+        "To measure project quality"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "The project budget consolidates estimated costs into an approved financial plan for executing the project."
+    },
+    {
+      "question": "Which statement best describes cost control?",
+      "options": [
+        "Estimating the project's total cost before work begins",
+        "Monitoring actual costs and managing deviations from the approved budget",
+        "Negotiating supplier contracts",
+        "Creating the Work Breakdown Structure"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Cost control involves tracking project spending and taking corrective actions when costs differ from the plan."
+    },
+    {
+      "question": "A project is very similar to another completed by the company last year. Which estimating technique would typically be the most appropriate to use first?",
+      "options": [
+        "Bottom-Up Estimating",
+        "Three-Point Estimating",
+        "Analogous Estimating",
+        "Earned Value Analysis"
+      ],
+      "answer": 2,
+      "difficulty": "Understanding",
+      "explanation": "Analogous estimating uses historical information from similar completed projects to produce a quick estimate."
+    },
+    {
+      "question": "Why is Bottom-Up Estimating generally more accurate than Analogous Estimating?",
+      "options": [
+        "It estimates each work package individually before combining them",
+        "It always produces the lowest project cost",
+        "It ignores project uncertainty",
+        "It only requires one previous project for comparison"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Bottom-Up Estimating evaluates each activity separately, resulting in greater detail and usually higher accuracy."
+    },
+    {
+      "question": "Which estimating technique uses measurable relationships, such as cost per square meter or cost per kilometer, to calculate project costs?",
+      "options": [
+        "Analogous Estimating",
+        "Bottom-Up Estimating",
+        "Parametric Estimating",
+        "Expert Judgment"
+      ],
+      "answer": 2,
+      "difficulty": "Understanding",
+      "explanation": "Parametric estimating applies statistical relationships between historical data and project variables."
+    },
+    {
+      "question": "Three-Point Estimating improves cost estimates because it:",
+      "options": [
+        "Uses only the lowest possible estimate",
+        "Considers optimistic, most likely and pessimistic scenarios",
+        "Ignores uncertainty during planning",
+        "Requires the project to be completed first"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Three-Point Estimating accounts for uncertainty by evaluating multiple possible outcomes rather than relying on a single estimate."
+    },
+    {
+      "question": "Which of the following would normally be classified as a direct project cost?",
+      "options": [
+        "Office rent for company headquarters",
+        "Salary of the company's CEO",
+        "Concrete purchased specifically for a construction project",
+        "Annual accounting software subscription"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Direct costs can be directly assigned to the project, such as project-specific materials, labor and equipment."
+    },
