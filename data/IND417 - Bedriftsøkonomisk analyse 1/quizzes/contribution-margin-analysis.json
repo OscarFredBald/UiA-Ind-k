@@ -1,0 +1,366 @@
+{
+  "title": "Contribution Margin Analysis",
+  "description": "Quiz covering contribution margin, contribution margin per unit, contribution margin ratio and the use of contribution analysis in managerial decisions.",
+  "questions": [
+    {
+      "question": "What does contribution margin measure?",
+      "options": [
+        "The amount of revenue remaining after variable costs have been deducted",
+        "The company's total cash balance",
+        "The difference between assets and liabilities",
+        "The amount of fixed costs paid during the period"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Contribution margin is sales revenue minus variable costs. It shows how much remains to cover fixed costs and generate profit."
+    },
+    {
+      "question": "A product sells for $80 and has variable costs of $50 per unit. What is its contribution margin per unit?",
+      "options": [
+        "$130",
+        "$30",
+        "$50",
+        "$80"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Contribution margin per unit is calculated as $80 minus $50, which equals $30."
+    },
+    {
+      "question": "Which formula calculates total contribution margin?",
+      "options": [
+        "Fixed costs minus variable costs",
+        "Sales revenue minus fixed costs",
+        "Sales revenue minus variable costs",
+        "Profit plus variable costs"
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "Total contribution margin equals total sales revenue minus total variable costs."
+    },
+    {
+      "question": "A company has a positive contribution margin but reports an operating loss. What is the most likely explanation?",
+      "options": [
+        "Its variable costs are greater than sales revenue",
+        "Its fixed costs are greater than its total contribution margin",
+        "It has no variable costs",
+        "Its selling price is higher than its unit cost"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "A positive contribution margin may still be insufficient to cover all fixed costs, resulting in an operating loss."
+    },
+    {
+      "question": "Which statement best distinguishes contribution margin from operating profit?",
+      "options": [
+        "Contribution margin is calculated after deducting both variable and fixed costs",
+        "Operating profit excludes fixed costs",
+        "Contribution margin is calculated before fixed costs are deducted",
+        "The two measures are always identical"
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "Contribution margin is revenue minus variable costs. Fixed costs are then deducted to calculate operating profit."
+    },
+    {
+      "question": "A product sells for $100 and has a contribution margin of $35. What is the variable cost per unit?",
+      "options": [
+        "$135",
+        "$35",
+        "$65",
+        "$100"
+      ],
+      "answer": 2,
+      "difficulty": "Understanding",
+      "explanation": "Variable cost per unit equals selling price minus contribution margin: $100 minus $35 equals $65."
+    },
+    {
+      "question": "A business has sales revenue of $300,000 and variable costs of $180,000. What is its total contribution margin?",
+      "options": [
+        "$480,000",
+        "$120,000",
+        "$180,000",
+        "$300,000"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Total contribution margin is $300,000 minus $180,000, which equals $120,000."
+    },
+    {
+      "question": "What does a contribution margin ratio of 40% mean?",
+      "options": [
+        "Variable costs equal 40% of fixed costs",
+        "The company earns a 40% operating profit margin",
+        "Forty percent of sales revenue remains after variable costs",
+        "Fixed costs represent 40% of total revenue"
+      ],
+      "answer": 2,
+      "difficulty": "Understanding",
+      "explanation": "A 40% contribution margin ratio means that 40% of each sales dollar is available to cover fixed costs and profit."
+    },
+    {
+      "question": "A product sells for $200 and has variable costs of $120. What is its contribution margin ratio?",
+      "options": [
+        "60%",
+        "40%",
+        "80%",
+        "20%"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The contribution margin is $80. Dividing $80 by $200 gives a contribution margin ratio of 40%."
+    },
+    {
+      "question": "A company sells 2,000 units with a contribution margin of $25 per unit. Its fixed costs are $42,000. What is the operating profit?",
+      "options": [
+        "$8,000",
+        "$50,000",
+        "$17,000",
+        "$92,000"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Total contribution margin is 2,000 × $25 = $50,000. After deducting fixed costs of $42,000, operating profit is $8,000."
+    }, 
+        {
+      "question": "Why is contribution margin particularly useful for short-term business decisions?",
+      "options": [
+        "Because fixed costs often remain unchanged in the short term",
+        "Because fixed costs disappear during short periods",
+        "Because contribution margin ignores variable costs",
+        "Because revenue is always fixed"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "In many short-term decisions, fixed costs do not change, making contribution margin a useful measure of the financial impact."
+    },
+    {
+      "question": "A company can produce either Product A or Product B. Product A has a contribution margin of $60 per unit, while Product B has a contribution margin of $45 per unit. If production capacity is unlimited, which product contributes more per unit sold?",
+      "options": [
+        "Product B",
+        "Both contribute equally",
+        "Product A",
+        "It cannot be determined"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "When capacity is not limited, Product A contributes more toward fixed costs and profit because it has the higher contribution margin per unit."
+    },
+    {
+      "question": "When machine hours are the limiting resource, managers should compare products based on:",
+      "options": [
+        "Contribution margin per machine hour",
+        "Selling price only",
+        "Contribution margin ratio only",
+        "Total fixed costs"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "When capacity is constrained, managers should maximize contribution margin generated by each unit of the scarce resource."
+    },
+    {
+      "question": "A product generates a contribution margin of $80 but requires four machine hours. What is its contribution margin per machine hour?",
+      "options": [
+        "$320",
+        "$20",
+        "$40",
+        "$80"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Contribution margin per machine hour is $80 divided by 4 hours, which equals $20."
+    },
+    {
+      "question": "Why is the contribution format income statement often preferred for internal management purposes?",
+      "options": [
+        "Because it separates variable and fixed costs, making decisions easier",
+        "Because it ignores manufacturing costs",
+        "Because it reports higher profits",
+        "Because it eliminates overhead allocation"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Separating variable and fixed costs helps managers understand how decisions affect profitability."
+    },
+    {
+      "question": "A company receives a special order at a price below its normal selling price. Under which condition could accepting the order still improve profit?",
+      "options": [
+        "If the selling price exceeds the additional variable costs and sufficient unused capacity exists",
+        "Only if the selling price exceeds the normal selling price",
+        "Only if fixed costs decrease",
+        "Only if the contribution margin ratio exceeds 100%"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Special orders can increase profit when they generate positive contribution margin without creating significant additional fixed costs."
+    },
+    {
+      "question": "Why should existing fixed costs generally not determine whether to accept a one-time special order?",
+      "options": [
+        "Because they often remain unchanged regardless of the decision",
+        "Because fixed costs never exist",
+        "Because fixed costs become variable costs",
+        "Because contribution margin ignores all costs"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Costs that will not change because of the decision are usually irrelevant when evaluating a special order."
+    },
+    {
+      "question": "Two products have identical contribution margins per unit. Product A requires one labor hour, while Product B requires two labor hours. If labor hours are limited, which product should generally receive priority?",
+      "options": [
+        "Product A",
+        "Product B",
+        "Both products equally",
+        "The product with the lower selling price"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Product A generates the same contribution margin while using only half as much of the scarce resource."
+    },
+    {
+      "question": "A business increases its selling price while variable costs remain unchanged. What will normally happen to the contribution margin per unit?",
+      "options": [
+        "It will increase",
+        "It will decrease",
+        "It will remain unchanged",
+        "It will become zero"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "A higher selling price increases the difference between sales price and variable cost."
+    },
+    {
+      "question": "Which statement best describes the role of contribution margin in managerial decision-making?",
+      "options": [
+        "It helps managers evaluate how individual decisions affect profitability",
+        "It replaces the need for financial statements",
+        "It guarantees that every profitable product should be produced",
+        "It eliminates the need to consider fixed costs"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Contribution margin is a decision-support tool that helps managers compare alternatives and understand their financial consequences."
+    },
+        {
+      "question": "A company has enough unused production capacity to accept a one-time customer order at a lower price than usual. The order will generate a positive contribution margin and will not affect normal sales. From a purely financial perspective, what is the best decision?",
+      "options": [
+        "Accept the order",
+        "Reject the order because the price is below the normal selling price",
+        "Reject the order because it does not cover all fixed costs",
+        "Delay the decision until fixed costs decrease"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "If the order generates a positive contribution margin and unused capacity exists, it increases operating profit as long as no significant additional fixed costs or opportunity costs arise."
+    },
+    {
+      "question": "A factory can produce only one of two products because machine capacity is fully utilized. Product A contributes $120 per unit but requires four machine hours. Product B contributes $80 per unit but requires one machine hour. Which product should normally receive priority?",
+      "options": [
+        "Product A",
+        "Product B",
+        "Both are equally profitable",
+        "The product with the higher selling price"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Product A contributes $30 per machine hour, while Product B contributes $80 per machine hour, making Product B the better use of the scarce resource."
+    },
+    {
+      "question": "A company focuses only on increasing sales revenue while ignoring contribution margin. What is the greatest risk?",
+      "options": [
+        "High sales may still generate little or no profit",
+        "Variable costs will disappear",
+        "Fixed costs will automatically decrease",
+        "Contribution margin will always increase"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Higher sales do not necessarily improve profitability if variable costs increase just as much."
+    },
+    {
+      "question": "A shipping company is considering an additional voyage. The freight revenue exceeds all voyage-specific costs, while annual vessel ownership costs remain unchanged. Which statement is most accurate?",
+      "options": [
+        "The voyage generates a positive contribution toward covering fixed costs and profit",
+        "The voyage should automatically be rejected because ownership costs are not fully recovered",
+        "The voyage has no financial impact",
+        "The voyage should only be accepted if annual fixed costs decrease"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "If the additional voyage produces a positive contribution margin and fixed costs remain unchanged, it improves operating profit."
+    },
+    {
+      "question": "Why might a manager reject a special order even if it generates a positive contribution margin?",
+      "options": [
+        "It could displace a more profitable customer or create strategic disadvantages",
+        "Positive contribution margins always reduce profits",
+        "Variable costs become fixed costs",
+        "Contribution margin is irrelevant in pricing decisions"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Managers must also consider opportunity costs, customer relationships, market pricing and long-term strategy."
+    },
+    {
+      "question": "Which statement best explains why contribution margin analysis is considered a decision-support tool rather than a complete decision model?",
+      "options": [
+        "Because managers must also consider strategic, operational and qualitative factors",
+        "Because contribution margin ignores sales revenue",
+        "Because contribution margin only applies to service companies",
+        "Because fixed costs are never important"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Financial results are important, but managers must also consider factors such as capacity, competition, quality and long-term objectives."
+    },
+    {
+      "question": "A company has two products with identical contribution margin ratios. One product requires significantly more engineering support, quality inspections and customer service. Which conclusion is most appropriate?",
+      "options": [
+        "Contribution margin alone may not fully capture the product's long-term profitability",
+        "The products are equally profitable in every situation",
+        "Engineering costs are always variable",
+        "Contribution margin should replace product costing"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Managers should combine contribution margin analysis with other costing and strategic analyses when products consume resources differently."
+    },
+    {
+      "question": "A company wants to maximize short-term profit while production capacity is fully utilized. Which principle should guide management?",
+      "options": [
+        "Prioritize products that generate the highest contribution margin per unit of the limiting resource",
+        "Prioritize the product with the highest selling price",
+        "Prioritize the product with the highest fixed cost",
+        "Produce every product equally"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "When resources are limited, maximizing contribution per scarce resource generally maximizes short-term profit."
+    },
+    {
+      "question": "A business accepts every customer order with a positive contribution margin, even when production is operating at full capacity. Why can this strategy reduce overall profit?",
+      "options": [
+        "Some accepted orders may replace more profitable orders that use the same limited capacity",
+        "Positive contribution margins always create losses",
+        "Fixed costs immediately increase for every order",
+        "Variable costs become irrelevant"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "When capacity is constrained, opportunity costs become important because accepting one order may prevent accepting a more profitable one."
+    },
+    {
+      "question": "What is the ultimate objective of contribution margin analysis?",
+      "options": [
+        "To help managers understand how decisions affect profitability and support better short-term business decisions",
+        "To eliminate all fixed costs",
+        "To maximize revenue regardless of costs",
+        "To replace financial accounting"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Contribution margin analysis provides managers with relevant financial information that supports pricing, product mix, special-order and capacity decisions."
+    }
+  ]
+}
