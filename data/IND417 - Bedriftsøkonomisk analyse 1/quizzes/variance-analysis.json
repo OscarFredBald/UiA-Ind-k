@@ -1,0 +1,368 @@
+{
+  "title": "Variance Analysis",
+  "description": "Test your understanding of variance analysis, favorable and unfavorable variances, price and quantity variances, and how managers use variance analysis to improve business performance.",
+  "questions": [
+    {
+      "question": "What is a variance?",
+      "options": [
+        "The difference between actual and budgeted performance",
+        "The total amount of profit earned",
+        "A company's annual cash balance",
+        "The difference between assets and liabilities"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "A variance is the difference between an actual result and its corresponding budgeted amount."
+    },
+    {
+      "question": "Which statement best describes a favorable variance?",
+      "options": [
+        "It improves profitability compared with the budget",
+        "It always means costs increased",
+        "It indicates that sales were lower than expected",
+        "It means the budget contained errors"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "A favorable variance improves the company's financial performance relative to the budget."
+    },
+    {
+      "question": "Which of the following is normally considered an unfavorable variance?",
+      "options": [
+        "Actual maintenance costs are higher than budgeted",
+        "Actual sales revenue exceeds the budget",
+        "Actual material usage is lower than expected",
+        "Actual labor costs are below budget"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Higher-than-budgeted costs reduce profitability and are therefore unfavorable."
+    },
+    {
+      "question": "Why do managers perform variance analysis?",
+      "options": [
+        "To understand why actual performance differs from the budget",
+        "To replace the budgeting process",
+        "To eliminate all business risks",
+        "To prepare financial statements"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Variance analysis helps managers identify causes of performance differences and improve future decisions."
+    },
+    {
+      "question": "A company budgeted sales of $500,000 but achieved sales of $560,000. What type of variance occurred?",
+      "options": [
+        "Favorable revenue variance",
+        "Unfavorable cost variance",
+        "Favorable quantity variance",
+        "Unfavorable labor variance"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Higher revenue than expected is a favorable revenue variance."
+    },
+    {
+      "question": "A company expected to pay $15 per unit of raw material but actually paid $17 per unit. Which type of variance is this?",
+      "options": [
+        "Price variance",
+        "Quantity variance",
+        "Sales variance",
+        "Profit variance"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Price variance measures the effect of paying a different price than expected."
+    },
+    {
+      "question": "What does a quantity (efficiency) variance measure?",
+      "options": [
+        "Whether more or fewer resources were used than planned",
+        "Whether products were sold at different prices",
+        "Changes in exchange rates",
+        "Differences in company profits"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Quantity variances measure differences in resource usage, such as labor hours or material consumption."
+    },
+    {
+      "question": "A factory budgeted 800 labor hours but actually used 900 labor hours to produce the same output. What type of variance is most likely present?",
+      "options": [
+        "An unfavorable labor efficiency variance",
+        "A favorable price variance",
+        "A favorable sales variance",
+        "A favorable material variance"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Using more labor hours than planned indicates lower efficiency and creates an unfavorable quantity variance."
+    },
+    {
+      "question": "A company budgeted maintenance expenses of $120,000 but actually spent $105,000 without reducing maintenance quality. How should this variance be classified?",
+      "options": [
+        "Favorable variance",
+        "Unfavorable variance",
+        "Price variance only",
+        "Revenue variance"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Lower costs than budgeted, while maintaining quality, improve profitability and are favorable."
+    },
+    {
+      "question": "A manager notices that actual fuel expenses are much higher than budgeted. Before taking action, what should the manager do first?",
+      "options": [
+        "Investigate whether the variance was caused by higher fuel prices, greater fuel consumption or another factor",
+        "Reduce next month's fuel budget immediately",
+        "Assume employees wasted fuel",
+        "Ignore the variance because fuel prices always change"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Managers should identify the root cause of a variance before deciding on corrective actions."
+    }, 
+
+        {
+      "question": "What is the main purpose of management by exception?",
+      "options": [
+        "To focus management attention on significant variances",
+        "To investigate every variance regardless of size",
+        "To eliminate all unfavorable variances",
+        "To prepare financial statements more quickly"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Management by exception focuses on the most significant variances, allowing managers to spend their time where it has the greatest impact."
+    },
+    {
+      "question": "A company budgeted to purchase steel at $500 per ton but actually paid $550 per ton. However, the quantity purchased matched the budget exactly. Which type of variance occurred?",
+      "options": [
+        "An unfavorable material price variance",
+        "A favorable material quantity variance",
+        "An unfavorable sales variance",
+        "A favorable labor variance"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "The quantity stayed the same, but the purchase price increased, creating an unfavorable price variance."
+    },
+    {
+      "question": "A production department used fewer raw materials than budgeted while maintaining the same product quality. How should this variance generally be viewed?",
+      "options": [
+        "As a favorable quantity variance",
+        "As an unfavorable price variance",
+        "As a favorable sales variance",
+        "As an unfavorable revenue variance"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Using fewer resources than expected without reducing quality indicates greater operational efficiency."
+    },
+    {
+      "question": "A company's sales revenue was below budget, even though the selling price remained exactly as planned. Which factor most likely caused the variance?",
+      "options": [
+        "Lower sales volume than expected",
+        "Higher material costs",
+        "Lower labor efficiency",
+        "Higher depreciation expense"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "If prices did not change, lower revenue is most likely caused by selling fewer units."
+    },
+    {
+      "question": "Why should managers separate price variances from quantity variances?",
+      "options": [
+        "Because they often have different causes and require different corrective actions",
+        "Because accounting standards require two separate financial statements",
+        "Because quantity variances only occur in manufacturing companies",
+        "Because price variances are always favorable"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Different variances often originate from different business activities, making separate analysis more useful."
+    },
+    {
+      "question": "A company's labor costs exceeded the budget. Further analysis shows that hourly wages matched the budget, but employees worked significantly more hours than planned. What is the most likely conclusion?",
+      "options": [
+        "The unfavorable variance was caused primarily by lower labor efficiency",
+        "The unfavorable variance was caused by higher wage rates",
+        "The variance resulted from increased selling prices",
+        "The company experienced a favorable quantity variance"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Since wage rates remained unchanged, the additional labor hours created the unfavorable efficiency variance."
+    },
+    {
+      "question": "A company reports a favorable maintenance cost variance. Before celebrating, what should management verify?",
+      "options": [
+        "Whether maintenance was simply postponed, creating future repair risks",
+        "Whether depreciation increased",
+        "Whether sales prices decreased",
+        "Whether taxes were calculated correctly"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Lower maintenance costs are not always positive if essential work has been delayed."
+    },
+    {
+      "question": "Why might an unfavorable variance not necessarily indicate poor management performance?",
+      "options": [
+        "Because it may have been caused by external factors outside management's control",
+        "Because unfavorable variances always improve long-term profitability",
+        "Because budgets are legally optional",
+        "Because managers should ignore unfavorable variances"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Inflation, supply disruptions and market conditions may create unfavorable variances even when managers perform well."
+    },
+    {
+      "question": "A purchasing manager negotiated a lower price for raw materials than budgeted, but the cheaper materials caused significant production waste. What does this illustrate?",
+      "options": [
+        "A favorable price variance can lead to an unfavorable quantity variance",
+        "Price variances and quantity variances are unrelated",
+        "Lower purchase prices always improve profitability",
+        "Material quality never affects production efficiency"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Buying cheaper materials may reduce purchase costs but increase waste, reducing overall profitability."
+    },
+    {
+      "question": "Which statement best explains why variance analysis is valuable for managers?",
+      "options": [
+        "It helps identify the underlying causes of performance differences so future decisions can be improved",
+        "It guarantees future budgets will always be accurate",
+        "It eliminates the need for budgeting",
+        "It measures company value without using financial statements"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Variance analysis is most valuable because it helps managers understand performance differences and improve future planning and operations."
+    },
+
+        {
+      "question": "A company's labor costs are 15% above budget. Management discovers employees received exactly the planned hourly wage but production was interrupted by equipment failures. What is the most likely cause of the variance?",
+      "options": [
+        "An unfavorable labor efficiency variance caused by lost productivity",
+        "An unfavorable labor rate variance",
+        "A favorable material price variance",
+        "A favorable sales volume variance"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Since wage rates matched the budget, the higher labor cost resulted from employees working more hours because of lower productivity."
+    },
+    {
+      "question": "A shipping company notices that one vessel consistently reports favorable fuel cost variances compared with similar vessels. What should management do next?",
+      "options": [
+        "Investigate whether the vessel's operating practices can be applied across the fleet",
+        "Reduce every vessel's fuel budget immediately",
+        "Ignore the result because favorable variances require no analysis",
+        "Increase the vessel's maintenance budget"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Favorable variances can reveal best practices that may improve performance across the organization."
+    },
+    {
+      "question": "A company experiences a large unfavorable material price variance due to a sudden global shortage of raw materials. Which conclusion is most appropriate?",
+      "options": [
+        "The variance may not reflect poor purchasing performance because it resulted from external market conditions",
+        "The purchasing manager automatically performed poorly",
+        "The budget should never have included material costs",
+        "The variance should be ignored completely"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Managers must distinguish between controllable internal factors and uncontrollable external events."
+    },
+    {
+      "question": "Why do experienced managers investigate both favorable and unfavorable variances?",
+      "options": [
+        "Because favorable variances may reveal successful practices that can be repeated",
+        "Because only favorable variances affect profits",
+        "Because unfavorable variances are usually accounting mistakes",
+        "Because favorable variances eliminate future budgeting"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Both positive and negative variances provide valuable information that can improve future decision making."
+    },
+    {
+      "question": "A department reports an unfavorable maintenance variance after replacing several worn-out machines before they failed. Which statement best describes this situation?",
+      "options": [
+        "The variance may actually represent good management because it prevented more costly breakdowns later",
+        "Any unfavorable variance automatically indicates poor performance",
+        "Maintenance should always stay below budget",
+        "The maintenance budget should be ignored"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Some unfavorable variances create long-term value by avoiding larger future costs."
+    },
+    {
+      "question": "A vessel's repair expenses exceeded budget by $400,000. Investigation shows that a collision caused unexpected damage requiring emergency repairs. What is the most appropriate management response?",
+      "options": [
+        "Understand the root cause before evaluating performance or changing future budgets",
+        "Reduce next year's repair budget",
+        "Ignore the variance because accidents happen",
+        "Assume the engineering crew performed poorly"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Managers should first determine whether the variance resulted from controllable or uncontrollable events before taking action."
+    },
+    {
+      "question": "A company only investigates variances greater than $100,000. What management principle is it applying?",
+      "options": [
+        "Management by exception",
+        "Contribution margin analysis",
+        "Capital budgeting",
+        "Incremental costing"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Management by exception focuses attention on the most significant deviations from plan."
+    },
+    {
+      "question": "What is the greatest risk of focusing only on the numerical size of a variance?",
+      "options": [
+        "Managers may overlook the underlying business reasons behind the variance",
+        "Financial statements become inaccurate",
+        "Budgets automatically become flexible",
+        "Sales forecasts become unnecessary"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Understanding why a variance occurred is often more important than simply measuring its size."
+    },
+    {
+      "question": "Which statement best summarizes the role of variance analysis in managerial accounting?",
+      "options": [
+        "It compares planned and actual performance to support better operational and strategic decisions",
+        "It replaces budgeting entirely",
+        "It guarantees that future budgets will be accurate",
+        "It measures only company profitability"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Variance analysis helps managers learn from differences between planned and actual results, improving future planning and decision making."
+    },
+    {
+      "question": "After completing a variance analysis, what should management ideally do next?",
+      "options": [
+        "Implement corrective actions where appropriate and use the findings to improve future budgets",
+        "Delete the budget because it was inaccurate",
+        "Ignore favorable variances and only report unfavorable ones",
+        "Prepare next year's financial statements"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Variance analysis is valuable only when managers use the insights to improve operations, planning and future budgeting."
+    }
+  ]
+}
