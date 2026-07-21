@@ -1,366 +1,366 @@
 {
-  "title": "Project Success & The Project Manager",
-  "description": "Advanced quiz on project success, value creation, leadership, governance, decision-making, ethics, team performance, sponsorship and the project manager's role.",
+  "title": "Scope Management",
+  "description": "Advanced quiz on product scope, project scope, requirements, Work Breakdown Structures, scope baselines, validation, change control, scope creep and value-based scope decisions.",
   "questions": [
     {
-      "question": "Which statement best describes project success?",
+      "question": "Which statement best distinguishes product scope from project scope?",
       "options": [
-        "Completing all planned activities",
-        "Delivering the agreed outputs while creating the intended outcomes and organizational value",
-        "Finishing the project without any change requests",
-        "Keeping the project team satisfied throughout execution"
+        "Product scope describes the work required to manage the project, while project scope describes the final product's features",
+        "Product scope describes the features and functions of the deliverable, while project scope describes the work required to create it",
+        "Product scope concerns only physical products, while project scope applies only to services",
+        "There is no meaningful distinction between the two"
       ],
       "answer": 1,
       "difficulty": "Foundation",
-      "explanation": "Project success is broader than activity completion. It includes delivering outputs, enabling intended outcomes and creating value for the organization and relevant stakeholders."
+      "explanation": "Product scope defines what the deliverable must be or do. Project scope defines the work necessary to produce and deliver that result."
     },
     {
-      "question": "What does the traditional Iron Triangle evaluate?",
+      "question": "What is the primary purpose of scope management?",
       "options": [
-        "Scope, time and cost performance",
-        "Leadership, motivation and trust",
-        "Benefits, strategy and governance",
-        "Risk, quality and procurement"
+        "To ensure that the project includes all required work and excludes unnecessary work",
+        "To prevent stakeholders from requesting any changes",
+        "To create the detailed project budget",
+        "To guarantee that the original solution is delivered without modification"
       ],
       "answer": 0,
       "difficulty": "Foundation",
-      "explanation": "The Iron Triangle focuses on scope, time and cost. These remain important delivery measures, but they do not capture the full meaning of project success."
+      "explanation": "Scope management establishes and controls the work needed to achieve project objectives. It aims to include necessary work while preventing unauthorized or low-value additions."
     },
     {
-      "question": "What is the project manager primarily accountable for?",
+      "question": "What is scope creep?",
       "options": [
-        "Personally completing all technical work",
-        "Coordinating the project so that objectives are achieved within the agreed governance framework",
-        "Approving the organization's strategy",
-        "Owning every operational benefit after project closure"
+        "Any formally approved change to project scope",
+        "The gradual addition or expansion of work without appropriate evaluation and authorization",
+        "The decomposition of deliverables into work packages",
+        "The removal of low-value requirements"
       ],
       "answer": 1,
       "difficulty": "Foundation",
-      "explanation": "The project manager integrates people, work, decisions, risks and stakeholders to achieve project objectives. Technical execution and long-term benefit ownership may belong to others."
+      "explanation": "Scope creep occurs when work or requirements expand informally, often without corresponding adjustments to time, cost, resources or governance."
     },
     {
-      "question": "Which role normally provides senior-level support, secures organizational commitment and owns the project's business justification?",
+      "question": "What is the main purpose of a Work Breakdown Structure?",
       "options": [
-        "Project Sponsor",
-        "Project Scheduler",
-        "Technical Specialist",
-        "Project Administrator"
+        "To divide project deliverables and work into manageable components",
+        "To assign every employee a daily task",
+        "To replace the project schedule",
+        "To rank stakeholders by influence"
       ],
       "answer": 0,
       "difficulty": "Foundation",
-      "explanation": "The sponsor connects the project to senior management, supports major decisions and is normally accountable for continued business justification."
+      "explanation": "A Work Breakdown Structure decomposes the total project scope into smaller, manageable components that can support planning, estimating, ownership and control."
     },
     {
-      "question": "What is the clearest distinction between management and leadership in projects?",
+      "question": "What does the 100 Percent Rule require in a Work Breakdown Structure?",
       "options": [
-        "Management creates structure and control, while leadership builds direction, commitment and influence",
-        "Management concerns people, while leadership concerns schedules",
-        "Management is used only in small projects",
-        "Leadership eliminates the need for formal governance"
+        "Every work package must be completed by one person",
+        "The WBS must include all work required for the project scope and no work outside it",
+        "Every deliverable must receive the same share of the budget",
+        "All work must be defined with complete certainty before approval"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Foundation",
-      "explanation": "Project managers need both. Management creates order through plans and controls, while leadership mobilizes people around purpose, change and difficult decisions."
+      "explanation": "The 100 Percent Rule means that the WBS collectively represents the full project scope, including project-management work where relevant, without duplication or unrelated work."
     },
     {
-      "question": "Why can a project be considered unsuccessful even when it finishes on time and within budget?",
+      "question": "Why should scope be defined in terms of deliverables and acceptance criteria rather than only activities?",
       "options": [
-        "Because schedule and budget are never relevant",
-        "Because the deliverable may fail to solve the business problem or produce the expected benefits",
-        "Because successful projects must always finish early",
-        "Because project success is determined only by team morale"
+        "Because activities are never useful for planning",
+        "Because deliverables and acceptance criteria clarify what must be produced and how completion will be judged",
+        "Because stakeholders should not know how the work will be performed",
+        "Because activities are only relevant after project closure"
       ],
       "answer": 1,
       "difficulty": "Understanding",
-      "explanation": "Efficient delivery does not guarantee effectiveness. A project can meet its delivery targets while producing low adoption, weak outcomes or limited strategic value."
+      "explanation": "An activity list explains what people plan to do, but it may not clearly establish what result must be delivered. Deliverables and acceptance criteria make completion more objective."
     },
     {
-      "question": "Why should project success criteria be defined early?",
+      "question": "Why is requirements traceability important?",
       "options": [
-        "To prevent all future disagreement",
-        "To create a shared basis for decision-making, trade-offs and later evaluation",
-        "To guarantee that the original plan never changes",
-        "To transfer responsibility from the sponsor to the project team"
-      ],
-      "answer": 1,
-      "difficulty": "Understanding",
-      "explanation": "Clear success criteria help stakeholders understand what matters and provide a basis for prioritization and evaluation when competing objectives arise."
-    },
-    {
-      "question": "What is the difference between a project output and a project outcome?",
-      "options": [
-        "An output is the deliverable produced, while an outcome is the change or effect enabled by that deliverable",
-        "An output is strategic, while an outcome is always technical",
-        "An output occurs after project closure, while an outcome occurs during initiation",
-        "There is no meaningful difference"
+        "It connects requirements to their source, justification, deliverables and verification",
+        "It ensures that all stakeholder requests are approved",
+        "It replaces the need for testing",
+        "It prevents any requirement from changing"
       ],
       "answer": 0,
       "difficulty": "Understanding",
-      "explanation": "A new system, facility or process is an output. Improved productivity, reduced incidents or higher customer satisfaction are outcomes enabled by that output."
+      "explanation": "Traceability helps the team understand why a requirement exists, who needs it, where it is implemented and how it will be validated."
     },
     {
-      "question": "Why is stakeholder perception relevant to project success?",
+      "question": "What is the principal difference between scope validation and quality control?",
       "options": [
-        "Because stakeholder opinions should always override project objectives",
-        "Because stakeholders influence adoption, legitimacy, support and the evaluation of whether value was created",
-        "Because only external stakeholders judge success",
-        "Because stakeholder satisfaction replaces financial performance"
-      ],
-      "answer": 1,
-      "difficulty": "Understanding",
-      "explanation": "Stakeholder perception matters because success depends partly on adoption, acceptance and legitimacy. However, perceptions must be considered alongside strategy, evidence and governance."
-    },
-    {
-      "question": "Why should the project manager understand the Business Case?",
-      "options": [
-        "To replace the sponsor as owner of the Business Case",
-        "To connect delivery decisions to the value and strategic purpose the project is expected to create",
-        "To avoid involving operational managers",
-        "To determine individual team salaries"
-      ],
-      "answer": 1,
-      "difficulty": "Understanding",
-      "explanation": "The Business Case helps the project manager understand why the project exists. This supports better decisions when scope, time, cost, risk and benefits conflict."
-    },
-    {
-      "question": "Why is technical expertise alone insufficient for effective project management?",
-      "options": [
-        "Because technical knowledge has no value in projects",
-        "Because projects also require integration, leadership, communication, judgment and stakeholder management",
-        "Because project managers must avoid technical discussions",
-        "Because specialists should make all project decisions"
-      ],
-      "answer": 1,
-      "difficulty": "Understanding",
-      "explanation": "Technical knowledge may improve credibility and understanding, but project performance depends heavily on coordinating people, decisions, uncertainty and organizational interests."
-    },
-    {
-      "question": "Why should responsibility for benefits extend beyond the project manager?",
-      "options": [
-        "Because benefits usually depend on operational adoption and business changes after deliverables are handed over",
-        "Because project managers should not understand benefits",
-        "Because sponsors are responsible for every project task",
-        "Because benefits are always realized before project closure"
+        "Scope validation concerns formal acceptance of deliverables, while quality control checks whether deliverables meet defined requirements",
+        "Scope validation occurs only internally, while quality control is performed only by customers",
+        "Scope validation concerns cost, while quality control concerns time",
+        "There is no practical difference"
       ],
       "answer": 0,
       "difficulty": "Understanding",
-      "explanation": "Projects deliver capabilities, but operational managers and benefit owners often control whether those capabilities are adopted and converted into sustained value."
+      "explanation": "Quality control verifies correctness and conformance. Scope validation focuses on formal stakeholder acceptance of completed deliverables."
     },
     {
-      "question": "Why is psychological safety important in project teams?",
+      "question": "Why does a project need a scope baseline?",
       "options": [
-        "It prevents all interpersonal conflict",
-        "It makes team members more willing to raise risks, admit mistakes and challenge weak assumptions",
-        "It allows team members to ignore accountability",
-        "It eliminates the need for leadership"
+        "To prevent every future adjustment",
+        "To create an approved reference for measuring and controlling scope performance",
+        "To replace the Business Case",
+        "To record only the project's original activity list"
       ],
       "answer": 1,
       "difficulty": "Understanding",
-      "explanation": "Psychological safety supports honest communication and early problem detection. It does not mean avoiding standards, challenge or accountability."
+      "explanation": "The scope baseline provides the approved reference against which proposed changes and actual delivery can be assessed."
     },
     {
-      "question": "A software project delivers every contracted feature, but most employees continue using the previous system. How should the project be assessed?",
+      "question": "Why is an approved scope change not considered scope creep?",
       "options": [
-        "Fully successful because contractual scope was delivered",
-        "Potentially unsuccessful because output delivery did not lead to adoption and intended outcomes",
-        "Successful because user behavior is outside the project",
-        "Unsuccessful only if the project exceeded its budget"
+        "Because approved changes are always small",
+        "Because the change has been evaluated and authorized through governance, including its consequences",
+        "Because approved changes do not affect time or cost",
+        "Because sponsors may add unlimited work"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Scope creep is uncontrolled expansion. A properly analyzed and authorized change is controlled scope evolution, even when it significantly alters the baseline."
+    },
+    {
+      "question": "Why can excessive detail in a Work Breakdown Structure be problematic?",
+      "options": [
+        "Because detailed planning is prohibited",
+        "Because excessive decomposition can increase administrative effort without improving control or decision-making",
+        "Because work packages should never have owners",
+        "Because only the sponsor may understand the WBS"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "The WBS should be detailed enough to support planning and control, but not so detailed that maintaining it becomes costly and distracts from meaningful management."
+    },
+    {
+      "question": "Why should exclusions be documented in a scope statement?",
+      "options": [
+        "To reduce the need for stakeholder communication",
+        "To clarify boundaries and prevent assumptions that omitted work is included",
+        "To make future changes impossible",
+        "To transfer all delivery risk to the customer"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Explicit exclusions reduce ambiguity by making clear what the project will not deliver, especially where stakeholders could reasonably expect otherwise."
+    },
+    {
+      "question": "Why is solution scope not always the same as the underlying business need?",
+      "options": [
+        "Because a proposed solution is one possible response to a need and may not be the best one",
+        "Because business needs are defined only after delivery",
+        "Because solutions never create value",
+        "Because project managers should ignore strategic objectives"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "A project should distinguish the problem or need from the selected solution. Otherwise, teams may optimize a chosen solution without questioning whether it is appropriate."
+    },
+    {
+      "question": "A company defines the scope of an ERP project as 'install the new software.' What is the most important weakness?",
+      "options": [
+        "The scope is too financially focused",
+        "It defines a technical activity but does not clarify business processes, required capabilities or acceptance conditions",
+        "It contains too many exclusions",
+        "It provides too much detail for initiation"
       ],
       "answer": 1,
       "difficulty": "Application",
-      "explanation": "The system is an output. If intended users do not adopt it, the expected operational outcomes and benefits may not materialize."
+      "explanation": "Installation alone may not produce a functioning business solution. Scope should reflect required capabilities, integrations, migration, training and other conditions necessary for acceptance."
     },
     {
-      "question": "A project manager discovers that meeting the launch date would require reducing safety testing. The sponsor strongly prefers to maintain the date. What should the project manager do?",
+      "question": "A customer asks a developer to add a small reporting feature during an informal meeting. The developer estimates that it will take only two hours. What should happen?",
       "options": [
-        "Reduce testing because the sponsor owns the project",
-        "Explain the consequences, document the risk and escalate the decision through the appropriate governance process",
-        "Ask the team to hide the reduced testing effort",
-        "Delay the project without informing the sponsor"
+        "The developer should implement it because the effort is minor",
+        "The request should be documented and evaluated through the agreed change process",
+        "The project manager should reject it automatically",
+        "The customer should negotiate directly with the developer"
       ],
       "answer": 1,
       "difficulty": "Application",
-      "explanation": "The project manager should make the trade-off transparent and ensure that a decision with major safety implications is taken by the appropriate authority."
+      "explanation": "Even small changes can create cumulative impacts, testing obligations or precedent. The request should be assessed consistently rather than approved based only on apparent effort."
     },
     {
-      "question": "A project team is missing deadlines because specialists are assigned to several projects simultaneously. What should the project manager do first?",
+      "question": "A team has created a detailed activity schedule but cannot explain which deliverables several activities support. What is the most likely scope-management weakness?",
       "options": [
-        "Demand unpaid overtime",
-        "Assess the resource conflict and raise it with the managers who control allocation priorities",
-        "Remove the affected activities from the schedule",
-        "Replace all specialists immediately"
+        "The schedule contains too many milestones",
+        "The work was planned without a clear deliverable-oriented scope structure",
+        "The project has too many stakeholders",
+        "The sponsor is too involved"
       ],
       "answer": 1,
       "difficulty": "Application",
-      "explanation": "The underlying issue is organizational resource allocation. The project manager should make the conflict and its consequences visible to those with authority to resolve it."
+      "explanation": "Activities should connect to defined deliverables and work packages. Otherwise, the project may perform work that is poorly justified or difficult to verify."
     },
     {
-      "question": "A team member reports a serious defect but fears being blamed for delaying delivery. What is the best response from the project manager?",
+      "question": "During construction, a new legal requirement changes the required fire-protection system. What should the project manager do?",
       "options": [
-        "Tell the employee to resolve it privately",
-        "Thank the employee for raising it, assess the defect and focus on corrective action rather than blame",
-        "Ignore the defect unless the customer discovers it",
-        "Remove the employee from the project"
+        "Reject the change because the scope baseline is approved",
+        "Assess the mandatory change's impact and process it through formal governance",
+        "Implement it without documentation because it is legally required",
+        "Ask the contractor to absorb the work without changing the agreement"
       ],
       "answer": 1,
       "difficulty": "Application",
-      "explanation": "Constructive responses to bad news strengthen psychological safety and improve the likelihood that future issues will be raised early."
+      "explanation": "A legal requirement may make the change unavoidable, but its consequences still require analysis, authorization and updates to relevant baselines and contracts."
     },
     {
-      "question": "A sponsor asks the project manager to present an unrealistic status report to protect executive confidence. What should the project manager do?",
+      "question": "A stakeholder claims that a deliverable is incomplete, while the project team argues that all documented requirements have been met. What should be examined first?",
       "options": [
-        "Follow the instruction because the sponsor owns the Business Case",
-        "Present an accurate status and explain the implications and recovery options",
-        "Remove all negative information from the report",
-        "Cancel the project immediately"
+        "The acceptance criteria, approved requirements and records of stakeholder agreement",
+        "The project manager's personal opinion",
+        "The total amount already spent",
+        "The stakeholder's position in the organization"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Objective acceptance should be assessed against approved requirements and criteria. Ambiguous or missing criteria may reveal a weakness in scope definition."
+    },
+    {
+      "question": "A project sponsor requests an additional dashboard but insists that the completion date and budget remain unchanged. What is the best response?",
+      "options": [
+        "Accept the request because the sponsor has authority",
+        "Evaluate the impact and present feasible trade-offs before a decision is made",
+        "Reject the request because baselines may never change",
+        "Ask the team to complete it through overtime without recording the change"
       ],
       "answer": 1,
       "difficulty": "Application",
-      "explanation": "Accurate reporting is necessary for governance and informed decisions. Concealing material information creates ethical and managerial risk."
+      "explanation": "Authority does not remove delivery consequences. The change should be assessed against time, cost, resources, quality, risk and expected value."
     },
     {
-      "question": "A project is experiencing repeated conflict between engineering and procurement. Engineering prioritizes performance, while procurement prioritizes supplier cost. What should the project manager do?",
+      "question": "A Work Breakdown Structure includes 'hold weekly team meetings' at the same level as major customer deliverables. What should the project manager review?",
       "options": [
-        "Allow the functions to negotiate until one side gives up",
-        "Clarify the project objectives and facilitate a decision based on value, requirements, risk and total consequences",
-        "Always support engineering because technical quality is most important",
-        "Always support procurement because cost is part of the Iron Triangle"
+        "Whether the WBS mixes components at inconsistent levels of decomposition",
+        "Whether meetings should be removed from every project",
+        "Whether the customer deliverables are too detailed",
+        "Whether the sponsor should chair all meetings"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "WBS elements at the same level should represent a reasonably consistent level of decomposition. Project-management work may belong in the WBS but should be structured appropriately."
+    },
+    {
+      "question": "A project team discovers that two departments interpret the phrase 'automated approval' differently. What should the team do?",
+      "options": [
+        "Allow each department to apply its own interpretation",
+        "Clarify the requirement, define measurable acceptance criteria and obtain agreement",
+        "Choose the technically easiest interpretation",
+        "Delay clarification until testing"
       ],
       "answer": 1,
       "difficulty": "Application",
-      "explanation": "The project manager should integrate competing functional perspectives and guide the decision toward overall project value rather than departmental optimization."
+      "explanation": "Ambiguous requirements create rework and conflict. The team should convert vague language into clear, testable and agreed conditions."
     },
     {
-      "question": "A new project manager inherits a team with low trust after frequent changes in leadership. What should be the manager's first priority?",
+      "question": "A customer wants every possible feature included in the first release. The project has a fixed deadline driven by regulation. What is the most appropriate approach?",
       "options": [
-        "Introduce stricter reporting immediately",
-        "Establish credibility through clarity, consistency, listening and reliable follow-through",
-        "Replace the entire team",
-        "Avoid discussing previous leadership problems"
+        "Accept every feature because customer requirements define scope",
+        "Prioritize requirements based on mandatory needs, value, risk and delivery constraints",
+        "Ignore the regulatory deadline",
+        "Ask the technical team to work without a scope baseline"
       ],
       "answer": 1,
       "difficulty": "Application",
-      "explanation": "Trust is rebuilt through observable behavior. Consistent communication and follow-through are more effective than demanding commitment before credibility has been established."
+      "explanation": "Fixed constraints require prioritization. Mandatory and high-value capabilities should be distinguished from desirable features that may be deferred."
     },
     {
-      "question": "A customer requests an additional feature that could create substantial value but would delay delivery. What should the project manager do first?",
+      "question": "A project manager finds that completed work packages do not collectively produce one of the promised deliverables. Which principle was most likely violated?",
       "options": [
-        "Accept the feature because customer value defines success",
-        "Reject the feature because the baseline must never change",
-        "Assess its impact on objectives, benefits, risks, commitments and governance before recommending a decision",
-        "Ask the development team to include it informally"
+        "The Power-Interest Matrix",
+        "The 100 Percent Rule",
+        "The Iron Triangle",
+        "The principle of psychological safety"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "If the decomposed work does not fully cover the promised scope, the WBS is incomplete and fails the 100 Percent Rule."
+    },
+    {
+      "question": "A project has frequent approved changes, each supported by a strong individual justification. However, the combined solution has become difficult to use and expensive to maintain. What is the main governance weakness?",
+      "options": [
+        "Each individual change was too large",
+        "Changes were assessed separately without sufficient consideration of their cumulative system-level effects",
+        "The team used formal change control",
+        "The customer was involved in scope decisions"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Good change control evaluates not only isolated requests but also cumulative complexity, coherence, maintainability and strategic impact."
+    },
+    {
+      "question": "A project team argues that a requirement should remain in scope because it was included in the original baseline, even though new evidence shows that users do not need it. What is the strongest response?",
+      "options": [
+        "The requirement must remain because baselines are permanent",
+        "The requirement should be reconsidered through governance because scope control should protect value, not merely preserve historical decisions",
+        "The team should remove it without approval",
+        "User evidence is irrelevant after planning"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "A baseline supports control but should not force delivery of low-value work when evidence changes. Removal should still follow the approved change process."
+    },
+    {
+      "question": "A stakeholder approves a prototype but later rejects the completed product because it does not meet an operational need that was never documented. What is the most balanced assessment?",
+      "options": [
+        "The stakeholder is solely responsible because the requirement was not documented",
+        "The project team is solely responsible because every unstated expectation must be discovered",
+        "The situation suggests weaknesses in requirements elicitation, validation and shared understanding",
+        "Prototype approval always constitutes final acceptance"
       ],
       "answer": 2,
-      "difficulty": "Application",
-      "explanation": "Potential value should be evaluated, but the project manager should not bypass change control or ignore broader consequences."
+      "difficulty": "Analysis",
+      "explanation": "The failure may involve both incomplete stakeholder articulation and inadequate project discovery. Strong scope management actively tests assumptions and validates whether documented requirements reflect real needs."
     },
     {
-      "question": "A project manager notices that team meetings are dominated by two senior specialists while junior members remain silent. What is the best response?",
+      "question": "A project has no unauthorized changes, but its final deliverable creates little value because the original scope was poorly chosen. What does this demonstrate?",
       "options": [
-        "Accept the situation because senior specialists have more experience",
-        "Use facilitation methods that create structured opportunities for broader participation",
-        "Remove the senior specialists from all meetings",
-        "Ask junior members to submit only written comments"
-      ],
-      "answer": 1,
-      "difficulty": "Application",
-      "explanation": "Effective facilitation improves access to information and reduces the risk that status or personality prevents relevant knowledge from being considered."
-    },
-    {
-      "question": "A project is nearing completion, but operational managers have not prepared training, support or new work procedures. What should the project manager do?",
-      "options": [
-        "Close the project because the deliverable is technically finished",
-        "Escalate the transition risk and coordinate readiness activities with the relevant operational owners",
-        "Take permanent ownership of operations",
-        "Remove benefit targets from the Business Case"
-      ],
-      "answer": 1,
-      "difficulty": "Application",
-      "explanation": "Operational readiness is critical to adoption and benefit realization. The project manager should coordinate the transition while ensuring that the proper business owners remain accountable."
-    },
-    {
-      "question": "A project manager has strong formal authority but repeatedly makes decisions without consulting specialists. The project remains on schedule, but technical risks are increasing. What is the central leadership weakness?",
-      "options": [
-        "The manager is using too little authority",
-        "The manager is confusing decision authority with having all the necessary knowledge",
-        "The specialists have too much influence",
-        "The schedule should be abandoned"
+        "Scope control guarantees project success",
+        "Effective scope management requires both control and continued alignment with business value",
+        "The project manager should avoid baselines",
+        "Only the sponsor is responsible for scope quality"
       ],
       "answer": 1,
       "difficulty": "Analysis",
-      "explanation": "Formal authority enables decisions but does not replace expertise. Strong leaders involve relevant knowledge while retaining accountability for the decision process."
+      "explanation": "A project can control the wrong scope perfectly. Good scope management must ensure that the approved work remains relevant to the project's purpose and intended benefits."
     },
     {
-      "question": "A project team meets all performance targets, but team members report burnout, high turnover and unwillingness to work together again. What is the best assessment?",
+      "question": "A project manager is pressured to classify a major functional addition as a clarification so it can avoid formal approval. What is the most important objection?",
       "options": [
-        "The project was fully successful because targets were met",
-        "The project may have achieved short-term delivery success while damaging long-term organizational capability",
-        "Team well-being is unrelated to project success",
-        "The project was unsuccessful only if customers complained"
+        "Clarifications are prohibited after planning",
+        "Misclassifying the request conceals its consequences and undermines transparent governance",
+        "All functional additions must be rejected",
+        "Only customers may define clarifications"
       ],
       "answer": 1,
       "difficulty": "Analysis",
-      "explanation": "Success can be assessed across multiple dimensions. Unsustainable delivery practices may achieve immediate targets while reducing future capacity, trust and performance."
+      "explanation": "The classification should reflect substance, not convenience. Concealing a change prevents decision-makers from evaluating its true impact."
     },
     {
-      "question": "A sponsor evaluates success solely by whether the original schedule was maintained, even though market conditions changed and the product is no longer commercially attractive. What is the main flaw in this reasoning?",
+      "question": "A customer accepts every individual deliverable, but the integrated system fails to support the end-to-end business process. What is the most likely scope-management lesson?",
       "options": [
-        "Schedules should never be used to evaluate projects",
-        "It prioritizes plan conformance over continued relevance and value creation",
-        "The sponsor should focus only on team satisfaction",
-        "Market conditions are outside project governance"
-      ],
-      "answer": 1,
-      "difficulty": "Analysis",
-      "explanation": "A project should not be considered successful merely because it followed an outdated plan. Continued business justification and relevance remain essential."
-    },
-    {
-      "question": "A project manager resolves every conflict personally and discourages team members from making decisions without approval. The project initially appears well controlled. What long-term risk is greatest?",
-      "options": [
-        "The team may become overly independent",
-        "Decision bottlenecks and dependency on the project manager may reduce team ownership and responsiveness",
-        "The sponsor may gain too much authority",
-        "Stakeholders may receive too much information"
-      ],
-      "answer": 1,
-      "difficulty": "Analysis",
-      "explanation": "Excessive centralization can create apparent control while weakening team capability, accountability and decision speed."
-    },
-    {
-      "question": "A project delivers a profitable service but causes regulatory breaches and reputational damage. Which conclusion is most defensible?",
-      "options": [
-        "The project is successful because it is profitable",
-        "The project cannot be judged only by financial benefits because legality, ethics and broader consequences also matter",
-        "The project is successful if the sponsor accepts the damage",
-        "Regulatory issues should be evaluated only after closure"
-      ],
-      "answer": 1,
-      "difficulty": "Analysis",
-      "explanation": "Project value cannot be separated from legal, ethical and reputational consequences. Financial return alone is an inadequate measure of success."
-    },
-    {
-      "question": "A project manager must choose between disclosing a major uncertainty now or waiting until more evidence is available. Early disclosure may create concern, but delayed disclosure could reduce management's options. What is the strongest approach?",
-      "options": [
-        "Wait until the uncertainty becomes a confirmed problem",
-        "Communicate the uncertainty transparently, distinguish facts from assumptions and explain possible consequences and response options",
-        "Report only the most optimistic interpretation",
-        "Transfer responsibility for communication to the project team"
+        "Individual acceptance guarantees total solution success",
+        "Component-level validation must be complemented by validation of the integrated outcome",
+        "The project should have fewer stakeholders",
+        "The scope baseline should contain only technical specifications"
       ],
       "answer": 1,
       "difficulty": "Expert",
-      "explanation": "High-quality governance requires timely transparency. The project manager should communicate uncertainty without presenting speculation as fact and should support informed decision-making."
+      "explanation": "A project may deliver compliant components that fail collectively. Scope must account for integration, end-to-end functionality and the business outcome the components are intended to enable."
     },
     {
-      "question": "A project manager can preserve the approved baseline or recommend a major redesign that is more likely to deliver strategic value. The redesign would make historical performance metrics appear worse. What principle should guide the recommendation?",
+      "question": "A proposed change would significantly increase project value but invalidate much of the approved scope baseline and require major rework. What is the most defensible decision principle?",
       "options": [
-        "Protect the baseline because variance always represents failure",
-        "Protect the project manager's performance rating",
-        "Prioritize defensible value creation and continued business justification while making the consequences of change transparent",
-        "Allow the delivery team to decide without involving governance"
+        "Reject the change because baseline protection is always the highest priority",
+        "Approve it because greater value automatically justifies any disruption",
+        "Compare the expected incremental value with the full cost, risk, delay, opportunity cost and strategic consequences through formal governance",
+        "Allow the project manager to decide privately to avoid delay"
       ],
       "answer": 2,
       "difficulty": "Expert",
-      "explanation": "The baseline is a control mechanism, not an objective in itself. When evidence shows that another approach better supports strategic value, the project manager should present it through proper governance rather than optimize appearances."
+      "explanation": "Neither baseline preservation nor potential value should be treated as absolute. The decision should evaluate the complete consequences and continued business justification."
     }
   ]
 }
