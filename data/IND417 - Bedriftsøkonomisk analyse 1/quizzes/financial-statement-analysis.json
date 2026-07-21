@@ -1,0 +1,366 @@
+{
+  "title": "Financial Statement Analysis",
+  "description": "Test your understanding of financial statements, financial ratios, profitability, liquidity, efficiency, solvency, and how managers use financial information to make business decisions.",
+  "questions": [
+    {
+      "question": "What is the primary purpose of financial statement analysis?",
+      "options": [
+        "To evaluate a company's financial performance and financial position",
+        "To calculate employee salaries",
+        "To determine product prices",
+        "To prepare tax returns"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Financial statement analysis helps users understand a company's financial health and performance."
+    },
+    {
+      "question": "Which financial statement reports revenues, expenses, and profit over a period of time?",
+      "options": [
+        "Income Statement",
+        "Balance Sheet",
+        "Cash Flow Statement",
+        "Statement of Changes in Equity"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The income statement summarizes revenues, expenses, and net income during a specific accounting period."
+    },
+    {
+      "question": "Which financial statement shows a company's assets, liabilities, and equity at a specific point in time?",
+      "options": [
+        "Balance Sheet",
+        "Income Statement",
+        "Cash Flow Statement",
+        "Budget Report"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The balance sheet presents the company's financial position on a specific date."
+    },
+    {
+      "question": "What is the primary purpose of the Cash Flow Statement?",
+      "options": [
+        "To show how cash entered and left the business during the period",
+        "To calculate depreciation",
+        "To report inventory levels",
+        "To measure product profitability"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The cash flow statement explains how cash changes through operating, investing, and financing activities."
+    },
+    {
+      "question": "Which group of people commonly uses financial statement analysis to decide whether to lend money to a company?",
+      "options": [
+        "Banks and other lenders",
+        "Customers only",
+        "Production workers",
+        "Government regulators only"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Banks analyze financial statements to assess a company's ability to repay loans."
+    },
+    {
+      "question": "A company reports a large profit but very little cash. Which financial statement helps explain why?",
+      "options": [
+        "Cash Flow Statement",
+        "Income Statement",
+        "Balance Sheet",
+        "Trial Balance"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "The cash flow statement explains why reported profit may differ from actual cash generated."
+    },
+    {
+      "question": "Which financial ratio category measures a company's ability to meet its short-term obligations?",
+      "options": [
+        "Liquidity ratios",
+        "Profitability ratios",
+        "Efficiency ratios",
+        "Solvency ratios"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Liquidity ratios evaluate whether a company can pay its short-term debts."
+    },
+    {
+      "question": "A company has Current Assets of $12 million and Current Liabilities of $6 million. What is its Current Ratio?",
+      "options": [
+        "2.0",
+        "0.5",
+        "1.5",
+        "6.0"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Current Ratio = Current Assets ÷ Current Liabilities = 12 ÷ 6 = 2.0."
+    },
+    {
+      "question": "Which financial ratio category evaluates how effectively a company generates profits?",
+      "options": [
+        "Profitability ratios",
+        "Liquidity ratios",
+        "Efficiency ratios",
+        "Solvency ratios"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Profitability ratios measure how successfully a company converts revenue into profit."
+    },
+    {
+      "question": "A shipping company is considering signing a long-term contract with a new customer. Before doing so, management reviews the customer's financial statements. What are they primarily trying to evaluate?",
+      "options": [
+        "Whether the customer is financially stable enough to pay future invoices",
+        "How many vessels the customer owns",
+        "The customer's fuel consumption",
+        "The age of the customer's fleet"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Financial statement analysis helps determine whether a customer is financially capable of meeting future payment obligations."
+    },
+        {
+      "question": "Which profitability ratio measures how much profit a company earns for each dollar of revenue?",
+      "options": [
+        "Net Profit Margin",
+        "Current Ratio",
+        "Debt-to-Equity Ratio",
+        "Asset Turnover"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Net Profit Margin measures the percentage of revenue that remains as profit after all expenses."
+    },
+    {
+      "question": "A company has revenue of $80 million and net income of $8 million. What is its Net Profit Margin?",
+      "options": [
+        "10%",
+        "8%",
+        "90%",
+        "12.5%"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Net Profit Margin = Net Income ÷ Revenue = 8 ÷ 80 = 10%."
+    },
+    {
+      "question": "Which ratio category evaluates how efficiently a company uses its assets to generate revenue?",
+      "options": [
+        "Efficiency ratios",
+        "Liquidity ratios",
+        "Profitability ratios",
+        "Solvency ratios"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Efficiency ratios measure how effectively a company utilizes its resources."
+    },
+    {
+      "question": "Which ratio category is primarily used to assess a company's long-term financial stability?",
+      "options": [
+        "Solvency ratios",
+        "Liquidity ratios",
+        "Profitability ratios",
+        "Efficiency ratios"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Solvency ratios evaluate a company's ability to meet its long-term obligations."
+    },
+    {
+      "question": "A company's Current Ratio decreases from 2.3 to 1.1 over three years. What is the most likely interpretation?",
+      "options": [
+        "Its ability to meet short-term obligations has weakened",
+        "Its profitability has automatically increased",
+        "Its inventory turnover has doubled",
+        "Its debt has been eliminated"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "A declining Current Ratio generally indicates weaker short-term liquidity."
+    },
+    {
+      "question": "Why is trend analysis useful when evaluating financial statements?",
+      "options": [
+        "It shows whether financial performance is improving or deteriorating over time",
+        "It replaces the need for financial ratios",
+        "It guarantees future profitability",
+        "It eliminates the effects of inflation"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Comparing several years of financial data helps identify long-term performance trends."
+    },
+    {
+      "question": "A company reports higher profits every year, but its operating cash flow continues to decline. What should concern financial analysts?",
+      "options": [
+        "The company may struggle to generate enough cash despite increasing profits",
+        "The company has automatically become more efficient",
+        "The balance sheet is no longer important",
+        "The company should stop preparing cash flow statements"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Strong profits without healthy cash flow may indicate collection problems or aggressive revenue recognition."
+    },
+    {
+      "question": "Why is benchmarking important when analyzing financial statements?",
+      "options": [
+        "It allows companies to compare their performance with competitors or industry averages",
+        "It guarantees a company will outperform competitors",
+        "It replaces the need for ratio analysis",
+        "It eliminates differences between industries"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Financial ratios are most meaningful when compared with similar companies or industry standards."
+    },
+    {
+      "question": "Two shipping companies each report a profit of $30 million. Company A owns assets worth $250 million, while Company B owns assets worth $1 billion. Which company is likely using its assets more efficiently?",
+      "options": [
+        "Company A",
+        "Company B",
+        "Both are equally efficient",
+        "There is not enough information because profit cannot be compared"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Generating the same profit with fewer assets generally indicates stronger asset efficiency."
+    },
+    {
+      "question": "Which statement best explains why financial analysts examine all three financial statements together?",
+      "options": [
+        "Each statement provides different information, creating a more complete picture of the company's financial health",
+        "Only the balance sheet contains reliable information",
+        "The income statement automatically predicts future performance",
+        "The cash flow statement replaces all financial ratios"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "The income statement, balance sheet, and cash flow statement complement one another and together provide a comprehensive understanding of a company's financial performance and position."
+    },
+        {
+      "question": "A company has a very high Net Profit Margin but a very low Current Ratio. What does this most likely indicate?",
+      "options": [
+        "The company is profitable but may have difficulty paying its short-term obligations",
+        "The company is financially perfect in every aspect",
+        "The company has no debt",
+        "The company is operating at a loss"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Profitability and liquidity measure different aspects of financial performance. A profitable company can still face short-term cash flow problems."
+    },
+    {
+      "question": "A bank is deciding whether to approve a long-term loan for a company. Which aspect of the company's financial health is likely to receive the greatest attention?",
+      "options": [
+        "Its long-term solvency and ability to repay debt",
+        "The number of employees",
+        "Its advertising budget",
+        "Its office location"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Lenders are primarily concerned with whether the company can meet its long-term financial obligations."
+    },
+    {
+      "question": "A shipping company has experienced declining profits for four consecutive years while competitors remain profitable. What would benchmarking most likely reveal?",
+      "options": [
+        "The company is underperforming relative to the industry",
+        "The company is automatically financially stable",
+        "The decline has no business significance",
+        "Financial ratios cannot compare companies"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Benchmarking compares a company's performance with competitors to identify strengths and weaknesses."
+    },
+    {
+      "question": "Why should financial analysts avoid relying on only one financial ratio when evaluating a company?",
+      "options": [
+        "Because each ratio measures only one aspect of financial performance",
+        "Because all financial ratios always give identical information",
+        "Because ratios are only useful for manufacturing companies",
+        "Because accounting standards prohibit ratio analysis"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Liquidity, profitability, efficiency and solvency each provide different insights into a company's financial health."
+    },
+    {
+      "question": "A company reports strong profits, healthy liquidity and positive cash flows, but management expects major regulatory changes that may reduce future earnings. What limitation of financial statement analysis does this demonstrate?",
+      "options": [
+        "Financial statements mainly describe past performance and cannot perfectly predict the future",
+        "Financial statements are always inaccurate",
+        "Financial ratios ignore profitability",
+        "Cash flow statements cannot be used for forecasting"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Financial statements are historical documents and must be combined with forward-looking information."
+    },
+    {
+      "question": "A vessel owner is evaluating two ship management companies. Both report similar profits, but one consistently generates stronger operating cash flow and maintains lower debt levels. Which company is likely to appear financially stronger?",
+      "options": [
+        "The company with stronger cash flow and lower debt",
+        "The company with the newest office building",
+        "The company with more employees",
+        "Neither, because profit is the only important measure"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Healthy cash flow and lower financial leverage generally indicate greater financial stability."
+    },
+    {
+      "question": "Which statement best explains why cash flow analysis is important even when a company reports high profits?",
+      "options": [
+        "A company can be profitable on paper but still run out of cash to pay its obligations",
+        "Cash flow is only important for small companies",
+        "Profit and cash are always identical",
+        "Cash flow replaces the need for the income statement"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Revenue and expenses are recognized under accrual accounting, while cash may be received or paid at different times."
+    },
+    {
+      "question": "A financial analyst notices that a company's profitability is improving, but its Debt-to-Equity Ratio is increasing rapidly each year. What concern might this raise?",
+      "options": [
+        "The company may be relying increasingly on borrowed money, increasing financial risk",
+        "The company is automatically becoming more liquid",
+        "Its inventory turnover is decreasing",
+        "Higher debt always guarantees higher profits"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Increasing leverage may improve returns but also increases financial risk if earnings decline."
+    },
+    {
+      "question": "Professional investors rarely base investment decisions solely on financial statements. What additional information do they commonly consider?",
+      "options": [
+        "Management quality, industry conditions, competition and future strategy",
+        "Only the company's logo and branding",
+        "The average age of employees",
+        "The weather during the reporting period"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Qualitative information provides important context that financial statements alone cannot capture."
+    },
+    {
+      "question": "What is the ultimate objective of financial statement analysis?",
+      "options": [
+        "To make better economic decisions by understanding a company's financial health, performance and future risks",
+        "To maximize reported revenue regardless of profitability",
+        "To prepare tax returns more quickly",
+        "To eliminate uncertainty from business decisions"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Financial statement analysis supports informed decision-making by evaluating profitability, liquidity, efficiency, solvency and overall financial condition."
+    }
+  ]
+}
