@@ -1,0 +1,182 @@
+{
+  "title": "Cost Allocation",
+  "description": "Learn how businesses assign costs to products, services, departments and projects in order to measure profitability, support pricing decisions and improve resource management.",
+  "estimatedReadingTime": "12 minutes",
+  "level": "Beginner",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Understand what cost allocation is.",
+        "Differentiate between direct and indirect costs.",
+        "Explain why businesses allocate costs.",
+        "Identify common allocation bases.",
+        "Understand cost centres and cost objects.",
+        "Recognize the limitations of cost allocation methods."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Businesses incur many different costs while producing goods and services. Some costs can easily be traced to a specific product, while others support the entire organization.",
+        "To understand the true cost of producing products or delivering services, businesses allocate costs to products, departments, customers or projects.",
+        "Cost allocation helps managers measure profitability, set prices, prepare budgets and make informed business decisions."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "What Is Cost Allocation?",
+      "content": [
+        "Cost allocation is the process of assigning costs to cost objects such as products, services, departments, customers or projects.",
+        "The goal is to determine how much each cost object consumes of the organization's resources.",
+        "Without cost allocation, managers may underestimate or overestimate the true cost of their operations."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Cost Objects",
+      "content": [
+        "A cost object is anything for which managers want to measure costs.",
+        "Common cost objects include individual products, customers, production departments, projects, vessels and even individual contracts.",
+        "The choice of cost object depends on the purpose of the analysis."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Ship Management Company",
+      "content": [
+        "A ship management company manages several vessels.",
+        "Management wants to know the operating cost of each vessel.",
+        "Each vessel becomes a separate cost object, and expenses such as fuel, insurance, maintenance and management costs are allocated accordingly."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Direct Costs",
+      "content": [
+        "Direct costs can be traced directly to a specific cost object.",
+        "These costs are easy to identify because they are incurred specifically for one product, service or project.",
+        "Examples include raw materials, direct labor and equipment rented exclusively for one project."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Direct Costs",
+      "content": [
+        "A furniture manufacturer uses $120 worth of wood to build one table.",
+        "The wood is used exclusively for that table and can therefore be directly assigned to its production cost."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Indirect Costs (Overhead)",
+      "content": [
+        "Indirect costs cannot easily be traced to a single cost object.",
+        "Instead, they support multiple products or activities and must be allocated using a reasonable method.",
+        "Examples include factory rent, electricity, administrative salaries, insurance and office expenses."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Factory Rent",
+      "content": [
+        "A factory produces ten different products.",
+        "The monthly rent supports the entire factory and cannot be directly assigned to a single product.",
+        "Instead, the rent is allocated using an allocation base such as machine hours or floor space."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Allocation Bases",
+      "content": [
+        "An allocation base is the factor used to distribute indirect costs among cost objects.",
+        "Common allocation bases include labor hours, machine hours, production volume, square meters and direct labor cost.",
+        "The chosen allocation base should reflect how the cost is actually consumed."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Allocating Electricity",
+      "content": [
+        "A factory's electricity bill is $12,000.",
+        "Machine A operates for 800 hours while Machine B operates for 400 hours.",
+        "If electricity consumption mainly depends on machine usage, the electricity cost should be allocated based on machine hours."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Cost Centres",
+      "content": [
+        "A cost centre is a department or function where costs are accumulated before being allocated.",
+        "Examples include production departments, maintenance departments, IT support and human resources.",
+        "Cost centres help organizations understand where costs originate before assigning them to final cost objects."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Hospital",
+      "content": [
+        "A hospital has departments such as surgery, radiology and administration.",
+        "Administration is a cost centre because its costs support the entire hospital.",
+        "These costs are later allocated to individual departments or services."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Why Is Cost Allocation Important?",
+      "content": [
+        "Accurate cost allocation improves pricing decisions by ensuring products include an appropriate share of indirect costs.",
+        "It helps managers identify profitable and unprofitable products, customers and projects.",
+        "Cost allocation also supports budgeting, performance evaluation and strategic planning."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Pricing Decision",
+      "content": [
+        "A company believes a product costs $90 to manufacture because it only considers direct materials and labor.",
+        "After allocating factory overhead, the actual production cost is $110.",
+        "Without cost allocation, the company might sell the product below its true cost."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Cost Allocation Is Not Perfect",
+      "content": [
+        "Indirect costs often cannot be assigned with complete accuracy.",
+        "Different allocation methods may produce different product costs.",
+        "Managers should remember that allocated costs are estimates designed to support better decisions rather than precise measurements."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Experienced managers understand that cost allocation is not just an accounting exercise. The choice of allocation method influences pricing, profitability analysis, investment decisions and performance measurement. Selecting an appropriate allocation base is therefore a critical management decision."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Cost allocation assigns costs to products, services, departments or projects.",
+        "Direct costs can be traced directly to a cost object.",
+        "Indirect costs require allocation using an appropriate allocation base.",
+        "Cost centres collect costs before they are allocated to cost objects.",
+        "Accurate cost allocation supports pricing, budgeting and profitability analysis.",
+        "Allocated costs are estimates and depend on the allocation method used."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Why can't all business costs be directly assigned to individual products?",
+        "How might choosing an inappropriate allocation base affect business decisions?",
+        "Why is cost allocation especially important in companies managing multiple products, departments or vessels?"
+      ]
+    }
+  ]
+}
