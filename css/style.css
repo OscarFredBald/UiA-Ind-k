@@ -1659,3 +1659,61 @@ footer {
     transform:translateY(-3px);
 
 }
+
+
+/* Improved Start Quiz button */
+
+.reading-complete-card .button-primary {
+  display: inline-flex;
+  min-height: 54px;
+  padding: 0 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border: 1px solid #2563eb;
+  border-radius: 14px;
+
+  background: linear-gradient(
+    135deg,
+    #2563eb 0%,
+    #1d4ed8 100%
+  );
+
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: none;
+
+  box-shadow:
+    0 10px 24px rgba(37, 99, 235, 0.24),
+    0 2px 6px rgba(15, 23, 42, 0.08);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.reading-complete-card .button-primary:hover {
+  transform: translateY(-3px);
+
+  background: linear-gradient(
+    135deg,
+    #1d4ed8 0%,
+    #1e40af 100%
+  );
+
+  box-shadow:
+    0 16px 30px rgba(37, 99, 235, 0.3),
+    0 4px 10px rgba(15, 23, 42, 0.1);
+}
+
+.reading-complete-card .button-primary:active {
+  transform: translateY(-1px);
+}
+
+.reading-complete-card .button-primary:focus-visible {
+  outline: 4px solid rgba(37, 99, 235, 0.25);
+  outline-offset: 3px;
+}
