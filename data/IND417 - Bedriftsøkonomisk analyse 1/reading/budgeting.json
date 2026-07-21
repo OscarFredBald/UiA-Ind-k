@@ -1,0 +1,246 @@
+{
+  "title": "Budgeting",
+  "description": "Learn how budgets help organizations plan, coordinate and control their operations. Understand different types of budgets, the budgeting process and how managers use budgets to support decision making and improve performance.",
+  "estimatedReadingTime": "18 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Understand the purpose of budgeting.",
+        "Differentiate between operating, financial and capital budgets.",
+        "Explain the budgeting process.",
+        "Understand the benefits and limitations of budgeting.",
+        "Recognize the difference between static and flexible budgets.",
+        "Understand how budgets support planning, coordination and performance evaluation."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Every organization must decide how it will use its limited resources. Managers must estimate future sales, costs, investments and cash flows before they occur.",
+        "A budget is a financial plan for a future period. It helps managers allocate resources, coordinate activities and monitor performance.",
+        "Budgeting is one of the most important tools in managerial accounting because it transforms business strategy into measurable financial goals."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "What Is a Budget?",
+      "content": [
+        "A budget is a detailed financial plan covering a specific period, usually one year.",
+        "Budgets estimate revenues, costs, cash flows and investments.",
+        "Managers compare actual performance with the budget to identify deviations and improve future decisions."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Annual Budget",
+      "content": [
+        "A manufacturing company expects to sell 100,000 products next year.",
+        "Based on expected demand, management prepares production, purchasing, labor and marketing budgets.",
+        "These budgets ensure sufficient resources are available throughout the year."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Why Companies Prepare Budgets",
+      "content": [
+        "Budgets help managers plan future activities.",
+        "They improve coordination between departments.",
+        "Budgets support communication across the organization.",
+        "They establish measurable performance targets.",
+        "They help managers identify potential financial problems before they occur."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Budgeting Process",
+      "content": [
+        "Budgeting normally begins with sales forecasts because expected demand determines many other activities.",
+        "After estimating sales, managers prepare production, purchasing, labor, operating expense and cash budgets.",
+        "Individual budgets are combined into the company's master budget."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Budget Sequence",
+      "content": [
+        "Expected sales: 25,000 units.",
+        "Production budget determines how many units must be manufactured.",
+        "Production determines material purchases and labor requirements.",
+        "Finally, management estimates cash requirements and prepares the financial budget."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Operating Budget",
+      "content": [
+        "The operating budget includes the company's day-to-day activities.",
+        "Typical components include sales, production, direct materials, labor, manufacturing overhead, selling expenses and administrative expenses.",
+        "The operating budget ultimately leads to the budgeted income statement."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Financial Budget",
+      "content": [
+        "The financial budget focuses on the company's financial position.",
+        "It includes the cash budget, budgeted balance sheet and capital financing needs.",
+        "Managers use financial budgets to ensure sufficient liquidity throughout the planning period."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Cash Budget",
+      "content": [
+        "A company expects high sales during the summer but must purchase inventory months earlier.",
+        "The cash budget helps management determine whether additional financing will be needed before customer payments are received."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Capital Budget",
+      "content": [
+        "Capital budgets focus on long-term investments such as machinery, buildings and technology.",
+        "These investments often require significant financial resources and affect the business for many years.",
+        "Managers evaluate capital projects using investment analysis techniques."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Master Budget",
+      "content": [
+        "The master budget combines all individual budgets into one comprehensive financial plan.",
+        "It summarizes the organization's expected financial performance and financial position.",
+        "Senior management uses the master budget to evaluate whether business objectives can be achieved."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Static Budget",
+      "content": [
+        "A static budget is prepared for one expected level of activity.",
+        "It does not change if actual sales or production differ from expectations.",
+        "Static budgets are useful for planning but less effective for performance evaluation when activity levels change significantly."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Static Budget",
+      "content": [
+        "A company prepares a budget assuming sales of 50,000 units.",
+        "Actual sales become 60,000 units.",
+        "Comparing actual costs directly with the static budget may give misleading conclusions."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Flexible Budget",
+      "content": [
+        "A flexible budget adjusts expected costs and revenues based on the actual activity level.",
+        "It provides a fairer comparison between budgeted and actual performance.",
+        "Flexible budgets are especially useful when sales volumes fluctuate."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Flexible Budget",
+      "content": [
+        "The original budget assumed production of 10,000 units.",
+        "Actual production becomes 12,000 units.",
+        "The flexible budget recalculates expected variable costs for 12,000 units before comparing them with actual results."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Benefits of Budgeting",
+      "content": [
+        "Improves planning.",
+        "Coordinates departments.",
+        "Supports communication.",
+        "Allocates resources efficiently.",
+        "Provides performance benchmarks.",
+        "Encourages managers to think strategically about the future."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Limitations of Budgeting",
+      "content": [
+        "Budgets rely on forecasts that may be inaccurate.",
+        "Unexpected economic events may quickly make budgets outdated.",
+        "Poorly designed budgets may encourage managers to focus on meeting budget targets rather than creating long-term value.",
+        "Preparing detailed budgets can require significant time and resources."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Shipping Example",
+      "content": [
+        "A ship management company prepares annual operating budgets for every vessel in its fleet.",
+        "The budget includes crew costs, repairs and maintenance, spare parts, lubricants, insurance, dry docking, stores, communication, administration and other operating expenses.",
+        "Fleet managers compare actual vessel costs with the budget throughout the year to identify cost overruns and improve future planning."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Vessel Budget",
+      "content": [
+        "A vessel has an annual repair budget of $750,000.",
+        "After six months, actual repair costs are already $600,000.",
+        "Management investigates whether the higher costs are caused by unexpected breakdowns, inflation or poor planning before adjusting the remaining budget."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming budgets predict the future perfectly.",
+        "Failing to update budgets when business conditions change.",
+        "Using budgets only to control employees instead of supporting decision making.",
+        "Comparing actual performance with a static budget when activity levels differ significantly."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Limitations",
+      "content": [
+        "Budgets are based on assumptions about future sales, prices and costs.",
+        "Unexpected events such as inflation, supply chain disruptions or economic recessions may reduce their accuracy.",
+        "Managers should regularly review and revise budgets when significant changes occur."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "The most successful organizations view budgets as management tools rather than fixed rules. Budgets should guide decision making, encourage communication and support continuous improvement instead of simply measuring whether managers stayed within spending limits."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "A budget is a financial plan for a future period.",
+        "Budgets support planning, coordination and performance evaluation.",
+        "Operating budgets focus on daily operations.",
+        "Financial budgets focus on cash flow and financial position.",
+        "Capital budgets evaluate long-term investments.",
+        "The master budget combines all individual budgets.",
+        "Flexible budgets provide more meaningful performance comparisons than static budgets when activity levels change.",
+        "Budgets should support decision making rather than simply controlling costs."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Why do most organizations begin the budgeting process with a sales forecast?",
+        "When would a flexible budget provide a better performance evaluation than a static budget?",
+        "How could effective budgeting improve the profitability of a shipping company managing dozens of vessels?"
+      ]
+    }
+  ]
+}
