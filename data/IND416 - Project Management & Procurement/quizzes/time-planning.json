@@ -1,1 +1,125 @@
-
+{
+  "title": "Time Planning & Scheduling",
+  "questions": [
+    {
+      "question": "A project manager begins by assigning calendar dates to activities before defining any dependencies. What is the primary weakness of this approach?",
+      "options": [
+        "It ignores logical relationships between activities.",
+        "It prevents the use of milestones.",
+        "It makes Gantt charts impossible to create.",
+        "It automatically increases project cost."
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Professional scheduling begins with defining logical dependencies. Dates should be assigned only after the activity network has been established."
+    },
+    {
+      "question": "Which statement best describes the purpose of a project schedule?",
+      "options": [
+        "To produce an attractive timeline for management presentations.",
+        "To estimate employee salaries.",
+        "To support project decision-making by showing activity dependencies, timing and risk.",
+        "To replace the Work Breakdown Structure."
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "A schedule is a decision-support tool that helps managers understand project logic, evaluate delays and allocate resources effectively."
+    },
+    {
+      "question": "A milestone differs from a normal activity because it:",
+      "options": [
+        "Consumes no resources and has zero duration.",
+        "Always occurs at the end of the project.",
+        "Can only be created by the project sponsor.",
+        "Cannot be delayed."
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Milestones represent significant events and therefore have zero duration."
+    },
+    {
+      "question": "Which scheduling tool is best suited for visualizing logical dependencies between activities?",
+      "options": [
+        "Budget Report",
+        "Risk Register",
+        "Network Diagram",
+        "Procurement Plan"
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "Network diagrams emphasize dependencies and form the basis for Critical Path calculations."
+    },
+    {
+      "question": "The Critical Path is best defined as:",
+      "options": [
+        "The shortest sequence of project activities.",
+        "The sequence containing the highest project cost.",
+        "The longest sequence of dependent activities determining the project's minimum duration.",
+        "Activities assigned to senior engineers."
+      ],
+      "answer": 2,
+      "difficulty": "Understanding",
+      "explanation": "The Critical Path determines the shortest possible completion time for the project."
+    },
+    {
+      "question": "A non-critical activity has five days of Float. What does this mean?",
+      "options": [
+        "It may be delayed by up to five days without delaying project completion.",
+        "The activity requires five additional workers.",
+        "The activity costs five days of overtime.",
+        "The activity must start exactly five days after its predecessor."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Float represents scheduling flexibility for non-critical activities."
+    },
+    {
+      "question": "A software project falls behind schedule. Management immediately hires ten additional developers. According to Brooks' Law, what is the greatest concern?",
+      "options": [
+        "The project budget automatically decreases.",
+        "The new developers immediately become fully productive.",
+        "Training and communication overhead may delay the project even further.",
+        "Critical activities disappear."
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Brooks' Law explains that adding people to a late project often increases coordination costs before productivity improves."
+    },
+    {
+      "question": "A contractor proposes performing electrical installation while structural work is still ongoing in order to meet a fixed deadline. Which schedule compression technique is being suggested?",
+      "options": [
+        "Crashing",
+        "Fast Tracking",
+        "Resource Leveling",
+        "Rolling Wave Planning"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Fast Tracking overlaps activities that would normally be performed sequentially."
+    },
+    {
+      "question": "A project manager discovers that Activity C has zero Float. During a weekly meeting a stakeholder requests postponing Activity C by three days. What is the BEST response?",
+      "options": [
+        "Approve the delay because three days is insignificant.",
+        "Reject the request without discussion.",
+        "Evaluate how the delay affects the Critical Path and overall project completion before making a decision.",
+        "Move another activity to compensate."
+      ],
+      "answer": 2,
+      "difficulty": "Analysis",
+      "explanation": "Activities with zero Float lie on the Critical Path, so any delay may affect the project's completion date."
+    },
+    {
+      "question": "A construction project consists of 1,800 activities. Senior management only reviews the colorful Gantt chart and ignores the underlying network logic. Which is the MOST significant project management risk?",
+      "options": [
+        "Management may overlook dependency-driven risks and make poor scheduling decisions.",
+        "The project automatically loses its Critical Path.",
+        "The Gantt chart cannot display milestones.",
+        "The project budget becomes invalid."
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "A Gantt chart is an excellent communication tool, but experienced project managers understand that dependency logic—not visualization—is what determines schedule performance."
+    }
+  ]
+}
