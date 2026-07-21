@@ -1,0 +1,254 @@
+{
+  "title": "Contribution Margin Analysis",
+  "description": "Learn how contribution margin shows how sales revenue contributes to covering fixed costs and generating profit, and how managers use it for pricing, product-mix and short-term operating decisions.",
+  "estimatedReadingTime": "14 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Understand the meaning of contribution margin.",
+        "Calculate contribution margin per unit and total contribution margin.",
+        "Calculate and interpret the contribution margin ratio.",
+        "Explain the relationship between contribution margin, fixed costs and profit.",
+        "Use contribution margin to compare products and evaluate business decisions.",
+        "Recognize the assumptions and limitations of contribution margin analysis."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Sales revenue alone does not show whether a product helps a business earn a profit. A product may generate substantial revenue while also creating high variable costs.",
+        "Contribution margin analysis separates variable costs from fixed costs and shows how much revenue remains after variable costs have been covered.",
+        "The remaining amount contributes first to covering fixed costs and then to generating profit."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "What Is Contribution Margin?",
+      "content": [
+        "Contribution margin is the difference between sales revenue and variable costs.",
+        "It measures how much a product, service or business activity contributes toward covering fixed costs and generating profit.",
+        "A positive contribution margin means each additional sale improves the company's operating result, provided the sale does not create additional fixed costs."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Contribution Margin Formula",
+      "content": [
+        "Total contribution margin is calculated by subtracting total variable costs from total sales revenue.",
+        "Contribution Margin = Sales Revenue − Variable Costs",
+        "The calculation can be performed for an entire business, a department, a product line, a customer or an individual unit."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Total Contribution Margin",
+      "content": [
+        "A company has sales revenue of $200,000 and total variable costs of $120,000.",
+        "Contribution Margin = $200,000 − $120,000 = $80,000.",
+        "The company has $80,000 available to cover fixed costs and, after those costs are covered, generate profit."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Contribution Margin per Unit",
+      "content": [
+        "Contribution margin per unit shows how much one additional unit contributes toward fixed costs and profit.",
+        "Contribution Margin per Unit = Selling Price per Unit − Variable Cost per Unit",
+        "This measure is useful when evaluating sales volumes, production alternatives and individual customer orders."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Contribution Margin per Unit",
+      "content": [
+        "A product sells for $75 per unit and has variable costs of $45 per unit.",
+        "Contribution Margin per Unit = $75 − $45 = $30.",
+        "Every unit sold contributes $30 toward fixed costs and profit."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Contribution Margin Ratio",
+      "content": [
+        "The contribution margin ratio expresses contribution margin as a percentage of sales revenue.",
+        "Contribution Margin Ratio = Contribution Margin ÷ Sales Revenue × 100%",
+        "The ratio shows how much of each sales dollar remains after variable costs have been deducted."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Contribution Margin Ratio",
+      "content": [
+        "A product sells for $100 and has variable costs of $60.",
+        "Its contribution margin is $40.",
+        "Contribution Margin Ratio = $40 ÷ $100 × 100% = 40%.",
+        "This means that 40 cents of every sales dollar contributes toward fixed costs and profit."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Contribution Margin and Profit",
+      "content": [
+        "Contribution margin is not the same as profit because fixed costs have not yet been deducted.",
+        "Operating Profit = Total Contribution Margin − Fixed Costs",
+        "When total contribution margin is lower than fixed costs, the company reports an operating loss. When it exceeds fixed costs, the company earns an operating profit."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: From Contribution Margin to Profit",
+      "content": [
+        "A company generates a total contribution margin of $90,000.",
+        "Its fixed costs are $65,000.",
+        "Operating Profit = $90,000 − $65,000 = $25,000."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Contribution Format Income Statement",
+      "content": [
+        "A contribution format income statement groups costs according to their cost behaviour rather than their business function.",
+        "Variable costs are deducted from sales revenue to calculate contribution margin. Fixed costs are then deducted to calculate operating profit.",
+        "The basic structure is: Sales Revenue − Variable Costs = Contribution Margin − Fixed Costs = Operating Profit.",
+        "This format is especially useful for internal planning and managerial decision-making."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Why Contribution Margin Matters",
+      "content": [
+        "Contribution margin helps managers understand how changes in selling price, sales volume and variable cost affect profitability.",
+        "It can be used to compare products, evaluate special orders, prioritize scarce resources and assess whether a business activity should continue.",
+        "Because fixed costs generally remain unchanged in the short term, contribution margin is particularly useful for short-term decisions."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Comparing Two Products",
+      "content": [
+        "Product A sells for $120 and has variable costs of $70, giving a contribution margin of $50 per unit.",
+        "Product B sells for $90 and has variable costs of $50, giving a contribution margin of $40 per unit.",
+        "Based only on contribution margin per unit, Product A contributes more toward fixed costs and profit.",
+        "However, management should also consider sales demand and any scarce resources required by each product."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Contribution Margin and Scarce Resources",
+      "content": [
+        "The product with the highest contribution margin per unit is not always the most profitable use of a limited resource.",
+        "When production capacity is constrained, managers should calculate contribution margin per unit of the scarce resource.",
+        "The scarce resource may be machine hours, labor hours, production capacity, storage space or another limiting factor."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Limited Machine Hours",
+      "content": [
+        "Product A has a contribution margin of $60 and requires three machine hours, giving $20 of contribution margin per machine hour.",
+        "Product B has a contribution margin of $45 and requires one machine hour, giving $45 of contribution margin per machine hour.",
+        "If machine hours are limited and demand exists for both products, Product B should normally receive priority because it generates more contribution margin from each scarce machine hour."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Evaluating a Special Order",
+      "content": [
+        "A special order is a one-time customer order that may be offered at a price below the normal selling price.",
+        "When unused production capacity exists, the order may be financially attractive if its revenue exceeds the additional variable and other relevant costs.",
+        "Existing fixed costs should not automatically be assigned to the order when they will remain unchanged regardless of whether the order is accepted."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Special Order",
+      "content": [
+        "A company normally sells a product for $80. Its variable cost is $48 per unit.",
+        "A customer offers to buy 1,000 units for $60 each, and the company has sufficient unused capacity.",
+        "The special-order contribution margin is $60 − $48 = $12 per unit, or $12,000 in total.",
+        "Financially, the order improves profit by $12,000 if it creates no additional fixed costs and does not harm normal sales."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Shipping Example",
+      "content": [
+        "A vessel operator can use contribution margin analysis when evaluating whether to accept an additional voyage.",
+        "Voyage revenue should be compared with voyage-specific variable costs such as fuel, port charges, canal fees and cargo-handling expenses.",
+        "If the voyage produces a positive contribution margin and does not displace a more profitable opportunity, it may improve the vessel's overall result even if the price does not cover an allocated share of all annual fixed costs."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Additional Voyage",
+      "content": [
+        "An additional voyage would generate freight revenue of $500,000.",
+        "The incremental voyage costs are estimated at $380,000.",
+        "The voyage contribution margin is $120,000.",
+        "If vessel ownership, insurance and management costs remain unchanged, the voyage would increase operating profit by $120,000 before considering opportunity costs and commercial risks."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "A Positive Contribution Margin Does Not Always Mean Accept",
+      "content": [
+        "A positive contribution margin is important, but it is not the only factor managers should consider.",
+        "An order may use capacity needed for a more profitable customer, reduce normal market prices, create quality problems or require additional fixed costs.",
+        "Managers should consider opportunity costs, capacity constraints, customer relationships and long-term strategic effects before making a decision."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Mistakes",
+      "content": [
+        "Do not confuse contribution margin with operating profit. Fixed costs must still be deducted.",
+        "Do not classify a cost as variable merely because its total amount changes occasionally. The classification should reflect how the cost behaves as activity changes.",
+        "Do not select products using only contribution margin per unit when a scarce resource limits production.",
+        "Do not assume all fixed costs are irrelevant. A decision may create avoidable or additional fixed costs."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Assumptions and Limitations",
+      "content": [
+        "Contribution margin analysis often assumes that selling price and variable cost per unit remain constant within the relevant range.",
+        "It also assumes that costs can be classified reliably as variable or fixed.",
+        "In reality, discounts, overtime, capacity limits, inflation and mixed costs may cause these relationships to change.",
+        "Contribution margin is therefore a decision-support tool rather than a perfect prediction of future results."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Contribution margin shifts managerial attention from allocated total cost to the economic effect of a decision. For short-term decisions, the key question is often not whether a sale covers every allocated cost, but whether the additional revenue exceeds the costs and opportunity costs caused by accepting it."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Contribution margin equals sales revenue minus variable costs.",
+        "Contribution margin per unit equals selling price per unit minus variable cost per unit.",
+        "The contribution margin ratio shows the percentage of revenue available to cover fixed costs and profit.",
+        "Operating profit equals total contribution margin minus fixed costs.",
+        "Contribution margin supports pricing, product-mix and special-order decisions.",
+        "When resources are limited, products should be compared using contribution margin per unit of the scarce resource.",
+        "A positive contribution margin does not automatically make a decision strategically attractive."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Why can a product with a positive contribution margin still be unprofitable for the company overall?",
+        "Why might the product with the highest contribution margin per unit not receive production priority?",
+        "What financial and non-financial factors should a vessel operator consider before accepting an additional voyage?"
+      ]
+    }
+  ]
+}
