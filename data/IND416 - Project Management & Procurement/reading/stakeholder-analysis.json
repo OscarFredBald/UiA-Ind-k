@@ -1,0 +1,232 @@
+{
+  "title": "Stakeholder Analysis",
+  "description": "Learn how to identify stakeholders, analyze their interests and influence, prioritize engagement efforts and develop effective stakeholder management strategies throughout the project lifecycle.",
+  "estimatedReadingTime": "10 min",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "id": "learning-objectives",
+      "type": "learningObjectives",
+      "heading": "Learning Objectives",
+      "bullets": [
+        "Explain why stakeholder management is essential for project success.",
+        "Identify internal and external stakeholders.",
+        "Analyze stakeholder power, interest and influence.",
+        "Distinguish stakeholder identification, analysis and engagement.",
+        "Develop appropriate engagement strategies for different stakeholder groups.",
+        "Understand how stakeholder expectations evolve throughout a project."
+      ]
+    },
+    {
+      "id": "what-is-a-stakeholder",
+      "type": "theory",
+      "heading": "What Is a Stakeholder?",
+      "paragraphs": [
+        "A stakeholder is any individual, group or organization that can affect, be affected by or perceive itself to be affected by the project.",
+        "Stakeholders are not limited to customers or sponsors. They include project team members, suppliers, regulators, functional managers, local communities, shareholders and many others.",
+        "Projects exist within organizations and societies. Understanding who has an interest in the project is therefore essential for effective decision-making and successful delivery."
+      ]
+    },
+    {
+      "id": "why-stakeholders-matter",
+      "type": "theory",
+      "heading": "Why Stakeholder Management Matters",
+      "paragraphs": [
+        "Technical excellence alone rarely guarantees project success. Projects frequently succeed or fail because of stakeholder support or resistance.",
+        "A technically perfect solution may fail if users refuse to adopt it, senior management withdraws funding or regulatory authorities reject approvals.",
+        "Effective stakeholder management reduces resistance, builds trust, improves communication and increases the likelihood of achieving project objectives."
+      ],
+      "bullets": [
+        "Improves communication.",
+        "Reduces conflict.",
+        "Supports decision-making.",
+        "Increases stakeholder commitment.",
+        "Improves benefits realization.",
+        "Reduces project risk."
+      ]
+    },
+    {
+      "id": "stakeholder-identification",
+      "type": "theory",
+      "heading": "Identifying Stakeholders",
+      "paragraphs": [
+        "Stakeholder identification should begin as early as possible during project initiation and continue throughout the project lifecycle.",
+        "New stakeholders may emerge as the project evolves, while existing stakeholders may gain or lose influence.",
+        "Identification involves determining who has an interest in the project and understanding how they relate to its objectives."
+      ],
+      "bullets": [
+        "Project Sponsor",
+        "Customers",
+        "End users",
+        "Project team",
+        "Functional managers",
+        "Suppliers",
+        "Contractors",
+        "Regulators",
+        "Government agencies",
+        "Local communities",
+        "Investors"
+      ]
+    },
+    {
+      "id": "internal-vs-external",
+      "type": "theory",
+      "heading": "Internal and External Stakeholders",
+      "paragraphs": [
+        "Internal stakeholders belong to the organization performing the project. They typically include management, employees and project teams.",
+        "External stakeholders operate outside the organization. These may include customers, suppliers, government agencies, regulators and the public.",
+        "Both groups can significantly influence project outcomes, although they often have different priorities and expectations."
+      ]
+    },
+    {
+      "id": "stakeholder-analysis",
+      "type": "theory",
+      "heading": "Stakeholder Analysis",
+      "paragraphs": [
+        "After identifying stakeholders, the Project Manager must analyze their interests, expectations, influence and potential impact on the project.",
+        "Stakeholder analysis helps determine where communication and engagement efforts should be focused.",
+        "The objective is not to satisfy every stakeholder equally but to understand who requires the greatest attention and why."
+      ]
+    },
+    {
+      "id": "power-interest-grid",
+      "type": "theory",
+      "heading": "The Power-Interest Grid",
+      "paragraphs": [
+        "One of the most widely used stakeholder analysis tools is the Power-Interest Grid.",
+        "Stakeholders are classified according to their level of authority (power) and their level of concern about the project (interest).",
+        "Different combinations require different engagement strategies."
+      ],
+      "bullets": [
+        "High Power + High Interest → Manage Closely.",
+        "High Power + Low Interest → Keep Satisfied.",
+        "Low Power + High Interest → Keep Informed.",
+        "Low Power + Low Interest → Monitor with minimal effort."
+      ]
+    },
+    {
+      "id": "engagement-strategies",
+      "type": "theory",
+      "heading": "Stakeholder Engagement Strategies",
+      "paragraphs": [
+        "Stakeholder engagement involves communicating with stakeholders and involving them appropriately throughout the project.",
+        "Not every stakeholder requires the same amount of communication. Engagement should match the stakeholder's influence, expectations and information needs.",
+        "Too little communication creates uncertainty, while excessive communication can waste project resources."
+      ],
+      "bullets": [
+        "Executive briefings",
+        "Status meetings",
+        "Workshops",
+        "Demonstrations",
+        "Progress reports",
+        "Newsletters",
+        "One-to-one meetings",
+        "Formal governance reviews"
+      ]
+    },
+    {
+      "id": "stakeholder-register",
+      "type": "theory",
+      "heading": "The Stakeholder Register",
+      "paragraphs": [
+        "The stakeholder register documents important information about identified stakeholders.",
+        "Typical information includes names, roles, interests, influence, communication preferences and engagement strategies.",
+        "The register should be updated throughout the project because stakeholder relationships often change."
+      ]
+    },
+    {
+      "id": "example-new-system",
+      "type": "example",
+      "heading": "Example: Implementing a New ERP System",
+      "paragraphs": [
+        "A manufacturing company introduces a new ERP system.",
+        "Senior management wants improved reporting and operational efficiency. Finance focuses on accounting compliance. Warehouse employees prioritize usability. IT is concerned with system integration.",
+        "Although all stakeholders support the same project, each defines success differently. The Project Manager must balance these expectations while maintaining project objectives."
+      ]
+    },
+    {
+      "id": "stakeholder-conflicts",
+      "type": "theory",
+      "heading": "Managing Conflicting Stakeholder Interests",
+      "paragraphs": [
+        "Projects frequently involve stakeholders whose objectives conflict.",
+        "Marketing may request additional features while operations demand simplicity. Finance may prioritize cost reduction while users request higher functionality.",
+        "The Project Manager cannot satisfy every request. Decisions should instead be guided by governance processes, strategic priorities and the approved Business Case."
+      ]
+    },
+    {
+      "id": "communication-and-trust",
+      "type": "theory",
+      "heading": "Communication Builds Trust",
+      "paragraphs": [
+        "Successful stakeholder management depends heavily on communication.",
+        "Stakeholders generally accept unfavorable decisions more readily when they understand why decisions were made and believe the process was fair.",
+        "Regular, transparent communication reduces uncertainty and strengthens confidence in the project team."
+      ]
+    },
+    {
+      "id": "stakeholder-engagement-over-time",
+      "type": "theory",
+      "heading": "Stakeholder Engagement Changes Over Time",
+      "paragraphs": [
+        "Stakeholder priorities are rarely static.",
+        "As projects move from initiation to planning, execution and closing, different stakeholders become more or less important.",
+        "The Project Manager should continuously reassess stakeholder influence and update engagement plans accordingly."
+      ]
+    },
+    {
+      "id": "example-regulator",
+      "type": "example",
+      "heading": "Example: A Changing Stakeholder Landscape",
+      "paragraphs": [
+        "During construction of a new logistics terminal, regulators initially have limited involvement.",
+        "As environmental approvals become necessary, regulatory agencies become one of the project's highest-priority stakeholders.",
+        "This demonstrates why stakeholder analysis is a continuous activity rather than a one-time exercise."
+      ]
+    },
+    {
+      "id": "common-mistakes",
+      "type": "theory",
+      "heading": "Common Stakeholder Management Mistakes",
+      "paragraphs": [
+        "Projects often underestimate the importance of stakeholder management.",
+        "Ignoring resistant stakeholders, assuming all stakeholders share the same objectives or communicating only when problems arise can significantly increase project risk.",
+        "Successful Project Managers invest time in understanding people as carefully as they understand technical work."
+      ],
+      "bullets": [
+        "Identifying stakeholders too late.",
+        "Communicating the same information to everyone.",
+        "Ignoring informal influencers.",
+        "Failing to update stakeholder analysis.",
+        "Confusing stakeholder satisfaction with stakeholder engagement."
+      ]
+    },
+    {
+      "id": "expert-insight",
+      "type": "expertInsight",
+      "heading": "Expert Insight",
+      "paragraphs": [
+        "Many experienced Project Managers argue that stakeholder management is the single most important leadership activity in complex projects.",
+        "Projects rarely fail because schedules cannot be created. They fail because people disagree, priorities change, decisions are delayed or stakeholders lose confidence.",
+        "Understanding stakeholders early allows Project Managers to anticipate problems before they become project crises."
+      ]
+    },
+    {
+      "id": "key-takeaways",
+      "type": "summary",
+      "heading": "Key Takeaways",
+      "bullets": [
+        "Stakeholders are individuals or groups that affect or are affected by the project.",
+        "Stakeholder management should begin during project initiation.",
+        "Different stakeholders define project success differently.",
+        "The Power-Interest Grid helps prioritize engagement efforts.",
+        "Stakeholder engagement should match stakeholder influence and needs.",
+        "Communication builds trust and reduces uncertainty.",
+        "Stakeholder priorities change throughout the project lifecycle.",
+        "The stakeholder register should be updated continuously.",
+        "Managing people is often as important as managing technical work.",
+        "Strong stakeholder management significantly increases the likelihood of project success."
+      ]
+    }
+  ]
+}
