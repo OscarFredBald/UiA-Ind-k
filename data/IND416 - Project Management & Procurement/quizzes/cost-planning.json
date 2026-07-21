@@ -122,3 +122,247 @@
       "difficulty": "Application",
       "explanation": "Direct costs can be directly assigned to the project, such as project-specific materials, labor and equipment."
     },
+
+        {
+      "question": "Which of the following is typically considered an indirect project cost?",
+      "options": [
+        "Steel purchased for a bridge",
+        "Wages paid to construction workers",
+        "Office rent for the company's headquarters",
+        "Concrete used for the project foundation"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Indirect costs support multiple projects or the organization as a whole and cannot be directly assigned to a single project."
+    },
+    {
+      "question": "A software company pays a fixed monthly office lease regardless of how many projects are running. This is an example of:",
+      "options": [
+        "A variable cost",
+        "A direct cost",
+        "A fixed cost",
+        "A contingency reserve"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Fixed costs remain constant regardless of project activity or production levels."
+    },
+    {
+      "question": "Fuel costs for construction equipment increase as the equipment is used more frequently. This is an example of:",
+      "options": [
+        "A fixed cost",
+        "A management reserve",
+        "A variable cost",
+        "An indirect cost"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Variable costs change depending on the level of project activity."
+    },
+    {
+      "question": "A project team identifies the possibility that material prices could increase by 8% during construction. Which reserve should normally be included in the project budget?",
+      "options": [
+        "Management Reserve",
+        "Contingency Reserve",
+        "Operating Profit",
+        "Schedule Float"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Contingency reserves are established to cover known risks that have been identified during project planning."
+    },
+    {
+      "question": "During execution, a completely unexpected government regulation requires major redesign work that was not identified as a project risk. Which reserve would most likely be used?",
+      "options": [
+        "Contingency Reserve",
+        "Cost Baseline",
+        "Management Reserve",
+        "Activity Float"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Management reserves cover unforeseen events and unknown risks that were not included in the original risk register."
+    },
+    {
+      "question": "Why is it important to distinguish between contingency reserves and management reserves?",
+      "options": [
+        "Because they are approved and controlled differently",
+        "Because they always have the same purpose",
+        "Because contingency reserves are never included in project planning",
+        "Because management reserves replace the project budget"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Contingency reserves are planned for identified risks, while management reserves are typically controlled separately for unknown events."
+    },
+    {
+      "question": "What is the primary purpose of the Cost Baseline?",
+      "options": [
+        "To estimate future project risks",
+        "To provide the approved budget against which project performance is measured",
+        "To calculate project profits",
+        "To determine employee salaries"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "The Cost Baseline serves as the approved reference for comparing planned and actual project costs."
+    },
+    {
+      "question": "A project manager notices that actual spending is higher than planned during the first three months of the project. What should the project manager do first?",
+      "options": [
+        "Immediately request additional funding",
+        "Compare actual costs with the Cost Baseline and determine the cause of the variance",
+        "Cancel the remaining project activities",
+        "Reduce the project scope without consulting stakeholders"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Before taking corrective action, the project manager should understand why the variance occurred and whether it is likely to continue."
+    },
+    {
+      "question": "Which statement best describes cost monitoring during project execution?",
+      "options": [
+        "Costs are only reviewed when the project finishes",
+        "Actual spending is continuously compared with planned spending to identify deviations early",
+        "Cost monitoring is only necessary for construction projects",
+        "Budgets should never be updated after approval"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Regular cost monitoring helps detect problems early and allows corrective actions before significant budget overruns occur."
+    },
+    {
+      "question": "Which project management technique integrates scope, schedule and cost performance into one measurement system?",
+      "options": [
+        "Critical Path Method",
+        "Earned Value Management (EVM)",
+        "Stakeholder Analysis",
+        "Monte Carlo Simulation"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "Earned Value Management combines scope, schedule and cost information to evaluate overall project performance and forecast future outcomes."
+    },
+
+        {
+      "question": "In Earned Value Management (EVM), what does Planned Value (PV) represent?",
+      "options": [
+        "The actual amount of money spent on the project",
+        "The estimated value of the work that should have been completed by a specific date",
+        "The value of completed work based on actual progress",
+        "The remaining project budget"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "Planned Value (PV) is the authorized budget assigned to the work that was scheduled to be completed by a given point in time."
+    },
+    {
+      "question": "What does Actual Cost (AC) measure?",
+      "options": [
+        "The budgeted cost of completed work",
+        "The money that has actually been spent to perform the work completed",
+        "The estimated final project cost",
+        "The remaining contingency reserve"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "Actual Cost (AC) is the real amount spent on the project up to the reporting date."
+    },
+    {
+      "question": "What does Earned Value (EV) represent?",
+      "options": [
+        "The amount of money remaining in the budget",
+        "The value of the work actually completed, expressed in terms of the approved budget",
+        "The project's total estimated cost",
+        "The amount spent on project resources"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "Earned Value measures how much planned work has actually been completed, using the approved budget as the reference."
+    },
+    {
+      "question": "A project has an Earned Value (EV) of $90,000 and an Actual Cost (AC) of $100,000. What does this indicate?",
+      "options": [
+        "The project is under budget",
+        "The project is over budget",
+        "The project is ahead of schedule",
+        "The project has no cost variance"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Since EV is lower than AC, the project has spent more than the value of the work completed and is therefore over budget."
+    },
+    {
+      "question": "A project has an Earned Value (EV) of $120,000 and an Actual Cost (AC) of $100,000. Which statement is correct?",
+      "options": [
+        "The project is over budget",
+        "The project is under budget",
+        "The project is behind schedule",
+        "The project has exhausted its contingency reserve"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "When EV exceeds AC, the project has delivered more value than it has spent, indicating it is under budget."
+    },
+    {
+      "question": "A project has a Planned Value (PV) of $150,000 but an Earned Value (EV) of only $120,000. What does this suggest?",
+      "options": [
+        "The project is ahead of schedule",
+        "The project is behind schedule",
+        "The project is under budget",
+        "The project has exceeded its budget"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "If EV is lower than PV, less work has been completed than was planned, indicating the project is behind schedule."
+    },
+    {
+      "question": "Why do many organizations use Earned Value Management instead of simply comparing actual spending with the budget?",
+      "options": [
+        "Because EVM evaluates both cost and project progress at the same time",
+        "Because EVM eliminates all project risks",
+        "Because EVM guarantees projects finish on time",
+        "Because EVM replaces the project schedule"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Simply spending less money does not necessarily mean a project is performing well. EVM considers both spending and actual work completed."
+    },
+    {
+      "question": "A project manager reports that the project has spent only 60% of its budget, but only 40% of the planned work has been completed. What is the best interpretation?",
+      "options": [
+        "The project is performing well because less money has been spent",
+        "The project may actually be behind schedule despite lower spending",
+        "The project has exceeded its budget",
+        "The project should immediately be closed"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "Low spending alone is not necessarily positive if progress is even lower than expected."
+    },
+    {
+      "question": "Which statement best summarizes good project cost management?",
+      "options": [
+        "Create a budget once and avoid changing it",
+        "Focus only on minimizing project costs",
+        "Estimate costs realistically, monitor performance continuously, and respond to deviations early",
+        "Spend the entire contingency reserve before project completion"
+      ],
+      "answer": 2,
+      "difficulty": "Expert",
+      "explanation": "Successful cost management combines realistic planning with continuous monitoring and timely corrective action."
+    },
+    {
+      "question": "A project sponsor asks whether the project is healthy. Which answer provides the most complete assessment?",
+      "options": [
+        "We are under budget.",
+        "We are ahead of schedule.",
+        "We have spent less money than expected.",
+        "We should evaluate cost, schedule and completed work together using measures such as Earned Value Management."
+      ],
+      "answer": 3,
+      "difficulty": "Expert",
+      "explanation": "A project's health cannot be judged from cost or schedule alone. Earned Value Management combines cost, schedule and scope performance to provide a complete picture of project performance."
+    }
+  ]
+}
