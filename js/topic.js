@@ -2,11 +2,13 @@ const params = new URLSearchParams(window.location.search);
 
 const topicsFile = params.get("topics");
 const topicId = params.get("topic");
-const courseFile = params.get("course");
+const courseId = params.get("course");
 
 const courseCodeElement = document.getElementById("course-code");
 const topicTitleElement = document.getElementById("topic-title");
-const topicDescriptionElement = document.getElementById("topic-description");
+const topicDescriptionElement = document.getElementById(
+  "topic-description"
+);
 
 const backToCourseLink = document.getElementById("back-to-course");
 const readingLink = document.getElementById("reading-link");
@@ -60,7 +62,7 @@ async function initializeTopicPage() {
 
     if (!topic) {
       throw new Error(
-        `The topic "${topicId}" could not be found in the topics file.`
+        `The topic "${topicId}" could not be found.`
       );
     }
 
@@ -70,7 +72,7 @@ async function initializeTopicPage() {
 
     showError(
       error.message ||
-      "The selected topic could not be loaded."
+        "The selected topic could not be loaded."
     );
   }
 }
@@ -93,7 +95,7 @@ function renderTopic(courseData, topic) {
   const courseCode =
     courseData.courseCode ||
     courseData.code ||
-    "Course module";
+    "Course";
 
   const courseTitle =
     courseData.courseTitle ||
@@ -107,7 +109,8 @@ function renderTopic(courseData, topic) {
     ? `${courseCode} · ${courseTitle}`
     : courseCode;
 
-  topicTitleElement.textContent = topic.title;
+  topicTitleElement.textContent =
+    topic.title || "Untitled topic";
 
   topicDescriptionElement.textContent =
     topic.description ||
@@ -124,17 +127,9 @@ function renderTopic(courseData, topic) {
 }
 
 function configureBackLink() {
-  if (courseFile) {
+  if (courseId) {
     backToCourseLink.href =
-      `course.html?file=${encodeURIComponent(courseFile)}`;
-
-    return;
-  }
-
-  if (topicsFile) {
-    backToCourseLink.href =
-      `course.html?topics=${encodeURIComponent(topicsFile)}`;
-
+      `course.html?course=${encodeURIComponent(courseId)}`;
     return;
   }
 
@@ -143,30 +138,28 @@ function configureBackLink() {
 
 function configureReadingLink(topic) {
   if (!topic.reading) {
-    disableLink(
-      readingLink,
-      "Reading unavailable"
-    );
-
+    disableLink(readingLink, "Reading unavailable");
     return;
   }
 
   readingLink.href =
-    `reading.html?file=${encodeURIComponent(topic.reading)}`;
+    `reading.html?file=${encodeURIComponent(topic.reading)}` +
+    `&course=${encodeURIComponent(courseId || "")}` +
+    `&topics=${encodeURIComponent(topicsFile)}` +
+    `&topic=${encodeURIComponent(topicId)}`;
 }
 
 function configureQuizLink(topic) {
   if (!topic.quiz) {
-    disableLink(
-      quizLink,
-      "Quiz unavailable"
-    );
-
+    disableLink(quizLink, "Quiz unavailable");
     return;
   }
 
   quizLink.href =
-    `quiz.html?file=${encodeURIComponent(topic.quiz)}`;
+    `quiz.html?file=${encodeURIComponent(topic.quiz)}` +
+    `&course=${encodeURIComponent(courseId || "")}` +
+    `&topics=${encodeURIComponent(topicsFile)}` +
+    `&topic=${encodeURIComponent(topicId)}`;
 }
 
 function disableLink(link, label) {
@@ -239,9 +232,7 @@ function showError(message) {
   topicContent.hidden = true;
   errorSection.hidden = false;
 
-  topicTitleElement.textContent =
-    "Module unavailable";
-
+  topicTitleElement.textContent = "Module unavailable";
   topicDescriptionElement.textContent =
     "The requested module could not be opened.";
 
