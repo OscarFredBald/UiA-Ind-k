@@ -1,1 +1,101 @@
-
+{
+  "title": "Project Success & The Project Manager",
+  "questions": [
+    {
+      "question": "A software project is completed on time and within budget, but employees refuse to use the system. What is the best conclusion?",
+      "options": [
+        "The project was successful because it met the schedule.",
+        "The project failed to deliver its intended business value.",
+        "The project manager should immediately increase the budget.",
+        "The project should automatically be closed without evaluation."
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Project success depends on achieving the intended business outcomes, not just meeting time and budget targets."
+    },
+    {
+      "question": "Which of the following is traditionally included in the Iron Triangle?",
+      "options": [
+        "Quality, Sustainability and Risk",
+        "Scope, Time and Cost",
+        "Leadership, Budget and Communication",
+        "Customer Satisfaction, Cost and Profit"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "The traditional Iron Triangle consists of Scope, Time and Cost."
+    },
+    {
+      "question": "A project manager spends most of the day resolving conflicts between departments rather than updating schedules. Which project management skill is primarily being demonstrated?",
+      "options": [
+        "Programming",
+        "Leadership",
+        "Accounting",
+        "Procurement"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Leading people, resolving conflicts and motivating teams are key leadership responsibilities."
+    },
+    {
+      "question": "Who is normally responsible for ensuring that a project continues to support the organization's strategic objectives?",
+      "options": [
+        "Project Sponsor",
+        "Project Engineer",
+        "Procurement Officer",
+        "Quality Inspector"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "The Project Sponsor owns the business case and ensures the project continues to create organizational value."
+    },
+    {
+      "question": "A project team requests additional features halfway through development. The customer agrees, but the deadline remains unchanged. Which project management principle is most relevant?",
+      "options": [
+        "Increasing scope without changing time or cost increases project pressure and risk.",
+        "Additional scope never affects project performance.",
+        "Scope changes only influence procurement.",
+        "Deadlines automatically adjust when scope changes."
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "The Iron Triangle illustrates that increasing scope typically affects either time, cost or quality."
+    },
+    {
+      "question": "A technically perfect bridge is completed exactly as designed, but traffic studies later show that almost nobody uses it. Which statement best describes the outcome?",
+      "options": [
+        "The project achieved technical success but questionable business success.",
+        "The project completely failed because it exceeded the budget.",
+        "The project manager automatically failed.",
+        "The bridge should never have been inspected."
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Technical success does not necessarily mean that the project created value for the organization or society."
+    },
+    {
+      "question": "Why is emotional intelligence increasingly considered an important competency for project managers?",
+      "options": [
+        "Because projects depend heavily on communication, collaboration and conflict resolution.",
+        "Because it replaces technical knowledge.",
+        "Because it automatically improves project budgets.",
+        "Because it removes project risks."
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Modern projects require managers who can understand, motivate and influence people as well as manage technical work."
+    },
+    {
+      "question": "A project manager delivers every milestone exactly as planned, but the sponsor concludes that the project should never have been started because it no longer supports company strategy. What does this illustrate?",
+      "options": [
+        "Excellent project execution cannot compensate for poor project selection.",
+        "Project managers should ignore organizational strategy.",
+        "Schedules are more important than business value.",
+        "Stakeholder analysis becomes unnecessary after initiation."
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Even perfectly managed projects can fail if they are not aligned with the organization's strategic objectives."
+    }
+  ]
+}
