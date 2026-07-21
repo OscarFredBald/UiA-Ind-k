@@ -1,0 +1,368 @@
+{
+  "title": "Budgeting",
+  "description": "Test your understanding of budgeting, operating budgets, financial budgets, capital budgets, master budgets, static budgets and flexible budgets.",
+  "questions": [
+    {
+      "question": "What is a budget?",
+      "options": [
+        "A financial plan for a future period",
+        "A report of historical transactions only",
+        "A calculation of the market value of a company",
+        "A list of all unpaid invoices"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "A budget is a financial plan that estimates future revenues, costs, cash flows and resource needs."
+    },
+    {
+      "question": "What is one of the main purposes of budgeting?",
+      "options": [
+        "To eliminate all uncertainty",
+        "To help managers plan and allocate resources",
+        "To replace financial accounting",
+        "To guarantee future profits"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Budgets help managers plan future activities and allocate limited resources."
+    },
+    {
+      "question": "Which budget usually serves as the starting point for the budgeting process?",
+      "options": [
+        "Sales budget",
+        "Cash budget",
+        "Capital budget",
+        "Administrative expense budget"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Expected sales normally determine production, purchasing, staffing and cash requirements."
+    },
+    {
+      "question": "Which budget focuses primarily on day-to-day business activities?",
+      "options": [
+        "Operating budget",
+        "Capital budget",
+        "Financial budget",
+        "Investment portfolio budget"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The operating budget covers activities such as sales, production, materials, labor and operating expenses."
+    },
+    {
+      "question": "Which item would normally be included in a financial budget?",
+      "options": [
+        "Cash budget",
+        "Direct labor budget",
+        "Production budget",
+        "Sales commission budget"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Financial budgets include cash planning, financing needs and the budgeted financial position."
+    },
+    {
+      "question": "What is the purpose of a capital budget?",
+      "options": [
+        "To plan long-term investments in assets",
+        "To calculate daily sales revenue",
+        "To record historical depreciation",
+        "To allocate overhead between products"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Capital budgets evaluate major long-term investments such as machinery, buildings and technology."
+    },
+    {
+      "question": "What is a master budget?",
+      "options": [
+        "A combined plan containing the organization's individual budgets",
+        "A budget prepared only by the accounting department",
+        "A plan covering only fixed costs",
+        "A budget that cannot be revised"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "The master budget combines the operating and financial budgets into one comprehensive plan."
+    },
+    {
+      "question": "A company expects to sell 40,000 units and wants ending inventory of 5,000 units. Beginning inventory is 3,000 units. How many units should it produce?",
+      "options": [
+        "38,000 units",
+        "40,000 units",
+        "42,000 units",
+        "48,000 units"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Required production equals expected sales plus desired ending inventory minus beginning inventory: 40,000 + 5,000 − 3,000 = 42,000 units."
+    },
+    {
+      "question": "Why is a cash budget important even for a profitable company?",
+      "options": [
+        "A profitable company may still lack enough cash to pay its obligations",
+        "Profit and cash are always identical",
+        "Cash budgets eliminate the need for financing",
+        "Profitable companies do not need liquidity planning"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Revenue and expenses may be recognized at different times from cash receipts and payments, creating liquidity problems."
+    },
+    {
+      "question": "A company prepares a budget based on sales of 60,000 units. Actual sales are 75,000 units. What is the main weakness of comparing actual costs directly with the original budget?",
+      "options": [
+        "The activity levels are different",
+        "The original budget includes no fixed costs",
+        "Actual costs cannot be measured",
+        "Sales volume has no effect on costs"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "A direct comparison may be misleading because variable costs are expected to change when activity differs from the original budget."
+    },
+
+        {
+      "question": "What is the primary advantage of a flexible budget compared with a static budget?",
+      "options": [
+        "It adjusts for the actual level of activity",
+        "It eliminates all forecasting errors",
+        "It only includes fixed costs",
+        "It never needs to be updated"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "A flexible budget adjusts expected revenues and costs based on the actual level of activity, making performance evaluations more meaningful."
+    },
+    {
+      "question": "A company prepared a static budget for producing 10,000 units but actually produced 12,000 units. Which budget should be used to evaluate performance?",
+      "options": [
+        "A flexible budget based on 12,000 units",
+        "The original static budget",
+        "The previous year's budget",
+        "Only the cash budget"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "A flexible budget reflects the actual activity level and provides a fair comparison with actual results."
+    },
+    {
+      "question": "Which budget helps management determine whether the company will have enough cash to pay suppliers and employees?",
+      "options": [
+        "Cash budget",
+        "Production budget",
+        "Sales budget",
+        "Direct labor budget"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "The cash budget forecasts cash inflows and outflows to help managers maintain sufficient liquidity."
+    },
+    {
+      "question": "Why is coordination between departments important during the budgeting process?",
+      "options": [
+        "Because one department's plans often affect the resource needs of other departments",
+        "Because departments prepare completely independent budgets",
+        "Because only the finance department uses budgets",
+        "Because coordination reduces depreciation expense"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Sales forecasts influence production, purchasing, staffing and financing, requiring departments to work together."
+    },
+    {
+      "question": "A company expects sales to increase significantly next year. Which budget will most likely need to be revised first?",
+      "options": [
+        "Production budget",
+        "Historical income statement",
+        "Previous year's balance sheet",
+        "Depreciation schedule"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Higher expected sales require adjustments to production so sufficient inventory can be produced."
+    },
+    {
+      "question": "A manager compares actual costs with a static budget and concludes that costs are too high. However, production was 20% higher than expected. What is the main problem with this conclusion?",
+      "options": [
+        "The comparison ignores the higher activity level",
+        "Static budgets include only fixed costs",
+        "Actual costs should never be compared with budgets",
+        "Production volume does not affect costs"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Higher production naturally increases many variable costs, so a flexible budget should be used instead."
+    },
+    {
+      "question": "Why do organizations prepare a master budget?",
+      "options": [
+        "To combine all individual budgets into one comprehensive financial plan",
+        "To eliminate the need for departmental budgets",
+        "To calculate depreciation expenses",
+        "To determine historical profits"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "The master budget integrates all budgets and provides management with an overall view of expected financial performance."
+    },
+    {
+      "question": "Which situation best demonstrates the value of budgeting?",
+      "options": [
+        "Management identifies a future cash shortage early enough to arrange financing",
+        "Historical financial statements are prepared more quickly",
+        "Depreciation expenses are automatically reduced",
+        "Sales prices become fixed for the entire year"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Budgets allow managers to identify potential problems before they occur, giving them time to respond."
+    },
+    {
+      "question": "Why should managers regularly update or revise budgets?",
+      "options": [
+        "Business conditions, demand and costs often change during the year",
+        "Accounting standards require daily budget revisions",
+        "Budgets automatically become inaccurate after one month",
+        "Only revised budgets can be audited"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Budgets are based on assumptions, so they should be reviewed whenever significant business conditions change."
+    },
+    {
+      "question": "Which statement best explains why budgeting is considered an important management tool?",
+      "options": [
+        "It helps managers plan, coordinate resources and evaluate performance",
+        "It guarantees that all financial targets will be achieved",
+        "It completely removes business risk",
+        "It replaces managerial decision making"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Budgeting supports planning and decision making, but it cannot eliminate uncertainty or guarantee success."
+    },
+
+        {
+      "question": "A company experiences a sudden increase in raw material prices halfway through the year. What is the most appropriate managerial response regarding the budget?",
+      "options": [
+        "Review and revise the budget to reflect the new conditions",
+        "Ignore the increase because budgets cannot be changed",
+        "Continue evaluating managers using the original assumptions",
+        "Reduce all department budgets by the same percentage"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Budgets should support decision making. Significant changes in business conditions often require managers to revise their plans."
+    },
+    {
+      "question": "A company consistently meets its budget targets by postponing necessary maintenance until the following year. Why is this a poor budgeting practice?",
+      "options": [
+        "It improves short-term results while potentially creating larger future costs",
+        "Maintenance expenses are never included in budgets",
+        "Budgets should never include repair costs",
+        "Postponing maintenance always reduces total operating costs"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Budgets should encourage long-term value creation, not short-term decisions that increase future costs."
+    },
+    {
+      "question": "A department manager intentionally underestimates expected sales so the department can easily exceed its budget targets. What is this behavior commonly called?",
+      "options": [
+        "Budgetary slack",
+        "Flexible budgeting",
+        "Rolling forecasting",
+        "Incremental budgeting"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Budgetary slack occurs when managers intentionally make budgets easier to achieve by understating revenues or overstating costs."
+    },
+    {
+      "question": "Which situation best demonstrates how budgeting supports strategic planning?",
+      "options": [
+        "Management allocates additional resources to products expected to experience strong future demand",
+        "Management records historical accounting transactions",
+        "The accounting department calculates depreciation",
+        "Employees are paid according to last year's salaries"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Budgets help managers direct resources toward future opportunities that support the organization's strategy."
+    },
+    {
+      "question": "A company's actual sales are significantly lower than expected. Which budget is most likely to require revision first to maintain realistic planning?",
+      "options": [
+        "Production budget",
+        "Historical balance sheet",
+        "Depreciation schedule",
+        "Shareholder equity statement"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Lower sales reduce production requirements, which affects purchasing, labor and cash planning."
+    },
+    {
+      "question": "A ship management company notices that one vessel's maintenance costs are consistently exceeding budget. What should management do first?",
+      "options": [
+        "Investigate the reasons for the variance before changing the budget",
+        "Immediately reduce future maintenance spending",
+        "Ignore the variance because unexpected repairs always occur",
+        "Replace the vessel without further analysis"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Managers should understand the cause of budget deviations before deciding whether corrective action or budget revisions are necessary."
+    },
+    {
+      "question": "A company prepares detailed annual budgets but never compares them with actual performance. What is the greatest weakness of this approach?",
+      "options": [
+        "Management loses an important opportunity to learn from deviations and improve future decisions",
+        "Budgets automatically become inaccurate",
+        "Cash flow can no longer be measured",
+        "Financial statements cannot be prepared"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Budgets are most valuable when actual results are compared with planned performance to identify improvements."
+    },
+    {
+      "question": "Which statement best describes the relationship between budgeting and managerial decision making?",
+      "options": [
+        "Budgets provide information that supports decisions but should not replace managerial judgment",
+        "Budgets determine every business decision automatically",
+        "Managers should always follow the budget regardless of changing conditions",
+        "Budgets eliminate uncertainty from business planning"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Budgets are decision-support tools. Managers must still apply professional judgment when conditions change."
+    },
+    {
+      "question": "Why might a flexible budget provide a more accurate performance evaluation than a static budget?",
+      "options": [
+        "Because it adjusts expected revenues and costs to the actual activity level",
+        "Because it eliminates forecasting errors",
+        "Because it ignores variable costs",
+        "Because it focuses only on cash transactions"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Flexible budgets separate the effect of changing activity levels from actual operational performance."
+    },
+    {
+      "question": "What is the most important purpose of budgeting in managerial accounting?",
+      "options": [
+        "To support planning, coordination, resource allocation and continuous improvement throughout the organization",
+        "To guarantee that actual results exactly match expectations",
+        "To eliminate all financial risk",
+        "To ensure departments never exceed their spending limits under any circumstances"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Budgeting is primarily a planning and management tool that helps organizations achieve their strategic objectives while improving decision making and performance."
+    }
+  ]
+}
