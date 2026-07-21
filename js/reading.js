@@ -10,7 +10,12 @@ const readingNavigation = document.getElementById("reading-navigation");
 const loadingState = document.getElementById("loading-state");
 const errorState = document.getElementById("error-state");
 const errorMessage = document.getElementById("error-message");
-const backLink = document.querySelector(".reading-sidebar .back-link");
+
+const backLink = document.querySelector(
+  ".reading-sidebar .back-link"
+);
+
+let currentTopic = null;
 
 initializeReadingPage();
 
@@ -25,18 +30,23 @@ async function initializeReadingPage() {
   }
 
   try {
-    const response = await fetch(readingFile);
+    const readingResponse = await fetch(readingFile);
 
-    if (!response.ok) {
+    if (!readingResponse.ok) {
       throw new Error(
-        `The reading file could not be loaded: ${readingFile}. HTTP status: ${response.status}`
+        `The reading file could not be loaded: ${readingFile}. HTTP status: ${readingResponse.status}`
       );
     }
 
-    const data = await response.json();
+    const readingData = await readingResponse.json();
 
-    validateReadingData(data);
-    renderReading(data);
+    validateReadingData(readingData);
+
+    if (topicsFile && topicId) {
+      currentTopic = await loadCurrentTopic();
+    }
+
+    renderReading(readingData);
   } catch (error) {
     console.error("Reading page error:", error);
 
@@ -45,6 +55,31 @@ async function initializeReadingPage() {
         "The reading material could not be loaded."
     );
   }
+}
+
+async function loadCurrentTopic() {
+  const response = await fetch(topicsFile);
+
+  if (!response.ok) {
+    console.warn(
+      `The topics file could not be loaded: ${topicsFile}`
+    );
+    return null;
+  }
+
+  const data = await response.json();
+
+  if (!data || !Array.isArray(data.topics)) {
+    console.warn(
+      "The topics file does not contain a valid topics array."
+    );
+    return null;
+  }
+
+  return (
+    data.topics.find(topic => topic.id === topicId) ||
+    null
+  );
 }
 
 function configureBackLink() {
@@ -97,8 +132,13 @@ function validateReadingData(data) {
 function renderReading(data) {
   document.title = `${data.title} | UiA Indøk`;
 
-  loadingState.remove();
-  errorState.hidden = true;
+  if (loadingState) {
+    loadingState.remove();
+  }
+
+  if (errorState) {
+    errorState.hidden = true;
+  }
 
   const header = createReadingHeader(data);
   const sectionsContainer = document.createElement("div");
@@ -115,8 +155,14 @@ function renderReading(data) {
   });
 
   readingContent.append(header, sectionsContainer);
-  renderNavigation(validSections);
 
+  const quizSection = createQuizSection();
+
+  if (quizSection) {
+    readingContent.appendChild(quizSection);
+  }
+
+  renderNavigation(validSections);
   scrollToRequestedSection();
 }
 
@@ -137,6 +183,7 @@ function createReadingHeader(data) {
     const description = document.createElement("p");
     description.className = "reading-description";
     description.textContent = data.description;
+
     header.appendChild(description);
   }
 
@@ -160,6 +207,7 @@ function createReadingHeader(data) {
       const item = document.createElement("span");
       item.className = "reading-meta-item";
       item.textContent = itemText;
+
       meta.appendChild(item);
     });
 
@@ -186,13 +234,30 @@ function createSection(section, index) {
   if (headingText) {
     const heading = document.createElement("h2");
     heading.textContent = headingText;
+
     sectionElement.appendChild(heading);
   }
 
-  appendParagraphs(sectionElement, section.paragraphs);
-  appendBullets(sectionElement, section.bullets);
-  appendNumberedItems(sectionElement, section.numberedItems);
-  appendQuote(sectionElement, section.quote);
+  appendParagraphs(
+    sectionElement,
+    section.paragraphs
+  );
+
+  appendBullets(
+    sectionElement,
+    section.bullets
+  );
+
+  appendNumberedItems(
+    sectionElement,
+    section.numberedItems
+  );
+
+  appendQuote(
+    sectionElement,
+    section.quote
+  );
+
   appendReflectionQuestions(
     sectionElement,
     section.reflectionQuestions
@@ -216,6 +281,7 @@ function appendParagraphs(parent, paragraphs) {
 
     const paragraph = document.createElement("p");
     paragraph.textContent = paragraphText;
+
     parent.appendChild(paragraph);
   });
 }
@@ -237,6 +303,7 @@ function appendBullets(parent, bullets) {
 
     const item = document.createElement("li");
     item.textContent = bulletText;
+
     list.appendChild(item);
   });
 
@@ -265,6 +332,7 @@ function appendNumberedItems(parent, numberedItems) {
 
     const item = document.createElement("li");
     item.textContent = itemText;
+
     list.appendChild(item);
   });
 
@@ -283,6 +351,7 @@ function appendQuote(parent, quoteText) {
 
   const quote = document.createElement("blockquote");
   quote.textContent = quoteText;
+
   parent.appendChild(quote);
 }
 
@@ -304,12 +373,52 @@ function appendReflectionQuestions(parent, questions) {
 
     const item = document.createElement("li");
     item.textContent = questionText;
+
     list.appendChild(item);
   });
 
   if (list.children.length > 0) {
     parent.appendChild(list);
   }
+}
+
+function createQuizSection() {
+  if (!currentTopic || !currentTopic.quiz) {
+    return null;
+  }
+
+  const section = document.createElement("section");
+  section.className = "reading-complete-card";
+
+  const eyebrow = document.createElement("p");
+  eyebrow.className = "eyebrow";
+  eyebrow.textContent = "Module completed";
+
+  const title = document.createElement("h2");
+  title.textContent = "Ready to test your knowledge?";
+
+  const description = document.createElement("p");
+  description.textContent =
+    "You have reached the end of the reading module. Continue to the quiz and apply what you have learned in practical, scenario-based questions.";
+
+  const button = document.createElement("a");
+  button.className = "button button-primary";
+  button.textContent = "Start Quiz →";
+
+  button.href =
+    `quiz.html?file=${encodeURIComponent(currentTopic.quiz)}` +
+    `&course=${encodeURIComponent(courseId || "")}` +
+    `&topics=${encodeURIComponent(topicsFile || "")}` +
+    `&topic=${encodeURIComponent(topicId || "")}`;
+
+  section.append(
+    eyebrow,
+    title,
+    description,
+    button
+  );
+
+  return section;
 }
 
 function getSectionClass(type) {
@@ -347,11 +456,14 @@ function getDefaultHeading(type) {
 }
 
 function renderNavigation(sections) {
+  if (!readingNavigation) {
+    return;
+  }
+
   readingNavigation.innerHTML = "";
 
   const navigableSections = sections
     .map((section, index) => ({
-      section,
       sectionId:
         sanitizeId(section.id) ||
         `section-${index + 1}`,
@@ -364,7 +476,8 @@ function renderNavigation(sections) {
   if (navigableSections.length === 0) {
     const message = document.createElement("p");
     message.className = "navigation-placeholder";
-    message.textContent = "No section navigation available.";
+    message.textContent =
+      "No section navigation available.";
 
     readingNavigation.appendChild(message);
     return;
@@ -380,7 +493,9 @@ function renderNavigation(sections) {
     link.addEventListener("click", event => {
       event.preventDefault();
 
-      const target = document.getElementById(item.sectionId);
+      const target = document.getElementById(
+        item.sectionId
+      );
 
       if (!target) {
         return;
