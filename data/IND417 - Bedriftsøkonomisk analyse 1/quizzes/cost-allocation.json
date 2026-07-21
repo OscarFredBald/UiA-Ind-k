@@ -1,0 +1,367 @@
+{
+  "title": "Costs and Cost Behaviour",
+  "description": "Quiz covering cost classifications, cost behaviour, fixed costs, variable costs and mixed costs.",
+  "questions": [
+    {
+      "question": "What is a business cost?",
+      "options": [
+        "The value of resources consumed to produce goods or services",
+        "The amount of money customers pay for a product",
+        "The total value of company assets",
+        "The company's annual profit"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "A cost represents the value of resources used to operate the business or produce products and services."
+    },
+    {
+      "question": "Which of the following is typically a fixed cost?",
+      "options": [
+        "Monthly office rent",
+        "Raw materials",
+        "Packaging materials",
+        "Sales commission"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Rent normally remains unchanged regardless of production volume within the relevant range."
+    },
+    {
+      "question": "Which statement best describes a variable cost?",
+      "options": [
+        "It changes in proportion to production or sales volume",
+        "It never changes",
+        "It only changes once per year",
+        "It is always higher than fixed costs"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Variable costs increase or decrease as the level of activity changes."
+    },
+    {
+      "question": "Which of the following is most likely to be a variable cost in a manufacturing company?",
+      "options": [
+        "Raw materials",
+        "Factory insurance",
+        "Office rent",
+        "Property tax"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Raw materials are consumed as products are manufactured, making them a variable cost."
+    },
+    {
+      "question": "What is a mixed (semi-variable) cost?",
+      "options": [
+        "A cost containing both fixed and variable components",
+        "A cost that never changes",
+        "A cost that only occurs once",
+        "A cost paid entirely in cash"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Mixed costs combine a fixed element with a variable element."
+    },
+    {
+      "question": "A company pays a fixed monthly internet subscription plus additional charges based on data usage. This is an example of:",
+      "options": [
+        "A mixed cost",
+        "A fixed cost",
+        "A variable cost",
+        "A sunk cost"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "The fixed subscription fee and variable usage charges together form a mixed cost."
+    },
+    {
+      "question": "What happens to total fixed costs when production increases within the relevant range?",
+      "options": [
+        "They remain unchanged",
+        "They increase proportionally",
+        "They decrease proportionally",
+        "They become variable costs"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Within the relevant range, total fixed costs remain constant regardless of production volume."
+    },
+    {
+      "question": "What happens to total variable costs as production increases?",
+      "options": [
+        "They increase as more units are produced",
+        "They remain constant",
+        "They decrease automatically",
+        "They become fixed costs"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Total variable costs rise because more resources are consumed when producing more units."
+    },
+    {
+      "question": "A company has fixed monthly costs of $12,000. If production doubles from 500 units to 1,000 units, what happens to the total fixed costs?",
+      "options": [
+        "They remain $12,000",
+        "They increase to $24,000",
+        "They decrease to $6,000",
+        "They depend entirely on sales revenue"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Total fixed costs remain unchanged within the relevant range."
+    },
+    {
+      "question": "A company has variable costs of $9 per unit. How much are the total variable costs if 400 units are produced?",
+      "options": [
+        "$3,600",
+        "$9",
+        "$400",
+        "$36,000"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Total Variable Cost = Variable Cost per Unit × Units Produced = $9 × 400 = $3,600."
+    },
+
+        {
+      "question": "What is meant by the 'relevant range' in cost behaviour?",
+      "options": [
+        "The range of activity where cost behaviour assumptions remain valid",
+        "The period during which a company earns a profit",
+        "The number of products a company can sell",
+        "The range of market prices for a product"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "The relevant range is the level of activity where fixed and variable cost assumptions remain accurate."
+    },
+    {
+      "question": "Why is the concept of the relevant range important?",
+      "options": [
+        "Because fixed costs may change if production exceeds certain limits",
+        "Because revenue becomes fixed outside the relevant range",
+        "Because variable costs disappear",
+        "Because profit can only be calculated within the relevant range"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "If production expands significantly, businesses may need additional facilities or equipment, causing fixed costs to increase."
+    },
+    {
+      "question": "A factory currently rents one warehouse. If production doubles and the company must rent a second warehouse, what happens to the rent expense?",
+      "options": [
+        "It increases in steps rather than remaining constant",
+        "It becomes a variable cost",
+        "It decreases because of economies of scale",
+        "It remains exactly the same"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Fixed costs often increase in steps when the business exceeds the relevant range."
+    },
+    {
+      "question": "Which formula is used to calculate total cost?",
+      "options": [
+        "Fixed Costs + Total Variable Costs",
+        "Revenue − Variable Costs",
+        "Revenue + Fixed Costs",
+        "Fixed Costs × Variable Costs"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Total cost equals total fixed costs plus total variable costs."
+    },
+    {
+      "question": "A company has fixed costs of $25,000 and variable costs of $15 per unit. If 2,000 units are produced, what is the total cost?",
+      "options": [
+        "$55,000",
+        "$40,000",
+        "$30,000",
+        "$50,000"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Variable costs = 2,000 × $15 = $30,000. Total cost = $25,000 + $30,000 = $55,000."
+    },
+    {
+      "question": "Why do managers study cost behaviour before preparing a budget?",
+      "options": [
+        "To estimate how costs will change as activity levels change",
+        "To eliminate all business risks",
+        "To determine the company's tax rate",
+        "To calculate employee salaries"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Understanding cost behaviour allows managers to prepare more realistic budgets."
+    },
+    {
+      "question": "Which of the following costs is most likely to behave as a mixed cost in a manufacturing business?",
+      "options": [
+        "Electricity with a fixed monthly fee plus charges based on usage",
+        "Property tax",
+        "Factory rent",
+        "Raw materials"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Electricity often contains both a fixed connection charge and a variable usage charge."
+    },
+    {
+      "question": "A shipping company notices that fuel expenses increase every time vessel activity increases. Fuel is therefore best classified as:",
+      "options": [
+        "A variable cost",
+        "A fixed cost",
+        "A sunk cost",
+        "A step-fixed cost"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Fuel consumption generally increases as vessels operate more voyages."
+    },
+    {
+      "question": "Which statement about fixed costs is most accurate?",
+      "options": [
+        "They remain constant in total within the relevant range but decrease per unit as production increases",
+        "They always increase proportionally with production",
+        "They disappear when production stops",
+        "They remain constant both in total and per unit"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Total fixed costs stay constant, but when spread across more units, the fixed cost per unit decreases."
+    },
+    {
+      "question": "A manager incorrectly assumes that all costs increase with production. What is the greatest risk of this assumption?",
+      "options": [
+        "The manager may overestimate future costs and make poor business decisions",
+        "The company will automatically become unprofitable",
+        "Variable costs will become fixed costs",
+        "Revenue can no longer be calculated"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Understanding which costs actually change is essential for accurate forecasting and decision-making."
+    },
+    {
+      "question": "A company expects demand to increase by 40% next year. Why is understanding cost behaviour important before increasing production?",
+      "options": [
+        "It helps estimate how total costs and profitability will change",
+        "It guarantees that demand will increase",
+        "It determines the selling price automatically",
+        "It eliminates business risk"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Managers use cost behaviour to forecast costs, profits and resource requirements as production changes."
+    },
+    {
+      "question": "A manufacturing company doubles its production while remaining within its relevant range. Which statement is correct?",
+      "options": [
+        "Total fixed costs remain the same, while total variable costs increase",
+        "Both fixed and variable costs remain unchanged",
+        "Total fixed costs double automatically",
+        "Variable costs become fixed costs"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Within the relevant range, fixed costs remain constant while variable costs increase with production."
+    },
+    {
+      "question": "A company wants to reduce its average cost per unit without changing its fixed costs. Which strategy is most likely to achieve this?",
+      "options": [
+        "Increase production volume within the relevant range",
+        "Reduce product quality",
+        "Increase office rent",
+        "Decrease sales volume"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Producing more units spreads fixed costs over a larger number of products, reducing the fixed cost per unit."
+    },
+    {
+      "question": "A shipping company is evaluating two operating schedules. One schedule increases fuel costs but allows the vessels to transport significantly more cargo. Which type of cost should management pay the closest attention to in this decision?",
+      "options": [
+        "Variable costs",
+        "Property taxes",
+        "Office rent",
+        "Insurance premiums"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Fuel is a variable cost that changes with vessel activity and directly affects operating decisions."
+    },
+    {
+      "question": "A business experiences a large increase in demand and must hire an additional production supervisor. What type of cost behaviour does this illustrate?",
+      "options": [
+        "A step-fixed cost",
+        "A purely variable cost",
+        "A sunk cost",
+        "A fixed cost that never changes"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Some fixed costs increase in steps when production exceeds the relevant range."
+    },
+    {
+      "question": "A manager assumes that electricity is entirely a variable cost, even though the company pays a fixed monthly connection fee. What is the problem with this assumption?",
+      "options": [
+        "It ignores the fixed component of a mixed cost",
+        "Electricity is always a fixed cost",
+        "Electricity has no impact on profitability",
+        "Connection fees are considered revenue"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Many utility costs contain both fixed and variable elements, making them mixed costs."
+    },
+    {
+      "question": "Which manager demonstrates the best understanding of cost behaviour?",
+      "options": [
+        "A manager who distinguishes between fixed, variable and mixed costs before preparing budgets",
+        "A manager who assumes all costs change at the same rate",
+        "A manager who ignores cost classifications",
+        "A manager who bases decisions only on last year's profit"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Understanding how different costs behave leads to more accurate planning and better business decisions."
+    },
+    {
+      "question": "Why is cost behaviour considered one of the foundations of managerial accounting?",
+      "options": [
+        "Because many budgeting, pricing and investment decisions depend on predicting how costs change",
+        "Because it determines government tax policy",
+        "Because it guarantees profitability",
+        "Because it replaces financial accounting"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Managers rely on cost behaviour to forecast expenses and evaluate business alternatives."
+    },
+    {
+      "question": "A business incorrectly classifies several fixed costs as variable. Which consequence is most likely?",
+      "options": [
+        "Forecasts, budgets and profitability analyses may become inaccurate",
+        "Revenue will automatically increase",
+        "The company will eliminate all operating costs",
+        "Customer demand will decrease immediately"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Incorrect cost classification can lead to poor planning and poor managerial decisions."
+    },
+    {
+      "question": "What is the ultimate reason managers study cost behaviour?",
+      "options": [
+        "To make better business decisions by understanding how costs respond to changes in activity",
+        "To eliminate all fixed costs",
+        "To maximize production regardless of demand",
+        "To ensure every cost becomes variable"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Understanding cost behaviour allows managers to budget more accurately, set prices, evaluate investments and improve profitability."
+    }
+  ]
+}
