@@ -1,0 +1,167 @@
+{
+  "title": "Project Governance",
+  "description": "Learn how project governance provides direction, accountability and oversight to ensure projects achieve their strategic objectives.",
+  "estimatedReadingTime": "10 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Explain what project governance is.",
+        "Understand why governance is important for project success.",
+        "Identify the roles and responsibilities within a governance structure.",
+        "Differentiate between project management and project governance.",
+        "Understand how governance supports decision-making and accountability.",
+        "Recognize common governance challenges."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Large and complex projects involve many stakeholders, significant investments and important strategic decisions. To ensure that these projects remain aligned with organizational objectives, a governance structure is required.",
+        "Project Governance is the framework through which projects are directed, monitored and controlled. It defines who has authority to make decisions, who is accountable for project outcomes and how project performance is monitored.",
+        "Effective governance ensures that projects deliver value while balancing cost, schedule, quality and organizational priorities."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "What is Project Governance?",
+      "content": [
+        "Project governance consists of the policies, processes, roles and decision-making structures used to oversee a project.",
+        "It provides clear accountability and establishes how important decisions are made throughout the project lifecycle.",
+        "Governance ensures that projects remain aligned with business strategy while managing risks and using organizational resources responsibly."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Offshore Wind Farm",
+      "content": [
+        "An energy company launches a multi-billion-dollar offshore wind farm project.",
+        "The project manager is responsible for the daily execution of the project, while a steering committee reviews major decisions such as budget increases, scope changes and strategic risks.",
+        "This governance structure allows operational decisions to be made efficiently while ensuring executive oversight of major issues."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Project Management vs. Project Governance",
+      "content": [
+        "Project management focuses on planning, executing and controlling the day-to-day activities of the project.",
+        "Project governance focuses on oversight, strategic direction, accountability and major decision-making.",
+        "While the project manager manages the project, governance bodies ensure that the project continues to support organizational objectives."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Governance Roles",
+      "content": [
+        "Several roles contribute to project governance.",
+        "The Project Sponsor provides strategic direction, secures funding and is ultimately accountable for project success.",
+        "The Steering Committee oversees major decisions, monitors project performance and supports the project manager when significant issues arise.",
+        "The Project Manager manages daily execution and reports project status to the governance body.",
+        "Stakeholders provide input and ensure that project outcomes meet organizational and customer needs."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Shipping Company",
+      "content": [
+        "A ship management company begins a fleet digitalization project.",
+        "The project manager coordinates software implementation across the fleet.",
+        "Major investment decisions, cybersecurity risks and schedule changes are reviewed by senior management through the project's governance board before implementation."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Decision-Making",
+      "content": [
+        "One of the primary functions of project governance is establishing clear decision-making authority.",
+        "Routine operational decisions are normally made by the project manager.",
+        "Major decisions involving significant cost increases, strategic changes or increased risks are escalated to the project sponsor or steering committee."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Accountability",
+      "content": [
+        "Good governance clearly defines who is responsible for making decisions and who is accountable for project outcomes.",
+        "Clear accountability reduces confusion, prevents duplicated decision-making and ensures that problems are addressed by the appropriate level of management.",
+        "Without accountability, projects often experience delays, conflicting priorities and unclear responsibilities."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Too Many Decision Makers",
+      "content": [
+        "When multiple people believe they have authority to make the same decisions, projects often slow down significantly.",
+        "An effective governance structure clearly defines who has authority for different types of decisions and when escalation is required."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Governance and Risk Management",
+      "content": [
+        "Governance bodies regularly review project risks that could affect strategic objectives.",
+        "High-impact risks, such as major financial exposure, legal issues or significant schedule delays, are typically escalated from the project manager to senior decision-makers.",
+        "This ensures that important risks receive sufficient organizational attention and resources."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Monitoring Project Performance",
+      "content": [
+        "Governance relies on regular reporting to evaluate project performance.",
+        "Governance bodies review key performance indicators such as budget status, schedule performance, risk exposure, quality metrics and milestone completion.",
+        "These reports support informed decision-making and help identify issues before they become critical."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Budget Overrun",
+      "content": [
+        "A construction project reports that costs are expected to exceed the approved budget by 12%.",
+        "Rather than allowing the project manager to make the decision alone, the issue is escalated to the steering committee.",
+        "The committee evaluates options such as increasing the budget, reducing project scope or extending the schedule before making a strategic decision."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Successful organizations do not use governance to control every project activity. Instead, governance focuses on enabling good decisions by providing oversight while allowing project managers enough authority to manage day-to-day operations efficiently."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Mistakes",
+      "content": [
+        "Giving unclear decision-making authority.",
+        "Escalating every small issue to senior management.",
+        "Failing to define governance roles.",
+        "Poor communication between governance bodies and project teams.",
+        "Using governance to micromanage daily project activities."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Project governance provides oversight, accountability and strategic direction.",
+        "Project management focuses on daily execution, while governance focuses on major decisions and organizational alignment.",
+        "Clear governance structures define roles, responsibilities and decision-making authority.",
+        "Governance supports risk management, project monitoring and organizational accountability.",
+        "Successful governance balances executive oversight with project manager autonomy."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Why should major project decisions be made at different organizational levels than daily operational decisions?",
+        "How does clear accountability improve project performance?",
+        "What problems could occur if project governance becomes too centralized or too weak?"
+      ]
+    }
+  ]
+}
