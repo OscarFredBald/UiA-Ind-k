@@ -1,0 +1,367 @@
+{
+  "title": "Cost-Volume-Profit (CVP) Analysis",
+  "description": "Test your understanding of break-even analysis, target profit, margin of safety, operating leverage and managerial applications of CVP analysis.",
+  "questions": [
+    {
+      "question": "What is the main purpose of Cost-Volume-Profit analysis?",
+      "options": [
+        "To examine how changes in costs and sales volume affect profit",
+        "To calculate the market value of a company",
+        "To allocate indirect costs between departments",
+        "To prepare external financial statements"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "CVP analysis examines the relationship between sales volume, costs and operating profit."
+    },
+    {
+      "question": "What happens at the break-even point?",
+      "options": [
+        "Contribution margin is zero",
+        "Total revenue equals total costs",
+        "Variable costs equal fixed costs",
+        "The company earns its target profit"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "At the break-even point, total revenue equals total variable and fixed costs, resulting in zero operating profit."
+    },
+    {
+      "question": "Which formula calculates the break-even point in units?",
+      "options": [
+        "Fixed costs divided by contribution margin per unit",
+        "Sales revenue divided by fixed costs",
+        "Variable cost per unit divided by selling price",
+        "Contribution margin divided by fixed costs"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Break-even units are calculated by dividing total fixed costs by contribution margin per unit."
+    },
+    {
+      "question": "A product sells for $90 and has variable costs of $54 per unit. What is its contribution margin per unit?",
+      "options": [
+        "$144",
+        "$54",
+        "$36",
+        "$90"
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "Contribution margin per unit equals $90 minus $54, which is $36."
+    },
+    {
+      "question": "A company has fixed costs of $100,000 and a contribution margin of $25 per unit. What is its break-even point?",
+      "options": [
+        "2,500 units",
+        "4,000 units",
+        "25,000 units",
+        "125,000 units"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Break-even units equal $100,000 divided by $25, resulting in 4,000 units."
+    },
+    {
+      "question": "Which statement best describes sales made after the break-even point has been reached?",
+      "options": [
+        "They only cover variable costs",
+        "They reduce the contribution margin",
+        "Their contribution margin increases operating profit",
+        "They no longer create variable costs"
+      ],
+      "answer": 2,
+      "difficulty": "Understanding",
+      "explanation": "Once fixed costs are covered, the contribution margin from additional sales increases operating profit."
+    },
+    {
+      "question": "A company has fixed costs of $180,000 and a contribution margin ratio of 30%. What is its break-even sales revenue?",
+      "options": [
+        "$54,000",
+        "$600,000",
+        "$210,000",
+        "$540,000"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Break-even sales equal $180,000 divided by 0.30, which results in $600,000."
+    },
+    {
+      "question": "A company has fixed costs of $240,000, a target profit of $60,000 and a contribution margin of $50 per unit. How many units must it sell?",
+      "options": [
+        "3,600 units",
+        "4,800 units",
+        "6,000 units",
+        "7,200 units"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Required units equal ($240,000 + $60,000) divided by $50, resulting in 6,000 units."
+    },
+    {
+      "question": "Current sales are $850,000 and break-even sales are $650,000. What is the margin of safety in dollars?",
+      "options": [
+        "$200,000",
+        "$650,000",
+        "$1,500,000",
+        "$76,500"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Margin of safety equals actual sales minus break-even sales: $850,000 minus $650,000 equals $200,000."
+    },
+    {
+      "question": "What does a large margin of safety generally indicate?",
+      "options": [
+        "The company has high variable costs",
+        "Sales can decline substantially before the company begins making a loss",
+        "The business is operating below break-even",
+        "Fixed costs are greater than contribution margin"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "A large margin of safety means the company has a larger financial cushion before sales fall to the break-even level."
+    },
+
+        {
+      "question": "Why do managers use target profit analysis?",
+      "options": [
+        "To determine how much must be sold to achieve a desired profit",
+        "To calculate the contribution margin ratio",
+        "To eliminate fixed costs",
+        "To estimate depreciation expense"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Target profit analysis calculates the required sales needed to earn a specified operating profit."
+    },
+    {
+      "question": "A company's selling price increases while variable costs and fixed costs remain unchanged. What will happen to the break-even point?",
+      "options": [
+        "It will increase",
+        "It will decrease",
+        "It will remain unchanged",
+        "It cannot be determined"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "A higher selling price increases the contribution margin per unit, meaning fewer units are needed to cover fixed costs."
+    },
+    {
+      "question": "A company's variable cost per unit increases while the selling price remains constant. What is the most likely effect on the break-even point?",
+      "options": [
+        "It will decrease",
+        "It will stay the same",
+        "It will increase",
+        "It will become zero"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Higher variable costs reduce contribution margin per unit, requiring more units to break even."
+    },
+    {
+      "question": "Why is break-even sales revenue often more useful than break-even units for companies selling many different products?",
+      "options": [
+        "Because it avoids estimating fixed costs",
+        "Because sales revenue can combine multiple products into one calculation",
+        "Because contribution margin is no longer needed",
+        "Because selling prices never change"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Companies with multiple products often calculate break-even using total sales revenue and the contribution margin ratio."
+    },
+    {
+      "question": "Which company is most likely to have high operating leverage?",
+      "options": [
+        "A software company with high development costs but low cost per additional customer",
+        "A consulting firm where employee costs increase with every project",
+        "A retailer with almost no fixed costs",
+        "A trading company that purchases products only after receiving customer orders"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Businesses with high fixed costs and relatively low variable costs typically have high operating leverage."
+    },
+    {
+      "question": "A business currently sells exactly at its break-even point. If sales increase by one additional unit, assuming no changes in costs, what happens?",
+      "options": [
+        "The company begins earning an operating profit",
+        "The company remains at break-even",
+        "The company incurs an operating loss",
+        "Variable costs disappear"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Once the break-even point has been passed, each additional unit sold contributes toward operating profit."
+    },
+    {
+      "question": "A manufacturing company automates its production process. Fixed costs increase significantly, while variable costs per unit decrease. What is the likely impact?",
+      "options": [
+        "Lower operating leverage",
+        "Higher operating leverage",
+        "No change in business risk",
+        "Contribution margin automatically decreases"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Automation often increases fixed costs while reducing variable costs, increasing operating leverage."
+    },
+    {
+      "question": "Which managerial decision is least likely to use CVP analysis?",
+      "options": [
+        "Determining the break-even point for a new product",
+        "Evaluating the impact of a price increase",
+        "Forecasting the effect of higher sales volume",
+        "Calculating the exact market value of the company"
+      ],
+      "answer": 3,
+      "difficulty": "Analysis",
+      "explanation": "CVP analysis is a planning tool and is not used to determine a company's market value."
+    },
+    {
+      "question": "A company has a margin of safety of only 3% of sales. What does this suggest?",
+      "options": [
+        "The company has a relatively high risk of operating losses if sales decline",
+        "The company has already earned its maximum profit",
+        "The company has very low fixed costs",
+        "The company has a very high contribution margin ratio"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "A small margin of safety means only a small decrease in sales could push the company below break-even."
+    },
+    {
+      "question": "Which statement best explains why CVP analysis is valuable for managers?",
+      "options": [
+        "It helps managers understand how changes in costs, prices and sales volume influence profitability",
+        "It guarantees accurate long-term profit forecasts",
+        "It eliminates uncertainty from business decisions",
+        "It replaces budgeting and financial planning"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "CVP analysis is primarily a decision-support tool that helps managers evaluate different business scenarios."
+    },
+        {
+      "question": "A company currently sells 10,000 units annually and is operating well above its break-even point. Management is considering reducing the selling price to increase sales volume. Before making the decision, which factor should be analyzed most carefully?",
+      "options": [
+        "Whether the increase in sales volume will compensate for the lower contribution margin per unit",
+        "Whether fixed costs will automatically decrease",
+        "Whether depreciation expense will change immediately",
+        "Whether contribution margin becomes equal to operating profit"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Lower prices reduce contribution margin per unit. Managers must determine whether additional sales will more than offset this reduction."
+    },
+    {
+      "question": "A factory has reached full production capacity. It can either continue producing its current product or replace part of the production with a new product that has a higher contribution margin per unit but a lower contribution margin per machine hour. Which option is financially preferable?",
+      "options": [
+        "Produce the new product because it has the higher contribution margin per unit",
+        "Produce whichever product has the highest selling price",
+        "Continue producing the product with the higher contribution margin per machine hour",
+        "Split production equally"
+      ],
+      "answer": 2,
+      "difficulty": "Analysis",
+      "explanation": "When capacity is constrained, managers should maximize contribution margin per limiting resource rather than per unit."
+    },
+    {
+      "question": "A business invests heavily in automation, increasing fixed costs while reducing variable costs. Sales remain stable. Which statement best describes the company's financial position?",
+      "options": [
+        "The company will have lower operating leverage",
+        "The company becomes more sensitive to changes in sales volume",
+        "Break-even sales automatically decrease",
+        "Contribution margin becomes irrelevant"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Higher fixed costs create higher operating leverage, meaning profits become more sensitive to changes in sales."
+    },
+    {
+      "question": "A shipping company expects lower freight rates next year. Which CVP concept would be most useful for evaluating whether the fleet can still operate profitably?",
+      "options": [
+        "Margin of safety",
+        "Inventory turnover",
+        "Current ratio",
+        "Return on equity"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Margin of safety indicates how much revenue can decline before the company reaches its break-even point."
+    },
+    {
+      "question": "Management wants to reduce the company's break-even point without changing the selling price. Which action would most directly achieve this goal?",
+      "options": [
+        "Reduce fixed costs",
+        "Increase depreciation",
+        "Increase administrative overhead",
+        "Decrease sales volume"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Lower fixed costs require less contribution margin to reach break-even."
+    },
+    {
+      "question": "Two companies earn the same operating profit. Company A has high fixed costs and low variable costs, while Company B has low fixed costs and high variable costs. During an economic downturn, which company generally faces greater financial risk?",
+      "options": [
+        "Company A",
+        "Company B",
+        "Both face identical risk",
+        "Risk cannot be affected by cost structure"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Companies with high operating leverage experience larger profit changes when sales decline because fixed costs remain unchanged."
+    },
+    {
+      "question": "A manager calculates that a new product will reach break-even after selling 15,000 units. Market research suggests annual demand is only 8,000 units. What is the strongest conclusion?",
+      "options": [
+        "The project may not be financially viable unless assumptions change",
+        "The product should automatically be launched",
+        "Contribution margin must be negative",
+        "Fixed costs should be ignored"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "If expected demand is well below break-even sales, the project is unlikely to recover its fixed costs under the current assumptions."
+    },
+    {
+      "question": "Why should managers avoid relying solely on CVP analysis when making strategic business decisions?",
+      "options": [
+        "Because CVP assumes stable prices, costs and sales conditions that may not exist in reality",
+        "Because CVP cannot calculate contribution margin",
+        "Because CVP only applies to manufacturing companies",
+        "Because fixed costs are never relevant"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "CVP simplifies reality and should be combined with market conditions, competition, capacity constraints and strategic considerations."
+    },
+    {
+      "question": "A vessel operator is considering accepting a long-term charter at a lower daily rate than normal. The charter would keep the vessel fully utilized for two years during a weak freight market. Besides the CVP calculations, what additional factor should management evaluate?",
+      "options": [
+        "Strategic opportunities and opportunity costs of committing the vessel",
+        "The vessel's paint color",
+        "The captain's years of experience only",
+        "The company's historical dividend payments"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "CVP provides financial insight, but management must also evaluate market expectations, future charter opportunities and strategic flexibility."
+    },
+    {
+      "question": "What is the greatest strength of Cost-Volume-Profit analysis?",
+      "options": [
+        "It provides a simple framework for understanding how sales, costs and profit interact, supporting better managerial decisions",
+        "It predicts future profits with complete accuracy",
+        "It eliminates business risk",
+        "It replaces financial accounting and budgeting"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "CVP analysis is valuable because it helps managers understand the financial consequences of different business decisions, even though it relies on simplifying assumptions."
+    }
+  ]
+}
