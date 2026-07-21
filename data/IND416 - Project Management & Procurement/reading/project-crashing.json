@@ -1,0 +1,142 @@
+{
+  "title": "Project Crashing",
+  "description": "Learn how project managers reduce project duration by adding resources, evaluating trade-offs, and balancing time, cost, and risk.",
+  "estimatedReadingTime": "10 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Explain what project crashing is and when it is used.",
+        "Differentiate between crashing and fast tracking.",
+        "Understand the relationship between time and cost.",
+        "Identify which activities should be crashed.",
+        "Recognize the risks associated with schedule compression.",
+        "Evaluate when crashing is an appropriate project management decision."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Projects do not always progress exactly as planned. Unexpected delays, changing customer requirements or market pressures may require the project to finish earlier than originally scheduled.",
+        "Project crashing is a schedule compression technique that shortens the project duration by allocating additional resources to selected activities.",
+        "The goal is not simply to work faster, but to reduce the overall project completion time while maintaining the agreed project scope."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "What is Project Crashing?",
+      "content": [
+        "Project crashing involves investing additional resources to reduce the duration of activities on the Critical Path.",
+        "Examples include hiring additional workers, paying overtime, renting additional equipment, or outsourcing part of the work.",
+        "Because additional resources usually increase costs, crashing represents a trade-off between project time and project cost."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Construction Project",
+      "content": [
+        "A building project is scheduled to finish in twelve months.",
+        "The client requests completion one month earlier.",
+        "The project manager determines that concrete work is on the Critical Path and hires an additional construction crew.",
+        "Although labour costs increase, the project finishes earlier and meets the client's deadline."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "When Should a Project Be Crashed?",
+      "content": [
+        "Crashing should only be considered when reducing the project duration provides sufficient value.",
+        "Common reasons include meeting contractual deadlines, avoiding financial penalties, responding to market opportunities, or recovering from unexpected delays.",
+        "If shortening the schedule provides little benefit while greatly increasing costs, crashing may not be justified."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Only Crash Critical Path Activities",
+      "content": [
+        "Adding resources to activities that are not on the Critical Path usually does not shorten the overall project duration.",
+        "The Critical Path determines the earliest possible completion date of the project.",
+        "Therefore, project managers first identify which Critical Path activities can realistically be shortened."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Crashing Does Not Always Work",
+      "content": [
+        "Some activities cannot simply be completed faster by adding more people.",
+        "For example, adding programmers to an already complex software project may increase communication and coordination, resulting in lower productivity.",
+        "Project managers must evaluate whether additional resources will actually reduce the activity duration."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Crashing vs. Fast Tracking",
+      "content": [
+        "Crashing and Fast Tracking are both schedule compression techniques, but they achieve shorter schedules in different ways.",
+        "Crashing shortens activities by adding resources and usually increases project cost.",
+        "Fast Tracking shortens the schedule by performing activities in parallel that were originally planned sequentially. This generally increases project risk rather than project cost."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Comparison Example",
+      "content": [
+        "A project manager wants to finish a product launch earlier.",
+        "Using crashing, the manager hires additional engineers to complete the testing phase faster.",
+        "Using fast tracking, marketing activities begin before all testing has been completed.",
+        "The first approach mainly increases cost, while the second primarily increases risk."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Evaluating Time-Cost Trade-Offs",
+      "content": [
+        "Every crashing decision should compare the benefit of finishing earlier with the additional project cost.",
+        "Sometimes completing the project one week earlier may generate significant business value.",
+        "In other situations, the additional cost may exceed any benefit gained from reducing the schedule."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Experienced project managers rarely crash an entire project. Instead, they selectively crash the activities that provide the greatest reduction in project duration for the lowest additional cost. This approach is known as achieving the lowest crash cost."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Mistakes",
+      "content": [
+        "Crashing activities that are not on the Critical Path.",
+        "Assuming that adding more people always increases productivity.",
+        "Ignoring the additional costs of overtime or extra resources.",
+        "Using crashing without evaluating business value.",
+        "Confusing crashing with fast tracking."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Project crashing is a schedule compression technique.",
+        "Crashing reduces project duration by adding resources.",
+        "Only Critical Path activities should normally be crashed.",
+        "Crashing increases project cost but can reduce overall project duration.",
+        "Fast Tracking reduces duration by overlapping activities and mainly increases risk.",
+        "Project managers should always evaluate the trade-off between time, cost and business value before crashing a project."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "When would crashing create more value than it costs?",
+        "Why should only Critical Path activities normally be crashed?",
+        "In what situations would Fast Tracking be a better option than Crashing?"
+      ]
+    }
+  ]
+}
