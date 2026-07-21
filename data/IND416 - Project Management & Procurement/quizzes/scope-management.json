@@ -1,1 +1,100 @@
-
+{
+  "title": "Scope Management",
+  "questions": [
+    {
+      "question": "A municipality is constructing a new public library. Halfway through the project, politicians request a rooftop restaurant because 'it would attract more visitors.' The request has clear benefits but no additional funding. What is the BEST response from the project manager?",
+      "options": [
+        "Approve the request because it increases project value.",
+        "Reject the request immediately because scope should never change.",
+        "Submit the request through formal change control and evaluate its impact before making a decision.",
+        "Ask the contractor to absorb the additional work."
+      ],
+      "answer": 2,
+      "difficulty": "Medium",
+      "explanation": "Scope changes should neither be automatically accepted nor rejected. They should be evaluated through formal change control."
+    },
+    {
+      "question": "Which statement best distinguishes Product Scope from Project Scope?",
+      "options": [
+        "Product Scope defines deliverables, while Project Scope defines the work necessary to create them.",
+        "Project Scope defines technical specifications, while Product Scope defines the schedule.",
+        "Product Scope only exists in software projects.",
+        "There is no practical distinction."
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Product Scope describes what the product is; Project Scope describes the work required to produce it."
+    },
+    {
+      "question": "During a digital transformation project, 25 minor feature requests have been approved individually because each required less than one day's work. Six months later the project is four months behind schedule. Which concept best explains this situation?",
+      "options": [
+        "Resource leveling",
+        "Scope Creep",
+        "Critical Chain",
+        "Fast Tracking"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Scope creep often occurs through many individually insignificant changes that collectively have a major impact."
+    },
+    {
+      "question": "A Work Breakdown Structure (WBS) violates the 100% Rule. Which consequence is most likely?",
+      "options": [
+        "The project schedule automatically becomes inaccurate.",
+        "Some required work may be omitted or unnecessary work may be included.",
+        "Risk management becomes impossible.",
+        "Stakeholders can no longer be identified."
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "The 100% Rule ensures that all required work—and only the required work—is represented."
+    },
+    {
+      "question": "Which stakeholder argument is the STRONGEST justification for approving a scope change?",
+      "options": [
+        "The feature would be 'nice to have.'",
+        "A competitor recently launched something similar.",
+        "The change is legally required due to new regulations.",
+        "The development team prefers implementing it."
+      ],
+      "answer": 2,
+      "difficulty": "Hard",
+      "explanation": "Mandatory legal or regulatory requirements often outweigh optional business improvements."
+    },
+    {
+      "question": "Why do experienced project managers frequently resist making immediate decisions during stakeholder meetings when new features are requested?",
+      "options": [
+        "Because they lack authority.",
+        "Because every scope change introduces trade-offs that require structured evaluation.",
+        "Because changes are prohibited after project initiation.",
+        "Because customers rarely understand their own requirements."
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "Professional project managers understand that scope decisions affect cost, time, risk and quality, and therefore require formal assessment."
+    },
+    {
+      "question": "A project's approved scope baseline is missing. Which project management activity becomes most difficult?",
+      "options": [
+        "Recruiting team members.",
+        "Determining whether requested work represents a legitimate scope change.",
+        "Creating financial statements.",
+        "Negotiating supplier contracts."
+      ],
+      "answer": 1,
+      "difficulty": "Very Hard",
+      "explanation": "Without an approved baseline, there is no agreed reference against which scope changes can be measured."
+    },
+    {
+      "question": "A customer states: 'We are only asking for one extra feature.' An experienced project manager is most likely concerned about which underlying principle?",
+      "options": [
+        "Every additional requirement has direct and indirect consequences for project constraints and should be evaluated systematically.",
+        "Customers should never influence projects after initiation.",
+        "Features always reduce project quality.",
+        "The request probably violates procurement law."
+      ],
+      "answer": 0,
+      "difficulty": "Very Hard",
+      "explanation": "Experienced project managers recognize that even seemingly small requests can create significant downstream effects on scope, schedule, budget and risk."
+    }
+  }
