@@ -1,0 +1,222 @@
+{
+  "title": "Variance Analysis",
+  "description": "Learn how managers compare actual performance with budgeted performance, identify variances and use the results to improve future planning and operational performance.",
+  "estimatedReadingTime": "18 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Understand what a variance is.",
+        "Differentiate between favorable and unfavorable variances.",
+        "Calculate revenue, cost and profit variances.",
+        "Explain the difference between price and quantity variances.",
+        "Understand why variance analysis is an important management tool.",
+        "Recognize the limitations of variance analysis."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Even the best budgets are based on estimates. Actual business performance rarely matches the budget exactly.",
+        "Managers therefore compare actual results with budgeted results to identify differences, called variances.",
+        "Variance analysis helps managers understand why performance differs from expectations and identify opportunities for improvement."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "What Is a Variance?",
+      "content": [
+        "A variance is the difference between an actual result and its corresponding budgeted amount.",
+        "Variances may occur in sales, production costs, labor costs, material costs or operating expenses.",
+        "Not every variance indicates poor performance—some are beneficial while others require management attention."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Sales Variance",
+      "content": [
+        "Budgeted sales revenue: $1,000,000.",
+        "Actual sales revenue: $1,080,000.",
+        "Sales variance = +$80,000.",
+        "Because actual revenue exceeded the budget, this is a favorable variance."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Favorable and Unfavorable Variances",
+      "content": [
+        "A favorable variance (F) improves profitability compared with the budget.",
+        "An unfavorable variance (U) reduces profitability compared with the budget.",
+        "Whether a variance is favorable depends on the type of budget item being analyzed."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Operating Expenses",
+      "content": [
+        "Budgeted maintenance costs: $300,000.",
+        "Actual maintenance costs: $360,000.",
+        "The $60,000 difference is an unfavorable variance because expenses exceeded the budget."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Revenue Variances",
+      "content": [
+        "Revenue variances occur when actual sales differ from budgeted sales.",
+        "Differences may result from changes in selling price, sales volume or both.",
+        "Managers investigate whether pricing decisions, market conditions or customer demand caused the variance."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Cost Variances",
+      "content": [
+        "Cost variances compare actual costs with budgeted costs.",
+        "Managers analyze materials, labor, overhead and operating expenses separately to identify where differences occurred.",
+        "Understanding the cause of each variance supports better future decisions."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Fuel Costs",
+      "content": [
+        "Budgeted fuel expense: $2.5 million.",
+        "Actual fuel expense: $2.9 million.",
+        "Management investigates whether higher fuel prices, increased consumption or operational inefficiencies caused the variance."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Price Variances",
+      "content": [
+        "A price variance measures the effect of paying a different price than expected.",
+        "Examples include paying more for raw materials or paying higher hourly wages than budgeted.",
+        "Price variances often result from inflation, supplier negotiations or market conditions."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Material Price Variance",
+      "content": [
+        "A manufacturer expected to pay $12 per kilogram of steel but actually paid $13.",
+        "Even if the quantity used matches the budget, the higher purchase price creates an unfavorable price variance."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Quantity (Efficiency) Variances",
+      "content": [
+        "A quantity variance measures whether more or fewer resources were used than expected.",
+        "Examples include using more labor hours, fuel or raw materials than planned.",
+        "Quantity variances often indicate operational efficiency or inefficiency."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Labor Efficiency",
+      "content": [
+        "A task was budgeted to require 500 labor hours.",
+        "Actual labor usage was 560 hours.",
+        "The additional 60 hours represent an unfavorable efficiency variance."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Investigating Variances",
+      "content": [
+        "Managers should not investigate every small variance.",
+        "Instead, they focus on significant variances that could materially affect profitability or indicate operational problems.",
+        "This approach is known as management by exception."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Management by Exception",
+      "content": [
+        "A purchasing department exceeds its office supply budget by $50.",
+        "At the same time, fuel expenses exceed budget by $400,000.",
+        "Management prioritizes investigating the fuel variance because it has a much larger financial impact."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Why Variance Analysis Matters",
+      "content": [
+        "Variance analysis helps managers improve budgeting accuracy.",
+        "It identifies operational problems early.",
+        "It supports performance evaluation.",
+        "It provides information for corrective actions and future planning."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Shipping Example",
+      "content": [
+        "A ship management company budgets annual repair costs of $800,000 for a vessel.",
+        "Actual repair costs reach $1,050,000.",
+        "Management investigates whether unexpected equipment failures, poor maintenance planning or inflation caused the unfavorable variance.",
+        "The findings improve future vessel budgets and maintenance planning."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Lubricating Oil Consumption",
+      "content": [
+        "Budgeted lubricating oil consumption was 220 tons.",
+        "Actual consumption reached 260 tons.",
+        "Managers investigate whether engine problems, operating conditions or measurement errors explain the unfavorable quantity variance."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming every unfavorable variance represents poor management.",
+        "Ignoring favorable variances that may reveal best practices.",
+        "Focusing only on numbers without identifying root causes.",
+        "Investigating insignificant variances while overlooking major operational issues."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Limitations",
+      "content": [
+        "Variance analysis explains what happened, but not always why.",
+        "External factors such as inflation, exchange rates and unexpected market conditions may cause variances beyond management's control.",
+        "Managers should combine variance analysis with operational knowledge and professional judgment."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "The goal of variance analysis is not to assign blame. Its purpose is to understand why actual performance differed from expectations so managers can improve future decisions, budgeting accuracy and operational performance."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "A variance is the difference between actual and budgeted performance.",
+        "Favorable variances improve profitability, while unfavorable variances reduce profitability.",
+        "Revenue, cost, price and quantity variances help managers identify the causes of performance differences.",
+        "Management by exception focuses attention on significant variances.",
+        "Variance analysis supports budgeting, performance evaluation and continuous improvement.",
+        "Managers should investigate the underlying causes before taking corrective action."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Can an unfavorable variance ever be acceptable? Give an example.",
+        "Why is it important to investigate the causes of a variance instead of simply reacting to the numbers?",
+        "How could variance analysis help a ship management company improve the operating costs of its fleet?"
+      ]
+    }
+  ]
+}
