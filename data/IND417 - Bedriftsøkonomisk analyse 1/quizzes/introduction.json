@@ -1,0 +1,368 @@
+{
+  "title": "Introduction to Business Economics",
+  "description": "Quiz covering the fundamental concepts of business economics, value creation, stakeholders, revenue, costs and profit.",
+  "questions": [
+    {
+      "question": "What is the primary focus of business economics?",
+      "options": [
+        "How organizations use limited resources to create value and achieve financial objectives",
+        "How governments set tax rates",
+        "How stock prices are predicted",
+        "How products are physically manufactured"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Business economics examines how businesses allocate scarce resources to create value and make sound financial decisions."
+    },
+    {
+      "question": "Why do businesses exist?",
+      "options": [
+        "To create value by providing products or services customers are willing to pay for",
+        "To maximize the number of employees",
+        "To reduce competition in the market",
+        "To eliminate financial risk"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Businesses exist because they transform resources into products or services that customers value."
+    },
+    {
+      "question": "Which of the following best describes revenue?",
+      "options": [
+        "Income generated from selling goods or services",
+        "The total amount spent on production",
+        "The company's available cash",
+        "The value of company assets"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Revenue is the income earned from selling products or services."
+    },
+    {
+      "question": "Profit is calculated as:",
+      "options": [
+        "Revenue minus total costs",
+        "Revenue plus total costs",
+        "Assets minus liabilities",
+        "Cash minus expenses"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Profit equals total revenue minus total costs incurred during the same period."
+    },
+    {
+      "question": "Which statement best describes value creation?",
+      "options": [
+        "Producing products or services customers value more than the resources required to create them",
+        "Charging the highest possible price",
+        "Reducing all business expenses to zero",
+        "Increasing the number of employees"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Value is created when customers perceive greater benefits than the resources consumed to produce the offering."
+    },
+    {
+      "question": "Which of the following is considered a stakeholder of a business?",
+      "options": [
+        "Customers",
+        "Employees",
+        "Suppliers",
+        "All of the above"
+      ],
+      "answer": 3,
+      "difficulty": "Understanding",
+      "explanation": "Businesses interact with many stakeholders, including customers, employees, suppliers, owners, lenders and governments."
+    },
+    {
+      "question": "Why do managers use business economics when making decisions?",
+      "options": [
+        "To evaluate alternatives using financial and economic analysis",
+        "To eliminate all uncertainty",
+        "To guarantee higher profits",
+        "To avoid making strategic decisions"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Business economics provides tools that help managers compare alternatives and make informed decisions."
+    },
+    {
+      "question": "A company increases the quality of its product while keeping production costs unchanged. What is the most likely outcome?",
+      "options": [
+        "The value perceived by customers may increase",
+        "Revenue automatically decreases",
+        "Profit must become zero",
+        "Stakeholders become less important"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Improving quality without increasing costs generally increases customer value."
+    },
+    {
+      "question": "A company earns $800,000 in revenue and has total costs of $650,000. What is its profit?",
+      "options": [
+        "$150,000",
+        "$1,450,000",
+        "$650,000",
+        "$800,000"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Profit = Revenue − Costs = $800,000 − $650,000 = $150,000."
+    },
+    {
+      "question": "Which statement best explains why businesses must consider stakeholders when making decisions?",
+      "options": [
+        "Business decisions often affect multiple groups with different interests",
+        "Stakeholders always have identical objectives",
+        "Only shareholders influence business success",
+        "Stakeholders are responsible for calculating profit"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Managers must often balance the interests of owners, employees, customers, suppliers and other stakeholders."
+    }, 
+
+    {
+      "question": "A manufacturing company invests in better machinery that reduces production costs while maintaining product quality. What is the primary business objective of this investment?",
+      "options": [
+        "To increase value creation by using resources more efficiently",
+        "To eliminate all business risks",
+        "To increase the number of employees",
+        "To avoid paying taxes"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Using resources more efficiently allows a business to create more value while reducing costs."
+    },
+    {
+      "question": "A business has generated strong profits this year, but many customers have not yet paid their invoices. Which statement is most accurate?",
+      "options": [
+        "The business may still experience cash flow problems despite being profitable",
+        "Profit and cash are always identical",
+        "The business cannot be profitable without receiving cash first",
+        "Outstanding invoices have no effect on the business"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Profit is based on accounting principles, while cash flow depends on when money is actually received and paid."
+    },
+    {
+      "question": "Which decision is most likely to require business economic analysis?",
+      "options": [
+        "Whether to launch a new product",
+        "Choosing the office coffee brand",
+        "Deciding what color to paint the meeting room",
+        "Scheduling employee birthdays"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Launching a new product requires evaluating expected revenues, costs, risks and profitability."
+    },
+    {
+      "question": "Why do companies compete to create greater customer value?",
+      "options": [
+        "Customers are more likely to choose businesses that provide greater value for the price",
+        "Governments require companies to maximize value",
+        "It guarantees that competitors leave the market",
+        "Higher value automatically eliminates all costs"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Businesses that provide superior value often attract more customers and strengthen their competitive position."
+    },
+    {
+      "question": "A manager chooses a supplier with a slightly higher price because it consistently delivers higher quality and fewer delays. Which business economics principle is being applied?",
+      "options": [
+        "Considering total value instead of focusing only on purchase price",
+        "Ignoring business costs",
+        "Maximizing short-term expenses",
+        "Reducing customer satisfaction"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Business decisions should consider overall value, including quality, reliability and long-term performance."
+    },
+    {
+      "question": "Why is creating customer value essential for long-term business success?",
+      "options": [
+        "Customers are unlikely to continue buying products they do not value",
+        "Value creation only affects large companies",
+        "Businesses can succeed without customers",
+        "Value creation only increases accounting profit"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Long-term profitability depends on attracting and retaining customers by providing products or services they value."
+    },
+    {
+      "question": "A company increases prices significantly without improving quality, while competitors keep prices unchanged. What is the greatest business risk?",
+      "options": [
+        "Customers may switch to competitors offering better value",
+        "Profit is guaranteed to increase",
+        "Operating costs automatically decrease",
+        "Stakeholders become less important"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Customers compare value, not just price. Higher prices without additional value may reduce demand."
+    },
+    {
+      "question": "Which stakeholder is primarily interested in receiving reliable, high-quality products at a fair price?",
+      "options": [
+        "Customers",
+        "Banks",
+        "Government regulators",
+        "Shareholders"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Customers evaluate businesses based on the value they receive relative to the price they pay."
+    },
+    {
+      "question": "A manager only focuses on increasing short-term profit while ignoring product quality and customer satisfaction. What is the most likely long-term consequence?",
+      "options": [
+        "The business may lose customers and become less competitive",
+        "The company will automatically increase market share",
+        "Operating costs will always decrease",
+        "Business risk disappears"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Short-term profit maximization at the expense of customer value can weaken long-term competitiveness."
+    },
+    {
+      "question": "Which statement best describes the role of business economics in management?",
+      "options": [
+        "It supports managers by providing structured analysis for making better business decisions",
+        "It guarantees every decision will be successful",
+        "It replaces managerial judgment completely",
+        "It focuses only on accounting rules"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Business economics provides decision-making tools, but managers must still apply judgment when choosing among alternatives."
+    },
+
+        {
+      "question": "A company can either increase product quality by 15% or reduce the selling price by 10%, but it can only afford one option. Which factor should management primarily evaluate before making the decision?",
+      "options": [
+        "Which option creates the greatest value for customers while improving long-term profitability",
+        "Which option requires the least discussion",
+        "Which option changes the company logo",
+        "Which option has the shortest implementation time"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Business economics focuses on evaluating alternatives based on value creation and long-term financial performance."
+    },
+    {
+      "question": "A company reports a profit of $2 million but struggles to pay suppliers because customers have not yet paid their invoices. What is the underlying issue?",
+      "options": [
+        "Cash flow problems despite accounting profitability",
+        "The company has negative revenue",
+        "The business has no customers",
+        "The company has calculated profit incorrectly"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Profit and cash flow measure different aspects of financial performance. A profitable company can still experience liquidity problems."
+    },
+    {
+      "question": "Which business decision would benefit most from business economic analysis?",
+      "options": [
+        "Whether to invest in an automated production line",
+        "Choosing the design of employee ID cards",
+        "Selecting the background color for the company website",
+        "Scheduling weekly coffee breaks"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Major investment decisions require evaluating expected costs, revenues, risks and long-term profitability."
+    },
+    {
+      "question": "Why do successful businesses monitor both financial performance and customer satisfaction?",
+      "options": [
+        "Strong financial results depend on continuing to deliver value that customers appreciate",
+        "Customer satisfaction replaces profitability",
+        "Financial performance is only important for investors",
+        "Customer satisfaction has no influence on future sales"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Long-term profitability depends on maintaining satisfied customers while operating efficiently."
+    },
+    {
+      "question": "A company focuses only on minimizing costs, leading to lower product quality and increasing customer complaints. Which business economics principle has been neglected?",
+      "options": [
+        "Value creation",
+        "Revenue recognition",
+        "Cash accounting",
+        "Depreciation"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Reducing costs is beneficial only if the company continues to deliver sufficient value to customers."
+    },
+    {
+      "question": "A shipping company is deciding whether to purchase more fuel-efficient vessels. Besides the purchase price, which factors should management consider?",
+      "options": [
+        "Fuel savings, maintenance costs, environmental regulations, customer demand and long-term profitability",
+        "Only the vessel's exterior appearance",
+        "The captain's personal preference",
+        "The number of ports visited last year"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Business economics requires evaluating all relevant costs, benefits and strategic impacts—not just the initial investment."
+    },
+    {
+      "question": "Which statement best describes the relationship between value creation and profit?",
+      "options": [
+        "Businesses that consistently create superior value are more likely to generate sustainable profits over time",
+        "Profit is completely unrelated to customer value",
+        "Creating value always reduces profitability",
+        "Profit depends only on charging higher prices"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Long-term profitability is closely linked to a company's ability to create value more effectively than its competitors."
+    },
+    {
+      "question": "Which manager is applying business economics most effectively?",
+      "options": [
+        "A manager who evaluates costs, revenues, risks, customer value and long-term strategy before making decisions",
+        "A manager who always chooses the cheapest option",
+        "A manager who bases decisions entirely on intuition",
+        "A manager who ignores financial information"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Effective managers consider both quantitative and qualitative factors when making business decisions."
+    },
+    {
+      "question": "Why is business economics considered a decision-support discipline rather than a decision-making discipline?",
+      "options": [
+        "It provides analysis and information, but managers must still use professional judgment when making final decisions",
+        "It automatically makes all business decisions",
+        "It only records financial transactions",
+        "It guarantees successful outcomes"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Business economics helps managers understand alternatives and consequences, but it cannot replace managerial judgment."
+    },
+    {
+      "question": "What is the ultimate objective of business economics?",
+      "options": [
+        "To help organizations use limited resources efficiently in order to create long-term value for customers, owners and other stakeholders",
+        "To maximize revenue regardless of costs",
+        "To eliminate all financial risk",
+        "To ensure every business earns a profit every year"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Business economics is about making informed decisions that balance resource use, value creation and long-term organizational success."
+    }
+  ]
+}
