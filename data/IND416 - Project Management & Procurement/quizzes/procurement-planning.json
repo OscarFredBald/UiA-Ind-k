@@ -1,1 +1,366 @@
-
+{
+  "title": "Procurement Planning",
+  "description": "Quiz covering procurement planning, make-or-buy decisions, supplier selection, procurement risks and project procurement strategies.",
+  "questions": [
+    {
+      "question": "What is the primary purpose of procurement planning?",
+      "options": [
+        "To determine what should be purchased, when it should be purchased, and from whom",
+        "To reduce the number of project stakeholders",
+        "To eliminate project risks",
+        "To create the project schedule"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Procurement planning determines what the project needs to acquire externally, when it is needed, and how it should be obtained."
+    },
+    {
+      "question": "Procurement refers to:",
+      "options": [
+        "Acquiring goods, services or works from external suppliers",
+        "Recruiting internal employees",
+        "Managing project meetings",
+        "Creating the Work Breakdown Structure"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Procurement is the process of obtaining products or services from external organizations."
+    },
+    {
+      "question": "Which of the following is an example of procurement?",
+      "options": [
+        "Hiring an external engineering consultant",
+        "Assigning work to an internal employee",
+        "Updating the project schedule",
+        "Holding a stakeholder meeting"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Hiring an external consultant is an example of procuring external expertise."
+    },
+    {
+      "question": "What is the first major decision made during procurement planning?",
+      "options": [
+        "The make-or-buy decision",
+        "Selecting the cheapest supplier",
+        "Approving project scope",
+        "Creating the project charter"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Project managers first determine whether work should be performed internally or purchased from an external supplier."
+    },
+    {
+      "question": "What does the make-or-buy decision evaluate?",
+      "options": [
+        "Whether work should be completed internally or outsourced",
+        "Whether the project should continue",
+        "Whether stakeholders approve the project",
+        "Whether project quality should be reduced"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The make-or-buy decision compares performing work internally with purchasing it externally."
+    },
+    {
+      "question": "Why is procurement planning important?",
+      "options": [
+        "Because many projects depend on external suppliers to deliver critical resources",
+        "Because procurement automatically reduces project costs",
+        "Because procurement eliminates all project risks",
+        "Because procurement replaces project scheduling"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Many projects rely on suppliers, making procurement planning essential for successful delivery."
+    },
+    {
+      "question": "Which resource would most likely require procurement?",
+      "options": [
+        "A specialized offshore installation vessel",
+        "An internal team meeting",
+        "The project manager's weekly report",
+        "The project schedule"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Large specialized assets are commonly obtained through external suppliers."
+    },
+    {
+      "question": "Which factor should NOT normally influence a make-or-buy decision?",
+      "options": [
+        "The favorite color of the project manager",
+        "Internal expertise",
+        "Available capacity",
+        "Project cost"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Project decisions should be based on business factors rather than personal preferences."
+    },
+    {
+      "question": "A company decides to outsource software security testing because it lacks internal expertise. This is an example of:",
+      "options": [
+        "A make-or-buy decision",
+        "Project crashing",
+        "Stakeholder analysis",
+        "Scope verification"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Choosing an external specialist instead of developing internal capability is a make-or-buy decision."
+    },
+    {
+      "question": "A project manager wants to avoid delays caused by late supplier deliveries. Which project activity is most helpful?",
+      "options": [
+        "Planning procurement early",
+        "Reducing project scope",
+        "Ignoring supplier lead times",
+        "Waiting until construction begins before contacting suppliers"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Early procurement planning helps account for supplier lead times and reduces the likelihood of schedule delays."
+    }, 
+        {
+      "question": "A project manager is comparing two suppliers. Supplier A is cheaper, while Supplier B has an excellent delivery record and consistently delivers high-quality products. What should the project manager consider first?",
+      "options": [
+        "Which supplier provides the greatest overall value to the project",
+        "Which supplier has the shortest company name",
+        "Which supplier is located furthest away",
+        "Which supplier submitted their proposal first"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Procurement decisions should consider overall value, including quality, reliability and performance—not just purchase price."
+    },
+    {
+      "question": "Why is selecting the lowest-priced supplier not always the best procurement decision?",
+      "options": [
+        "Lower-priced suppliers may create higher costs through delays, poor quality or rework",
+        "The cheapest supplier is legally prohibited from winning contracts",
+        "Low prices always indicate fraud",
+        "Projects should always select the most expensive supplier"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "The lowest purchase price may lead to greater total project costs if quality or delivery performance is poor."
+    },
+    {
+      "question": "Which of the following is an example of a procurement risk?",
+      "options": [
+        "A supplier fails to deliver critical equipment on time",
+        "A project team completes work ahead of schedule",
+        "Stakeholders approve the project budget",
+        "The project manager finishes the risk register"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Supplier delays are one of the most common procurement risks and can directly affect the project schedule."
+    },
+    {
+      "question": "A project depends on a specialized machine with a six-month delivery time. What should the project manager do?",
+      "options": [
+        "Include the long lead time in the procurement plan and order early",
+        "Wait until construction begins before placing the order",
+        "Ignore the delivery schedule",
+        "Purchase the machine after project completion"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Long lead-time items should be identified early so they do not delay the project."
+    },
+    {
+      "question": "Which supplier characteristic is LEAST useful when evaluating procurement proposals?",
+      "options": [
+        "The supplier owner's favorite sports team",
+        "Technical capability",
+        "Financial stability",
+        "Past delivery performance"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Supplier evaluation should focus on objective business criteria rather than personal characteristics."
+    },
+    {
+      "question": "Why should procurement activities be integrated with the overall project schedule?",
+      "options": [
+        "Because materials and services must be available when project activities require them",
+        "Because procurement always determines the project budget",
+        "Because suppliers create the Work Breakdown Structure",
+        "Because procurement replaces risk management"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Purchasing activities must align with the project schedule to prevent delays caused by missing resources."
+    },
+    {
+      "question": "A project team chooses to manufacture a component internally even though an external supplier offers a lower price. Which reason best justifies this decision?",
+      "options": [
+        "The company wants to protect confidential technology or maintain strategic control",
+        "The project manager prefers internal meetings",
+        "External suppliers are never allowed",
+        "Internal production always costs less"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Make-or-buy decisions consider strategic factors such as confidentiality, intellectual property and long-term capabilities—not only cost."
+    },
+    {
+      "question": "Which procurement strategy best reduces the impact of a potential supplier failure?",
+      "options": [
+        "Identifying qualified backup suppliers during procurement planning",
+        "Waiting until the supplier fails before making a plan",
+        "Ordering everything from a single unknown supplier",
+        "Ignoring supplier financial health"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Having approved alternative suppliers is an effective way to reduce procurement risk."
+    },
+    {
+      "question": "A supplier offers the lowest bid but has a history of missing deadlines. Another supplier charges slightly more but consistently delivers on time. Which supplier would most experienced project managers likely choose?",
+      "options": [
+        "The supplier offering the best overall value and reliability",
+        "The cheapest supplier regardless of performance",
+        "The supplier with the newest website",
+        "Either supplier, since delivery performance is irrelevant"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Reliable delivery often provides greater long-term value than a slightly lower purchase price."
+    },
+    {
+      "question": "What is the primary objective of procurement planning from a project management perspective?",
+      "options": [
+        "To ensure external resources are available at the right time, cost and quality to support successful project delivery",
+        "To purchase as many products as possible",
+        "To eliminate all project risks",
+        "To avoid working with external suppliers"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Procurement planning is about ensuring the project receives the right resources at the right time while balancing cost, quality and risk."
+    },
+        {
+      "question": "A project manager discovers that a critical supplier has entered financial difficulties shortly before a major delivery. What is the best course of action?",
+      "options": [
+        "Activate contingency plans and evaluate alternative qualified suppliers",
+        "Ignore the issue until the delivery date arrives",
+        "Cancel the entire project immediately",
+        "Continue as if nothing has changed"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Procurement planning should include contingency measures for supplier failures, allowing the project to respond before major delays occur."
+    },
+    {
+      "question": "A project team purchases specialized equipment six months before it is needed. Why might this be a good procurement decision?",
+      "options": [
+        "The equipment has a long lead time that could otherwise delay the project",
+        "The warehouse has extra storage space",
+        "The project manager enjoys ordering equipment early",
+        "Early purchasing always reduces project costs"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Long lead-time items are often ordered well in advance to ensure they are available when project activities begin."
+    },
+    {
+      "question": "Which project would most likely require extensive procurement planning?",
+      "options": [
+        "The construction of an offshore wind farm involving multiple international suppliers",
+        "A one-hour internal team meeting",
+        "A project manager updating a Gantt chart",
+        "A weekly project status presentation"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Large engineering projects rely heavily on external suppliers and require detailed procurement planning."
+    },
+    {
+      "question": "Why should procurement risks be identified before contracts are signed?",
+      "options": [
+        "To develop mitigation strategies before problems affect the project",
+        "To increase project costs",
+        "To reduce the number of suppliers",
+        "To eliminate the need for supplier evaluations"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Identifying procurement risks early allows the project team to prepare contingency plans before issues arise."
+    },
+    {
+      "question": "A supplier offers excellent quality but consistently delivers several weeks late. Another supplier has slightly lower quality but always delivers on time. What should the project manager do?",
+      "options": [
+        "Evaluate which supplier provides the greatest overall value based on project priorities",
+        "Always choose the highest quality supplier",
+        "Always choose the cheapest supplier",
+        "Choose randomly because both suppliers are acceptable"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Supplier selection depends on project priorities such as schedule, quality, cost and overall business value."
+    },
+    {
+      "question": "A project sponsor insists on selecting the cheapest supplier despite significant quality concerns. What should the project manager do?",
+      "options": [
+        "Explain the long-term risks and potential total costs associated with the decision",
+        "Accept the decision without discussion",
+        "Ignore the sponsor's request",
+        "Reduce the project's quality standards"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Project managers should provide decision-makers with information about procurement risks and life-cycle costs before final decisions are made."
+    },
+    {
+      "question": "Which statement best reflects the relationship between procurement planning and project scheduling?",
+      "options": [
+        "Poor procurement planning can delay project activities even when the schedule itself is well developed",
+        "Procurement planning has no influence on the project schedule",
+        "Scheduling always occurs after procurement is complete",
+        "Procurement planning replaces schedule management"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Even an excellent project schedule cannot be executed if critical materials or services are unavailable."
+    },
+    {
+      "question": "An organization decides to perform work internally even though outsourcing would cost slightly less. Which factor could justify this decision?",
+      "options": [
+        "Maintaining critical expertise, protecting intellectual property or supporting long-term strategy",
+        "The internal team has fewer meetings",
+        "Internal employees prefer the work",
+        "External suppliers are never reliable"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Strategic considerations often outweigh short-term cost savings in make-or-buy decisions."
+    },
+    {
+      "question": "Which statement best summarizes effective supplier selection?",
+      "options": [
+        "Suppliers should be evaluated using multiple criteria including cost, quality, capability, reliability and risk",
+        "The lowest price should always determine the winner",
+        "Only technical capability matters",
+        "Supplier selection should be based primarily on personal relationships"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Professional procurement evaluates suppliers using multiple objective criteria to maximize project value."
+    },
+    {
+      "question": "What is the most important goal of procurement planning in project management?",
+      "options": [
+        "To ensure the project receives the right goods and services at the right time, quality and cost while supporting successful project delivery",
+        "To purchase everything as early as possible",
+        "To minimize communication with suppliers",
+        "To eliminate all procurement activities from the project"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Successful procurement planning aligns external resources with the project's objectives, balancing cost, quality, schedule and risk."
+    }
+  ]
+}
