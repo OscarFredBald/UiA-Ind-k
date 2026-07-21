@@ -1,0 +1,225 @@
+{
+  "title": "Financial Statement Analysis",
+  "description": "Learn how financial statements are used to evaluate a company's financial performance, profitability, liquidity, efficiency, and solvency. This module introduces the three primary financial statements, key financial ratios, and how managers, investors, and lenders use financial information to make decisions.",
+  "estimatedReadingTime": "24 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Understand the purpose of financial statement analysis.",
+        "Identify the three main financial statements and their roles.",
+        "Explain how the income statement, balance sheet, and cash flow statement are connected.",
+        "Understand common financial ratios used to evaluate business performance.",
+        "Interpret profitability, liquidity, efficiency, and solvency ratios.",
+        "Recognize the limitations of financial statement analysis.",
+        "Apply financial analysis to practical business and shipping examples."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Financial statements summarize a company's financial performance and financial position.",
+        "Managers, investors, banks, suppliers and other stakeholders use financial statements to evaluate how well a business is performing.",
+        "Financial statement analysis transforms accounting information into meaningful insights that support better business decisions."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Why Analyze Financial Statements?",
+      "content": [
+        "Simply reading financial statements rarely provides enough information to understand how well a company is performing.",
+        "Financial analysis compares numbers over time, against competitors, and through financial ratios.",
+        "The objective is to identify strengths, weaknesses, opportunities, and potential financial risks."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Choosing Between Two Companies",
+      "content": [
+        "Two shipping companies each report profits of $50 million.",
+        "One company earned the profit using assets worth $500 million, while the other required assets worth $2 billion.",
+        "Financial ratio analysis reveals that the first company is significantly more efficient at generating profits."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Income Statement",
+      "content": [
+        "The income statement reports revenues, expenses and profit over a specific period.",
+        "It answers the question: 'Did the company make money during this period?'",
+        "Managers use the income statement to evaluate profitability and operational performance."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Balance Sheet",
+      "content": [
+        "The balance sheet presents the company's assets, liabilities and equity at a specific point in time.",
+        "Assets represent resources owned by the business.",
+        "Liabilities represent obligations owed to others.",
+        "Equity represents the owners' residual interest after liabilities are deducted from assets."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Cash Flow Statement",
+      "content": [
+        "The cash flow statement shows how cash entered and left the business during a period.",
+        "Cash flows are divided into operating, investing and financing activities.",
+        "A profitable company can still experience cash shortages, making cash flow analysis essential."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Profit vs Cash",
+      "content": [
+        "A company sells products worth $1 million on credit.",
+        "The sale increases reported profit immediately.",
+        "However, no cash is received until customers actually pay.",
+        "This is why both the income statement and cash flow statement are important."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "How the Financial Statements Are Connected",
+      "content": [
+        "The income statement calculates the company's profit.",
+        "Profit contributes to retained earnings, which appear in shareholders' equity on the balance sheet.",
+        "The cash flow statement explains why cash changed during the same period.",
+        "Together, the three statements provide a complete picture of financial performance."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Profitability Ratios",
+      "content": [
+        "Profitability ratios measure how effectively a company generates profit.",
+        "Examples include Gross Profit Margin, Operating Margin, Net Profit Margin, Return on Assets (ROA), and Return on Equity (ROE).",
+        "Higher profitability generally indicates stronger financial performance."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Net Profit Margin",
+      "content": [
+        "A company reports revenue of $50 million and net income of $5 million.",
+        "Its Net Profit Margin is 10%, meaning the company keeps $0.10 of profit for every dollar of revenue."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Liquidity Ratios",
+      "content": [
+        "Liquidity measures a company's ability to meet its short-term obligations.",
+        "Common liquidity ratios include the Current Ratio and Quick Ratio.",
+        "Strong liquidity helps companies pay suppliers, employees and other current obligations on time."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Current Ratio",
+      "content": [
+        "Current Assets = $8 million.",
+        "Current Liabilities = $4 million.",
+        "Current Ratio = 2.0.",
+        "The company has twice as many current assets as current liabilities."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Efficiency Ratios",
+      "content": [
+        "Efficiency ratios evaluate how effectively a company uses its assets.",
+        "Examples include Inventory Turnover, Asset Turnover and Receivables Turnover.",
+        "Higher efficiency often leads to improved profitability."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Solvency Ratios",
+      "content": [
+        "Solvency measures a company's long-term financial stability.",
+        "Debt-to-Equity Ratio and Interest Coverage Ratio are common solvency measures.",
+        "Highly leveraged companies generally face greater financial risk."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Shipping Example",
+      "content": [
+        "A ship management company is considering managing an additional fleet of vessels.",
+        "Before signing the contract, management reviews the client's financial statements.",
+        "Strong liquidity indicates the client is likely to pay invoices on time, while excessive debt could increase financial risk."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Trend Analysis",
+      "content": [
+        "Financial ratios become more useful when compared across several years.",
+        "Managers analyze trends to determine whether profitability, liquidity and efficiency are improving or deteriorating.",
+        "One year's results rarely tell the complete story."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Benchmarking",
+      "content": [
+        "Financial performance should also be compared with competitors and industry averages.",
+        "A 12% profit margin may be excellent in one industry but poor in another.",
+        "Benchmarking provides context for interpreting financial results."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Mistakes",
+      "content": [
+        "Evaluating only one financial statement instead of all three.",
+        "Drawing conclusions from one ratio alone.",
+        "Ignoring industry differences.",
+        "Focusing only on profit while ignoring cash flow."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Limitations",
+      "content": [
+        "Financial statements describe past performance and cannot perfectly predict the future.",
+        "Accounting policies may differ between companies.",
+        "Extraordinary events and economic conditions can temporarily distort financial ratios."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Professional financial analysts rarely base decisions on a single ratio. Instead, they combine profitability, liquidity, efficiency and solvency measures with qualitative information such as management quality, competitive position, market conditions and strategic outlook."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Financial statement analysis helps evaluate business performance and financial health.",
+        "The income statement measures profitability.",
+        "The balance sheet measures financial position.",
+        "The cash flow statement explains cash movements.",
+        "Profitability, liquidity, efficiency and solvency ratios each evaluate different aspects of performance.",
+        "Trend analysis and benchmarking improve the usefulness of financial ratios.",
+        "Financial ratios should always be interpreted together with qualitative business information."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Why is it important to analyze all three financial statements instead of only one?",
+        "Why can a profitable company still experience financial problems?",
+        "If you were evaluating a shipping company before investing, which financial ratios would you consider most important, and why?"
+      ]
+    }
+  ]
+}
