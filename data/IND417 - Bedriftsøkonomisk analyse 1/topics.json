@@ -1,1 +1,14 @@
-
+{
+  "courseTitle": "Managerial Decision Making",
+  "topics": [
+    {
+      "id": "managerial-decision-making",
+      "title": "Managerial Decision Making",
+      "description": "Learn how managers make business decisions using relevant costs, incremental analysis, opportunity costs, make-or-buy decisions, special orders, product mix analysis, and qualitative considerations.",
+      "estimatedTime": "45-60 min",
+      "reading": "managerial-decision-making.json",
+      "quiz": "managerial-decision-making-quiz.json",
+      "icon": "📊"
+    }
+  ]
+}
