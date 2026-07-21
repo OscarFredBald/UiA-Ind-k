@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Interactive university course quiz"
+  >
+
+  <title>Quiz | UiA Indøk</title>
+
+  <link
+    rel="stylesheet"
+    href="css/style.css?v=7"
+  >
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a
+        href="index.html"
+        class="site-logo"
+        aria-label="Go to homepage"
+      >
+        <span class="logo-mark">UIA</span>
+        <span class="logo-text">Indøk Learning</span>
+      </a>
+
+      <nav
+        class="main-navigation"
+        aria-label="Main navigation"
+      >
+        <a href="index.html">Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="quiz-page">
+    <div class="container quiz-container">
+      <a
+        id="back-to-topic"
+        href="index.html"
+        class="back-link"
+      >
+        ← Back to topic
+      </a>
+
+      <header class="quiz-header">
+        <p class="eyebrow">
+          Knowledge check
+        </p>
+
+        <h1 id="quiz-title">
+          Loading quiz...
+        </h1>
+
+        <p
+          id="quiz-description"
+          class="quiz-description"
+        >
+          Select the best answer for each question.
+        </p>
+      </header>
+
+      <section class="quiz-main-card">
+        <p
+          id="loading-message"
+          class="quiz-loading-message"
+        >
+          Loading quiz...
+        </p>
+
+        <p
+          id="error-message"
+          class="quiz-error-message"
+          hidden
+        ></p>
+
+        <div id="quiz-box"></div>
+
+        <div class="quiz-navigation-buttons">
+          <button
+            id="previous-btn"
+            type="button"
+            class="button button-secondary"
+            disabled
+          >
+            Previous
+          </button>
+
+          <button
+            id="next-btn"
+            type="button"
+            class="button button-primary"
+            disabled
+          >
+            Check Answer
+          </button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>UiA Indøk Learning Platform</p>
+    </div>
+  </footer>
+
+  <script src="js/quiz.js?v=7"></script>
+</body>
+</html>
