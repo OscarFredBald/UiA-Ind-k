@@ -1,1 +1,368 @@
+{
+  "title": "Project Crashing",
+  "description": "Quiz covering project crashing, schedule compression, critical path, time-cost trade-offs, and practical decision making.",
+  "questions": [
+    {
+      "question": "What is the primary purpose of project crashing?",
+      "options": [
+        "To reduce project scope",
+        "To shorten the project's completion time by adding resources",
+        "To reduce project quality",
+        "To eliminate project risks"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Project crashing shortens the project schedule by allocating additional resources to selected activities."
+    },
+    {
+      "question": "Which project management objective is directly affected by crashing?",
+      "options": [
+        "Project duration",
+        "Stakeholder identification",
+        "Project scope definition",
+        "Procurement planning"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The purpose of crashing is to reduce the total project duration."
+    },
+    {
+      "question": "Which additional resource is commonly used when crashing a project?",
+      "options": [
+        "Additional labor",
+        "Fewer team members",
+        "Reduced communication",
+        "Lower quality standards"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Hiring additional workers or assigning more resources is one of the most common crashing techniques."
+    },
+    {
+      "question": "What is usually the main consequence of crashing a project?",
+      "options": [
+        "Lower project costs",
+        "Higher project costs",
+        "Reduced project scope",
+        "Automatic elimination of project risks"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Crashing normally increases project costs because additional resources, overtime or equipment are required."
+    },
+    {
+      "question": "Which activities should normally be considered for crashing first?",
+      "options": [
+        "Activities with the largest budgets",
+        "Activities on the Critical Path",
+        "Activities with the longest descriptions",
+        "Activities with the highest number of stakeholders"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Only activities on the Critical Path directly affect the project's completion date."
+    },
+    {
+      "question": "Why does crashing usually increase project cost?",
+      "options": [
+        "Because additional resources, overtime or equipment must be provided",
+        "Because project scope automatically increases",
+        "Because all project risks disappear",
+        "Because project quality is reduced"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Reducing activity durations generally requires extra labor, equipment or overtime, increasing project costs."
+    },
+    {
+      "question": "Why would a client request that a project be crashed?",
+      "options": [
+        "To finish earlier and meet an important deadline",
+        "To reduce project quality",
+        "To eliminate all project costs",
+        "To avoid creating a project schedule"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Projects are often crashed to meet contractual deadlines, avoid penalties or respond to market opportunities."
+    },
+    {
+      "question": "What is the relationship between project crashing and the Critical Path?",
+      "options": [
+        "Crashing non-critical activities always shortens the project",
+        "Crashing Critical Path activities can reduce the overall project duration",
+        "Crashing removes the Critical Path completely",
+        "The Critical Path is not considered during crashing"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Only reducing the duration of Critical Path activities normally shortens the overall project schedule."
+    },
+    {
+      "question": "A project manager hires an additional construction crew to complete foundation work faster. This is an example of:",
+      "options": [
+        "Fast Tracking",
+        "Project Crashing",
+        "Scope Creep",
+        "Risk Avoidance"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Adding extra resources to reduce activity duration is the definition of project crashing."
+    },
+    {
+      "question": "A project is already ahead of schedule and has no contractual deadline pressure. What is generally the best decision regarding crashing?",
+      "options": [
+        "Crash the project anyway",
+        "Evaluate whether the benefits justify the additional costs before crashing",
+        "Crash every activity on the Critical Path",
+        "Automatically hire more staff"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Crashing should only be used when the benefits of finishing earlier outweigh the additional costs."
+    },
 
+        {
+      "question": "A project manager is deciding whether to crash an activity. What should be evaluated first?",
+      "options": [
+        "Whether reducing the activity duration provides enough value to justify the additional cost",
+        "Whether the activity has the longest description",
+        "Whether the activity uses the most expensive equipment",
+        "Whether the project team prefers working overtime"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Crashing should only be used when the benefits of finishing earlier outweigh the additional costs."
+    },
+    {
+      "question": "Which of the following activities would generally NOT benefit from crashing?",
+      "options": [
+        "A Critical Path activity that can be completed faster with additional workers",
+        "An activity with significant float that is not on the Critical Path",
+        "An activity delayed by a shortage of equipment",
+        "An activity that has available overtime opportunities"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Reducing the duration of non-critical activities usually does not reduce the project's overall completion time."
+    },
+    {
+      "question": "Which statement best describes the difference between crashing and fast tracking?",
+      "options": [
+        "Crashing adds resources, while fast tracking overlaps activities that were originally planned sequentially",
+        "Crashing reduces project scope, while fast tracking increases project scope",
+        "Crashing only applies to software projects, while fast tracking only applies to construction projects",
+        "There is no practical difference between the two techniques"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Crashing shortens activities by adding resources, while fast tracking shortens the schedule by performing activities in parallel."
+    },
+    {
+      "question": "What is the primary disadvantage of fast tracking compared to crashing?",
+      "options": [
+        "It usually increases project risk due to overlapping activities",
+        "It always requires hiring more employees",
+        "It guarantees higher project quality",
+        "It eliminates the Critical Path"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Fast tracking increases the likelihood of rework because activities are performed simultaneously instead of sequentially."
+    },
+    {
+      "question": "A software company adds four additional developers to complete a feature earlier. Instead of finishing faster, communication becomes more difficult and progress slows. What principle does this illustrate?",
+      "options": [
+        "Adding more resources does not always reduce activity duration",
+        "Critical Path activities cannot be crashed",
+        "Fast tracking always reduces risk",
+        "Project costs automatically decrease when more people are assigned"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Some activities become less efficient when additional people increase communication and coordination requirements."
+    },
+    {
+      "question": "Why is crashing considered a time-cost trade-off?",
+      "options": [
+        "Reducing project duration usually requires spending additional money",
+        "Crashing always reduces both time and cost",
+        "Crashing eliminates the need for budgeting",
+        "Time and cost are unrelated in project management"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Project managers exchange additional cost for a shorter schedule when they decide to crash a project."
+    },
+    {
+      "question": "A project has two Critical Path activities. Only one of them is crashed. What is the most likely outcome?",
+      "options": [
+        "The overall project duration may not decrease if the other Critical Path remains unchanged",
+        "The project will always finish earlier",
+        "The Critical Path disappears completely",
+        "Project costs automatically decrease"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "When multiple critical paths exist, shortening only one path may not reduce the overall project duration."
+    },
+    {
+      "question": "Which project manager is using crashing most effectively?",
+      "options": [
+        "One who crashes every project activity regardless of cost",
+        "One who selectively crashes activities that provide the greatest schedule reduction for the lowest additional cost",
+        "One who crashes only non-critical activities",
+        "One who avoids evaluating project risks before crashing"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Good project managers selectively crash activities that provide the best balance between schedule improvement and additional cost."
+    },
+    {
+      "question": "A client offers a large financial bonus if the project finishes two weeks early. What should the project manager do before deciding to crash the schedule?",
+      "options": [
+        "Evaluate whether the bonus exceeds the additional cost and risk of crashing",
+        "Automatically hire as many additional workers as possible",
+        "Reduce the project scope immediately",
+        "Ignore the client's request because schedules cannot be changed"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Project managers should compare the financial benefit of early completion with the additional costs and risks of schedule compression."
+    },
+    {
+      "question": "Which statement best summarizes good project crashing decisions?",
+      "options": [
+        "Crash every project whenever possible",
+        "Only crash when reducing the schedule creates greater value than the additional cost and risk",
+        "Never crash because it always increases costs",
+        "Crash only after the project has already finished"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "Effective project managers use crashing strategically, balancing schedule improvements against increased costs, risks and overall business value."
+    },
+        {
+      "question": "A project manager has identified three activities on the Critical Path. Which activity should generally be crashed first?",
+      "options": [
+        "The activity with the highest additional cost",
+        "The activity that provides the greatest reduction in project duration for the lowest additional cost",
+        "The activity with the largest project team",
+        "The longest activity, regardless of cost"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Effective crashing focuses on achieving the maximum schedule reduction for the minimum additional cost."
+    },
+    {
+      "question": "A project has developed two parallel Critical Paths. Why should the project manager be cautious when crashing only one of them?",
+      "options": [
+        "The project budget will automatically decrease",
+        "The unchanged Critical Path may still determine the project's completion date",
+        "The second Critical Path disappears automatically",
+        "Crashing one path always shortens both paths equally"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "When multiple Critical Paths exist, reducing only one may not reduce the project's overall duration because the other path can still control the finish date."
+    },
+    {
+      "question": "A project manager crashes an activity by scheduling extensive overtime. After several weeks, productivity decreases and mistakes increase. What is the most likely explanation?",
+      "options": [
+        "Overtime can eventually reduce productivity due to fatigue",
+        "Critical Path activities cannot be crashed",
+        "Fast tracking automatically occurred",
+        "The project budget became invalid"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "While overtime may initially shorten activities, excessive overtime often leads to fatigue, lower productivity and higher error rates."
+    },
+    {
+      "question": "Which situation is the strongest justification for crashing a project?",
+      "options": [
+        "The client offers a financial bonus that exceeds the additional crashing cost",
+        "The project manager wants to keep the team busy",
+        "The project is progressing exactly as planned",
+        "The project has significant schedule float"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Crashing should create greater value than its additional cost. A financial incentive may justify schedule compression."
+    },
+    {
+      "question": "A project manager can either crash the schedule or fast track several activities. Which factor most strongly influences the decision?",
+      "options": [
+        "Whether the organization is willing to accept higher costs, higher risks, or a combination of both",
+        "The color of the Gantt chart",
+        "The number of project meetings",
+        "The age of the project team"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Crashing primarily increases cost, while fast tracking primarily increases risk. The decision depends on which trade-off the organization is willing to accept."
+    },
+    {
+      "question": "A project sponsor requests a completion date three weeks earlier but refuses to increase the budget. What should the project manager do first?",
+      "options": [
+        "Evaluate whether schedule compression is feasible and explain the trade-offs between time, cost, scope and risk",
+        "Immediately promise the new completion date",
+        "Hire additional workers without approval",
+        "Reduce project quality without informing stakeholders"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Project managers should evaluate whether the requested schedule is realistic and communicate the consequences of any schedule compression."
+    },
+    {
+      "question": "Which statement best explains why crashing should not automatically be the first solution when a project falls behind schedule?",
+      "options": [
+        "Crashing may increase costs without solving the underlying cause of the delay",
+        "Crashing is prohibited in professional project management",
+        "Crashing always reduces project quality",
+        "Crashing only works during project initiation"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "The project manager should first understand why the delay occurred before deciding whether additional resources are the appropriate solution."
+    },
+    {
+      "question": "A company has a limited budget but faces a strict market launch deadline. Which approach is most appropriate?",
+      "options": [
+        "Evaluate both crashing and fast tracking to determine the most appropriate balance between cost, risk and schedule",
+        "Automatically crash every Critical Path activity",
+        "Ignore the deadline",
+        "Double the project budget regardless of business value"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Project managers should compare multiple schedule compression techniques and choose the option that provides the best overall business outcome."
+    },
+    {
+      "question": "Which statement best reflects professional project management when considering project crashing?",
+      "options": [
+        "Every project should be crashed to maximize efficiency",
+        "Project crashing is a strategic decision that should only be used when the benefits outweigh the additional costs and risks",
+        "Crashing always produces the best project outcome",
+        "Crashing eliminates the need for project monitoring"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "Crashing is a management decision based on evaluating business value, costs, risks and project objectives rather than simply shortening the schedule."
+    },
+    {
+      "question": "What is the most important lesson about project crashing?",
+      "options": [
+        "The shortest possible schedule is always the best schedule",
+        "Successful project managers balance time, cost, scope, quality and risk before deciding to compress a project schedule",
+        "Additional resources always improve productivity",
+        "Only construction projects use project crashing"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "Project crashing is ultimately about making informed trade-offs. Effective project managers consider all project constraints—not just time—before deciding to shorten a schedule."
+    }
+  ]
+}
+    
