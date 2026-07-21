@@ -1,0 +1,368 @@
+{
+  "title": "Product Costing",
+  "description": "Quiz covering product costing methods, costing systems and their role in managerial decision-making.",
+  "questions": [
+    {
+      "question": "What is the primary purpose of product costing?",
+      "options": [
+        "To determine the total cost of producing a product or service",
+        "To calculate company revenue",
+        "To determine employee salaries",
+        "To estimate future sales"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Product costing determines all costs associated with producing a product or delivering a service."
+    },
+    {
+      "question": "Which three cost categories are typically included in a product's total manufacturing cost?",
+      "options": [
+        "Direct materials, direct labor and manufacturing overhead",
+        "Revenue, profit and taxes",
+        "Selling expenses, marketing expenses and dividends",
+        "Cash, inventory and accounts receivable"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "A product's manufacturing cost normally consists of direct materials, direct labor and allocated manufacturing overhead."
+    },
+    {
+      "question": "Why is accurate product costing important?",
+      "options": [
+        "It helps managers make better pricing and profitability decisions",
+        "It guarantees higher sales",
+        "It eliminates indirect costs",
+        "It automatically reduces production costs"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Managers rely on accurate product costs when pricing products and evaluating profitability."
+    },
+    {
+      "question": "Which costing method is most appropriate for building custom yachts?",
+      "options": [
+        "Job Costing",
+        "Process Costing",
+        "Contribution Margin Analysis",
+        "Variance Analysis"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Custom-built products are unique projects, making Job Costing the appropriate method."
+    },
+    {
+      "question": "Which costing method is commonly used in a factory producing identical bottles of mineral water?",
+      "options": [
+        "Process Costing",
+        "Job Costing",
+        "Investment Analysis",
+        "Budgeting"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Process Costing is used for continuous production of identical products."
+    },
+    {
+      "question": "What characterizes Job Costing?",
+      "options": [
+        "Each job or project is costed separately",
+        "Every product receives exactly the same cost",
+        "Only direct costs are recorded",
+        "No overhead is allocated"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Job Costing tracks costs individually for each customer order or project."
+    },
+    {
+      "question": "Which industry is most likely to use Process Costing?",
+      "options": [
+        "Oil refining",
+        "Shipbuilding",
+        "Architectural consulting",
+        "Custom furniture manufacturing"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Oil refineries continuously produce standardized products, making Process Costing appropriate."
+    },
+    {
+      "question": "What does Full Costing include?",
+      "options": [
+        "All manufacturing costs, including both direct and indirect costs",
+        "Only direct materials",
+        "Only variable costs",
+        "Only labor costs"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Full Costing assigns every manufacturing cost to the product."
+    },
+    {
+      "question": "What is the main goal of Activity-Based Costing (ABC)?",
+      "options": [
+        "To allocate overhead more accurately based on activities",
+        "To eliminate direct labor costs",
+        "To simplify financial reporting",
+        "To calculate company revenue"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "ABC improves costing accuracy by assigning overhead based on the activities that consume resources."
+    },
+    {
+      "question": "A company discovers that its actual manufacturing cost per product is much higher than previously estimated. What is the most likely consequence?",
+      "options": [
+        "The company may need to increase its selling price or reduce costs",
+        "Revenue automatically increases",
+        "The product becomes a direct cost",
+        "The company no longer needs product costing"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Higher production costs may require pricing adjustments or cost reductions to remain profitable."
+    },
+
+        {
+      "question": "A construction company builds a new office building for a customer. Which costing method is most appropriate?",
+      "options": [
+        "Job Costing",
+        "Process Costing",
+        "Activity-Based Costing",
+        "Contribution Margin Analysis"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Construction projects are unique, making Job Costing the appropriate method."
+    },
+    {
+      "question": "Why is Process Costing generally unsuitable for custom-built products?",
+      "options": [
+        "Because each product has unique costs that should be tracked separately",
+        "Because Process Costing ignores labor costs",
+        "Because it only includes indirect costs",
+        "Because it cannot allocate overhead"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Custom products require individual cost tracking rather than averaging costs across identical units."
+    },
+    {
+      "question": "A factory produces 40,000 identical chocolate bars each day. Which costing method would normally provide the most efficient cost calculation?",
+      "options": [
+        "Process Costing",
+        "Job Costing",
+        "Activity-Based Costing",
+        "Investment Analysis"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Large-scale production of identical products is well suited for Process Costing."
+    },
+    {
+      "question": "Which statement best describes Full Costing?",
+      "options": [
+        "Every manufactured product receives both direct costs and a share of manufacturing overhead",
+        "Only direct materials are assigned to products",
+        "Only indirect costs are assigned to products",
+        "Products receive only variable costs"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Full Costing includes all manufacturing costs when calculating product cost."
+    },
+    {
+      "question": "What is a cost driver in Activity-Based Costing (ABC)?",
+      "options": [
+        "A factor that causes an activity to consume resources",
+        "The employee responsible for accounting",
+        "The selling price of a product",
+        "A company's annual profit"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Cost drivers explain why activities generate costs and are used to allocate overhead more accurately."
+    },
+    {
+      "question": "A company manufactures two products using the same labor hours. However, Product A requires many more machine setups than Product B. Which costing method is most likely to reflect this difference?",
+      "options": [
+        "Activity-Based Costing",
+        "Traditional Full Costing using only labor hours",
+        "Process Costing",
+        "Job Costing based only on direct labor"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "ABC allocates setup costs to the product that actually requires more setup activities."
+    },
+    {
+      "question": "Why can traditional costing sometimes produce misleading product costs?",
+      "options": [
+        "Because it may use only one allocation base for all overhead costs",
+        "Because it ignores direct materials",
+        "Because it excludes labor costs",
+        "Because it only works for service companies"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Using a single allocation base may not reflect how different products consume resources."
+    },
+    {
+      "question": "A company introduces Activity-Based Costing and discovers that a low-volume product is much more expensive to produce than previously believed. What is the most likely reason?",
+      "options": [
+        "The product consumes more support activities than expected",
+        "Direct materials suddenly became free",
+        "The selling price increased",
+        "Revenue was included as a manufacturing cost"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Low-volume products often require proportionally more setups, inspections or engineering activities."
+    },
+    {
+      "question": "Which costing method is generally the simplest to implement?",
+      "options": [
+        "Traditional Full Costing",
+        "Activity-Based Costing",
+        "Neither—they require the same level of detail",
+        "Job Costing with multiple cost drivers"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Traditional costing is simpler because it usually relies on fewer allocation bases than ABC."
+    },
+    {
+      "question": "A manufacturing company produces many different products with varying complexity. Which costing approach is likely to provide the most accurate product costs?",
+      "options": [
+        "Activity-Based Costing",
+        "Process Costing using one average cost",
+        "Ignoring overhead costs",
+        "Allocating all overhead equally"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "ABC captures differences in resource consumption between complex and simple products."
+    },
+
+        {
+      "question": "A company discovers that one of its products is much less profitable after implementing Activity-Based Costing (ABC). What is the best first response?",
+      "options": [
+        "Investigate why the product consumes so many activities before making decisions",
+        "Immediately discontinue the product",
+        "Ignore the ABC results",
+        "Reduce all employee salaries"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Managers should first understand the reasons behind the higher costs before changing pricing or production."
+    },
+    {
+      "question": "Why might two products with identical direct materials and direct labor have different total product costs?",
+      "options": [
+        "Because they consume different amounts of manufacturing overhead",
+        "Because direct costs are estimated",
+        "Because product costs never include overhead",
+        "Because revenue affects manufacturing cost"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Products often require different levels of support activities, resulting in different overhead allocations."
+    },
+    {
+      "question": "A consulting firm completes projects that vary greatly in size and complexity. Which costing method is most appropriate?",
+      "options": [
+        "Job Costing",
+        "Process Costing",
+        "Average Costing",
+        "Standard Costing"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Each consulting project is unique and should have its own accumulated costs."
+    },
+    {
+      "question": "A paper mill produces thousands of identical rolls of paper every day. Why is Process Costing the preferred method?",
+      "options": [
+        "Because production is continuous and the units are nearly identical",
+        "Because every roll is custom-made",
+        "Because overhead is unnecessary",
+        "Because labor costs are ignored"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Process Costing averages costs across a large number of identical units."
+    },
+    {
+      "question": "A manager prices a product using only direct materials and direct labor while ignoring manufacturing overhead. What is the greatest risk?",
+      "options": [
+        "The selling price may be too low to cover the product's true cost",
+        "The product automatically becomes more profitable",
+        "The company will eliminate fixed costs",
+        "Revenue will increase regardless of costs"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Ignoring overhead can significantly underestimate the true production cost."
+    },
+    {
+      "question": "Which statement best explains why Activity-Based Costing (ABC) often provides more accurate product costs than traditional costing?",
+      "options": [
+        "It allocates overhead using multiple cost drivers that better reflect resource consumption",
+        "It ignores indirect costs",
+        "It allocates only direct materials",
+        "It assumes every product uses resources equally"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "ABC recognizes that different activities generate different costs and assigns them accordingly."
+    },
+    {
+      "question": "A factory introduces a highly automated production line. Which allocation base may become more appropriate than direct labor hours for assigning overhead?",
+      "options": [
+        "Machine hours",
+        "Number of employees",
+        "Sales revenue",
+        "Office floor space"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "In automated production, machine usage often drives overhead costs more than labor hours."
+    },
+    {
+      "question": "Why do many companies continue using traditional costing even when ABC may be more accurate?",
+      "options": [
+        "Because traditional costing is simpler and less expensive to implement",
+        "Because ABC cannot allocate overhead",
+        "Because traditional costing is always more accurate",
+        "Because financial statements prohibit ABC"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "ABC requires more detailed data collection and is often more costly to maintain."
+    },
+    {
+      "question": "A manufacturing company introduces a new costing system and discovers that several products previously considered profitable are actually generating losses. What does this demonstrate?",
+      "options": [
+        "Accurate costing can significantly improve managerial decision-making",
+        "Product costing has no impact on profitability",
+        "Revenue was calculated incorrectly",
+        "Direct costs should always be ignored"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Better cost information helps managers make more informed decisions about pricing, production and product portfolios."
+    },
+    {
+      "question": "What is the ultimate purpose of product costing?",
+      "options": [
+        "To provide reliable cost information that supports pricing, profitability analysis and strategic decision-making",
+        "To maximize revenue regardless of costs",
+        "To eliminate manufacturing overhead",
+        "To simplify bookkeeping by removing indirect costs"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Product costing exists to give managers accurate information for making sound business decisions."
+    }
+  ]
+}
