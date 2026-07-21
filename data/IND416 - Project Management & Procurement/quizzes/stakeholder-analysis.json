@@ -1,101 +1,366 @@
 {
   "title": "Stakeholder Analysis",
+  "description": "Advanced quiz on stakeholder identification, prioritization, engagement, influence, communication, conflict, governance and stakeholder dynamics throughout the project life cycle.",
   "questions": [
     {
-      "question": "A company is building a new automated warehouse. Local residents complain about increased traffic, even though they are not paying for the project. Why are they considered stakeholders?",
+      "question": "Which statement provides the most complete definition of a project stakeholder?",
       "options": [
-        "They own the project budget.",
-        "They are affected by the project's outcome.",
-        "They work as project managers.",
-        "They are responsible for procurement."
+        "Any person employed by the organization delivering the project",
+        "Any individual, group or organization that can affect, be affected by or perceive itself to be affected by the project",
+        "Only people who provide funding or formal approval",
+        "Only external parties who receive the final deliverable"
       ],
       "answer": 1,
-      "difficulty": "Easy",
-      "explanation": "Anyone affected by a project is considered a stakeholder, even if they are not directly involved."
+      "difficulty": "Foundation",
+      "explanation": "Stakeholders include internal and external parties that can influence the project, experience its effects or believe that their interests may be affected. Formal authority or direct participation is not required."
     },
     {
-      "question": "Which stakeholder should typically receive the most frequent communication?",
+      "question": "What is the primary purpose of stakeholder analysis?",
       "options": [
-        "A stakeholder with low power and low interest.",
-        "A stakeholder with high power and high interest.",
-        "A stakeholder with low power but high interest.",
-        "A stakeholder with no influence."
+        "To ensure that every stakeholder receives the same information",
+        "To identify stakeholders and understand their interests, influence, expectations and potential impact on the project",
+        "To transfer responsibility for project decisions to external parties",
+        "To eliminate disagreement before project planning begins"
       ],
       "answer": 1,
-      "difficulty": "Easy",
-      "explanation": "High-power, high-interest stakeholders should be managed closely because they can strongly influence project success."
+      "difficulty": "Foundation",
+      "explanation": "Stakeholder analysis helps the project team understand who matters, why they matter and how engagement should be tailored. It does not require identical communication or eliminate all disagreement."
     },
     {
-      "question": "A project manager discovers late in the project that the IT department rejects the chosen software because of cybersecurity concerns. Which mistake most likely occurred?",
+      "question": "In a traditional Power-Interest Matrix, how should a stakeholder with high power and high interest normally be managed?",
       "options": [
-        "The project schedule was too detailed.",
-        "Stakeholder analysis was incomplete.",
-        "The project budget was underestimated.",
-        "The project charter contained too much information."
+        "Monitor with minimal effort",
+        "Keep informed",
+        "Keep satisfied",
+        "Manage closely"
+      ],
+      "answer": 3,
+      "difficulty": "Foundation",
+      "explanation": "High-power, high-interest stakeholders can strongly influence project outcomes and care significantly about the project. They normally require active involvement and close management."
+    },
+    {
+      "question": "What is a stakeholder register primarily used for?",
+      "options": [
+        "Recording identified stakeholders and relevant information about their roles, interests, influence and engagement needs",
+        "Listing only the members of the formal project team",
+        "Replacing the project's communication plan",
+        "Recording every decision made by the sponsor"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The stakeholder register captures key information about identified stakeholders. It supports analysis and engagement planning but does not replace a detailed communication or governance plan."
+    },
+    {
+      "question": "Why should stakeholder identification begin during project initiation?",
+      "options": [
+        "Because stakeholder positions never change after initiation",
+        "Because important stakeholders may influence project justification, objectives, constraints and approval",
+        "Because all stakeholder conflicts must be resolved before the charter is issued",
+        "Because only the sponsor may identify stakeholders after planning begins"
       ],
       "answer": 1,
-      "difficulty": "Medium",
-      "explanation": "The IT department should have been identified and involved early as an important stakeholder."
+      "difficulty": "Foundation",
+      "explanation": "Stakeholders can shape whether the project should proceed and how it should be defined. Identifying them early reduces the risk of making major decisions without relevant input."
     },
     {
-      "question": "A government regulator has the authority to stop your project but rarely requests detailed updates. According to the Power-Interest Matrix, how should this stakeholder be managed?",
+      "question": "Why is formal authority an incomplete measure of stakeholder influence?",
       "options": [
-        "Manage Closely",
-        "Keep Satisfied",
-        "Keep Informed",
-        "Monitor"
+        "Because formal authority has no relevance in projects",
+        "Because stakeholders may influence outcomes through expertise, resources, relationships, legitimacy or control of critical information",
+        "Because only customers have genuine influence",
+        "Because informal influence exists only in small organizations"
       ],
       "answer": 1,
-      "difficulty": "Medium",
-      "explanation": "Stakeholders with high power but relatively low day-to-day interest should generally be kept satisfied."
+      "difficulty": "Understanding",
+      "explanation": "Influence may come from many sources beyond organizational hierarchy. A technical expert, regulator, supplier or respected employee may have substantial practical influence despite limited formal authority."
     },
     {
-      "question": "A supplier has little formal authority but provides a unique component without which the project cannot continue. What should the project manager conclude?",
+      "question": "Why should stakeholder analysis be treated as an ongoing activity rather than a one-time exercise?",
       "options": [
-        "The supplier can be ignored because they have low organizational power.",
-        "The supplier's practical influence may be greater than the organization chart suggests.",
-        "Only internal stakeholders should be considered during stakeholder analysis.",
-        "Suppliers are never stakeholders."
+        "Because the project charter must be rewritten every week",
+        "Because stakeholder interests, influence, attitudes and relationships may change as the project develops",
+        "Because stakeholders must receive a new formal role during every phase",
+        "Because project managers cannot identify stakeholders during initiation"
       ],
       "answer": 1,
-      "difficulty": "Hard",
-      "explanation": "Actual influence depends on the stakeholder's ability to affect project success, not only their formal position."
+      "difficulty": "Understanding",
+      "explanation": "Project developments can alter who has influence, who is affected and how stakeholders respond. Analysis should therefore be reviewed when circumstances or project phases change."
     },
     {
-      "question": "During a hospital construction project, doctors request larger operating rooms while the finance department demands cost reductions. What is the project manager's primary responsibility?",
+      "question": "What is the key distinction between stakeholder communication and stakeholder engagement?",
       "options": [
-        "Automatically follow the finance department.",
-        "Automatically satisfy the doctors.",
-        "Balance stakeholder interests while supporting project objectives.",
-        "Ignore both groups until construction begins."
+        "Communication concerns information exchange, while engagement also involves participation, influence, relationships and commitment",
+        "Communication is used internally, while engagement is used only externally",
+        "Engagement means giving stakeholders authority over every decision",
+        "There is no meaningful distinction"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Communication is an important part of engagement, but effective engagement also concerns involvement, trust, expectations, behavior and the stakeholder's relationship with the project."
+    },
+    {
+      "question": "Why might a stakeholder with low formal power still require close attention?",
+      "options": [
+        "Because all stakeholders must always be managed identically",
+        "Because the stakeholder may possess critical knowledge, mobilize opposition or become more influential later",
+        "Because low-power stakeholders normally control the project budget",
+        "Because stakeholder matrices should never be used"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Current formal power does not fully capture potential influence. Critical expertise, public support, networks or changing conditions can make an apparently low-power stakeholder important."
+    },
+    {
+      "question": "Why is stakeholder satisfaction not always an appropriate project objective?",
+      "options": [
+        "Because stakeholder expectations are irrelevant",
+        "Because stakeholder interests may conflict, making universal satisfaction impossible or inconsistent with project objectives",
+        "Because only the project manager should be satisfied",
+        "Because satisfied stakeholders always increase scope"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Projects often involve competing interests. The project team must manage expectations fairly and make defensible trade-offs rather than promise that every stakeholder preference will be fulfilled."
+    },
+    {
+      "question": "What does stakeholder legitimacy refer to?",
+      "options": [
+        "The stakeholder's ability to provide project funding",
+        "The perceived appropriateness or validity of the stakeholder's claim or involvement",
+        "The stakeholder's position in the project hierarchy",
+        "The frequency with which the stakeholder attends meetings"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Legitimacy concerns whether a stakeholder's claim is regarded as appropriate, valid or socially accepted. It is distinct from power and urgency."
+    },
+    {
+      "question": "Why should the project team assess both a stakeholder's current attitude and its desired attitude?",
+      "options": [
+        "To determine an appropriate engagement strategy and identify the movement needed to secure sufficient support",
+        "To remove stakeholders who are not currently supportive",
+        "To guarantee that all stakeholders become project sponsors",
+        "To replace the risk register"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Comparing current and desired engagement states helps the team determine whether a stakeholder should become more supportive, less resistant or simply remain adequately informed."
+    },
+    {
+      "question": "Why can excessive communication be as problematic as insufficient communication?",
+      "options": [
+        "Because communication should stop after planning",
+        "Because irrelevant detail can consume attention, create confusion and reduce stakeholders' willingness to engage",
+        "Because stakeholders should only receive positive information",
+        "Because project managers must keep all information confidential"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Communication should be relevant, timely and proportionate. Flooding stakeholders with unnecessary detail may conceal important information and weaken engagement."
+    },
+    {
+      "question": "A shipping company is implementing a new procurement platform. The procurement director supports it, but vessel superintendents believe it will slow urgent purchases. What should the project manager do first?",
+      "options": [
+        "Classify the superintendents as resistant and proceed without them",
+        "Investigate their operational concerns and determine how the proposed process affects urgent purchasing",
+        "Ask the sponsor to order them to support the system",
+        "Delay the project until every superintendent fully agrees"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Resistance may contain valuable operational information. The project manager should first understand the underlying interests and possible process consequences before selecting an engagement response."
+    },
+    {
+      "question": "A regulator has the authority to stop a port expansion but shows little day-to-day interest while permits are being prepared. How should the project team generally engage this stakeholder?",
+      "options": [
+        "Monitor only and avoid direct contact",
+        "Keep satisfied through timely compliance information and consultation at important decision points",
+        "Send detailed daily progress reports",
+        "Treat the regulator as a low-priority stakeholder"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "A regulator with high power and comparatively low operational interest should normally be kept satisfied. Communication should focus on compliance, major changes and relevant decisions."
+    },
+    {
+      "question": "Residents near a planned terminal have limited formal authority but are organizing media campaigns and contacting elected officials. What is the most appropriate conclusion?",
+      "options": [
+        "They remain low-power stakeholders because they cannot sign contracts",
+        "Their practical influence is increasing and the stakeholder analysis should be updated",
+        "They should be ignored unless they begin legal proceedings",
+        "The project manager should classify them as project team members"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Stakeholder power is dynamic. Collective action, media attention and political access may substantially increase the community's ability to affect the project."
+    },
+    {
+      "question": "A project sponsor and a major customer disagree about the priority of two deliverables. What should the project manager do first?",
+      "options": [
+        "Follow the sponsor because the sponsor has greater formal authority",
+        "Follow the customer because customers always define project success",
+        "Clarify the underlying interests, contractual commitments, objectives and decision rights before recommending a resolution",
+        "Ask the delivery team to decide through a vote"
       ],
       "answer": 2,
-      "difficulty": "Hard",
-      "explanation": "Project managers must balance competing stakeholder interests while still delivering the agreed project objectives."
+      "difficulty": "Application",
+      "explanation": "The project manager should avoid treating the conflict as a simple contest of authority. The disagreement should be assessed against project objectives, governance and existing commitments."
     },
     {
-      "question": "Why should stakeholder analysis be updated throughout the project?",
+      "question": "A new warehouse system is technically complete, but employees continue using spreadsheets because they were not involved in process design. Which stakeholder-management failure is most evident?",
       "options": [
-        "Because stakeholder influence and interests can change over time.",
-        "Because the project charter expires every month.",
-        "Because project budgets require weekly approval.",
-        "Because procurement contracts automatically change stakeholders."
+        "The project team communicated too frequently",
+        "The end users were treated as recipients of the solution rather than participants in organizational change",
+        "The sponsor was given too much information",
+        "The supplier had insufficient contractual power"
       ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Projects evolve, and stakeholders' influence, priorities and expectations often change as the project progresses."
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "End-user adoption often requires meaningful involvement, not merely late-stage instruction. Excluding users can weaken ownership, usability and willingness to change."
     },
     {
-      "question": "A project team communicates only with senior management and ignores employees who will eventually use the new system. The project is delivered on time but employees refuse to adopt it. What is the best explanation?",
+      "question": "A supplier is classified as low power because it is a small company. Later, the project discovers that no alternative supplier can deliver its specialized component. What should be changed?",
       "options": [
-        "The project failed because of poor stakeholder management.",
-        "The budget was too small.",
-        "The project lacked a Work Breakdown Structure.",
-        "The project should have used Agile instead."
+        "Nothing, because company size determines stakeholder power",
+        "The supplier's influence rating should increase because the project depends on a resource it uniquely controls",
+        "The supplier should be removed from the register and added to the risk register only",
+        "The supplier should automatically become the project sponsor"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Dependency on a unique resource creates practical influence. Stakeholder assessments should reflect actual capacity to affect the project rather than organizational size alone."
+    },
+    {
+      "question": "A department head appears supportive in steering-committee meetings but repeatedly withholds experienced staff from the project. How should this behavior be interpreted?",
+      "options": [
+        "As clear evidence of active support",
+        "As a potential gap between stated and actual engagement that requires investigation",
+        "As proof that the stakeholder has no power",
+        "As a scheduling issue unrelated to stakeholder management"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Stakeholder engagement should be assessed through behavior as well as statements. Resource withholding may signal competing priorities, hidden resistance or weak commitment."
+    },
+    {
+      "question": "A project team wants to send identical weekly reports to the board, technical specialists, end users and suppliers. What is the main weakness of this approach?",
+      "options": [
+        "Weekly reporting is always too frequent",
+        "It ignores differences in stakeholder information needs, decision roles and technical understanding",
+        "Suppliers should never receive project information",
+        "Only the sponsor should receive written communication"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Effective communication is tailored. Different stakeholders require different levels of detail, formats, frequencies and calls to action."
+    },
+    {
+      "question": "A project manager learns that two stakeholder groups are opposing the project for different reasons. One fears job losses; the other doubts the technical solution. What is the best response?",
+      "options": [
+        "Use the same communication message because both groups are resistant",
+        "Develop separate engagement approaches addressing the distinct underlying concerns",
+        "Escalate both groups immediately to senior management",
+        "Provide only additional technical information to both groups"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Resistance is not a single condition. Effective engagement addresses the specific interests, fears and evidence behind each stakeholder's position."
+    },
+    {
+      "question": "A key stakeholder repeatedly introduces new requirements through informal conversations with developers. What should the project manager do?",
+      "options": [
+        "Tell developers to implement the requests to preserve the relationship",
+        "Clarify the stakeholder's needs while directing proposed changes through the agreed governance and change-control process",
+        "Remove the stakeholder from future meetings",
+        "Reject all future suggestions from that stakeholder"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The relationship should be maintained, but informal influence must not bypass formal scope and decision processes. Needs can be explored without making unauthorized commitments."
+    },
+    {
+      "question": "A technically influential engineer opposes a design selected by senior management. The engineer presents evidence of a serious safety concern. What is the most appropriate response?",
+      "options": [
+        "Ignore the objection because senior management has already decided",
+        "Evaluate the evidence through the relevant technical and governance processes before continuing",
+        "Remove the engineer because opposition reduces team morale",
+        "Proceed unless the engineer has formal budget authority"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Stakeholder claims should be evaluated based on relevance and evidence, not only hierarchy. Safety concerns may require formal review even when raised by a less senior stakeholder."
+    },
+    {
+      "question": "A stakeholder has high power, high interest and strong opposition to the project. Which strategy is most defensible?",
+      "options": [
+        "Reduce communication to prevent further opposition",
+        "Engage closely to understand interests, address valid concerns and manage the risks created by unresolved disagreement",
+        "Provide only positive project information",
+        "Classify the stakeholder as low priority because support is unlikely"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "A powerful opponent cannot be managed through avoidance. Close engagement does not guarantee agreement, but it improves understanding, exposes risks and creates opportunities for negotiated solutions."
+    },
+    {
+      "question": "A project satisfies its sponsor and customer but causes significant operational disruption to a department that was not consulted. The project remains within scope, time and cost. What is the best assessment?",
+      "options": [
+        "The project is fully successful because its formal constraints were met",
+        "The project demonstrates that stakeholder consequences and operational outcomes can undermine broader project success",
+        "The affected department is irrelevant because it did not fund the project",
+        "The disruption proves that the original schedule was incorrect"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Project success extends beyond delivery constraints. Unmanaged negative impacts on affected stakeholders may reduce adoption, benefits and organizational value."
+    },
+    {
+      "question": "A stakeholder matrix classifies a community group as low power and low interest. The project manager therefore excludes it from all communication. Which assumption is most questionable?",
+      "options": [
+        "That low-priority stakeholders require no monitoring and cannot change their position",
+        "That communities may be external stakeholders",
+        "That power and interest can be analyzed",
+        "That stakeholders may have different communication needs"
       ],
       "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Project success depends not only on delivering the solution but also on achieving stakeholder acceptance."
+      "difficulty": "Analysis",
+      "explanation": "Low-power, low-interest stakeholders may require limited effort, but they should still be monitored. Project impacts or new information may rapidly change their interest or influence."
+    },
+    {
+      "question": "A senior executive demands that the project manager classify all opponents as low-priority stakeholders to simplify governance. What is the most important professional objection?",
+      "options": [
+        "Stakeholder classification should reflect evidence about influence and impact, not management's preferred narrative",
+        "All opponents must automatically be classified as high power",
+        "Stakeholder matrices may only be completed by external consultants",
+        "Opposition is not relevant to project risk"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Manipulating analysis to support a desired conclusion weakens governance and hides risk. Classification should be evidence-based and periodically reviewed."
+    },
+    {
+      "question": "A project team gains broad stakeholder support by promising benefits that have not been approved and may not be achievable. Why is this strategy fundamentally weak?",
+      "options": [
+        "Stakeholder support has no relationship to project success",
+        "Temporary support based on unrealistic expectations creates future trust, scope and legitimacy risks",
+        "Projects should never discuss expected benefits",
+        "Only the sponsor is allowed to communicate with stakeholders"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "Engagement built on unrealistic promises is unstable. When expectations are not met, the project may face resistance, reputational damage, unauthorized scope pressure and loss of trust."
+    },
+    {
+      "question": "A project manager must choose between satisfying a powerful stakeholder and protecting a less powerful group from a serious negative impact. Which principle offers the strongest basis for the decision?",
+      "options": [
+        "Always prioritize the stakeholder with the greatest formal authority",
+        "Always prioritize the largest stakeholder group",
+        "Evaluate decision rights, project objectives, evidence, ethical obligations, legitimacy and consequences rather than relying on power alone",
+        "Avoid making the decision until one group withdraws"
+      ],
+      "answer": 2,
+      "difficulty": "Expert",
+      "explanation": "Power is relevant but not sufficient. High-quality stakeholder decisions also consider governance, legitimacy, ethics, impacts, contractual obligations and the project's intended value."
     }
   ]
 }
