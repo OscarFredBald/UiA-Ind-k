@@ -1,0 +1,165 @@
+{
+  "title": "Product Costing",
+  "description": "Learn how businesses determine the total cost of producing goods and services using different product costing methods, and understand how accurate product costs support pricing and profitability decisions.",
+  "estimatedReadingTime": "14 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Understand what product costing is.",
+        "Explain why accurate product costs are important.",
+        "Differentiate between Job Costing and Process Costing.",
+        "Understand Full Costing and Activity-Based Costing (ABC).",
+        "Recognize how product costing supports pricing and profitability analysis.",
+        "Identify the strengths and limitations of different costing methods."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Every business must understand how much it actually costs to produce its products or services. Without accurate product costs, managers may set prices that are too low, accept unprofitable contracts or make poor investment decisions.",
+        "Product costing is the process of determining the total cost associated with producing a product or delivering a service.",
+        "It combines direct costs and allocated indirect costs to estimate the full cost of each product."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "What Is Product Costing?",
+      "content": [
+        "Product costing is the process of calculating all costs involved in producing a product.",
+        "A complete product cost normally includes direct materials, direct labor and allocated manufacturing overhead.",
+        "Managers use product costs when setting prices, evaluating profitability and comparing production alternatives."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Bicycle Manufacturer",
+      "content": [
+        "A company manufactures bicycles.",
+        "Each bicycle requires $180 in materials and $120 in direct labor.",
+        "After allocating factory overhead of $100, the total product cost becomes $400 per bicycle."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Job Costing",
+      "content": [
+        "Job costing is used when products or projects are unique and produced according to customer specifications.",
+        "Each job is treated as a separate cost object, allowing managers to calculate the cost of that specific order.",
+        "Industries such as construction, consulting, shipbuilding and custom manufacturing commonly use job costing."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Shipbuilding",
+      "content": [
+        "Each vessel is built according to customer requirements.",
+        "Materials, labor and overhead are tracked individually for each ship.",
+        "The total cost of the vessel is calculated separately from every other project."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Process Costing",
+      "content": [
+        "Process costing is used when identical products are produced continuously in large quantities.",
+        "Instead of calculating the cost of each individual product, costs are accumulated over a production process and divided among all units produced.",
+        "Industries such as food production, chemicals, oil refining and paper manufacturing commonly use process costing."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Soft Drink Factory",
+      "content": [
+        "A beverage company produces one million identical bottles each month.",
+        "Rather than tracking the cost of each bottle individually, total production costs are divided by the number of bottles produced."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Full Costing",
+      "content": [
+        "Full costing assigns all manufacturing costs to products, including both direct and indirect manufacturing costs.",
+        "This method is widely used for financial reporting because it reflects the complete manufacturing cost of a product.",
+        "However, allocating overhead can sometimes distort product costs if inappropriate allocation bases are used."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Activity-Based Costing (ABC)",
+      "content": [
+        "Activity-Based Costing improves the accuracy of cost allocation by identifying the activities that consume resources.",
+        "Instead of allocating overhead using only one allocation base, ABC assigns costs based on multiple cost drivers such as machine setups, inspections, purchasing activities or production runs.",
+        "ABC often provides more accurate product costs in complex manufacturing environments."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Activity-Based Costing",
+      "content": [
+        "Two products require the same number of labor hours.",
+        "However, Product A requires many machine setups while Product B does not.",
+        "Traditional costing may assign equal overhead, while ABC allocates more overhead to Product A because it consumes more setup activities."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Why Product Costing Matters",
+      "content": [
+        "Managers rely on product costs when setting selling prices, evaluating customer profitability and deciding whether to continue producing certain products.",
+        "Accurate costing also supports budgeting, investment analysis and continuous improvement initiatives.",
+        "Incorrect product costs can lead to poor pricing decisions and reduced profitability."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Pricing Decision",
+      "content": [
+        "A company believes a product costs $85 to manufacture and prices it at $95.",
+        "After improving its costing system, management discovers that the actual cost is $102.",
+        "The company is losing money on every sale despite appearing profitable."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "No Costing Method Is Perfect",
+      "content": [
+        "Every costing method relies on assumptions.",
+        "Traditional costing may oversimplify overhead allocation, while Activity-Based Costing requires more detailed data and is more expensive to implement.",
+        "Managers should select the costing method that best matches their production environment and decision-making needs."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Many companies discover that products they believed were highly profitable are actually generating low profits once more accurate costing methods are introduced. Better cost information often leads to better pricing, improved operational efficiency and more informed strategic decisions."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Product costing determines the total cost of producing goods or services.",
+        "Product costs include direct materials, direct labor and allocated manufacturing overhead.",
+        "Job Costing is used for unique products or projects.",
+        "Process Costing is used for continuous production of identical products.",
+        "Full Costing assigns all manufacturing costs to products.",
+        "Activity-Based Costing (ABC) allocates overhead based on activities and cost drivers.",
+        "Accurate product costing supports pricing, budgeting and profitability analysis."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Why might two products with similar direct costs have very different total costs?",
+        "When would Job Costing be more appropriate than Process Costing?",
+        "How could inaccurate product costing affect pricing and long-term profitability?"
+      ]
+    }
+  ]
+}
