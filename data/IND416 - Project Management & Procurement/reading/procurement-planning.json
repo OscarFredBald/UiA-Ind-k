@@ -1,0 +1,158 @@
+{
+  "title": "Procurement Planning",
+  "description": "Learn how project managers determine what to buy, when to buy it, and how procurement decisions influence project success.",
+  "estimatedReadingTime": "10 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Explain what procurement planning is.",
+        "Understand why procurement planning is important for project success.",
+        "Differentiate between make-or-buy decisions.",
+        "Identify the key steps in the procurement planning process.",
+        "Recognize common procurement risks.",
+        "Understand how procurement planning supports project objectives."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Most projects require products, services or expertise that the project team cannot provide internally. These external resources must be obtained through procurement.",
+        "Procurement Planning is the process of deciding what needs to be purchased, when it should be purchased, from whom, and under what contractual conditions.",
+        "Good procurement planning ensures that external resources are available when needed while minimizing costs, delays and project risks."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "What is Procurement?",
+      "content": [
+        "Procurement is the process of acquiring goods, services or works from external suppliers.",
+        "Examples include purchasing construction materials, hiring consultants, contracting software developers, renting equipment or outsourcing specialized engineering work.",
+        "Procurement differs from simply buying products because it involves planning, supplier selection, contract management and ongoing supplier relationships."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Building a Wind Farm",
+      "content": [
+        "A company is constructing a new offshore wind farm.",
+        "The project requires turbines, underwater cables, installation vessels and specialist engineering services.",
+        "Since the project organization cannot produce these resources itself, it develops a procurement plan to determine when each supplier should be contracted and how deliveries will fit into the project schedule."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Why Procurement Planning Matters",
+      "content": [
+        "Many projects depend heavily on suppliers. Delays, poor quality or supplier failures can significantly impact project performance.",
+        "Effective procurement planning helps secure reliable suppliers, negotiate favorable contracts and coordinate deliveries with project activities.",
+        "Poor procurement planning often results in cost overruns, schedule delays and quality problems."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Make-or-Buy Decision",
+      "content": [
+        "One of the first procurement decisions is determining whether work should be performed internally or outsourced to an external supplier.",
+        "This is known as the make-or-buy decision.",
+        "Organizations compare internal capabilities, available expertise, costs, available capacity, strategic priorities and project risks before deciding whether to perform the work themselves or purchase it externally."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Make or Buy",
+      "content": [
+        "A software company needs cybersecurity expertise for a new project.",
+        "The company could train its own employees, but this would take several months.",
+        "Instead, management decides to hire an external cybersecurity consultant who can begin immediately, allowing the project to remain on schedule."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Procurement Planning Process",
+      "content": [
+        "Procurement planning normally follows several steps.",
+        "First, the project team identifies which products or services must be obtained externally.",
+        "Next, procurement requirements are defined, including technical specifications, quality requirements, delivery schedules and budget limitations.",
+        "Potential suppliers are then identified and procurement strategies are developed before contracts are awarded."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Selection Criteria",
+      "content": [
+        "Choosing the lowest-priced supplier is not always the best decision.",
+        "Project managers evaluate suppliers using several criteria, including price, technical capability, quality, financial stability, experience, delivery performance and reputation.",
+        "The goal is to select suppliers that provide the best overall value rather than simply the lowest cost."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Lowest Price Is Not Always Cheapest",
+      "content": [
+        "A supplier with the lowest initial price may deliver poor quality, miss deadlines or require expensive rework.",
+        "These hidden costs can make the cheapest bid the most expensive option over the lifetime of the project.",
+        "Successful procurement focuses on total value rather than purchase price alone."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Procurement Risks",
+      "content": [
+        "Procurement introduces additional risks because project success depends on external organizations.",
+        "Common procurement risks include supplier bankruptcy, delivery delays, quality defects, price increases, contract disputes and geopolitical disruptions.",
+        "Project managers identify these risks during procurement planning and develop mitigation strategies before contracts are signed."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Shipping Industry",
+      "content": [
+        "A ship management company plans a dry-docking project for one of its vessels.",
+        "Critical spare parts must arrive before the vessel enters the shipyard.",
+        "The procurement plan identifies approved suppliers, expected delivery times and backup suppliers in case delays occur, helping prevent costly off-hire periods."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Experienced project managers begin procurement planning early. Long lead-time items such as specialized equipment, vessels or industrial machinery often determine the entire project schedule. Delaying procurement planning can create bottlenecks that no amount of project crashing can eliminate."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Mistakes",
+      "content": [
+        "Waiting too long before contacting suppliers.",
+        "Selecting suppliers based only on the lowest price.",
+        "Writing unclear technical specifications.",
+        "Ignoring supplier risks.",
+        "Failing to coordinate procurement activities with the project schedule."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Procurement planning determines what should be purchased, when, from whom and under which conditions.",
+        "The make-or-buy decision is one of the first procurement decisions.",
+        "Supplier selection should consider value, quality, capability and risk—not only price.",
+        "Good procurement planning reduces project risk and supports successful project delivery.",
+        "Procurement activities should always be integrated with the overall project schedule."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "When would outsourcing create more value than performing the work internally?",
+        "Why is the cheapest supplier not always the best supplier?",
+        "How could poor procurement planning delay an otherwise well-managed project?"
+      ]
+    }
+  ]
+}
