@@ -1,125 +1,366 @@
 {
   "title": "Time Planning & Scheduling",
-  "questions": [
-    {
-      "question": "A project manager begins by assigning calendar dates to activities before defining any dependencies. What is the primary weakness of this approach?",
+  "questions": [    {
+      "question": "What is the primary purpose of project time planning?",
       "options": [
-        "It ignores logical relationships between activities.",
-        "It prevents the use of milestones.",
-        "It makes Gantt charts impossible to create.",
-        "It automatically increases project cost."
+        "To estimate the project's total budget",
+        "To organize project activities into a realistic schedule",
+        "To identify project stakeholders",
+        "To approve the Business Case"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "Foundation",
-      "explanation": "Professional scheduling begins with defining logical dependencies. Dates should be assigned only after the activity network has been established."
+      "explanation": "Time planning creates a realistic schedule that helps coordinate activities and achieve the project's objectives."
     },
     {
-      "question": "Which statement best describes the purpose of a project schedule?",
+      "question": "Which project management tool is commonly used to break down project deliverables into smaller pieces of work before scheduling?",
       "options": [
-        "To produce an attractive timeline for management presentations.",
-        "To estimate employee salaries.",
-        "To support project decision-making by showing activity dependencies, timing and risk.",
-        "To replace the Work Breakdown Structure."
-      ],
-      "answer": 2,
-      "difficulty": "Foundation",
-      "explanation": "A schedule is a decision-support tool that helps managers understand project logic, evaluate delays and allocate resources effectively."
-    },
-    {
-      "question": "A milestone differs from a normal activity because it:",
-      "options": [
-        "Consumes no resources and has zero duration.",
-        "Always occurs at the end of the project.",
-        "Can only be created by the project sponsor.",
-        "Cannot be delayed."
-      ],
-      "answer": 0,
-      "difficulty": "Foundation",
-      "explanation": "Milestones represent significant events and therefore have zero duration."
-    },
-    {
-      "question": "Which scheduling tool is best suited for visualizing logical dependencies between activities?",
-      "options": [
-        "Budget Report",
+        "Stakeholder Register",
         "Risk Register",
-        "Network Diagram",
-        "Procurement Plan"
+        "Work Breakdown Structure (WBS)",
+        "Project Charter"
       ],
       "answer": 2,
       "difficulty": "Foundation",
-      "explanation": "Network diagrams emphasize dependencies and form the basis for Critical Path calculations."
+      "explanation": "The WBS decomposes project deliverables into manageable work packages, which are later converted into project activities."
     },
     {
-      "question": "The Critical Path is best defined as:",
+      "question": "Which dependency type means that one activity cannot begin until another activity has been completed?",
       "options": [
-        "The shortest sequence of project activities.",
-        "The sequence containing the highest project cost.",
-        "The longest sequence of dependent activities determining the project's minimum duration.",
-        "Activities assigned to senior engineers."
+        "Start-to-Start (SS)",
+        "Finish-to-Finish (FF)",
+        "Finish-to-Start (FS)",
+        "Start-to-Finish (SF)"
       ],
       "answer": 2,
-      "difficulty": "Understanding",
-      "explanation": "The Critical Path determines the shortest possible completion time for the project."
+      "difficulty": "Foundation",
+      "explanation": "Finish-to-Start is the most common dependency relationship and requires one activity to finish before another can begin."
     },
     {
-      "question": "A non-critical activity has five days of Float. What does this mean?",
+      "question": "What does an activity duration estimate represent?",
       "options": [
-        "It may be delayed by up to five days without delaying project completion.",
-        "The activity requires five additional workers.",
-        "The activity costs five days of overtime.",
-        "The activity must start exactly five days after its predecessor."
+        "The number of employees assigned to the task",
+        "The expected time required to complete an activity",
+        "The activity's total cost",
+        "The amount of float available"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Duration estimates predict how long an activity is expected to take under normal working conditions."
+    },
+    {
+      "question": "Why is sequencing activities an important step in project planning?",
+      "options": [
+        "It determines the logical order in which work should be performed",
+        "It reduces the project budget",
+        "It eliminates all project risks",
+        "It assigns project team members to activities"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Activity sequencing identifies logical relationships and establishes the order in which work should be completed."
+    },
+    {
+      "question": "Why is it important to identify activity dependencies before developing the project schedule?",
+      "options": [
+        "Because dependencies determine the logical flow of work and influence the overall schedule",
+        "Because dependencies reduce project costs",
+        "Because every activity should depend on another activity",
+        "Because dependencies replace duration estimates"
       ],
       "answer": 0,
       "difficulty": "Understanding",
-      "explanation": "Float represents scheduling flexibility for non-critical activities."
+      "explanation": "Dependencies define how activities relate to one another and ensure the schedule reflects realistic project execution."
     },
     {
-      "question": "A software project falls behind schedule. Management immediately hires ten additional developers. According to Brooks' Law, what is the greatest concern?",
+      "question": "Why is bottom-up estimating generally considered more accurate than analogous estimating?",
       "options": [
-        "The project budget automatically decreases.",
-        "The new developers immediately become fully productive.",
-        "Training and communication overhead may delay the project even further.",
-        "Critical activities disappear."
+        "It estimates each activity individually before combining the estimates",
+        "It always produces the lowest project cost",
+        "It ignores uncertainty",
+        "It only requires historical data"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Bottom-up estimating uses detailed estimates for individual activities, resulting in greater overall accuracy."
+    },
+    {
+      "question": "What is the primary purpose of identifying the Critical Path?",
+      "options": [
+        "To determine which activities require the highest budget",
+        "To identify the sequence of activities that determines the project's shortest possible duration",
+        "To identify which employees are busiest",
+        "To eliminate project risks"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "The Critical Path determines the minimum possible project duration and highlights activities that cannot be delayed without affecting project completion."
+    },
+    {
+      "question": "What does float (also called slack) represent?",
+      "options": [
+        "Unused project budget",
+        "The time an activity can be delayed without affecting the project's completion date",
+        "The number of backup resources available",
+        "The difference between planned and actual cost"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Float represents scheduling flexibility. Activities with positive float can be delayed without delaying the overall project."
+    },
+    {
+      "question": "A construction project cannot begin installing windows until the building frame has been completed. Which type of dependency does this illustrate?",
+      "options": [
+        "Start-to-Start (SS)",
+        "Finish-to-Finish (FF)",
+        "Finish-to-Start (FS)",
+        "Start-to-Finish (SF)"
       ],
       "answer": 2,
       "difficulty": "Application",
-      "explanation": "Brooks' Law explains that adding people to a late project often increases coordination costs before productivity improves."
+      "explanation": "The window installation cannot start until the framing activity has finished, making it a Finish-to-Start dependency."
     },
-    {
-      "question": "A contractor proposes performing electrical installation while structural work is still ongoing in order to meet a fixed deadline. Which schedule compression technique is being suggested?",
+
+        {
+      "question": "A project manager notices that an activity has 4 days of float. What does this mean?",
       "options": [
-        "Crashing",
-        "Fast Tracking",
-        "Resource Leveling",
-        "Rolling Wave Planning"
+        "The activity must finish four days early",
+        "The activity can be delayed by up to four days without delaying the project's completion",
+        "The activity is on the Critical Path",
+        "The activity requires four additional workers"
       ],
       "answer": 1,
       "difficulty": "Application",
-      "explanation": "Fast Tracking overlaps activities that would normally be performed sequentially."
+      "explanation": "Activities with positive float have scheduling flexibility and may be delayed without affecting the project's finish date."
     },
     {
-      "question": "A project manager discovers that Activity C has zero Float. During a weekly meeting a stakeholder requests postponing Activity C by three days. What is the BEST response?",
+      "question": "A client asks for the project to finish two weeks earlier without changing the scope. Which schedule compression technique involves adding more resources to critical activities?",
       "options": [
-        "Approve the delay because three days is insignificant.",
-        "Reject the request without discussion.",
-        "Evaluate how the delay affects the Critical Path and overall project completion before making a decision.",
-        "Move another activity to compensate."
+        "Fast Tracking",
+        "Bottom-up Estimating",
+        "Crashing",
+        "Rolling Wave Planning"
       ],
       "answer": 2,
-      "difficulty": "Analysis",
-      "explanation": "Activities with zero Float lie on the Critical Path, so any delay may affect the project's completion date."
+      "difficulty": "Application",
+      "explanation": "Crashing shortens the schedule by assigning additional resources to activities on the Critical Path."
     },
     {
-      "question": "A construction project consists of 1,800 activities. Senior management only reviews the colorful Gantt chart and ignores the underlying network logic. Which is the MOST significant project management risk?",
+      "question": "A project manager decides to start electrical installation before all construction work is complete in order to save time. Which schedule compression technique is being used?",
       "options": [
-        "Management may overlook dependency-driven risks and make poor scheduling decisions.",
-        "The project automatically loses its Critical Path.",
-        "The Gantt chart cannot display milestones.",
-        "The project budget becomes invalid."
+        "Critical Path Analysis",
+        "Three-point Estimating",
+        "Fast Tracking",
+        "Resource Leveling"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Fast Tracking overlaps activities that were originally planned sequentially, reducing project duration but increasing risk."
+    },
+    {
+      "question": "During project execution, actual progress is slower than planned. What should the Project Manager do first?",
+      "options": [
+        "Immediately increase the project budget",
+        "Compare actual progress with the approved schedule baseline",
+        "Remove activities from the project scope",
+        "Delay all remaining activities"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The first step is to compare actual performance against the approved schedule baseline to understand the extent and cause of the delay."
+    },
+    {
+      "question": "Which tool is most commonly used to communicate the project schedule visually to stakeholders?",
+      "options": [
+        "Risk Matrix",
+        "Business Case",
+        "Gantt Chart",
+        "Stakeholder Register"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "A Gantt Chart displays project activities as bars along a timeline, making schedules easy to understand."
+    },
+    {
+      "question": "A project has experienced several delays, but none of the delayed activities are on the Critical Path. What is the most likely impact?",
+      "options": [
+        "The project will automatically finish late",
+        "The project may still finish on time if the available float is not exceeded",
+        "The project budget becomes invalid",
+        "The project must immediately be crashed"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Delays on non-critical activities may be absorbed by available float without affecting the project's completion date."
+    },
+    {
+      "question": "Why is the Critical Path often monitored more closely than other project activities?",
+      "options": [
+        "Because it always contains the most expensive activities",
+        "Because delays on the Critical Path directly delay the entire project",
+        "Because it contains every project activity",
+        "Because it has the largest number of resources"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Critical activities have little or no float, meaning delays directly impact the project's finish date."
+    },
+    {
+      "question": "A schedule has been created without considering resource availability. What is the biggest risk?",
+      "options": [
+        "The project may appear feasible on paper but be impossible to execute in practice",
+        "The schedule will automatically reduce project costs",
+        "Dependencies become unnecessary",
+        "The Critical Path can no longer be identified"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "A schedule must account for resource constraints to be realistic and achievable."
+    },
+    {
+      "question": "Which statement best describes the Schedule Baseline?",
+      "options": [
+        "The project's first draft schedule",
+        "The approved schedule used to measure project performance",
+        "A list of activity dependencies",
+        "The supplier's delivery schedule"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "The Schedule Baseline is the approved version of the schedule against which actual progress is measured."
+    },
+    {
+      "question": "Senior management requests that a project be completed one month earlier. Before deciding how to achieve this, what should the Project Manager evaluate?",
+      "options": [
+        "Only the preferences of the project team",
+        "The trade-offs between time, cost, scope, quality and risk",
+        "Whether the project sponsor agrees",
+        "Only the available project budget"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "Reducing project duration usually affects other project constraints. The Project Manager should evaluate the impact on cost, scope, quality and risk before deciding on a solution."
+    },
+
+        {
+      "question": "A project team discovers that one activity on the Critical Path will be delayed by three days. No corrective action is taken. What is the most likely outcome?",
+      "options": [
+        "Only the activity budget will increase",
+        "The overall project completion date will likely be delayed by three days",
+        "The delay will automatically be absorbed by float",
+        "Only non-critical activities will be affected"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Activities on the Critical Path typically have zero float, so delays directly impact the project's completion date."
+    },
+    {
+      "question": "A project manager is estimating activity durations for a project unlike any completed before. Which estimating technique would be most valuable?",
+      "options": [
+        "Expert judgment",
+        "Ignoring uncertainty",
+        "Using last year's project budget",
+        "Assuming every activity takes one week"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "When little historical data exists, expert judgment provides valuable knowledge and realistic estimates."
+    },
+    {
+      "question": "Which statement best describes the relationship between the Work Breakdown Structure (WBS) and the project schedule?",
+      "options": [
+        "The schedule is created before the WBS",
+        "The WBS identifies the work that is later scheduled as project activities",
+        "The WBS replaces the project schedule",
+        "The WBS is only used after project completion"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "The WBS defines the project work, while the schedule determines when that work will be performed."
+    },
+    {
+      "question": "A project team chooses to overlap two design activities to save time. Midway through the project, one design changes, requiring the other activity to be repeated. What is the main disadvantage illustrated?",
+      "options": [
+        "Fast Tracking can increase the risk of rework",
+        "Crashing always increases project costs",
+        "Critical Path analysis becomes impossible",
+        "Activity sequencing is unnecessary"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Fast Tracking reduces project duration but increases the likelihood of rework if earlier activities change."
+    },
+    {
+      "question": "Why should activity duration estimates be reviewed as the project progresses?",
+      "options": [
+        "Because schedules should never remain unchanged when new information becomes available",
+        "Because every activity should become shorter",
+        "Because the Critical Path disappears during execution",
+        "Because budgets cannot be updated"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Projects evolve over time, and updated information often improves the accuracy of remaining duration estimates."
+    },
+    {
+      "question": "A project manager reports that the project is exactly on schedule, but several critical activities are only 20% complete despite being planned at 50%. What does this suggest?",
+      "options": [
+        "The schedule reporting may be inaccurate and requires further investigation",
+        "The project will definitely finish early",
+        "Critical activities are unimportant",
+        "The project budget should be doubled"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "If critical activities are significantly behind plan, the reported schedule status should be questioned and investigated."
+    },
+    {
+      "question": "A client insists that every project activity should start as early as possible. Why might this not be the best scheduling approach?",
+      "options": [
+        "It may create unnecessary resource conflicts and reduce schedule flexibility",
+        "It guarantees project delays",
+        "It removes the Critical Path",
+        "It eliminates dependencies"
       ],
       "answer": 0,
       "difficulty": "Expert",
-      "explanation": "A Gantt chart is an excellent communication tool, but experienced project managers understand that dependency logic—not visualization—is what determines schedule performance."
+      "explanation": "Starting everything as early as possible can overload resources and reduce the Project Manager's flexibility to manage the schedule effectively."
+    },
+    {
+      "question": "Two schedule compression options are available. Option A reduces the schedule by one week with little additional risk. Option B reduces the schedule by two weeks but significantly increases the probability of costly rework. What is the most appropriate approach?",
+      "options": [
+        "Always choose the largest schedule reduction",
+        "Evaluate the trade-off between time savings, risk and project objectives before making a decision",
+        "Reject both options immediately",
+        "Always choose the cheapest option regardless of the schedule"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "Project Managers must balance competing constraints. The fastest solution is not always the best if it introduces unacceptable risks."
+    },
+    {
+      "question": "Why is project scheduling considered an ongoing management process rather than a one-time planning activity?",
+      "options": [
+        "Because projects continuously change as new information, risks and progress become known",
+        "Because the original schedule is always incorrect",
+        "Because schedules expire every month",
+        "Because only stakeholders update the schedule"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "A project schedule should be continuously monitored and updated to reflect actual progress and changing project conditions."
+    },
+    {
+      "question": "What is the most important responsibility of a Project Manager when managing the project schedule?",
+      "options": [
+        "To ensure the schedule remains realistic, monitor progress continuously and take corrective action when necessary",
+        "To avoid changing the schedule under any circumstances",
+        "To focus only on non-critical activities",
+        "To let stakeholders manage all schedule changes"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Effective schedule management requires continuous monitoring, realistic forecasting and timely corrective actions to keep the project on track."
     }
   ]
 }
