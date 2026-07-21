@@ -1,0 +1,366 @@
+{
+  "title": "Cost Allocation",
+  "description": "Quiz covering cost allocation, direct and indirect costs, cost objects, cost centres and allocation bases.",
+  "questions": [
+    {
+      "question": "What is the primary purpose of cost allocation?",
+      "options": [
+        "To assign costs to products, services, departments or projects",
+        "To calculate company revenue",
+        "To reduce all business costs",
+        "To determine employee salaries"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Cost allocation assigns costs to cost objects so managers can understand the true cost of operating the business."
+    },
+    {
+      "question": "Which of the following is a cost object?",
+      "options": [
+        "A product",
+        "A customer",
+        "A project",
+        "All of the above"
+      ],
+      "answer": 3,
+      "difficulty": "Foundation",
+      "explanation": "A cost object is anything for which managers want to measure costs, including products, services, customers and projects."
+    },
+    {
+      "question": "Which statement best describes a direct cost?",
+      "options": [
+        "A cost that can be traced directly to a specific cost object",
+        "A cost that benefits the entire company",
+        "A cost that never changes",
+        "A cost that must always be estimated"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Direct costs can be identified specifically with one product, service or project."
+    },
+    {
+      "question": "Which of the following is typically an indirect cost?",
+      "options": [
+        "Factory rent",
+        "Raw materials for one product",
+        "Direct production labor",
+        "Special equipment rented for one project"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Factory rent supports the entire production facility and cannot easily be traced to one product."
+    },
+    {
+      "question": "Indirect costs are often referred to as:",
+      "options": [
+        "Overhead",
+        "Revenue",
+        "Contribution margin",
+        "Opportunity costs"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Indirect costs are commonly called overhead because they support multiple activities rather than one specific cost object."
+    },
+    {
+      "question": "What is an allocation base?",
+      "options": [
+        "A factor used to distribute indirect costs among cost objects",
+        "The location where products are manufactured",
+        "The company's annual budget",
+        "A list of fixed costs"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Allocation bases determine how indirect costs are shared between different cost objects."
+    },
+    {
+      "question": "Which of the following is commonly used as an allocation base?",
+      "options": [
+        "Machine hours",
+        "Labor hours",
+        "Production volume",
+        "All of the above"
+      ],
+      "answer": 3,
+      "difficulty": "Understanding",
+      "explanation": "Machine hours, labor hours and production volume are all common allocation bases."
+    },
+    {
+      "question": "Why can't factory rent normally be assigned directly to a single product?",
+      "options": [
+        "Because it supports the production of multiple products",
+        "Because it is a variable cost",
+        "Because it only occurs once per year",
+        "Because customers pay the rent"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Factory rent benefits the entire facility and therefore must be allocated."
+    },
+    {
+      "question": "A company spends $500 of wood to manufacture one dining table. The wood should be classified as:",
+      "options": [
+        "A direct cost",
+        "An indirect cost",
+        "An overhead cost",
+        "A cost centre"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "The wood can be traced directly to one table, making it a direct cost."
+    },
+    {
+      "question": "Which statement best explains why businesses allocate indirect costs?",
+      "options": [
+        "To better estimate the true cost of products and services",
+        "To increase revenue automatically",
+        "To eliminate overhead costs",
+        "To reduce the number of departments"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Allocating indirect costs provides a more complete picture of what products and services actually cost."
+    }, 
+        {
+      "question": "What is the primary purpose of a cost centre?",
+      "options": [
+        "To collect costs before they are allocated to cost objects",
+        "To calculate company revenue",
+        "To store finished products",
+        "To determine selling prices automatically"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Cost centres accumulate costs so they can later be allocated to products, services or other cost objects."
+    },
+    {
+      "question": "Which of the following is most likely to be a cost centre?",
+      "options": [
+        "The Maintenance Department",
+        "A single customer order",
+        "One finished product",
+        "A sales invoice"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Departments such as maintenance, IT and administration commonly function as cost centres."
+    },
+    {
+      "question": "A factory allocates electricity costs based on machine hours. Why is machine hours an appropriate allocation base?",
+      "options": [
+        "Because electricity consumption is closely related to machine usage",
+        "Because machine hours always equal labor hours",
+        "Because electricity is a direct cost",
+        "Because allocation bases are chosen randomly"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "The best allocation base reflects what actually causes the cost to be incurred."
+    },
+    {
+      "question": "A shipping company wants to determine the operating cost of each vessel. What is the most appropriate cost object?",
+      "options": [
+        "Each individual vessel",
+        "The accounting department",
+        "The CEO",
+        "The entire company"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Each vessel is a separate cost object because management wants to measure its individual operating cost."
+    },
+    {
+      "question": "Why is selecting an appropriate allocation base important?",
+      "options": [
+        "It improves the accuracy of allocated costs",
+        "It guarantees higher profits",
+        "It eliminates indirect costs",
+        "It reduces production time"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "A suitable allocation base distributes indirect costs more fairly among cost objects."
+    },
+    {
+      "question": "A company allocates factory rent equally across all products, even though one product uses most of the factory space. What is the main problem with this approach?",
+      "options": [
+        "Some products may receive an unfair share of the overhead costs",
+        "Factory rent becomes a direct cost",
+        "The company eliminates overhead",
+        "The products will all become equally profitable"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "An inappropriate allocation base can distort product costs and lead to poor decisions."
+    },
+    {
+      "question": "Which allocation base would generally be most appropriate for allocating maintenance costs on manufacturing equipment?",
+      "options": [
+        "Machine hours",
+        "Employee age",
+        "Company revenue",
+        "Number of customers"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Maintenance costs are often driven by machine usage, making machine hours an appropriate allocation base."
+    },
+    {
+      "question": "A business wants to know whether one of its products is actually profitable. Why must indirect costs be allocated?",
+      "options": [
+        "Because products consume shared resources that should be included in their total cost",
+        "Because indirect costs are optional",
+        "Because direct costs are ignored",
+        "Because revenue depends on indirect costs"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Ignoring indirect costs may make an unprofitable product appear profitable."
+    },
+    {
+      "question": "A company chooses labor hours as the allocation base for electricity costs, even though electricity is mainly consumed by automated machines. What is the likely consequence?",
+      "options": [
+        "Product costs may be distorted because the allocation base does not reflect actual resource consumption",
+        "Electricity becomes a direct cost",
+        "The allocation becomes perfectly accurate",
+        "No effect because any allocation base gives identical results"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "The allocation base should closely reflect what actually causes the cost."
+    },
+    {
+      "question": "Which statement best describes good cost allocation?",
+      "options": [
+        "Indirect costs are allocated using a logical base that reflects how resources are consumed",
+        "Every indirect cost should be divided equally among all products",
+        "Indirect costs should never be allocated",
+        "Allocation is only necessary for tax purposes"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Good cost allocation uses allocation bases that closely match actual resource usage."
+    },
+        {
+      "question": "A manufacturing company ignores indirect costs when pricing one of its products. What is the greatest risk?",
+      "options": [
+        "The product may be sold below its true cost",
+        "Revenue will automatically decrease",
+        "The product becomes a direct cost",
+        "Production will stop immediately"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Ignoring overhead costs can underestimate the true cost of a product, leading to prices that are too low."
+    },
+    {
+      "question": "A company allocates administrative costs based on the number of employees in each department. Why might this be an appropriate allocation base?",
+      "options": [
+        "Departments with more employees generally require more administrative support",
+        "Administrative costs are direct costs",
+        "Every allocation base produces identical results",
+        "Employee numbers determine company revenue"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "An allocation base should reflect how the shared resource is actually consumed."
+    },
+    {
+      "question": "A ship management company allocates headquarters' administrative expenses equally across all vessels, even though some vessels require much more management support. What is the most likely consequence?",
+      "options": [
+        "Some vessels may appear more or less profitable than they actually are",
+        "The administrative costs become direct costs",
+        "The company eliminates overhead costs",
+        "Every vessel will have identical operating costs"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Using an inappropriate allocation method can distort profitability analyses."
+    },
+    {
+      "question": "Which statement best explains why indirect costs cannot usually be traced directly to a single product?",
+      "options": [
+        "Because they support multiple products, departments or activities simultaneously",
+        "Because they are always fixed costs",
+        "Because they only occur once per year",
+        "Because they are paid by customers"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Indirect costs benefit multiple cost objects and therefore require allocation."
+    },
+    {
+      "question": "A company chooses a poor allocation base that significantly overallocates overhead to one product. What business decision could be negatively affected?",
+      "options": [
+        "Pricing decisions",
+        "The company's logo design",
+        "Employee vacation schedules",
+        "Office opening hours"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Incorrect product costs may lead managers to set inappropriate selling prices."
+    },
+    {
+      "question": "Why should managers understand that allocated costs are estimates rather than exact measurements?",
+      "options": [
+        "Because many indirect costs cannot be measured precisely for individual cost objects",
+        "Because accounting standards prohibit accurate calculations",
+        "Because direct costs are ignored",
+        "Because all allocation methods produce identical results"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Indirect costs must often be distributed using reasonable assumptions rather than exact measurements."
+    },
+    {
+      "question": "Which manager demonstrates the best understanding of cost allocation?",
+      "options": [
+        "A manager who selects allocation bases that reflect how resources are actually consumed",
+        "A manager who divides every indirect cost equally among all products",
+        "A manager who ignores indirect costs completely",
+        "A manager who classifies every cost as direct"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Effective managers choose allocation methods that best represent actual resource consumption."
+    },
+    {
+      "question": "Why is accurate cost allocation important when evaluating product profitability?",
+      "options": [
+        "Because products should bear an appropriate share of the indirect costs required to produce them",
+        "Because only direct costs influence profitability",
+        "Because overhead costs never affect pricing decisions",
+        "Because profitability depends only on revenue"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Ignoring overhead costs may cause managers to believe an unprofitable product is profitable."
+    },
+    {
+      "question": "A company introduces a more accurate allocation method and discovers that one of its best-selling products is actually generating very little profit. What should management do first?",
+      "options": [
+        "Analyze why the product consumes so many shared resources before making decisions",
+        "Immediately discontinue the product",
+        "Ignore the new allocation results",
+        "Reduce employee salaries"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Managers should investigate the causes before deciding whether to change pricing, processes or the product itself."
+    },
+    {
+      "question": "What is the ultimate objective of cost allocation?",
+      "options": [
+        "To provide managers with more accurate cost information for pricing, budgeting, profitability analysis and decision-making",
+        "To eliminate indirect costs",
+        "To maximize company revenue regardless of costs",
+        "To simplify financial statements by removing overhead"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Cost allocation exists to improve managerial decision-making by assigning shared costs as fairly and accurately as possible."
+    }
+  ]
+}
