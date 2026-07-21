@@ -1,14 +1,109 @@
 {
-  "courseTitle": "Managerial Decision Making",
+  "courseTitle": "IND417 - Business Economics 1",
   "topics": [
+    {
+      "id": "introduction",
+      "title": "Introduction to Business Economics",
+      "description": "Understand the purpose of business economics, how businesses create value, and the role of financial decision making.",
+      "reading": "reading/introduction.json",
+      "quiz": "quizzes/introduction.json",
+      "icon": "📘"
+    },
+    {
+      "id": "costs-and-cost-behaviour",
+      "title": "Costs and Cost Behaviour",
+      "description": "Learn about fixed, variable, mixed and step costs, and how costs behave as activity changes.",
+      "reading": "reading/costs-and-cost-behaviour.json",
+      "quiz": "quizzes/costs-and-cost-behaviour.json",
+      "icon": "💰"
+    },
+    {
+      "id": "cost-allocation",
+      "title": "Cost Allocation",
+      "description": "Learn how indirect costs are allocated to products, services and departments.",
+      "reading": "reading/cost-allocation.json",
+      "quiz": "quizzes/cost-allocation.json",
+      "icon": "🧮"
+    },
+    {
+      "id": "product-costing",
+      "title": "Product Costing",
+      "description": "Understand how businesses calculate product costs using different costing methods.",
+      "reading": "reading/product-costing.json",
+      "quiz": "quizzes/product-costing.json",
+      "icon": "🏷️"
+    },
+    {
+      "id": "contribution-margin-analysis",
+      "title": "Contribution Margin Analysis",
+      "description": "Learn how contribution margin supports pricing, profitability and operational decisions.",
+      "reading": "reading/contribution-margin-analysis.json",
+      "quiz": "quizzes/contribution-margin-analysis.json",
+      "icon": "📈"
+    },
+    {
+      "id": "cost-volume-profit-analysis",
+      "title": "Cost-Volume-Profit (CVP) Analysis",
+      "description": "Analyze how sales volume, costs and profit interact through break-even and profit planning.",
+      "reading": "reading/cost-volume-profit-analysis.json",
+      "quiz": "quizzes/cost-volume-profit-analysis.json",
+      "icon": "⚖️"
+    },
+    {
+      "id": "pricing-decisions",
+      "title": "Pricing Decisions",
+      "description": "Explore pricing strategies and factors that influence selling prices.",
+      "reading": "reading/pricing-decisions.json",
+      "quiz": "quizzes/pricing-decisions.json",
+      "icon": "💲"
+    },
+    {
+      "id": "relevant-costs-and-decision-making",
+      "title": "Relevant Costs and Decision Making",
+      "description": "Learn how relevant costs influence business decisions while ignoring irrelevant information.",
+      "reading": "reading/relevant-costs-and-decision-making.json",
+      "quiz": "quizzes/relevant-costs-and-decision-making.json",
+      "icon": "🎯"
+    },
+    {
+      "id": "budgeting",
+      "title": "Budgeting",
+      "description": "Understand budgeting, forecasting and performance planning.",
+      "reading": "reading/budgeting.json",
+      "quiz": "quizzes/budgeting.json",
+      "icon": "📋"
+    },
+    {
+      "id": "variance-analysis",
+      "title": "Variance Analysis",
+      "description": "Compare actual and budgeted performance and identify the causes of variances.",
+      "reading": "reading/variance-analysis.json",
+      "quiz": "quizzes/variance-analysis.json",
+      "icon": "📉"
+    },
+    {
+      "id": "investment-analysis",
+      "title": "Investment Analysis",
+      "description": "Evaluate investments using Payback Period, NPV, IRR, ROI and risk analysis.",
+      "reading": "reading/investment-analysis.json",
+      "quiz": "quizzes/investment-analysis.json",
+      "icon": "💼"
+    },
+    {
+      "id": "financial-statement-analysis",
+      "title": "Financial Statement Analysis",
+      "description": "Analyze financial statements using profitability, liquidity, efficiency and solvency ratios.",
+      "reading": "reading/financial-statement-analysis.json",
+      "quiz": "quizzes/financial-statement-analysis.json",
+      "icon": "📊"
+    },
     {
       "id": "managerial-decision-making",
       "title": "Managerial Decision Making",
-      "description": "Learn how managers make business decisions using relevant costs, incremental analysis, opportunity costs, make-or-buy decisions, special orders, product mix analysis, and qualitative considerations.",
-      "estimatedTime": "45-60 min",
-      "reading": "managerial-decision-making.json",
-      "quiz": "managerial-decision-making-quiz.json",
-      "icon": "📊"
+      "description": "Make better business decisions using relevant costs, opportunity costs, incremental analysis, outsourcing, make-or-buy decisions and capacity constraints.",
+      "reading": "reading/managerial-decision-making.json",
+      "quiz": "quizzes/managerial-decision-making.json",
+      "icon": "🧠"
     }
   ]
 }
