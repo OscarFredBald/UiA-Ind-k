@@ -1,0 +1,249 @@
+{
+  "title": "Project Success and the Project Manager",
+  "description": "Learn how project success is defined, why success is broader than time, cost and scope, and how the Project Manager contributes to successful outcomes.",
+  "estimatedReadingTime": "9 min",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "id": "learning-objectives",
+      "type": "learningObjectives",
+      "heading": "Learning Objectives",
+      "bullets": [
+        "Distinguish between project management success and overall project success.",
+        "Explain why time, cost and scope are not sufficient measures of success.",
+        "Identify important project success criteria and critical success factors.",
+        "Explain the responsibilities and leadership role of the Project Manager.",
+        "Evaluate situations where a project may be delivered efficiently but still fail to create value."
+      ]
+    },
+    {
+      "id": "what-is-project-success",
+      "type": "theory",
+      "heading": "What Is Project Success?",
+      "paragraphs": [
+        "Project success describes the extent to which a project achieves its intended objectives and creates value for the organization and its stakeholders.",
+        "Success is not always easy to define because different stakeholders may judge the same project differently. Senior management may focus on strategic value, the customer may focus on quality and usability, and the project team may focus on whether the work was delivered effectively.",
+        "For this reason, project success should be defined before the project begins. Clear success criteria help stakeholders understand what the project is expected to achieve and how performance will be evaluated."
+      ]
+    },
+    {
+      "id": "project-management-success",
+      "type": "theory",
+      "heading": "Project Management Success",
+      "paragraphs": [
+        "Project management success refers to how effectively the project was planned, controlled and delivered.",
+        "Traditional measures often focus on whether the project was completed within the approved schedule, budget and scope. Quality, risk management, stakeholder communication and team performance may also be included.",
+        "These measures are important because they indicate whether the project was managed competently. However, they do not necessarily show whether the project produced the right outcome."
+      ],
+      "bullets": [
+        "Delivered within the approved budget",
+        "Completed within the agreed schedule",
+        "Delivered the agreed scope",
+        "Met required quality standards",
+        "Managed risks and changes effectively",
+        "Maintained appropriate stakeholder communication"
+      ]
+    },
+    {
+      "id": "overall-project-success",
+      "type": "theory",
+      "heading": "Overall Project Success",
+      "paragraphs": [
+        "Overall project success is broader than project management performance. It considers whether the project created the expected benefits and supported organizational objectives.",
+        "A project may be completed on time and within budget but still fail if the final product is not used, does not solve the original business problem or produces insufficient benefits.",
+        "Likewise, a project may exceed its initial budget but still be considered successful if it creates exceptional long-term value and the cost increase was justified."
+      ],
+      "bullets": [
+        "The project solves the intended business problem.",
+        "Expected benefits are realized.",
+        "The outcome is accepted and used by relevant stakeholders.",
+        "The project supports organizational strategy.",
+        "The solution remains valuable after project completion.",
+        "Important stakeholders consider the result satisfactory."
+      ]
+    },
+    {
+      "id": "iron-triangle",
+      "type": "theory",
+      "heading": "The Iron Triangle",
+      "paragraphs": [
+        "The traditional iron triangle evaluates a project through time, cost and scope. These three constraints are closely connected.",
+        "Increasing scope may require more time or money. Reducing the schedule may increase cost or create quality risks. Reducing the budget may require changes to scope or delivery methods.",
+        "The iron triangle remains useful for project control, but it should not be treated as a complete definition of success. A project can satisfy all three constraints and still fail to create value."
+      ]
+    },
+    {
+      "id": "success-criteria-and-success-factors",
+      "type": "theory",
+      "heading": "Success Criteria and Critical Success Factors",
+      "paragraphs": [
+        "Success criteria describe the outcomes used to judge whether the project was successful. Critical success factors describe the conditions or practices that increase the likelihood of achieving those outcomes.",
+        "The distinction is important. A success criterion may be high customer adoption. A critical success factor may be early user involvement and effective training.",
+        "Success criteria should be measurable where possible. Critical success factors should be actively managed throughout the project."
+      ],
+      "bullets": [
+        "Success criterion: the new system is used by at least 90 percent of employees.",
+        "Critical success factor: users are involved in requirements development and testing.",
+        "Success criterion: operating costs are reduced by 15 percent.",
+        "Critical success factor: process owners support implementation and provide accurate data."
+      ]
+    },
+    {
+      "id": "stakeholder-perspectives",
+      "type": "theory",
+      "heading": "Different Stakeholder Perspectives",
+      "paragraphs": [
+        "Project success is often subjective because stakeholders have different expectations and interests.",
+        "A customer may prioritize functionality and reliability. Senior management may prioritize strategic alignment and return on investment. Employees may prioritize usability and manageable changes to their work.",
+        "The Project Manager should identify these different perspectives early and help the Sponsor define balanced success criteria."
+      ]
+    },
+    {
+      "id": "example-efficient-but-unsuccessful",
+      "type": "example",
+      "heading": "Example: Efficient Delivery but Weak Business Value",
+      "paragraphs": [
+        "A company completes a new reporting system on time, within budget and with all planned features.",
+        "From a project management perspective, the project appears successful. However, employees find the system difficult to use and continue relying on spreadsheets.",
+        "Because adoption remains low, the expected efficiency improvements are not realized. The project was managed efficiently, but the overall outcome was unsuccessful."
+      ],
+      "bullets": [
+        "Schedule performance was successful.",
+        "Budget performance was successful.",
+        "Scope delivery was successful.",
+        "User adoption was unsuccessful.",
+        "Expected benefits were not realized."
+      ]
+    },
+    {
+      "id": "project-manager-role",
+      "type": "theory",
+      "heading": "The Role of the Project Manager",
+      "paragraphs": [
+        "The Project Manager is responsible for leading the project team and coordinating the work required to achieve the approved objectives.",
+        "This includes planning, organizing, monitoring, communicating, managing risks and resolving issues. The Project Manager also integrates different areas of the project so that decisions are not made in isolation.",
+        "The Project Manager does not normally own the Business Case or the expected business benefits. These responsibilities usually remain with the Sponsor or business owner. However, the Project Manager must understand the business justification and ensure that delivery remains aligned with it."
+      ],
+      "bullets": [
+        "Develop and maintain the project plan",
+        "Coordinate scope, schedule, cost and quality",
+        "Manage risks, issues and changes",
+        "Communicate with stakeholders",
+        "Support decision-making with accurate information",
+        "Lead and motivate the project team",
+        "Escalate matters beyond the Project Manager's authority",
+        "Keep project delivery aligned with the Business Case"
+      ]
+    },
+    {
+      "id": "leadership-and-management",
+      "type": "theory",
+      "heading": "Leadership and Management",
+      "paragraphs": [
+        "Successful Project Managers need both management and leadership capabilities.",
+        "Management involves planning, organizing, monitoring and controlling. Leadership involves creating direction, building commitment, resolving conflict and influencing people.",
+        "A Project Manager who focuses only on schedules and reports may fail to build stakeholder support. A Project Manager who focuses only on motivation may fail to establish control. Effective project leadership requires both."
+      ],
+      "bullets": [
+        "Management creates structure and control.",
+        "Leadership creates direction and commitment.",
+        "Management supports predictability.",
+        "Leadership supports adaptation and change."
+      ]
+    },
+    {
+      "id": "project-manager-competencies",
+      "type": "theory",
+      "heading": "Important Project Manager Competencies",
+      "paragraphs": [
+        "Project Managers work in environments characterized by uncertainty, competing priorities and multiple stakeholder interests.",
+        "Technical project management knowledge is necessary, but it is not sufficient. Strong interpersonal and business capabilities are also required.",
+        "The appropriate balance of competencies depends on the project. A technically complex engineering project may require strong technical understanding, while an organizational transformation project may require exceptional communication and change leadership."
+      ],
+      "bullets": [
+        "Planning and organizational skills",
+        "Communication",
+        "Negotiation",
+        "Conflict management",
+        "Decision-making",
+        "Risk awareness",
+        "Emotional intelligence",
+        "Commercial and strategic understanding",
+        "Adaptability",
+        "Ethical judgment"
+      ]
+    },
+    {
+      "id": "authority-and-influence",
+      "type": "theory",
+      "heading": "Authority and Influence",
+      "paragraphs": [
+        "Project Managers do not always have direct authority over everyone involved in the project.",
+        "Team members may report to functional managers, suppliers may be governed by contracts, and senior stakeholders may have greater organizational authority than the Project Manager.",
+        "The Project Manager must therefore rely on influence, credibility, communication and relationship-building in addition to formal authority."
+      ]
+    },
+    {
+      "id": "example-competing-priorities",
+      "type": "example",
+      "heading": "Example: Managing Competing Priorities",
+      "paragraphs": [
+        "A Project Manager needs an experienced engineer to complete critical design work. However, the engineer's functional manager wants the same person to support an urgent operational problem.",
+        "The Project Manager cannot simply order the functional manager to release the resource. Instead, the Project Manager should explain the schedule impact, discuss alternatives and escalate the issue through the agreed governance structure if necessary.",
+        "This situation demonstrates why influence, negotiation and clear escalation procedures are essential project management capabilities."
+      ]
+    },
+    {
+      "id": "governance-and-sponsorship",
+      "type": "theory",
+      "heading": "Governance and Sponsorship",
+      "paragraphs": [
+        "The Project Manager should not be expected to make every important decision alone.",
+        "Project governance defines who has authority to approve changes, allocate resources, accept risks and decide whether the project should continue.",
+        "The Sponsor supports the Project Manager by providing direction, resolving senior-level barriers and maintaining ownership of the business justification."
+      ],
+      "bullets": [
+        "The Project Manager manages delivery within delegated authority.",
+        "The Sponsor owns the business justification.",
+        "Governance bodies make major decisions when required.",
+        "Escalation protects the project from decisions being made at the wrong level."
+      ]
+    },
+    {
+      "id": "measuring-success-over-time",
+      "type": "theory",
+      "heading": "Measuring Success Over Time",
+      "paragraphs": [
+        "Some success measures can be evaluated when the project closes, while others can only be evaluated later.",
+        "Schedule, budget and scope performance can normally be assessed at completion. Benefits such as increased revenue, lower operating cost or improved customer satisfaction may take months or years to become visible.",
+        "Organizations should therefore distinguish between project closure and benefits realization. Closing the project does not necessarily mean that all expected value has already been achieved."
+      ]
+    },
+    {
+      "id": "expert-insight",
+      "type": "expertInsight",
+      "heading": "Expert Insight",
+      "paragraphs": [
+        "A common mistake is to define project success using only measures that are easy to track. Schedule and cost are easy to measure, but strategic value, stakeholder acceptance and benefits realization may be more important.",
+        "Strong Project Managers repeatedly connect daily project decisions to the intended business outcome. They do not treat the plan as the final objective. The plan is a tool for delivering value."
+      ]
+    },
+    {
+      "id": "key-takeaways",
+      "type": "summary",
+      "heading": "Key Takeaways",
+      "bullets": [
+        "Project management success concerns how efficiently the project was delivered.",
+        "Overall project success concerns whether the project created the intended value.",
+        "Time, cost and scope are important but incomplete measures of success.",
+        "Success criteria define how success will be judged.",
+        "Critical success factors increase the likelihood of achieving success.",
+        "Different stakeholders may evaluate the same project differently.",
+        "The Project Manager leads delivery but does not normally own the Business Case.",
+        "Effective Project Managers combine management, leadership and business understanding.",
+        "Influence is often as important as formal authority.",
+        "Benefits may need to be measured long after project closure."
+      ]
+    }
+  ]
+}
