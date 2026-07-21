@@ -1,27 +1,35 @@
 const params = new URLSearchParams(window.location.search);
+
 const readingFile = params.get("file");
+const courseId = params.get("course");
+const topicsFile = params.get("topics");
+const topicId = params.get("topic");
 
 const readingContent = document.getElementById("reading-content");
 const readingNavigation = document.getElementById("reading-navigation");
 const loadingState = document.getElementById("loading-state");
 const errorState = document.getElementById("error-state");
 const errorMessage = document.getElementById("error-message");
+const backLink = document.querySelector(".reading-sidebar .back-link");
 
-if (!readingFile) {
-  showError(
-    "No reading file was selected. Open the module from the course page."
-  );
-} else {
-  loadReading();
-}
+initializeReadingPage();
 
-async function loadReading() {
+async function initializeReadingPage() {
+  configureBackLink();
+
+  if (!readingFile) {
+    showError(
+      "No reading file was selected. Open the reading module from the topic page."
+    );
+    return;
+  }
+
   try {
     const response = await fetch(readingFile);
 
     if (!response.ok) {
       throw new Error(
-        `The reading file could not be found: ${readingFile}`
+        `The reading file could not be loaded: ${readingFile}. HTTP status: ${response.status}`
       );
     }
 
@@ -30,26 +38,59 @@ async function loadReading() {
     validateReadingData(data);
     renderReading(data);
   } catch (error) {
-    console.error("Reading module error:", error);
+    console.error("Reading page error:", error);
 
     showError(
       error.message ||
-      "The reading material could not be loaded."
+        "The reading material could not be loaded."
     );
   }
 }
 
+function configureBackLink() {
+  if (!backLink) {
+    return;
+  }
+
+  if (topicsFile && topicId) {
+    backLink.href =
+      `topic.html?topics=${encodeURIComponent(topicsFile)}` +
+      `&topic=${encodeURIComponent(topicId)}` +
+      `&course=${encodeURIComponent(courseId || "")}`;
+
+    backLink.textContent = "← Back to topic";
+    return;
+  }
+
+  if (courseId) {
+    backLink.href =
+      `course.html?course=${encodeURIComponent(courseId)}`;
+
+    backLink.textContent = "← Back to course";
+    return;
+  }
+
+  backLink.href = "index.html";
+  backLink.textContent = "← Back to courses";
+}
+
 function validateReadingData(data) {
   if (!data || typeof data !== "object") {
-    throw new Error("The reading file does not contain valid JSON data.");
+    throw new Error(
+      "The reading file does not contain valid JSON data."
+    );
   }
 
   if (!data.title || typeof data.title !== "string") {
-    throw new Error("The reading file is missing a valid title.");
+    throw new Error(
+      "The reading file is missing a valid title."
+    );
   }
 
   if (!Array.isArray(data.sections)) {
-    throw new Error("The reading file is missing a sections array.");
+    throw new Error(
+      "The reading file is missing a valid sections array."
+    );
   }
 }
 
@@ -61,6 +102,7 @@ function renderReading(data) {
 
   const header = createReadingHeader(data);
   const sectionsContainer = document.createElement("div");
+
   sectionsContainer.className = "reading-sections";
 
   const validSections = data.sections.filter(
@@ -74,6 +116,8 @@ function renderReading(data) {
 
   readingContent.append(header, sectionsContainer);
   renderNavigation(validSections);
+
+  scrollToRequestedSection();
 }
 
 function createReadingHeader(data) {
@@ -96,15 +140,29 @@ function createReadingHeader(data) {
     header.appendChild(description);
   }
 
+  const metaItems = [];
+
   if (data.estimatedReadingTime) {
+    metaItems.push(
+      `Estimated reading time: ${data.estimatedReadingTime}`
+    );
+  }
+
+  if (data.level) {
+    metaItems.push(`Level: ${data.level}`);
+  }
+
+  if (metaItems.length > 0) {
     const meta = document.createElement("div");
     meta.className = "reading-meta";
 
-    const time = document.createElement("span");
-    time.className = "reading-time";
-    time.textContent = `Estimated reading time: ${data.estimatedReadingTime}`;
+    metaItems.forEach(itemText => {
+      const item = document.createElement("span");
+      item.className = "reading-meta-item";
+      item.textContent = itemText;
+      meta.appendChild(item);
+    });
 
-    meta.appendChild(time);
     header.appendChild(meta);
   }
 
@@ -121,80 +179,137 @@ function createSection(section, index) {
   sectionElement.id = sectionId;
   sectionElement.className = getSectionClass(section.type);
 
-  if (section.heading) {
+  const headingText =
+    section.heading ||
+    getDefaultHeading(section.type);
+
+  if (headingText) {
     const heading = document.createElement("h2");
-    heading.textContent = section.heading;
+    heading.textContent = headingText;
     sectionElement.appendChild(heading);
   }
 
-  if (Array.isArray(section.paragraphs)) {
-    section.paragraphs.forEach(paragraphText => {
-      if (typeof paragraphText !== "string") {
-        return;
-      }
-
-      const paragraph = document.createElement("p");
-      paragraph.textContent = paragraphText;
-      sectionElement.appendChild(paragraph);
-    });
-  }
-
-  if (Array.isArray(section.bullets)) {
-    const list = document.createElement("ul");
-
-    section.bullets.forEach(bulletText => {
-      if (typeof bulletText !== "string") {
-        return;
-      }
-
-      const item = document.createElement("li");
-      item.textContent = bulletText;
-      list.appendChild(item);
-    });
-
-    sectionElement.appendChild(list);
-  }
-
-  if (Array.isArray(section.numberedItems)) {
-    const list = document.createElement("ol");
-
-    section.numberedItems.forEach(itemText => {
-      if (typeof itemText !== "string") {
-        return;
-      }
-
-      const item = document.createElement("li");
-      item.textContent = itemText;
-      list.appendChild(item);
-    });
-
-    sectionElement.appendChild(list);
-  }
-
-  if (section.quote && typeof section.quote === "string") {
-    const quote = document.createElement("blockquote");
-    quote.textContent = section.quote;
-    sectionElement.appendChild(quote);
-  }
-
-  if (Array.isArray(section.reflectionQuestions)) {
-    const reflectionList = document.createElement("ol");
-    reflectionList.className = "reflection-questions";
-
-    section.reflectionQuestions.forEach(questionText => {
-      if (typeof questionText !== "string") {
-        return;
-      }
-
-      const item = document.createElement("li");
-      item.textContent = questionText;
-      reflectionList.appendChild(item);
-    });
-
-    sectionElement.appendChild(reflectionList);
-  }
+  appendParagraphs(sectionElement, section.paragraphs);
+  appendBullets(sectionElement, section.bullets);
+  appendNumberedItems(sectionElement, section.numberedItems);
+  appendQuote(sectionElement, section.quote);
+  appendReflectionQuestions(
+    sectionElement,
+    section.reflectionQuestions
+  );
 
   return sectionElement;
+}
+
+function appendParagraphs(parent, paragraphs) {
+  if (!Array.isArray(paragraphs)) {
+    return;
+  }
+
+  paragraphs.forEach(paragraphText => {
+    if (
+      typeof paragraphText !== "string" ||
+      paragraphText.trim() === ""
+    ) {
+      return;
+    }
+
+    const paragraph = document.createElement("p");
+    paragraph.textContent = paragraphText;
+    parent.appendChild(paragraph);
+  });
+}
+
+function appendBullets(parent, bullets) {
+  if (!Array.isArray(bullets) || bullets.length === 0) {
+    return;
+  }
+
+  const list = document.createElement("ul");
+
+  bullets.forEach(bulletText => {
+    if (
+      typeof bulletText !== "string" ||
+      bulletText.trim() === ""
+    ) {
+      return;
+    }
+
+    const item = document.createElement("li");
+    item.textContent = bulletText;
+    list.appendChild(item);
+  });
+
+  if (list.children.length > 0) {
+    parent.appendChild(list);
+  }
+}
+
+function appendNumberedItems(parent, numberedItems) {
+  if (
+    !Array.isArray(numberedItems) ||
+    numberedItems.length === 0
+  ) {
+    return;
+  }
+
+  const list = document.createElement("ol");
+
+  numberedItems.forEach(itemText => {
+    if (
+      typeof itemText !== "string" ||
+      itemText.trim() === ""
+    ) {
+      return;
+    }
+
+    const item = document.createElement("li");
+    item.textContent = itemText;
+    list.appendChild(item);
+  });
+
+  if (list.children.length > 0) {
+    parent.appendChild(list);
+  }
+}
+
+function appendQuote(parent, quoteText) {
+  if (
+    typeof quoteText !== "string" ||
+    quoteText.trim() === ""
+  ) {
+    return;
+  }
+
+  const quote = document.createElement("blockquote");
+  quote.textContent = quoteText;
+  parent.appendChild(quote);
+}
+
+function appendReflectionQuestions(parent, questions) {
+  if (!Array.isArray(questions) || questions.length === 0) {
+    return;
+  }
+
+  const list = document.createElement("ol");
+  list.className = "reflection-questions";
+
+  questions.forEach(questionText => {
+    if (
+      typeof questionText !== "string" ||
+      questionText.trim() === ""
+    ) {
+      return;
+    }
+
+    const item = document.createElement("li");
+    item.textContent = questionText;
+    list.appendChild(item);
+  });
+
+  if (list.children.length > 0) {
+    parent.appendChild(list);
+  }
 }
 
 function getSectionClass(type) {
@@ -217,12 +332,34 @@ function getSectionClass(type) {
     : baseClass;
 }
 
+function getDefaultHeading(type) {
+  const defaultHeadings = {
+    learningObjectives: "Learning Objectives",
+    theory: "Core Theory",
+    example: "Example",
+    expertInsight: "Expert Insight",
+    warning: "Important",
+    summary: "Key Takeaways",
+    reflection: "Reflection"
+  };
+
+  return defaultHeadings[type] || "";
+}
+
 function renderNavigation(sections) {
   readingNavigation.innerHTML = "";
 
-  const navigableSections = sections.filter(
-    section => section.heading
-  );
+  const navigableSections = sections
+    .map((section, index) => ({
+      section,
+      sectionId:
+        sanitizeId(section.id) ||
+        `section-${index + 1}`,
+      heading:
+        section.heading ||
+        getDefaultHeading(section.type)
+    }))
+    .filter(item => item.heading);
 
   if (navigableSections.length === 0) {
     const message = document.createElement("p");
@@ -233,20 +370,17 @@ function renderNavigation(sections) {
     return;
   }
 
-  navigableSections.forEach((section, index) => {
-    const sectionId =
-      sanitizeId(section.id) ||
-      `section-${index + 1}`;
-
+  navigableSections.forEach(item => {
     const link = document.createElement("a");
-    link.href = `#${sectionId}`;
-    link.textContent = section.heading;
+
+    link.href = `#${item.sectionId}`;
+    link.textContent = item.heading;
     link.className = "reading-navigation-link";
 
     link.addEventListener("click", event => {
       event.preventDefault();
 
-      const target = document.getElementById(sectionId);
+      const target = document.getElementById(item.sectionId);
 
       if (!target) {
         return;
@@ -257,10 +391,35 @@ function renderNavigation(sections) {
         block: "start"
       });
 
-      history.replaceState(null, "", `#${sectionId}`);
+      history.replaceState(
+        null,
+        "",
+        `${window.location.pathname}${window.location.search}#${item.sectionId}`
+      );
     });
 
     readingNavigation.appendChild(link);
+  });
+}
+
+function scrollToRequestedSection() {
+  const sectionId = window.location.hash.replace("#", "");
+
+  if (!sectionId) {
+    return;
+  }
+
+  const target = document.getElementById(sectionId);
+
+  if (!target) {
+    return;
+  }
+
+  requestAnimationFrame(() => {
+    target.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
   });
 }
 
@@ -277,15 +436,26 @@ function sanitizeId(value) {
 }
 
 function showError(message) {
-  loadingState.hidden = true;
-  errorState.hidden = false;
-  errorMessage.textContent = message;
+  if (loadingState) {
+    loadingState.hidden = true;
+  }
 
-  readingNavigation.innerHTML = "";
+  if (errorState) {
+    errorState.hidden = false;
+  }
 
-  const navigationMessage = document.createElement("p");
-  navigationMessage.className = "navigation-placeholder";
-  navigationMessage.textContent = "Module navigation unavailable.";
+  if (errorMessage) {
+    errorMessage.textContent = message;
+  }
 
-  readingNavigation.appendChild(navigationMessage);
+  if (readingNavigation) {
+    readingNavigation.innerHTML = "";
+
+    const navigationMessage = document.createElement("p");
+    navigationMessage.className = "navigation-placeholder";
+    navigationMessage.textContent =
+      "Module navigation unavailable.";
+
+    readingNavigation.appendChild(navigationMessage);
+  }
 }
