@@ -1576,3 +1576,86 @@ footer {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+
+/* ===========================
+   END OF READING CARD
+=========================== */
+
+.reading-complete-card{
+
+    margin-top:40px;
+
+    padding:42px;
+
+    border-radius:24px;
+
+    text-align:center;
+
+    background:linear-gradient(
+        135deg,
+        #1d4ed8,
+        #2563eb
+    );
+
+    color:white;
+
+    box-shadow:0 18px 45px rgba(37,99,235,.18);
+
+}
+
+.reading-complete-card .eyebrow{
+
+    color:#bfdbfe;
+
+    margin-bottom:12px;
+
+}
+
+.reading-complete-card h2{
+
+    color:white;
+
+    margin-bottom:18px;
+
+    font-size:2rem;
+
+}
+
+.reading-complete-card p{
+
+    color:#dbeafe;
+
+    max-width:650px;
+
+    margin:auto;
+
+    margin-bottom:30px;
+
+    line-height:1.7;
+
+}
+
+.reading-complete-card .button{
+
+    font-size:1rem;
+
+    padding:16px 32px;
+
+    border-radius:14px;
+
+    background:white;
+
+    color:#2563eb;
+
+    text-decoration:none;
+
+    font-weight:800;
+
+}
+
+.reading-complete-card .button:hover{
+
+    transform:translateY(-3px);
+
+}
