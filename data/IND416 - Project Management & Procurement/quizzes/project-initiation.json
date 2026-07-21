@@ -1,1 +1,101 @@
-
+{
+  "title": "Project Initiation",
+  "questions": [
+    {
+      "question": "A shipping company is considering investing in a new fleet management software. Before any planning begins, what should be the primary objective of the initiation phase?",
+      "options": [
+        "Create the detailed project schedule",
+        "Determine whether the project is worth undertaking and define its objectives",
+        "Assign every team member to specific tasks",
+        "Negotiate contracts with software vendors"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "The initiation phase determines whether the project should proceed and establishes its purpose, objectives and business justification."
+    },
+    {
+      "question": "Which document normally gives a project its formal authorization to begin?",
+      "options": [
+        "Risk Register",
+        "Project Charter",
+        "Procurement Plan",
+        "Work Breakdown Structure"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "The Project Charter formally authorizes the project and gives the project manager authority to use organizational resources."
+    },
+    {
+      "question": "A project manager starts developing a detailed budget before the project has been officially approved. What is the biggest issue with this approach?",
+      "options": [
+        "The project may consume resources before a decision has been made to proceed",
+        "Budgets cannot be estimated until the project is completed",
+        "The project manager must first recruit suppliers",
+        "There is no issue because budgeting always comes first"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Without formal approval, significant planning may waste both time and organizational resources if the project is later rejected."
+    },
+    {
+      "question": "Which of the following is LEAST likely to be included in a Project Charter?",
+      "options": [
+        "Business case",
+        "High-level project objectives",
+        "Project sponsor",
+        "Detailed day-by-day task schedule"
+      ],
+      "answer": 3,
+      "difficulty": "Medium",
+      "explanation": "Detailed schedules are developed later during project planning, not during initiation."
+    },
+    {
+      "question": "A logistics company wants to automate invoice processing. Management estimates annual savings of $600,000 while implementation will cost $900,000. Which additional factor should be evaluated before approving the project?",
+      "options": [
+        "Whether employees prefer the current system",
+        "Expected project risks and strategic alignment",
+        "The color scheme of the new software",
+        "How many meeting rooms are available"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Projects should be evaluated based on financial value, strategic fit and associated risks before approval."
+    },
+    {
+      "question": "A project is approved because it is expected to improve customer satisfaction, reduce operating costs and support the company's long-term strategy. Which concept best describes these reasons?",
+      "options": [
+        "Critical Path",
+        "Business Case",
+        "Procurement Strategy",
+        "Quality Assurance"
+      ],
+      "answer": 1,
+      "difficulty": "Hard",
+      "explanation": "The business case explains why the project should be undertaken and the value it is expected to deliver."
+    },
+    {
+      "question": "Which statement best distinguishes project initiation from project planning?",
+      "options": [
+        "Initiation decides whether the project should exist, while planning determines how it will be executed.",
+        "Initiation creates the detailed work packages, while planning approves the project.",
+        "Initiation only concerns budgeting, while planning focuses on quality.",
+        "There is no practical difference between the two phases."
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Initiation focuses on project justification and authorization, whereas planning develops the roadmap for execution."
+    },
+    {
+      "question": "A company starts several projects without evaluating whether they support its overall strategy. What is the most likely consequence?",
+      "options": [
+        "Projects may succeed individually but provide little organizational value.",
+        "Project schedules automatically become shorter.",
+        "Stakeholders become easier to manage.",
+        "Procurement costs decrease."
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Projects should contribute to organizational strategy. Otherwise, resources may be spent on initiatives that deliver limited business value."
+    }
+  ]
+}
