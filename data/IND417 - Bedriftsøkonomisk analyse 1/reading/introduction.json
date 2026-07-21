@@ -1,0 +1,138 @@
+{
+  "title": "Introduction to Business Economics",
+  "description": "Learn the fundamental principles of business economics, including how businesses create value, generate profit, and make financial decisions.",
+  "estimatedReadingTime": "10 minutes",
+  "level": "Beginner",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Understand what business economics is.",
+        "Explain why businesses exist.",
+        "Differentiate between revenue, costs and profit.",
+        "Understand the concept of value creation.",
+        "Recognize the role of business economics in managerial decision-making.",
+        "Identify the main stakeholders of a business."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Business economics studies how organizations use limited resources to create products and services while generating value for customers and owners.",
+        "Every business faces decisions about what to produce, how much to produce, how to price products, and how to use its resources efficiently.",
+        "Managers constantly balance revenues, costs, risks and long-term objectives when making decisions. Business economics provides the tools needed to analyze these decisions."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Why Do Businesses Exist?",
+      "content": [
+        "Businesses exist because they create value by transforming resources into products or services that customers are willing to pay for.",
+        "Customers purchase products because they believe the value they receive exceeds the price they pay.",
+        "If a business consistently creates value more efficiently than its competitors, it has a greater chance of earning sustainable profits."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Coffee Shop",
+      "content": [
+        "A coffee shop purchases coffee beans, milk, cups and equipment. These are transformed into finished coffee products that customers buy.",
+        "Customers are not simply paying for coffee beans—they are paying for convenience, quality, atmosphere and service.",
+        "The difference between the cost of providing the product and the price customers are willing to pay creates economic value."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Revenue, Costs and Profit",
+      "content": [
+        "Revenue is the income generated from selling goods or services.",
+        "Costs represent the resources consumed to produce and deliver those goods or services.",
+        "Profit is calculated by subtracting total costs from total revenue.",
+        "A profitable business earns more revenue than it spends over a given period."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Simple Profit Calculation",
+      "content": [
+        "A company sells products worth $500,000 during one year.",
+        "Its total operating costs are $420,000.",
+        "Profit = Revenue − Costs = $500,000 − $420,000 = $80,000."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Value Creation",
+      "content": [
+        "Value creation is one of the central concepts in business economics.",
+        "Businesses create value by producing products or services that customers consider more valuable than the resources required to produce them.",
+        "Successful companies continuously improve efficiency, quality and innovation to increase the value they create."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Business Decisions",
+      "content": [
+        "Managers make decisions every day regarding pricing, production, investments, staffing and purchasing.",
+        "Business economics provides quantitative tools that help managers compare alternatives and select the option that creates the greatest economic value.",
+        "Rather than relying on intuition alone, managers use financial analysis to support their decisions."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Hiring Another Employee",
+      "content": [
+        "A logistics company experiences increasing customer demand.",
+        "Management must decide whether hiring another employee will increase revenue enough to justify the additional salary and operating costs.",
+        "Business economics helps evaluate whether the expected benefits exceed the expected costs."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Stakeholders",
+      "content": [
+        "Businesses operate within a network of stakeholders who influence or are affected by business decisions.",
+        "Important stakeholders include owners, employees, customers, suppliers, lenders, governments and society.",
+        "Managers often need to balance the interests of several stakeholders when making decisions."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Profit Is Not the Same as Cash",
+      "content": [
+        "Many new students believe that profit and cash are identical, but they measure different things.",
+        "A company can report a profit while experiencing cash shortages if customers have not yet paid their invoices.",
+        "Likewise, a company may receive cash before earning revenue, depending on accounting rules."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Successful managers rarely ask only, 'Will this increase profit?' They also consider long-term competitiveness, customer satisfaction, risk, sustainability and efficient resource utilization. Business economics provides a framework for balancing these competing objectives."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Business economics studies how organizations create value using limited resources.",
+        "Businesses exist because they provide products or services customers value.",
+        "Revenue is income, costs are resources consumed, and profit equals revenue minus costs.",
+        "Managers use business economics to support financial and operational decisions.",
+        "Businesses must create value for customers while balancing the interests of multiple stakeholders."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Why is creating customer value essential for long-term profitability?",
+        "Can a company earn a profit without creating value for its customers? Why or why not?",
+        "What kinds of business decisions require both financial analysis and managerial judgment?"
+      ]
+    }
+  ]
+}
