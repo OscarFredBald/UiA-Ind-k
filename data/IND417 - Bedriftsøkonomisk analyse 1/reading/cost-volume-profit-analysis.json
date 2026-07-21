@@ -1,0 +1,244 @@
+{
+  "title": "Cost-Volume-Profit (CVP) Analysis",
+  "description": "Learn how managers use the relationship between costs, sales volume and profit to determine break-even points, target profit, margin of safety and operating leverage.",
+  "estimatedReadingTime": "16 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Understand the purpose of Cost-Volume-Profit (CVP) Analysis.",
+        "Explain the relationship between sales, costs and profit.",
+        "Calculate the break-even point in units and sales revenue.",
+        "Calculate the sales required to achieve a target profit.",
+        "Understand margin of safety and operating leverage.",
+        "Recognize the assumptions and limitations of CVP analysis."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Managers constantly ask questions such as: How many units must we sell before we make a profit? What happens if sales decrease? How much additional profit will we earn if sales increase?",
+        "Cost-Volume-Profit (CVP) Analysis answers these questions by examining the relationship between sales volume, costs and profit.",
+        "CVP analysis is one of the most widely used planning tools in managerial accounting because it helps managers understand how operational decisions affect financial performance."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "What Is Cost-Volume-Profit (CVP) Analysis?",
+      "content": [
+        "CVP analysis studies how changes in sales volume influence revenue, costs and profit.",
+        "It combines concepts from contribution margin analysis with fixed and variable costs to predict financial outcomes.",
+        "Managers use CVP analysis for budgeting, pricing, production planning and investment decisions."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Three Key Components",
+      "content": [
+        "CVP analysis is based on three main variables: sales volume, variable costs and fixed costs.",
+        "Sales revenue increases as more units are sold.",
+        "Variable costs increase with each additional unit sold, while fixed costs remain unchanged within the relevant range.",
+        "Contribution margin from each sale is first used to cover fixed costs before generating profit."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Sales Growth",
+      "content": [
+        "A company sells one product for $100.",
+        "Its variable cost is $60 per unit.",
+        "Each sale therefore contributes $40 toward covering fixed costs and generating profit.",
+        "Once fixed costs have been fully covered, every additional unit sold increases operating profit by $40."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Break-Even Point",
+      "content": [
+        "The break-even point is the level of sales at which total revenue equals total costs.",
+        "At the break-even point, the company earns neither a profit nor a loss.",
+        "Every sale beyond the break-even point contributes directly to operating profit."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Break-Even in Units",
+      "content": [
+        "Break-Even Units = Fixed Costs ÷ Contribution Margin per Unit.",
+        "This calculation tells managers how many units must be sold before the business starts making a profit."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Break-Even Units",
+      "content": [
+        "A company has fixed costs of $120,000.",
+        "Its contribution margin is $30 per unit.",
+        "Break-Even Units = $120,000 ÷ $30 = 4,000 units.",
+        "The company must sell 4,000 units before earning any operating profit."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Break-Even Sales Revenue",
+      "content": [
+        "Managers often want to know the amount of sales revenue required to break even rather than the number of units.",
+        "Break-Even Sales = Fixed Costs ÷ Contribution Margin Ratio.",
+        "This measure is particularly useful for companies selling many different products."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Break-Even Revenue",
+      "content": [
+        "Fixed costs are $200,000.",
+        "The contribution margin ratio is 40%.",
+        "Break-Even Sales = $200,000 ÷ 0.40 = $500,000.",
+        "The company must generate $500,000 in sales before earning an operating profit."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Target Profit Analysis",
+      "content": [
+        "Managers rarely aim only to break even. Instead, they often have a target profit.",
+        "Target Profit Analysis determines how much must be sold to achieve a desired operating profit.",
+        "Required Units = (Fixed Costs + Target Profit) ÷ Contribution Margin per Unit."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Target Profit",
+      "content": [
+        "A company has fixed costs of $150,000.",
+        "Management wants to earn an operating profit of $50,000.",
+        "The contribution margin per unit is $40.",
+        "Required Units = ($150,000 + $50,000) ÷ $40 = 5,000 units."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Margin of Safety",
+      "content": [
+        "The margin of safety measures how much sales can decline before the business reaches its break-even point.",
+        "It indicates the company's financial cushion.",
+        "A larger margin of safety generally means lower business risk."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Margin of Safety",
+      "content": [
+        "Current sales are $900,000.",
+        "Break-even sales are $700,000.",
+        "Margin of Safety = $900,000 − $700,000 = $200,000.",
+        "Sales can fall by $200,000 before the company begins to incur losses."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Operating Leverage",
+      "content": [
+        "Operating leverage measures how sensitive operating profit is to changes in sales volume.",
+        "Companies with high fixed costs and relatively low variable costs usually have high operating leverage.",
+        "A small increase in sales can produce a large increase in profit, but a decline in sales can also lead to significant losses."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: High Operating Leverage",
+      "content": [
+        "An airline has very high fixed costs for aircraft, maintenance and crews.",
+        "Once these costs are covered, additional ticket sales contribute significantly to profit.",
+        "However, if passenger demand falls, profits can decline rapidly because fixed costs remain."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Managerial Applications",
+      "content": [
+        "Managers use CVP analysis when evaluating new products, setting prices, preparing budgets and forecasting profits.",
+        "It also helps assess the financial impact of changing costs, production capacity or expected sales volume.",
+        "CVP analysis supports strategic planning by showing how different decisions affect profitability."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: New Product Launch",
+      "content": [
+        "A company is considering launching a new product that requires $500,000 in annual fixed costs.",
+        "Using estimated selling prices, variable costs and expected demand, managers calculate the break-even point before deciding whether the investment is worthwhile."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Shipping Example",
+      "content": [
+        "A ship management company wants to determine how many charter days a vessel must operate before covering its annual fixed costs.",
+        "Using daily contribution margin and annual fixed costs, managers can estimate the vessel's break-even utilization.",
+        "This information supports chartering, budgeting and fleet planning decisions."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Charter Days",
+      "content": [
+        "A vessel generates a contribution margin of $18,000 per operating day.",
+        "Annual fixed costs are $4.5 million.",
+        "Break-Even Charter Days = $4,500,000 ÷ $18,000 = 250 operating days.",
+        "Operating beyond 250 days contributes directly to annual operating profit."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "CVP Assumptions",
+      "content": [
+        "CVP analysis assumes that selling price, variable cost per unit and total fixed costs remain constant within the relevant range.",
+        "It also assumes that all units produced are sold and that costs can be clearly classified as fixed or variable.",
+        "Real businesses may experience changing prices, capacity constraints and mixed costs, making actual results differ from CVP estimates."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Mistakes",
+      "content": [
+        "Do not confuse contribution margin with profit.",
+        "Do not assume that fixed costs remain constant forever; they may change outside the relevant range.",
+        "Do not rely solely on break-even calculations when making strategic decisions.",
+        "CVP analysis should always be combined with market demand, competition and operational considerations."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Experienced managers rarely use CVP analysis to predict the future exactly. Instead, they use it to understand how changes in price, costs and sales volume affect profitability under different business scenarios. This makes CVP an excellent planning and decision-support tool rather than a forecasting tool."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "CVP analysis studies the relationship between costs, sales volume and profit.",
+        "Contribution margin is the foundation of CVP analysis.",
+        "The break-even point is where total revenue equals total costs.",
+        "Target profit analysis determines the sales needed to achieve a desired profit.",
+        "Margin of safety measures how much sales can decline before losses occur.",
+        "Operating leverage explains how sensitive profit is to changes in sales volume.",
+        "CVP analysis is a powerful planning tool but relies on several simplifying assumptions."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Why does operating profit increase rapidly once the break-even point has been reached?",
+        "How could a company use CVP analysis before launching a new product?",
+        "Why might a business with high operating leverage earn both higher profits and larger losses than its competitors?"
+      ]
+    }
+  ]
+}
