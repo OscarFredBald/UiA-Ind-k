@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Course reading module"
+  >
+
+  <title>Reading Module | UiA Indøk</title>
+
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a
+        href="index.html"
+        class="site-logo"
+        aria-label="Go to homepage"
+      >
+        <span class="logo-mark">UIA</span>
+        <span class="logo-text">Indøk Learning</span>
+      </a>
+
+      <nav
+        class="main-navigation"
+        aria-label="Main navigation"
+      >
+        <a href="index.html">Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="reading-page">
+    <div class="container reading-layout">
+
+      <aside
+        class="reading-sidebar"
+        aria-label="Module navigation"
+      >
+        <a
+          href="javascript:history.back()"
+          class="back-link"
+        >
+          ← Back to topic
+        </a>
+
+        <div class="reading-sidebar-card">
+          <p class="sidebar-label">Module contents</p>
+
+          <nav
+            id="reading-navigation"
+            class="reading-navigation"
+            aria-label="Reading sections"
+          >
+            <p class="navigation-placeholder">
+              Loading sections...
+            </p>
+          </nav>
+        </div>
+      </aside>
+
+      <article
+        id="reading-content"
+        class="reading-content"
+        aria-live="polite"
+      >
+        <section
+          id="loading-state"
+          class="reading-state"
+        >
+          <p class="eyebrow">Reading module</p>
+          <h1>Loading module...</h1>
+          <p>
+            Please wait while the reading material is being loaded.
+          </p>
+        </section>
+
+        <section
+          id="error-state"
+          class="reading-state reading-error"
+          hidden
+        >
+          <p class="eyebrow">Unable to load module</p>
+          <h1>The reading material could not be opened</h1>
+
+          <p id="error-message">
+            Check that the file path is correct and that the JSON file exists.
+          </p>
+
+          <a
+            href="index.html"
+            class="button button-primary"
+          >
+            Return to courses
+          </a>
+        </section>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        UiA Indøk Learning Platform
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/reading.js"></script>
+</body>
+</html>
