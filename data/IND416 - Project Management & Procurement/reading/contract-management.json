@@ -1,0 +1,154 @@
+{
+  "title": "Contract Management",
+  "description": "Learn how project managers manage contracts throughout a project's life cycle to ensure suppliers deliver according to agreed scope, schedule, cost and quality.",
+  "estimatedReadingTime": "10 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Explain what contract management is.",
+        "Understand why contracts are essential in project management.",
+        "Differentiate between procurement and contract management.",
+        "Identify the responsibilities of a project manager after a contract has been awarded.",
+        "Recognize common contract risks and disputes.",
+        "Understand how effective contract management contributes to project success."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "After a supplier has been selected and a contract has been signed, the project enters the contract management phase.",
+        "Contract Management is the process of ensuring that both parties fulfill their contractual obligations throughout the project.",
+        "The objective is to deliver the agreed products or services while managing changes, risks, costs, quality and relationships."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "What is a Contract?",
+      "content": [
+        "A contract is a legally binding agreement between two or more parties.",
+        "In project management, contracts define the responsibilities, deliverables, schedule, payment terms, quality requirements and procedures for handling changes or disputes.",
+        "Well-written contracts reduce misunderstandings by clearly defining what each party has agreed to deliver."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Ship Dry-Docking",
+      "content": [
+        "A ship management company signs a contract with a shipyard for a scheduled dry-docking.",
+        "The contract specifies the work to be completed, the expected completion date, payment milestones, quality standards and penalties for delays.",
+        "Throughout the project, the superintendent monitors the shipyard's performance to ensure the contract is fulfilled."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Purpose of Contract Management",
+      "content": [
+        "Signing a contract does not guarantee successful project delivery.",
+        "Project managers must monitor supplier performance, verify completed work, approve payments and ensure contractual obligations are met.",
+        "Contract management provides continuous control over cost, schedule, quality and supplier performance throughout the project."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Key Responsibilities",
+      "content": [
+        "Effective contract management includes monitoring supplier performance, tracking milestones, verifying deliverables, approving invoices, documenting communication and resolving issues before they become major disputes.",
+        "The project manager also ensures that both the customer and supplier comply with the contract throughout the project."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Delayed Equipment Delivery",
+      "content": [
+        "A supplier is contracted to deliver specialized equipment by 1 June.",
+        "Two weeks before delivery, the supplier announces a one-month delay.",
+        "The project manager reviews the contract, assesses whether delay penalties apply, evaluates the impact on the project schedule and works with the supplier to develop a recovery plan."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Managing Contract Changes",
+      "content": [
+        "Projects rarely proceed exactly as planned. New requirements, unexpected events or technical challenges may require contract modifications.",
+        "Most contracts include formal change procedures that specify how changes are requested, evaluated, approved and documented.",
+        "Following these procedures ensures that both parties understand the financial and schedule implications before changes are implemented."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Managing Supplier Relationships",
+      "content": [
+        "Successful contract management is not only about enforcing legal obligations.",
+        "Maintaining open communication, mutual trust and collaborative problem-solving often produces better project outcomes than relying solely on contractual penalties.",
+        "Professional relationships encourage suppliers to resolve issues quickly and maintain high performance."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Poor Communication Creates Disputes",
+      "content": [
+        "Many contract disputes begin with unclear expectations rather than intentional wrongdoing.",
+        "Regular meetings, documented decisions and prompt communication reduce misunderstandings and strengthen cooperation between project teams and suppliers."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Common Contract Risks",
+      "content": [
+        "Common risks include supplier delays, poor quality, cost overruns, payment disputes, unclear responsibilities, contract interpretation disagreements and changes in project scope.",
+        "Good contract management identifies these risks early and addresses them before they threaten project success."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Software Development Project",
+      "content": [
+        "A client requests additional functionality after the software contract has been signed.",
+        "Instead of starting the work immediately, the project manager follows the contract's change management procedure.",
+        "The supplier estimates the additional cost and schedule impact before both parties approve the revised contract."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Experienced project managers rarely need to rely on legal disputes because they actively manage contracts throughout the project. Regular performance reviews, transparent communication and early problem resolution are usually more effective than enforcing penalties after problems have escalated."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming the contract will manage itself after signing.",
+        "Approving work without verifying deliverables.",
+        "Accepting verbal changes without documentation.",
+        "Ignoring early signs of supplier performance issues.",
+        "Failing to maintain clear communication with suppliers."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Contract management begins after a contract has been signed.",
+        "Contracts define responsibilities, deliverables, schedules and payment terms.",
+        "Project managers monitor supplier performance and ensure contractual obligations are fulfilled.",
+        "Formal change procedures protect both parties when project requirements change.",
+        "Good communication and strong supplier relationships reduce disputes and improve project outcomes."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Why is signing a contract only the beginning of contract management?",
+        "How can good communication reduce contractual disputes?",
+        "Why should contract changes always follow a formal approval process?"
+      ]
+    }
+  ]
+}
