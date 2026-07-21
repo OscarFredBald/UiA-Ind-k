@@ -1,0 +1,239 @@
+{
+  "title": "Pricing Decisions",
+  "description": "Learn how managers set prices using cost information, customer demand, competition and strategic objectives. Explore cost-based pricing, market-based pricing, value-based pricing and special pricing decisions.",
+  "estimatedReadingTime": "17 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Understand why pricing decisions are important.",
+        "Explain the relationship between price, cost, demand and profit.",
+        "Differentiate between cost-based, market-based and value-based pricing.",
+        "Understand markup pricing and target pricing.",
+        "Evaluate special pricing decisions using managerial accounting concepts.",
+        "Recognize the limitations of relying only on cost information when setting prices."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Setting the right price is one of the most important decisions a business makes. A price that is too high may reduce sales, while a price that is too low may reduce profitability.",
+        "Managers must balance customer demand, production costs, competition and long-term business strategy when determining prices.",
+        "Managerial accounting provides valuable information, but successful pricing also requires an understanding of the market."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Why Pricing Matters",
+      "content": [
+        "Price directly affects revenue, contribution margin and operating profit.",
+        "Even small price changes can significantly impact profitability.",
+        "Pricing decisions also influence customer perception, market share and competitive position."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Small Price Change",
+      "content": [
+        "A company sells 50,000 products annually.",
+        "Increasing the selling price by only $2 increases annual revenue by $100,000.",
+        "If sales volume remains unchanged, most of the additional revenue contributes directly to higher profit."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Cost-Based Pricing",
+      "content": [
+        "Cost-based pricing starts with the cost of producing a product and adds a markup to earn a desired profit.",
+        "The markup covers operating expenses, business risk and expected return on investment.",
+        "Many manufacturing companies use cost-based pricing because it is simple and ensures costs are recovered."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Markup Pricing",
+      "content": [
+        "Markup pricing is one of the most common cost-based pricing methods.",
+        "Selling Price = Cost + Markup.",
+        "The markup may be expressed as a percentage of cost or selling price."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Markup Pricing",
+      "content": [
+        "A product costs $80 to manufacture.",
+        "Management applies a 25% markup.",
+        "Selling Price = $80 × 1.25 = $100.",
+        "The $20 markup contributes toward operating expenses and profit."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Market-Based Pricing",
+      "content": [
+        "Market-based pricing begins with the price customers are willing to pay rather than production costs.",
+        "Managers study competitors, customer demand and market conditions before setting prices.",
+        "This approach is common in highly competitive industries where customers can easily compare alternatives."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Competitive Market",
+      "content": [
+        "Several smartphone manufacturers offer products with similar features.",
+        "A company cannot simply add a markup to production costs if competitors sell comparable products for lower prices.",
+        "Instead, management must consider the market price and control costs accordingly."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Value-Based Pricing",
+      "content": [
+        "Value-based pricing focuses on the value customers perceive rather than production costs.",
+        "Products offering unique quality, convenience or brand reputation can often command higher prices.",
+        "Luxury goods and premium services frequently use value-based pricing."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Luxury Brand",
+      "content": [
+        "Two watches may cost nearly the same to manufacture.",
+        "A luxury brand may charge several times more because customers perceive greater value, exclusivity and prestige."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Target Pricing",
+      "content": [
+        "Target pricing starts with the expected market price.",
+        "Management then determines the maximum allowable production cost that will achieve the desired profit.",
+        "This approach encourages cost control during product design and production."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Target Pricing",
+      "content": [
+        "Customers are expected to pay $300 for a new product.",
+        "Management requires a profit of $60.",
+        "The maximum allowable cost is therefore $240.",
+        "Design and production teams must meet this cost target."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Pricing and Contribution Margin",
+      "content": [
+        "Pricing decisions directly affect contribution margin.",
+        "Reducing prices may increase sales volume, but it also reduces contribution margin per unit.",
+        "Managers must evaluate whether additional sales will compensate for the lower contribution margin."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Price Reduction",
+      "content": [
+        "A company lowers its selling price by 10%.",
+        "Sales increase by 15%, but contribution margin per unit falls.",
+        "Management must calculate whether total contribution margin increases or decreases."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Special Pricing Decisions",
+      "content": [
+        "Managers occasionally receive one-time orders, volume discounts or requests from strategic customers.",
+        "These decisions should consider contribution margin, available capacity, customer relationships and opportunity costs.",
+        "A lower selling price may still improve profitability if unused capacity exists."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Volume Discount",
+      "content": [
+        "A retailer offers to purchase 20,000 units if it receives a 12% discount.",
+        "Management evaluates whether the lower contribution margin is offset by the significantly higher sales volume."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Pricing During Intense Competition",
+      "content": [
+        "Businesses sometimes lower prices to protect market share during periods of strong competition.",
+        "However, repeatedly reducing prices can lead to price wars, lower industry profits and reduced long-term profitability.",
+        "Managers must balance short-term sales with long-term strategic objectives."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Shipping Example",
+      "content": [
+        "A shipping company pricing a voyage must consider operating costs, expected fuel prices, vessel availability, market freight rates and customer demand.",
+        "Charging a rate below voyage costs creates losses, while charging significantly above market rates may result in losing the charter.",
+        "Managers therefore combine cost analysis with market intelligence when negotiating freight rates."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Charter Negotiation",
+      "content": [
+        "A charterer offers a freight rate slightly below the company's normal target.",
+        "The vessel would otherwise remain idle for two weeks.",
+        "Management compares the voyage contribution margin with the opportunity cost of leaving the vessel unemployed before deciding."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Mistakes",
+      "content": [
+        "Do not assume the lowest price generates the highest profit.",
+        "Do not ignore customer demand when using cost-based pricing.",
+        "Do not overlook competitors' pricing strategies.",
+        "Do not evaluate pricing decisions using accounting costs alone; contribution margin and strategic considerations are also important."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Limitations",
+      "content": [
+        "Pricing decisions are affected by customer preferences, economic conditions, inflation and competition.",
+        "Cost information alone cannot determine the optimal selling price.",
+        "Managers should combine financial analysis with market research and strategic planning."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Successful companies rarely rely on only one pricing strategy. Instead, they combine cost information, customer value, competitor analysis and long-term business objectives. Pricing is therefore both a financial calculation and a strategic management decision."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Pricing decisions directly influence revenue and profitability.",
+        "Cost-based pricing starts with production costs and adds a markup.",
+        "Market-based pricing begins with customer demand and competition.",
+        "Value-based pricing focuses on customers' perceived value.",
+        "Target pricing determines the maximum allowable cost from an expected selling price.",
+        "Managers should evaluate pricing decisions using contribution margin, capacity and opportunity costs.",
+        "Effective pricing combines financial analysis with strategic thinking."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Why might a company choose not to increase prices even if production costs rise?",
+        "When would market-based pricing be more appropriate than cost-based pricing?",
+        "How could a shipping company justify accepting a lower freight rate during a weak market?"
+      ]
+    }
+  ]
+}
