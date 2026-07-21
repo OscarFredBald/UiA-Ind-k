@@ -1,1 +1,367 @@
+{
+  "title": "Contract Management",
+  "description": "Quiz covering contract management, supplier relationships, contract administration, changes, risks and practical project management scenarios.",
+  "questions": [
+    {
+      "question": "What is the primary purpose of contract management?",
+      "options": [
+        "To ensure both parties fulfill their contractual obligations throughout the project",
+        "To eliminate the need for project planning",
+        "To reduce the number of project stakeholders",
+        "To create the project budget"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Contract management ensures that both parties meet the obligations agreed upon in the contract."
+    },
+    {
+      "question": "When does contract management normally begin?",
+      "options": [
+        "After the contract has been signed",
+        "Before procurement planning",
+        "After the project has finished",
+        "During project initiation"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Contract management begins once the contract has been awarded and signed."
+    },
+    {
+      "question": "What is a contract?",
+      "options": [
+        "A legally binding agreement between two or more parties",
+        "A project schedule",
+        "A stakeholder register",
+        "An informal verbal discussion"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "A contract is a legally enforceable agreement that defines rights and obligations."
+    },
+    {
+      "question": "Which of the following is typically included in a contract?",
+      "options": [
+        "Deliverables, payment terms and responsibilities",
+        "Employees' vacation schedules",
+        "Company marketing strategy",
+        "The project manager's personal objectives"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Contracts normally define scope, deliverables, responsibilities, schedule, payment terms and quality requirements."
+    },
+    {
+      "question": "Which project activity is most closely related to contract management?",
+      "options": [
+        "Monitoring supplier performance",
+        "Writing the project charter",
+        "Creating the Work Breakdown Structure",
+        "Conducting stakeholder identification"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "One of the main responsibilities of contract management is monitoring supplier performance."
+    },
+    {
+      "question": "Why are written contracts important in projects?",
+      "options": [
+        "They clearly define each party's responsibilities and reduce misunderstandings",
+        "They eliminate every project risk",
+        "They guarantee the project will finish on time",
+        "They remove the need for communication"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Clear contracts reduce ambiguity by defining expectations, responsibilities and procedures."
+    },
+    {
+      "question": "A supplier has completed part of the contracted work. Before approving payment, the project manager should first:",
+      "options": [
+        "Verify that the agreed deliverables have been completed",
+        "Pay immediately to maintain a good relationship",
+        "Ask another supplier for advice",
+        "Update the stakeholder register"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Payments should normally be approved only after verifying that contractual deliverables have been completed."
+    },
+    {
+      "question": "Which document normally defines how contract changes should be handled?",
+      "options": [
+        "The contract itself",
+        "The organizational chart",
+        "The meeting agenda",
+        "The project calendar"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Most contracts include formal procedures for requesting, evaluating and approving changes."
+    },
+    {
+      "question": "Which of the following is an example of contract management?",
+      "options": [
+        "Reviewing whether a supplier has met agreed quality requirements",
+        "Interviewing new employees",
+        "Preparing the company budget",
+        "Creating a marketing campaign"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Monitoring supplier performance against contractual quality requirements is a key contract management activity."
+    },
+    {
+      "question": "A supplier informs the project manager that delivery will be delayed by three weeks. What should the project manager do first?",
+      "options": [
+        "Review the contract, assess the project impact and discuss possible recovery actions",
+        "Terminate the contract immediately",
+        "Ignore the delay because suppliers are responsible",
+        "Approve additional payments automatically"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "The first step is to review the contractual obligations, understand the impact and work with the supplier to identify possible solutions."
+    },
+        {
+      "question": "A client requests additional features after the contract has been signed. What should the project manager do first?",
+      "options": [
+        "Follow the contract's formal change management procedure",
+        "Approve the work immediately",
+        "Reject the request without discussion",
+        "Ask the supplier to absorb the additional work for free"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Contract changes should be handled through the agreed change management process to evaluate impacts on cost, schedule and scope."
+    },
+    {
+      "question": "Why should contract changes be documented?",
+      "options": [
+        "To ensure both parties agree on the revised obligations",
+        "To make the contract longer",
+        "To reduce communication with suppliers",
+        "To avoid updating the project schedule"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Documenting changes prevents misunderstandings and provides a clear record of what has been approved."
+    },
+    {
+      "question": "Which situation represents the greatest contract management risk?",
+      "options": [
+        "A supplier repeatedly misses agreed delivery dates",
+        "A supplier submits progress reports on time",
+        "A project manager documents meeting minutes",
+        "A client approves completed work"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Repeated delivery delays can directly affect project schedule, cost and stakeholder satisfaction."
+    },
+    {
+      "question": "A supplier has delivered equipment that does not meet the agreed technical specifications. What should the project manager do?",
+      "options": [
+        "Compare the deliverables against the contract requirements before accepting them",
+        "Accept the equipment to avoid conflict",
+        "Pay the supplier immediately",
+        "Ignore the quality issue because delivery was on time"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Deliverables should always be verified against the contract before acceptance and payment."
+    },
+    {
+      "question": "Why are regular meetings with suppliers valuable during contract execution?",
+      "options": [
+        "They help identify and resolve issues before they become major disputes",
+        "They eliminate the need for contracts",
+        "They reduce project scope",
+        "They replace progress reports"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Regular communication promotes collaboration and allows problems to be addressed early."
+    },
+    {
+      "question": "Which statement best describes the relationship between contract management and supplier relationships?",
+      "options": [
+        "Successful contract management combines contractual control with effective collaboration",
+        "Contract management is only about enforcing penalties",
+        "Good supplier relationships eliminate the need for contracts",
+        "Supplier relationships are unrelated to project success"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Professional contract management balances contractual enforcement with productive working relationships."
+    },
+    {
+      "question": "A supplier requests additional payment because the client changed the project requirements. What should happen next?",
+      "options": [
+        "The request should be evaluated through the agreed contract change procedure",
+        "The payment should be approved immediately",
+        "The supplier should be ignored",
+        "The contract should automatically be terminated"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Changes affecting scope, cost or schedule should be formally evaluated before approval."
+    },
+    {
+      "question": "What is the main benefit of documenting project communication with suppliers?",
+      "options": [
+        "It provides evidence of decisions and reduces future misunderstandings",
+        "It replaces the signed contract",
+        "It guarantees the supplier will never make mistakes",
+        "It eliminates the need for project meetings"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Written records improve accountability and help resolve disagreements if they arise."
+    },
+    {
+      "question": "Which of the following is an example of effective contract management?",
+      "options": [
+        "Monitoring milestones, verifying deliverables and addressing issues as they arise",
+        "Only reading the contract after a dispute occurs",
+        "Approving all invoices without review",
+        "Avoiding communication with suppliers to prevent conflict"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Contract management is an ongoing process that includes monitoring, verification and proactive issue resolution."
+    },
+    {
+      "question": "Why is proactive contract management generally more effective than relying on penalties after problems occur?",
+      "options": [
+        "Because preventing problems is usually less costly and less disruptive than resolving disputes later",
+        "Because penalties are never allowed in contracts",
+        "Because suppliers never make mistakes",
+        "Because contracts automatically solve all disagreements"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Successful project managers focus on preventing problems through communication and monitoring rather than resolving expensive disputes after they have escalated."
+    },
 
+        {
+      "question": "A project manager notices that a supplier has missed several intermediate milestones but is still expected to finish on time. What is the best course of action?",
+      "options": [
+        "Meet with the supplier to understand the delays and agree on corrective actions before the final deadline is affected",
+        "Ignore the missed milestones until the final delivery date",
+        "Immediately terminate the contract",
+        "Automatically approve additional payments"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Intermediate milestones are early warning indicators. Addressing issues early reduces the likelihood of major schedule delays."
+    },
+    {
+      "question": "Why should project managers regularly compare supplier performance against the contract?",
+      "options": [
+        "To verify that work is being completed according to the agreed requirements",
+        "To renegotiate the contract every week",
+        "To reduce communication with stakeholders",
+        "To eliminate project risks"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Regular performance monitoring helps identify deviations before they become serious project problems."
+    },
+    {
+      "question": "Which situation is most likely to result in a contractual dispute?",
+      "options": [
+        "The contract contains vague or unclear deliverable descriptions",
+        "Both parties document all approved changes",
+        "The supplier provides regular progress updates",
+        "The client approves completed deliverables after inspection"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Poorly defined requirements often lead to different interpretations of what should be delivered."
+    },
+    {
+      "question": "A supplier proposes a design improvement that would reduce project costs without affecting quality. What should the project manager do?",
+      "options": [
+        "Evaluate the proposal using the contract's change management process before making a decision",
+        "Reject the proposal because contracts cannot be changed",
+        "Accept the proposal immediately without documentation",
+        "Ignore the supplier's suggestion"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Even beneficial changes should be evaluated and formally approved through the agreed contract procedures."
+    },
+    {
+      "question": "What is one of the greatest benefits of maintaining a strong relationship with suppliers?",
+      "options": [
+        "Problems are more likely to be solved collaboratively before they escalate",
+        "Contracts are no longer necessary",
+        "The supplier automatically lowers all prices",
+        "The project manager no longer needs to monitor performance"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Strong professional relationships encourage openness, trust and early problem-solving."
+    },
+    {
+      "question": "A client verbally requests additional work during a meeting. What should the project manager do?",
+      "options": [
+        "Document the request and follow the formal contract change procedure before work begins",
+        "Start the work immediately",
+        "Ignore the client's request",
+        "Ask the supplier to complete the work without compensation"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Verbal requests should always be documented and processed formally to avoid future disagreements."
+    },
+    {
+      "question": "Which statement best describes the role of a project manager in contract management?",
+      "options": [
+        "To balance contractual compliance, project objectives and productive supplier relationships",
+        "To enforce penalties whenever possible",
+        "To avoid communicating with suppliers",
+        "To delegate all contract responsibilities to the legal department"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Successful contract management combines contractual control with collaboration and effective communication."
+    },
+    {
+      "question": "A project is progressing well, but the supplier has stopped submitting the monthly reports required by the contract. Why is this a concern?",
+      "options": [
+        "Reporting requirements are contractual obligations that support project monitoring and transparency",
+        "Reports are optional once work has started",
+        "Only financial reports matter",
+        "Monthly reports are only needed when the project is behind schedule"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Contractual reporting requirements help both parties monitor progress and identify issues early."
+    },
+    {
+      "question": "Which approach is most likely to prevent expensive legal disputes during a project?",
+      "options": [
+        "Regular communication, documented decisions, early issue resolution and adherence to the contract",
+        "Avoiding communication until the project is complete",
+        "Only discussing problems after they have escalated",
+        "Ignoring minor disagreements between the parties"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Most contract disputes can be avoided through proactive management, clear communication and proper documentation."
+    },
+    {
+      "question": "What is the ultimate objective of effective contract management?",
+      "options": [
+        "To ensure that contractual obligations are fulfilled while supporting successful project delivery through collaboration, monitoring and controlled changes",
+        "To maximize the number of contractual penalties",
+        "To minimize communication between the parties",
+        "To prevent any future contracts with the supplier"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Contract management is about ensuring successful project delivery by balancing contractual compliance, supplier performance, communication and change management."
+    }
+  ]
+}
