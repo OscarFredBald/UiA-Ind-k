@@ -1,100 +1,366 @@
 {
   "title": "Scope Management",
+  "description": "Advanced quiz on product scope, project scope, requirements, Work Breakdown Structures, scope baselines, validation, change control, scope creep and value-based scope decisions.",
   "questions": [
     {
-      "question": "A municipality is constructing a new public library. Halfway through the project, politicians request a rooftop restaurant because 'it would attract more visitors.' The request has clear benefits but no additional funding. What is the BEST response from the project manager?",
+      "question": "Which statement best distinguishes product scope from project scope?",
       "options": [
-        "Approve the request because it increases project value.",
-        "Reject the request immediately because scope should never change.",
-        "Submit the request through formal change control and evaluate its impact before making a decision.",
-        "Ask the contractor to absorb the additional work."
+        "Product scope describes the work required to manage the project, while project scope describes the final product's features",
+        "Product scope describes the features and functions of the deliverable, while project scope describes the work required to create it",
+        "Product scope concerns only physical products, while project scope applies only to services",
+        "There is no meaningful distinction between the two"
       ],
-      "answer": 2,
-      "difficulty": "Medium",
-      "explanation": "Scope changes should neither be automatically accepted nor rejected. They should be evaluated through formal change control."
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Product scope defines what the deliverable must be or do. Project scope defines the work necessary to produce and deliver that result."
     },
     {
-      "question": "Which statement best distinguishes Product Scope from Project Scope?",
+      "question": "What is the primary purpose of scope management?",
       "options": [
-        "Product Scope defines deliverables, while Project Scope defines the work necessary to create them.",
-        "Project Scope defines technical specifications, while Product Scope defines the schedule.",
-        "Product Scope only exists in software projects.",
-        "There is no practical distinction."
+        "To ensure that the project includes all required work and excludes unnecessary work",
+        "To prevent stakeholders from requesting any changes",
+        "To create the detailed project budget",
+        "To guarantee that the original solution is delivered without modification"
       ],
       "answer": 0,
-      "difficulty": "Medium",
-      "explanation": "Product Scope describes what the product is; Project Scope describes the work required to produce it."
+      "difficulty": "Foundation",
+      "explanation": "Scope management establishes and controls the work needed to achieve project objectives. It aims to include necessary work while preventing unauthorized or low-value additions."
     },
     {
-      "question": "During a digital transformation project, 25 minor feature requests have been approved individually because each required less than one day's work. Six months later the project is four months behind schedule. Which concept best explains this situation?",
+      "question": "What is scope creep?",
       "options": [
-        "Resource leveling",
-        "Scope Creep",
-        "Critical Chain",
-        "Fast Tracking"
+        "Any formally approved change to project scope",
+        "The gradual addition or expansion of work without appropriate evaluation and authorization",
+        "The decomposition of deliverables into work packages",
+        "The removal of low-value requirements"
       ],
       "answer": 1,
-      "difficulty": "Hard",
-      "explanation": "Scope creep often occurs through many individually insignificant changes that collectively have a major impact."
+      "difficulty": "Foundation",
+      "explanation": "Scope creep occurs when work or requirements expand informally, often without corresponding adjustments to time, cost, resources or governance."
     },
     {
-      "question": "A Work Breakdown Structure (WBS) violates the 100% Rule. Which consequence is most likely?",
+      "question": "What is the main purpose of a Work Breakdown Structure?",
       "options": [
-        "The project schedule automatically becomes inaccurate.",
-        "Some required work may be omitted or unnecessary work may be included.",
-        "Risk management becomes impossible.",
-        "Stakeholders can no longer be identified."
-      ],
-      "answer": 1,
-      "difficulty": "Hard",
-      "explanation": "The 100% Rule ensures that all required work—and only the required work—is represented."
-    },
-    {
-      "question": "Which stakeholder argument is the STRONGEST justification for approving a scope change?",
-      "options": [
-        "The feature would be 'nice to have.'",
-        "A competitor recently launched something similar.",
-        "The change is legally required due to new regulations.",
-        "The development team prefers implementing it."
-      ],
-      "answer": 2,
-      "difficulty": "Hard",
-      "explanation": "Mandatory legal or regulatory requirements often outweigh optional business improvements."
-    },
-    {
-      "question": "Why do experienced project managers frequently resist making immediate decisions during stakeholder meetings when new features are requested?",
-      "options": [
-        "Because they lack authority.",
-        "Because every scope change introduces trade-offs that require structured evaluation.",
-        "Because changes are prohibited after project initiation.",
-        "Because customers rarely understand their own requirements."
-      ],
-      "answer": 1,
-      "difficulty": "Hard",
-      "explanation": "Professional project managers understand that scope decisions affect cost, time, risk and quality, and therefore require formal assessment."
-    },
-    {
-      "question": "A project's approved scope baseline is missing. Which project management activity becomes most difficult?",
-      "options": [
-        "Recruiting team members.",
-        "Determining whether requested work represents a legitimate scope change.",
-        "Creating financial statements.",
-        "Negotiating supplier contracts."
-      ],
-      "answer": 1,
-      "difficulty": "Very Hard",
-      "explanation": "Without an approved baseline, there is no agreed reference against which scope changes can be measured."
-    },
-    {
-      "question": "A customer states: 'We are only asking for one extra feature.' An experienced project manager is most likely concerned about which underlying principle?",
-      "options": [
-        "Every additional requirement has direct and indirect consequences for project constraints and should be evaluated systematically.",
-        "Customers should never influence projects after initiation.",
-        "Features always reduce project quality.",
-        "The request probably violates procurement law."
+        "To divide project deliverables and work into manageable components",
+        "To assign every employee a daily task",
+        "To replace the project schedule",
+        "To rank stakeholders by influence"
       ],
       "answer": 0,
-      "difficulty": "Very Hard",
-      "explanation": "Experienced project managers recognize that even seemingly small requests can create significant downstream effects on scope, schedule, budget and risk."
+      "difficulty": "Foundation",
+      "explanation": "A Work Breakdown Structure decomposes the total project scope into smaller, manageable components that can support planning, estimating, ownership and control."
+    },
+    {
+      "question": "What does the 100 Percent Rule require in a Work Breakdown Structure?",
+      "options": [
+        "Every work package must be completed by one person",
+        "The WBS must include all work required for the project scope and no work outside it",
+        "Every deliverable must receive the same share of the budget",
+        "All work must be defined with complete certainty before approval"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "The 100 Percent Rule means that the WBS collectively represents the full project scope, including project-management work where relevant, without duplication or unrelated work."
+    },
+    {
+      "question": "Why should scope be defined in terms of deliverables and acceptance criteria rather than only activities?",
+      "options": [
+        "Because activities are never useful for planning",
+        "Because deliverables and acceptance criteria clarify what must be produced and how completion will be judged",
+        "Because stakeholders should not know how the work will be performed",
+        "Because activities are only relevant after project closure"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "An activity list explains what people plan to do, but it may not clearly establish what result must be delivered. Deliverables and acceptance criteria make completion more objective."
+    },
+    {
+      "question": "Why is requirements traceability important?",
+      "options": [
+        "It connects requirements to their source, justification, deliverables and verification",
+        "It ensures that all stakeholder requests are approved",
+        "It replaces the need for testing",
+        "It prevents any requirement from changing"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Traceability helps the team understand why a requirement exists, who needs it, where it is implemented and how it will be validated."
+    },
+    {
+      "question": "What is the principal difference between scope validation and quality control?",
+      "options": [
+        "Scope validation concerns formal acceptance of deliverables, while quality control checks whether deliverables meet defined requirements",
+        "Scope validation occurs only internally, while quality control is performed only by customers",
+        "Scope validation concerns cost, while quality control concerns time",
+        "There is no practical difference"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Quality control verifies correctness and conformance. Scope validation focuses on formal stakeholder acceptance of completed deliverables."
+    },
+    {
+      "question": "Why does a project need a scope baseline?",
+      "options": [
+        "To prevent every future adjustment",
+        "To create an approved reference for measuring and controlling scope performance",
+        "To replace the Business Case",
+        "To record only the project's original activity list"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "The scope baseline provides the approved reference against which proposed changes and actual delivery can be assessed."
+    },
+    {
+      "question": "Why is an approved scope change not considered scope creep?",
+      "options": [
+        "Because approved changes are always small",
+        "Because the change has been evaluated and authorized through governance, including its consequences",
+        "Because approved changes do not affect time or cost",
+        "Because sponsors may add unlimited work"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Scope creep is uncontrolled expansion. A properly analyzed and authorized change is controlled scope evolution, even when it significantly alters the baseline."
+    },
+    {
+      "question": "Why can excessive detail in a Work Breakdown Structure be problematic?",
+      "options": [
+        "Because detailed planning is prohibited",
+        "Because excessive decomposition can increase administrative effort without improving control or decision-making",
+        "Because work packages should never have owners",
+        "Because only the sponsor may understand the WBS"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "The WBS should be detailed enough to support planning and control, but not so detailed that maintaining it becomes costly and distracts from meaningful management."
+    },
+    {
+      "question": "Why should exclusions be documented in a scope statement?",
+      "options": [
+        "To reduce the need for stakeholder communication",
+        "To clarify boundaries and prevent assumptions that omitted work is included",
+        "To make future changes impossible",
+        "To transfer all delivery risk to the customer"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Explicit exclusions reduce ambiguity by making clear what the project will not deliver, especially where stakeholders could reasonably expect otherwise."
+    },
+    {
+      "question": "Why is solution scope not always the same as the underlying business need?",
+      "options": [
+        "Because a proposed solution is one possible response to a need and may not be the best one",
+        "Because business needs are defined only after delivery",
+        "Because solutions never create value",
+        "Because project managers should ignore strategic objectives"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "A project should distinguish the problem or need from the selected solution. Otherwise, teams may optimize a chosen solution without questioning whether it is appropriate."
+    },
+    {
+      "question": "A company defines the scope of an ERP project as 'install the new software.' What is the most important weakness?",
+      "options": [
+        "The scope is too financially focused",
+        "It defines a technical activity but does not clarify business processes, required capabilities or acceptance conditions",
+        "It contains too many exclusions",
+        "It provides too much detail for initiation"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Installation alone may not produce a functioning business solution. Scope should reflect required capabilities, integrations, migration, training and other conditions necessary for acceptance."
+    },
+    {
+      "question": "A customer asks a developer to add a small reporting feature during an informal meeting. The developer estimates that it will take only two hours. What should happen?",
+      "options": [
+        "The developer should implement it because the effort is minor",
+        "The request should be documented and evaluated through the agreed change process",
+        "The project manager should reject it automatically",
+        "The customer should negotiate directly with the developer"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Even small changes can create cumulative impacts, testing obligations or precedent. The request should be assessed consistently rather than approved based only on apparent effort."
+    },
+    {
+      "question": "A team has created a detailed activity schedule but cannot explain which deliverables several activities support. What is the most likely scope-management weakness?",
+      "options": [
+        "The schedule contains too many milestones",
+        "The work was planned without a clear deliverable-oriented scope structure",
+        "The project has too many stakeholders",
+        "The sponsor is too involved"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Activities should connect to defined deliverables and work packages. Otherwise, the project may perform work that is poorly justified or difficult to verify."
+    },
+    {
+      "question": "During construction, a new legal requirement changes the required fire-protection system. What should the project manager do?",
+      "options": [
+        "Reject the change because the scope baseline is approved",
+        "Assess the mandatory change's impact and process it through formal governance",
+        "Implement it without documentation because it is legally required",
+        "Ask the contractor to absorb the work without changing the agreement"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "A legal requirement may make the change unavoidable, but its consequences still require analysis, authorization and updates to relevant baselines and contracts."
+    },
+    {
+      "question": "A stakeholder claims that a deliverable is incomplete, while the project team argues that all documented requirements have been met. What should be examined first?",
+      "options": [
+        "The acceptance criteria, approved requirements and records of stakeholder agreement",
+        "The project manager's personal opinion",
+        "The total amount already spent",
+        "The stakeholder's position in the organization"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Objective acceptance should be assessed against approved requirements and criteria. Ambiguous or missing criteria may reveal a weakness in scope definition."
+    },
+    {
+      "question": "A project sponsor requests an additional dashboard but insists that the completion date and budget remain unchanged. What is the best response?",
+      "options": [
+        "Accept the request because the sponsor has authority",
+        "Evaluate the impact and present feasible trade-offs before a decision is made",
+        "Reject the request because baselines may never change",
+        "Ask the team to complete it through overtime without recording the change"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Authority does not remove delivery consequences. The change should be assessed against time, cost, resources, quality, risk and expected value."
+    },
+    {
+      "question": "A Work Breakdown Structure includes 'hold weekly team meetings' at the same level as major customer deliverables. What should the project manager review?",
+      "options": [
+        "Whether the WBS mixes components at inconsistent levels of decomposition",
+        "Whether meetings should be removed from every project",
+        "Whether the customer deliverables are too detailed",
+        "Whether the sponsor should chair all meetings"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "WBS elements at the same level should represent a reasonably consistent level of decomposition. Project-management work may belong in the WBS but should be structured appropriately."
+    },
+    {
+      "question": "A project team discovers that two departments interpret the phrase 'automated approval' differently. What should the team do?",
+      "options": [
+        "Allow each department to apply its own interpretation",
+        "Clarify the requirement, define measurable acceptance criteria and obtain agreement",
+        "Choose the technically easiest interpretation",
+        "Delay clarification until testing"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Ambiguous requirements create rework and conflict. The team should convert vague language into clear, testable and agreed conditions."
+    },
+    {
+      "question": "A customer wants every possible feature included in the first release. The project has a fixed deadline driven by regulation. What is the most appropriate approach?",
+      "options": [
+        "Accept every feature because customer requirements define scope",
+        "Prioritize requirements based on mandatory needs, value, risk and delivery constraints",
+        "Ignore the regulatory deadline",
+        "Ask the technical team to work without a scope baseline"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Fixed constraints require prioritization. Mandatory and high-value capabilities should be distinguished from desirable features that may be deferred."
+    },
+    {
+      "question": "A project manager finds that completed work packages do not collectively produce one of the promised deliverables. Which principle was most likely violated?",
+      "options": [
+        "The Power-Interest Matrix",
+        "The 100 Percent Rule",
+        "The Iron Triangle",
+        "The principle of psychological safety"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "If the decomposed work does not fully cover the promised scope, the WBS is incomplete and fails the 100 Percent Rule."
+    },
+    {
+      "question": "A project has frequent approved changes, each supported by a strong individual justification. However, the combined solution has become difficult to use and expensive to maintain. What is the main governance weakness?",
+      "options": [
+        "Each individual change was too large",
+        "Changes were assessed separately without sufficient consideration of their cumulative system-level effects",
+        "The team used formal change control",
+        "The customer was involved in scope decisions"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Good change control evaluates not only isolated requests but also cumulative complexity, coherence, maintainability and strategic impact."
+    },
+    {
+      "question": "A project team argues that a requirement should remain in scope because it was included in the original baseline, even though new evidence shows that users do not need it. What is the strongest response?",
+      "options": [
+        "The requirement must remain because baselines are permanent",
+        "The requirement should be reconsidered through governance because scope control should protect value, not merely preserve historical decisions",
+        "The team should remove it without approval",
+        "User evidence is irrelevant after planning"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "A baseline supports control but should not force delivery of low-value work when evidence changes. Removal should still follow the approved change process."
+    },
+    {
+      "question": "A stakeholder approves a prototype but later rejects the completed product because it does not meet an operational need that was never documented. What is the most balanced assessment?",
+      "options": [
+        "The stakeholder is solely responsible because the requirement was not documented",
+        "The project team is solely responsible because every unstated expectation must be discovered",
+        "The situation suggests weaknesses in requirements elicitation, validation and shared understanding",
+        "Prototype approval always constitutes final acceptance"
+      ],
+      "answer": 2,
+      "difficulty": "Analysis",
+      "explanation": "The failure may involve both incomplete stakeholder articulation and inadequate project discovery. Strong scope management actively tests assumptions and validates whether documented requirements reflect real needs."
+    },
+    {
+      "question": "A project has no unauthorized changes, but its final deliverable creates little value because the original scope was poorly chosen. What does this demonstrate?",
+      "options": [
+        "Scope control guarantees project success",
+        "Effective scope management requires both control and continued alignment with business value",
+        "The project manager should avoid baselines",
+        "Only the sponsor is responsible for scope quality"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "A project can control the wrong scope perfectly. Good scope management must ensure that the approved work remains relevant to the project's purpose and intended benefits."
+    },
+    {
+      "question": "A project manager is pressured to classify a major functional addition as a clarification so it can avoid formal approval. What is the most important objection?",
+      "options": [
+        "Clarifications are prohibited after planning",
+        "Misclassifying the request conceals its consequences and undermines transparent governance",
+        "All functional additions must be rejected",
+        "Only customers may define clarifications"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "The classification should reflect substance, not convenience. Concealing a change prevents decision-makers from evaluating its true impact."
+    },
+    {
+      "question": "A customer accepts every individual deliverable, but the integrated system fails to support the end-to-end business process. What is the most likely scope-management lesson?",
+      "options": [
+        "Individual acceptance guarantees total solution success",
+        "Component-level validation must be complemented by validation of the integrated outcome",
+        "The project should have fewer stakeholders",
+        "The scope baseline should contain only technical specifications"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "A project may deliver compliant components that fail collectively. Scope must account for integration, end-to-end functionality and the business outcome the components are intended to enable."
+    },
+    {
+      "question": "A proposed change would significantly increase project value but invalidate much of the approved scope baseline and require major rework. What is the most defensible decision principle?",
+      "options": [
+        "Reject the change because baseline protection is always the highest priority",
+        "Approve it because greater value automatically justifies any disruption",
+        "Compare the expected incremental value with the full cost, risk, delay, opportunity cost and strategic consequences through formal governance",
+        "Allow the project manager to decide privately to avoid delay"
+      ],
+      "answer": 2,
+      "difficulty": "Expert",
+      "explanation": "Neither baseline preservation nor potential value should be treated as absolute. The decision should evaluate the complete consequences and continued business justification."
     }
-  }
+  ]
+}
