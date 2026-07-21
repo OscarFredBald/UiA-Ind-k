@@ -1,0 +1,368 @@
+{
+  "title": "Pricing Decisions",
+  "description": "Test your understanding of pricing strategies, cost-based pricing, market-based pricing, value-based pricing and managerial pricing decisions.",
+  "questions": [
+    {
+      "question": "Why are pricing decisions so important for a business?",
+      "options": [
+        "Because price directly affects revenue, profitability and customer demand",
+        "Because price determines the company's depreciation expense",
+        "Because price eliminates fixed costs",
+        "Because price has no influence on customer behavior"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Pricing decisions influence sales volume, contribution margin, profitability and the company's competitive position."
+    },
+    {
+      "question": "Which pricing strategy starts by calculating the cost of producing a product and then adding a desired profit margin?",
+      "options": [
+        "Value-based pricing",
+        "Market-based pricing",
+        "Cost-based pricing",
+        "Dynamic pricing"
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "Cost-based pricing begins with production cost and adds a markup to determine the selling price."
+    },
+    {
+      "question": "What is a markup?",
+      "options": [
+        "The difference between selling price and production cost",
+        "The total fixed costs of a business",
+        "The contribution margin ratio",
+        "The amount of sales tax charged to customers"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "A markup is the amount added to cost to determine the selling price."
+    },
+    {
+      "question": "A product costs $120 to manufacture. The company applies a 25% markup. What is the selling price?",
+      "options": [
+        "$145",
+        "$150",
+        "$155",
+        "$180"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Selling price = $120 × 1.25 = $150."
+    },
+    {
+      "question": "Which pricing strategy focuses primarily on what customers are willing to pay?",
+      "options": [
+        "Cost-based pricing",
+        "Market-based pricing",
+        "Standard costing",
+        "Absorption pricing"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Market-based pricing starts with market conditions and customer willingness to pay."
+    },
+    {
+      "question": "Which pricing strategy is most commonly associated with luxury brands?",
+      "options": [
+        "Cost-based pricing",
+        "Value-based pricing",
+        "Break-even pricing",
+        "Penetration pricing"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Luxury products often use value-based pricing because customers are paying for perceived value, prestige and brand image."
+    },
+    {
+      "question": "What is the primary objective of target pricing?",
+      "options": [
+        "To determine the maximum allowable production cost based on an expected market price",
+        "To maximize fixed costs",
+        "To calculate the break-even point",
+        "To eliminate contribution margin"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Target pricing starts with the expected selling price and works backward to determine the allowable cost."
+    },
+    {
+      "question": "Customers are expected to pay $400 for a product, and management wants to earn $80 profit per unit. What is the maximum allowable cost under target pricing?",
+      "options": [
+        "$320",
+        "$400",
+        "$480",
+        "$80"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Maximum allowable cost = Selling price − Desired profit = $400 − $80 = $320."
+    },
+    {
+      "question": "Why can lowering the selling price sometimes increase total profit?",
+      "options": [
+        "Because higher sales volume may more than offset the lower contribution margin per unit",
+        "Because fixed costs automatically decrease",
+        "Because variable costs disappear",
+        "Because contribution margin always increases when prices fall"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "A lower selling price can increase total contribution margin if the increase in sales volume is large enough."
+    },
+    {
+      "question": "Which factor should managers always consider together with production costs when making pricing decisions?",
+      "options": [
+        "Customer demand and competitor prices",
+        "Only depreciation expense",
+        "Only historical accounting profits",
+        "Only fixed manufacturing costs"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Successful pricing requires considering both internal costs and external market conditions."
+    },
+
+        {
+      "question": "A company lowers the selling price of its product by 8%. What must happen for total profit to increase?",
+      "options": [
+        "Sales volume must increase enough to offset the lower contribution margin per unit",
+        "Fixed costs must automatically decrease",
+        "Variable costs must become zero",
+        "The contribution margin ratio must remain unchanged"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Lower prices reduce contribution margin per unit, so higher sales volume is needed to maintain or improve profitability."
+    },
+    {
+      "question": "Which pricing strategy is most appropriate in a highly competitive market where many firms sell nearly identical products?",
+      "options": [
+        "Market-based pricing",
+        "Value-based pricing",
+        "Cost-based pricing only",
+        "Random pricing"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "In competitive markets, businesses must consider competitor prices and customer expectations when setting prices."
+    },
+    {
+      "question": "A company sells premium headphones for twice the price of similar competitors because customers associate the brand with exceptional quality. Which pricing strategy is being used?",
+      "options": [
+        "Cost-based pricing",
+        "Target pricing",
+        "Value-based pricing",
+        "Penetration pricing"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Value-based pricing focuses on customers' perceived value rather than production cost."
+    },
+    {
+      "question": "A business receives a large one-time order at a lower selling price than usual. The factory has significant unused capacity. Which factor is most important when deciding whether to accept the order?",
+      "options": [
+        "Whether the order generates a positive contribution margin",
+        "Whether the selling price exceeds the original list price",
+        "Whether depreciation expense increases",
+        "Whether the order changes the company's balance sheet"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "If unused capacity exists, a special order can increase profit as long as it contributes positively toward fixed costs and profit."
+    },
+    {
+      "question": "Why do managers sometimes choose not to use cost-based pricing alone?",
+      "options": [
+        "Because customers and competitors ultimately influence what price can be charged",
+        "Because production costs are never important",
+        "Because contribution margin becomes irrelevant",
+        "Because fixed costs are ignored by accounting"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Even if production costs are known, customers may not be willing to pay the calculated price."
+    },
+    {
+      "question": "A company increases its selling price by 5%. Sales volume falls slightly, but total operating profit increases. What is the most likely explanation?",
+      "options": [
+        "The higher contribution margin per unit more than compensated for the lower sales volume",
+        "Variable costs became fixed costs",
+        "The company eliminated all operating expenses",
+        "The contribution margin ratio automatically became 100%"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "A moderate reduction in sales can still result in higher profits if each remaining sale contributes significantly more."
+    },
+    {
+      "question": "Two companies manufacture identical products at similar costs. Company A consistently charges a much higher price because customers trust its brand. Which concept best explains this difference?",
+      "options": [
+        "Contribution margin",
+        "Value-based pricing",
+        "Cost allocation",
+        "Break-even analysis"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Strong brands increase perceived customer value, allowing companies to charge premium prices."
+    },
+    {
+      "question": "A manager calculates a selling price using cost-based pricing, but competitors charge considerably less for similar products. What is the greatest risk?",
+      "options": [
+        "Customers may choose competitors, reducing sales volume",
+        "The company's fixed costs disappear",
+        "The contribution margin automatically increases",
+        "The product becomes more profitable regardless of sales"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Ignoring market prices can result in prices customers are unwilling to pay."
+    },
+    {
+      "question": "Why do companies often offer volume discounts to large customers?",
+      "options": [
+        "Large orders can increase total contribution margin despite a lower selling price per unit",
+        "Large customers eliminate fixed costs",
+        "Large orders always increase contribution margin per unit",
+        "Accounting standards require discounts"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Higher sales volume can compensate for a lower contribution margin on each individual unit."
+    },
+    {
+      "question": "Which statement best describes the relationship between pricing decisions and contribution margin?",
+      "options": [
+        "Changing price directly changes contribution margin and therefore profitability",
+        "Contribution margin is unaffected by selling price",
+        "Only fixed costs determine contribution margin",
+        "Contribution margin only matters after break-even"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Selling price is one of the two components of contribution margin, making pricing decisions central to profitability."
+    },
+
+        {
+      "question": "A company is considering reducing prices during an economic downturn to maintain sales volume. What is the greatest risk of this strategy?",
+      "options": [
+        "Lower contribution margin may reduce overall profitability if sales do not increase enough",
+        "Fixed costs will automatically increase",
+        "Variable costs will disappear",
+        "Customers will always buy more products"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Price reductions only improve profit if the increase in sales volume more than compensates for the lower contribution margin."
+    },
+    {
+      "question": "A manufacturer introduces a highly innovative product with no direct competitors. Which pricing strategy is likely to maximize profit initially?",
+      "options": [
+        "Value-based pricing",
+        "Cost-based pricing",
+        "Break-even pricing",
+        "Competitive pricing"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "When customers perceive a product as unique, value-based pricing often allows the company to charge a premium."
+    },
+    {
+      "question": "A manager notices that competitors have increased their prices by 10%. Production costs remain unchanged. What should the manager do first?",
+      "options": [
+        "Evaluate customer demand and market conditions before changing prices",
+        "Immediately increase prices by exactly 10%",
+        "Reduce prices to gain market share",
+        "Ignore competitors completely"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Competitor prices provide useful information, but pricing decisions should also consider customer demand and the company's strategy."
+    },
+    {
+      "question": "A business receives a large order from a customer who may become a long-term client. The selling price is slightly lower than normal but still generates a healthy contribution margin. Which factor could justify accepting the order?",
+      "options": [
+        "The opportunity to build a profitable long-term customer relationship",
+        "Lower prices always maximize profit",
+        "The order eliminates all fixed costs",
+        "The company no longer needs to monitor profitability"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Strategic considerations such as future business relationships can sometimes justify accepting lower prices."
+    },
+    {
+      "question": "Why can competing only on low prices become a dangerous long-term strategy?",
+      "options": [
+        "It may lead to price wars and permanently lower industry profitability",
+        "It guarantees lower production costs",
+        "It removes all competition",
+        "It always increases customer loyalty"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Continuous price reductions can trigger price wars that reduce profits for all competitors."
+    },
+    {
+      "question": "A shipping company receives two charter offers. Charter A pays a higher freight rate but requires a longer voyage. Charter B pays a lower freight rate but allows the vessel to complete two voyages in the same period. Which approach is best?",
+      "options": [
+        "Compare the total expected contribution margin from each alternative",
+        "Always choose the highest freight rate",
+        "Always choose the shortest voyage",
+        "Choose the offer with the lowest fuel consumption only"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Managers should compare the total contribution each alternative generates over the relevant period rather than focusing only on freight rates."
+    },
+    {
+      "question": "A company prices every product using cost-plus pricing, but competitors consistently charge lower prices. What is the most likely long-term outcome?",
+      "options": [
+        "The company may lose market share unless customers perceive additional value",
+        "Sales volume will automatically increase",
+        "Contribution margin becomes irrelevant",
+        "The company will always remain the market leader"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Cost-based pricing alone may produce prices that customers are unwilling to pay if competitors offer similar products."
+    },
+    {
+      "question": "Which statement best describes the relationship between pricing decisions and business strategy?",
+      "options": [
+        "Pricing should support the company's long-term competitive position, not only short-term profits",
+        "Pricing decisions should only focus on covering production costs",
+        "Pricing has little influence on customer perception",
+        "Business strategy should always follow competitor prices"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Pricing communicates market positioning and should support the company's overall strategy and long-term objectives."
+    },
+    {
+      "question": "Why is customer value often more important than production cost when pricing premium products?",
+      "options": [
+        "Customers pay for the benefits and value they perceive, not simply the manufacturing cost",
+        "Production costs never matter",
+        "Premium products have no competitors",
+        "Premium products always have low contribution margins"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Premium pricing succeeds because customers are willing to pay more for quality, reputation, convenience or exclusivity."
+    },
+    {
+      "question": "What is the most important lesson about pricing decisions in managerial accounting?",
+      "options": [
+        "The optimal price is determined by combining cost information, customer demand, competition and strategic objectives",
+        "The lowest possible price always maximizes profit",
+        "Managers should always use cost-based pricing regardless of market conditions",
+        "The highest possible price always produces the greatest long-term profitability"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Successful pricing balances internal cost information with external market factors and long-term strategic goals."
+    }
+  ]
+}
