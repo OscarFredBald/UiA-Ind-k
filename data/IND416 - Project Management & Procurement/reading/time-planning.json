@@ -1,0 +1,254 @@
+{
+  "title": "Time Planning and Scheduling",
+  "description": "Learn how projects are planned over time, how activities are sequenced and estimated, and how schedules are developed, monitored and controlled.",
+  "estimatedReadingTime": "10 min",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "id": "learning-objectives",
+      "type": "learningObjectives",
+      "heading": "Learning Objectives",
+      "bullets": [
+        "Explain the purpose of project time planning.",
+        "Identify the steps involved in developing a project schedule.",
+        "Understand activity sequencing and dependencies.",
+        "Estimate activity durations using appropriate techniques.",
+        "Explain the Critical Path Method (CPM).",
+        "Understand schedule monitoring, control and schedule compression techniques."
+      ]
+    },
+    {
+      "id": "why-time-planning",
+      "type": "theory",
+      "heading": "Why Time Planning Matters",
+      "paragraphs": [
+        "Every project operates under time constraints. Customers, management and other stakeholders expect deliverables to be completed within agreed deadlines.",
+        "Time planning provides a structured approach for organizing work, coordinating resources and monitoring progress throughout the project lifecycle.",
+        "A realistic schedule improves decision-making, reduces uncertainty and helps identify potential delays before they become critical."
+      ]
+    },
+    {
+      "id": "schedule-management-process",
+      "type": "theory",
+      "heading": "The Schedule Management Process",
+      "paragraphs": [
+        "Project scheduling is not simply creating a timeline. It is a systematic process that transforms project scope into a realistic delivery plan.",
+        "PMBOK describes schedule management as a series of related activities that begin with defining work and continue until project completion.",
+        "Each step builds upon the previous one, creating an increasingly detailed and reliable schedule."
+      ],
+      "bullets": [
+        "Plan schedule management.",
+        "Define project activities.",
+        "Sequence activities.",
+        "Estimate resources.",
+        "Estimate activity durations.",
+        "Develop the schedule.",
+        "Monitor and control the schedule."
+      ]
+    },
+    {
+      "id": "defining-activities",
+      "type": "theory",
+      "heading": "Defining Activities",
+      "paragraphs": [
+        "Activities represent the individual tasks required to produce project deliverables.",
+        "Activities are normally identified from the Work Breakdown Structure. Each work package is decomposed into activities that can be assigned, estimated and monitored.",
+        "Activities should be sufficiently detailed to allow realistic scheduling but not so detailed that the schedule becomes unnecessarily difficult to maintain."
+      ]
+    },
+    {
+      "id": "activity-sequencing",
+      "type": "theory",
+      "heading": "Sequencing Activities",
+      "paragraphs": [
+        "Projects rarely consist of independent activities. Most tasks depend on the completion of other work before they can begin.",
+        "Sequencing identifies logical relationships between activities and establishes the order in which work should be performed.",
+        "Correct sequencing is essential because unrealistic dependencies create inaccurate schedules and unreliable completion dates."
+      ],
+      "bullets": [
+        "Finish-to-Start (FS)",
+        "Start-to-Start (SS)",
+        "Finish-to-Finish (FF)",
+        "Start-to-Finish (SF)"
+      ]
+    },
+    {
+      "id": "example-dependencies",
+      "type": "example",
+      "heading": "Example: Building a Warehouse",
+      "paragraphs": [
+        "The foundation must normally be completed before structural steel can be installed.",
+        "Electrical installation cannot begin until major structural work has been completed.",
+        "Final inspection can only occur after construction, testing and documentation are finished.",
+        "These logical relationships form the basis of the project schedule."
+      ]
+    },
+    {
+      "id": "estimating-durations",
+      "type": "theory",
+      "heading": "Estimating Activity Durations",
+      "paragraphs": [
+        "Duration estimates predict how long activities are expected to take under normal working conditions.",
+        "Estimating is never perfectly accurate because projects involve uncertainty, changing conditions and incomplete information.",
+        "Good estimates combine historical experience, expert judgment and quantitative estimation techniques."
+      ],
+      "bullets": [
+        "Expert judgment",
+        "Analogous estimating",
+        "Parametric estimating",
+        "Three-point estimating",
+        "Bottom-up estimating"
+      ]
+    },
+    {
+      "id": "three-point-estimating",
+      "type": "theory",
+      "heading": "Three-Point Estimating",
+      "paragraphs": [
+        "Three-point estimating considers uncertainty by evaluating three possible durations.",
+        "The optimistic estimate assumes everything goes well. The pessimistic estimate assumes significant problems occur. The most likely estimate represents normal conditions.",
+        "Combining these estimates provides a more realistic prediction than relying on a single value."
+      ],
+      "bullets": [
+        "Optimistic (O)",
+        "Most Likely (M)",
+        "Pessimistic (P)"
+      ]
+    },
+    {
+      "id": "critical-path",
+      "type": "theory",
+      "heading": "The Critical Path Method (CPM)",
+      "paragraphs": [
+        "The Critical Path Method identifies the sequence of activities that determines the shortest possible project duration.",
+        "Activities on the critical path have zero schedule flexibility, often called zero float or zero slack.",
+        "A delay to any activity on the critical path delays the entire project unless corrective action is taken."
+      ],
+      "bullets": [
+        "Longest path through the project network.",
+        "Determines minimum project duration.",
+        "Critical activities have no float.",
+        "Requires continuous monitoring."
+      ]
+    },
+    {
+      "id": "float-and-slack",
+      "type": "theory",
+      "heading": "Float (Slack)",
+      "paragraphs": [
+        "Float is the amount of time an activity can be delayed without affecting the project completion date or another dependent activity.",
+        "Activities with positive float provide scheduling flexibility, while activities on the critical path generally have zero float.",
+        "Understanding float helps Project Managers prioritize monitoring and allocate resources more effectively."
+      ]
+    },
+    {
+      "id": "gantt-chart",
+      "type": "theory",
+      "heading": "Gantt Charts",
+      "paragraphs": [
+        "The Gantt chart is one of the most widely used schedule visualization tools.",
+        "Activities are displayed as horizontal bars along a timeline, making it easy to communicate project progress to stakeholders.",
+        "Modern project management software automatically updates Gantt charts as schedules change."
+      ]
+    },
+    {
+      "id": "network-diagrams",
+      "type": "theory",
+      "heading": "Network Diagrams",
+      "paragraphs": [
+        "Network diagrams illustrate logical relationships between project activities.",
+        "Unlike Gantt charts, they emphasize dependencies rather than calendar dates.",
+        "Network diagrams are particularly useful when identifying the critical path and evaluating schedule changes."
+      ]
+    },
+    {
+      "id": "schedule-baseline",
+      "type": "theory",
+      "heading": "The Schedule Baseline",
+      "paragraphs": [
+        "The approved project schedule becomes the schedule baseline.",
+        "Actual performance is continuously compared with the baseline to determine whether the project remains on schedule.",
+        "Changes to the baseline should only occur through formal change control procedures."
+      ]
+    },
+    {
+      "id": "monitoring-progress",
+      "type": "theory",
+      "heading": "Monitoring Schedule Performance",
+      "paragraphs": [
+        "Once execution begins, the Project Manager continuously compares actual progress against the approved schedule.",
+        "Monitoring allows deviations to be detected early and corrective action to be taken before delays become critical.",
+        "Progress reporting should focus on future schedule risks rather than simply documenting completed work."
+      ]
+    },
+    {
+      "id": "schedule-compression",
+      "type": "theory",
+      "heading": "Schedule Compression",
+      "paragraphs": [
+        "Projects sometimes need to recover lost time or meet earlier completion dates.",
+        "Schedule compression shortens the project duration without reducing project scope.",
+        "Two common techniques are crashing and fast tracking."
+      ],
+      "bullets": [
+        "Crashing adds additional resources to critical activities.",
+        "Fast tracking performs activities in parallel that were originally planned sequentially.",
+        "Both techniques may increase project risk."
+      ]
+    },
+    {
+      "id": "example-fast-tracking",
+      "type": "example",
+      "heading": "Example: Fast Tracking a Construction Project",
+      "paragraphs": [
+        "Instead of waiting for the complete building design, construction begins while detailed design work continues.",
+        "This reduces the overall schedule but increases the risk of rework if design changes become necessary.",
+        "Fast tracking therefore represents a trade-off between time and risk."
+      ]
+    },
+    {
+      "id": "common-scheduling-mistakes",
+      "type": "theory",
+      "heading": "Common Scheduling Mistakes",
+      "paragraphs": [
+        "Many schedule problems originate during planning rather than execution.",
+        "Optimistic estimates, missing dependencies and unrealistic deadlines often create schedules that cannot be achieved.",
+        "Effective Project Managers continuously challenge assumptions and update schedules as new information becomes available."
+      ],
+      "bullets": [
+        "Ignoring resource limitations.",
+        "Missing activity dependencies.",
+        "Underestimating durations.",
+        "Updating the schedule too infrequently.",
+        "Treating the schedule as fixed rather than actively managing it."
+      ]
+    },
+    {
+      "id": "expert-insight",
+      "type": "expertInsight",
+      "heading": "Expert Insight",
+      "paragraphs": [
+        "A project schedule is not simply a calendar—it is a decision-making tool.",
+        "Experienced Project Managers use schedules to anticipate future problems, evaluate alternatives and communicate realistic expectations to stakeholders.",
+        "The best schedules are realistic, continuously updated and supported by reliable progress information rather than optimistic assumptions."
+      ]
+    },
+    {
+      "id": "key-takeaways",
+      "type": "summary",
+      "heading": "Key Takeaways",
+      "bullets": [
+        "Time planning transforms project scope into a realistic delivery schedule.",
+        "Activities are identified from the Work Breakdown Structure.",
+        "Logical dependencies determine activity sequencing.",
+        "Duration estimates should consider uncertainty.",
+        "The Critical Path determines the minimum project duration.",
+        "Activities on the critical path have little or no scheduling flexibility.",
+        "The schedule baseline provides the reference for monitoring progress.",
+        "Schedule compression includes crashing and fast tracking.",
+        "Schedules should be continuously monitored and updated throughout the project lifecycle.",
+        "Effective scheduling improves communication, decision-making and project success."
+      ]
+    }
+  ]
+}
