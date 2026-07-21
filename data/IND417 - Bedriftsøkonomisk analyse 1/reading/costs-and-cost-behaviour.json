@@ -1,0 +1,179 @@
+{
+  "title": "Costs and Cost Behaviour",
+  "description": "Learn how different types of costs behave as business activity changes and why understanding cost behaviour is essential for budgeting, pricing and decision-making.",
+  "estimatedReadingTime": "12 minutes",
+  "level": "Beginner",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Understand what business costs are.",
+        "Differentiate between fixed, variable and mixed costs.",
+        "Explain how costs behave as production volume changes.",
+        "Calculate total costs using fixed and variable costs.",
+        "Understand why cost behaviour is important for managerial decisions.",
+        "Recognize common mistakes when analyzing costs."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Introduction",
+      "content": [
+        "Every business incurs costs in order to produce goods or provide services. Understanding how these costs behave is one of the most important foundations of business economics.",
+        "Managers use cost behaviour to estimate future expenses, prepare budgets, determine selling prices and evaluate profitability.",
+        "Not all costs change in the same way. Some remain constant regardless of production, while others increase as more products are produced."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "What Is a Cost?",
+      "content": [
+        "A cost is the value of resources consumed in producing goods or services.",
+        "Costs may include wages, raw materials, rent, electricity, insurance, maintenance and many other expenses required to operate a business.",
+        "Businesses must carefully manage costs to remain profitable while continuing to deliver value to customers."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Fixed Costs",
+      "content": [
+        "Fixed costs remain constant within a relevant range of activity, regardless of how many units are produced.",
+        "Whether a factory produces 100 units or 10,000 units, its monthly rent usually remains the same.",
+        "Examples of fixed costs include rent, insurance premiums, salaries of administrative staff and property taxes."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Factory Rent",
+      "content": [
+        "A factory pays $20,000 per month in rent.",
+        "If the factory produces 500 products, rent is still $20,000.",
+        "If production increases to 2,000 products, rent remains $20,000, assuming the factory does not need additional facilities."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Variable Costs",
+      "content": [
+        "Variable costs change directly with the level of production or sales.",
+        "As production increases, total variable costs increase proportionally. If production decreases, variable costs also decrease.",
+        "Examples include raw materials, packaging, sales commissions and fuel used during production."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Raw Materials",
+      "content": [
+        "A company spends $8 on raw materials for every product it manufactures.",
+        "Producing 100 units results in variable costs of $800.",
+        "Producing 500 units results in variable costs of $4,000."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Mixed (Semi-Variable) Costs",
+      "content": [
+        "Some costs contain both fixed and variable components. These are known as mixed or semi-variable costs.",
+        "For example, a mobile phone contract may include a fixed monthly fee plus additional charges based on usage.",
+        "Many utility costs, maintenance contracts and transportation expenses behave this way."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Electricity",
+      "content": [
+        "A factory pays a fixed monthly connection fee of $500.",
+        "In addition, it pays for every kilowatt-hour of electricity consumed during production.",
+        "The total electricity bill therefore contains both fixed and variable elements."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Relevant Range",
+      "content": [
+        "Cost behaviour assumptions are only valid within a certain range of activity called the relevant range.",
+        "If production increases significantly, businesses may need to rent another factory, hire additional managers or purchase more equipment.",
+        "When this happens, costs that were previously fixed may increase in steps."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Total Cost",
+      "content": [
+        "Total cost is the sum of fixed costs and total variable costs.",
+        "A simple formula is:",
+        "Total Cost = Fixed Costs + (Variable Cost per Unit × Number of Units Produced)",
+        "This formula is widely used for budgeting and profitability analysis."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example",
+      "content": [
+        "A company has fixed costs of $40,000 per month.",
+        "Variable cost is $12 per unit.",
+        "If 3,000 units are produced:",
+        "Total Variable Cost = 3,000 × $12 = $36,000",
+        "Total Cost = $40,000 + $36,000 = $76,000"
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Why Cost Behaviour Matters",
+      "content": [
+        "Understanding cost behaviour helps managers estimate future costs and predict how profits change when production changes.",
+        "It also supports pricing decisions, budgeting, investment analysis and break-even calculations.",
+        "Without understanding cost behaviour, businesses may make poor decisions based on incorrect assumptions about future expenses."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Shipping Company",
+      "content": [
+        "A shipping company operates a fleet of vessels.",
+        "Insurance, office salaries and software subscriptions are largely fixed costs.",
+        "Fuel consumption, port charges and certain maintenance expenses increase with vessel operations and are more variable in nature.",
+        "Understanding which costs are fixed and which are variable helps managers estimate operating costs for different voyage schedules."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming every cost is either completely fixed or completely variable.",
+        "Ignoring the relevant range when estimating future costs.",
+        "Confusing total costs with cost per unit.",
+        "Believing that fixed costs never change under any circumstances."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "One of the first questions experienced managers ask when evaluating a business decision is: 'Which costs will actually change?' Correctly identifying cost behaviour allows managers to forecast profitability, evaluate investments and respond effectively to changing market conditions."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Costs represent the resources consumed to operate a business.",
+        "Fixed costs remain constant within the relevant range of activity.",
+        "Variable costs change directly with production or sales volume.",
+        "Mixed costs contain both fixed and variable components.",
+        "Total Cost = Fixed Costs + Total Variable Costs.",
+        "Understanding cost behaviour is essential for budgeting, pricing and managerial decision-making."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Why is it important to distinguish between fixed and variable costs when planning production?",
+        "Can a cost that is fixed today become variable in the future? Explain your reasoning.",
+        "How might understanding cost behaviour improve decision-making in industries such as shipping, manufacturing or retail?"
+      ]
+    }
+  ]
+}
