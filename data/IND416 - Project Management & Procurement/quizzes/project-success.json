@@ -1,101 +1,366 @@
 {
   "title": "Project Success & The Project Manager",
+  "description": "Advanced quiz on project success, value creation, leadership, governance, decision-making, ethics, team performance, sponsorship and the project manager's role.",
   "questions": [
     {
-      "question": "A software project is completed on time and within budget, but employees refuse to use the system. What is the best conclusion?",
+      "question": "Which statement best describes project success?",
       "options": [
-        "The project was successful because it met the schedule.",
-        "The project failed to deliver its intended business value.",
-        "The project manager should immediately increase the budget.",
-        "The project should automatically be closed without evaluation."
+        "Completing all planned activities",
+        "Delivering the agreed outputs while creating the intended outcomes and organizational value",
+        "Finishing the project without any change requests",
+        "Keeping the project team satisfied throughout execution"
       ],
       "answer": 1,
-      "difficulty": "Easy",
-      "explanation": "Project success depends on achieving the intended business outcomes, not just meeting time and budget targets."
+      "difficulty": "Foundation",
+      "explanation": "Project success is broader than activity completion. It includes delivering outputs, enabling intended outcomes and creating value for the organization and relevant stakeholders."
     },
     {
-      "question": "Which of the following is traditionally included in the Iron Triangle?",
+      "question": "What does the traditional Iron Triangle evaluate?",
       "options": [
-        "Quality, Sustainability and Risk",
-        "Scope, Time and Cost",
-        "Leadership, Budget and Communication",
-        "Customer Satisfaction, Cost and Profit"
+        "Scope, time and cost performance",
+        "Leadership, motivation and trust",
+        "Benefits, strategy and governance",
+        "Risk, quality and procurement"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The Iron Triangle focuses on scope, time and cost. These remain important delivery measures, but they do not capture the full meaning of project success."
+    },
+    {
+      "question": "What is the project manager primarily accountable for?",
+      "options": [
+        "Personally completing all technical work",
+        "Coordinating the project so that objectives are achieved within the agreed governance framework",
+        "Approving the organization's strategy",
+        "Owning every operational benefit after project closure"
       ],
       "answer": 1,
-      "difficulty": "Easy",
-      "explanation": "The traditional Iron Triangle consists of Scope, Time and Cost."
+      "difficulty": "Foundation",
+      "explanation": "The project manager integrates people, work, decisions, risks and stakeholders to achieve project objectives. Technical execution and long-term benefit ownership may belong to others."
     },
     {
-      "question": "A project manager spends most of the day resolving conflicts between departments rather than updating schedules. Which project management skill is primarily being demonstrated?",
-      "options": [
-        "Programming",
-        "Leadership",
-        "Accounting",
-        "Procurement"
-      ],
-      "answer": 1,
-      "difficulty": "Medium",
-      "explanation": "Leading people, resolving conflicts and motivating teams are key leadership responsibilities."
-    },
-    {
-      "question": "Who is normally responsible for ensuring that a project continues to support the organization's strategic objectives?",
+      "question": "Which role normally provides senior-level support, secures organizational commitment and owns the project's business justification?",
       "options": [
         "Project Sponsor",
-        "Project Engineer",
-        "Procurement Officer",
-        "Quality Inspector"
+        "Project Scheduler",
+        "Technical Specialist",
+        "Project Administrator"
       ],
       "answer": 0,
-      "difficulty": "Medium",
-      "explanation": "The Project Sponsor owns the business case and ensures the project continues to create organizational value."
+      "difficulty": "Foundation",
+      "explanation": "The sponsor connects the project to senior management, supports major decisions and is normally accountable for continued business justification."
     },
     {
-      "question": "A project team requests additional features halfway through development. The customer agrees, but the deadline remains unchanged. Which project management principle is most relevant?",
+      "question": "What is the clearest distinction between management and leadership in projects?",
       "options": [
-        "Increasing scope without changing time or cost increases project pressure and risk.",
-        "Additional scope never affects project performance.",
-        "Scope changes only influence procurement.",
-        "Deadlines automatically adjust when scope changes."
+        "Management creates structure and control, while leadership builds direction, commitment and influence",
+        "Management concerns people, while leadership concerns schedules",
+        "Management is used only in small projects",
+        "Leadership eliminates the need for formal governance"
       ],
       "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "The Iron Triangle illustrates that increasing scope typically affects either time, cost or quality."
+      "difficulty": "Foundation",
+      "explanation": "Project managers need both. Management creates order through plans and controls, while leadership mobilizes people around purpose, change and difficult decisions."
     },
     {
-      "question": "A technically perfect bridge is completed exactly as designed, but traffic studies later show that almost nobody uses it. Which statement best describes the outcome?",
+      "question": "Why can a project be considered unsuccessful even when it finishes on time and within budget?",
       "options": [
-        "The project achieved technical success but questionable business success.",
-        "The project completely failed because it exceeded the budget.",
-        "The project manager automatically failed.",
-        "The bridge should never have been inspected."
+        "Because schedule and budget are never relevant",
+        "Because the deliverable may fail to solve the business problem or produce the expected benefits",
+        "Because successful projects must always finish early",
+        "Because project success is determined only by team morale"
       ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Technical success does not necessarily mean that the project created value for the organization or society."
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Efficient delivery does not guarantee effectiveness. A project can meet its delivery targets while producing low adoption, weak outcomes or limited strategic value."
     },
     {
-      "question": "Why is emotional intelligence increasingly considered an important competency for project managers?",
+      "question": "Why should project success criteria be defined early?",
       "options": [
-        "Because projects depend heavily on communication, collaboration and conflict resolution.",
-        "Because it replaces technical knowledge.",
-        "Because it automatically improves project budgets.",
-        "Because it removes project risks."
+        "To prevent all future disagreement",
+        "To create a shared basis for decision-making, trade-offs and later evaluation",
+        "To guarantee that the original plan never changes",
+        "To transfer responsibility from the sponsor to the project team"
       ],
-      "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Modern projects require managers who can understand, motivate and influence people as well as manage technical work."
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Clear success criteria help stakeholders understand what matters and provide a basis for prioritization and evaluation when competing objectives arise."
     },
     {
-      "question": "A project manager delivers every milestone exactly as planned, but the sponsor concludes that the project should never have been started because it no longer supports company strategy. What does this illustrate?",
+      "question": "What is the difference between a project output and a project outcome?",
       "options": [
-        "Excellent project execution cannot compensate for poor project selection.",
-        "Project managers should ignore organizational strategy.",
-        "Schedules are more important than business value.",
-        "Stakeholder analysis becomes unnecessary after initiation."
+        "An output is the deliverable produced, while an outcome is the change or effect enabled by that deliverable",
+        "An output is strategic, while an outcome is always technical",
+        "An output occurs after project closure, while an outcome occurs during initiation",
+        "There is no meaningful difference"
       ],
       "answer": 0,
-      "difficulty": "Hard",
-      "explanation": "Even perfectly managed projects can fail if they are not aligned with the organization's strategic objectives."
+      "difficulty": "Understanding",
+      "explanation": "A new system, facility or process is an output. Improved productivity, reduced incidents or higher customer satisfaction are outcomes enabled by that output."
+    },
+    {
+      "question": "Why is stakeholder perception relevant to project success?",
+      "options": [
+        "Because stakeholder opinions should always override project objectives",
+        "Because stakeholders influence adoption, legitimacy, support and the evaluation of whether value was created",
+        "Because only external stakeholders judge success",
+        "Because stakeholder satisfaction replaces financial performance"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Stakeholder perception matters because success depends partly on adoption, acceptance and legitimacy. However, perceptions must be considered alongside strategy, evidence and governance."
+    },
+    {
+      "question": "Why should the project manager understand the Business Case?",
+      "options": [
+        "To replace the sponsor as owner of the Business Case",
+        "To connect delivery decisions to the value and strategic purpose the project is expected to create",
+        "To avoid involving operational managers",
+        "To determine individual team salaries"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "The Business Case helps the project manager understand why the project exists. This supports better decisions when scope, time, cost, risk and benefits conflict."
+    },
+    {
+      "question": "Why is technical expertise alone insufficient for effective project management?",
+      "options": [
+        "Because technical knowledge has no value in projects",
+        "Because projects also require integration, leadership, communication, judgment and stakeholder management",
+        "Because project managers must avoid technical discussions",
+        "Because specialists should make all project decisions"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Technical knowledge may improve credibility and understanding, but project performance depends heavily on coordinating people, decisions, uncertainty and organizational interests."
+    },
+    {
+      "question": "Why should responsibility for benefits extend beyond the project manager?",
+      "options": [
+        "Because benefits usually depend on operational adoption and business changes after deliverables are handed over",
+        "Because project managers should not understand benefits",
+        "Because sponsors are responsible for every project task",
+        "Because benefits are always realized before project closure"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Projects deliver capabilities, but operational managers and benefit owners often control whether those capabilities are adopted and converted into sustained value."
+    },
+    {
+      "question": "Why is psychological safety important in project teams?",
+      "options": [
+        "It prevents all interpersonal conflict",
+        "It makes team members more willing to raise risks, admit mistakes and challenge weak assumptions",
+        "It allows team members to ignore accountability",
+        "It eliminates the need for leadership"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Psychological safety supports honest communication and early problem detection. It does not mean avoiding standards, challenge or accountability."
+    },
+    {
+      "question": "A software project delivers every contracted feature, but most employees continue using the previous system. How should the project be assessed?",
+      "options": [
+        "Fully successful because contractual scope was delivered",
+        "Potentially unsuccessful because output delivery did not lead to adoption and intended outcomes",
+        "Successful because user behavior is outside the project",
+        "Unsuccessful only if the project exceeded its budget"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The system is an output. If intended users do not adopt it, the expected operational outcomes and benefits may not materialize."
+    },
+    {
+      "question": "A project manager discovers that meeting the launch date would require reducing safety testing. The sponsor strongly prefers to maintain the date. What should the project manager do?",
+      "options": [
+        "Reduce testing because the sponsor owns the project",
+        "Explain the consequences, document the risk and escalate the decision through the appropriate governance process",
+        "Ask the team to hide the reduced testing effort",
+        "Delay the project without informing the sponsor"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The project manager should make the trade-off transparent and ensure that a decision with major safety implications is taken by the appropriate authority."
+    },
+    {
+      "question": "A project team is missing deadlines because specialists are assigned to several projects simultaneously. What should the project manager do first?",
+      "options": [
+        "Demand unpaid overtime",
+        "Assess the resource conflict and raise it with the managers who control allocation priorities",
+        "Remove the affected activities from the schedule",
+        "Replace all specialists immediately"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The underlying issue is organizational resource allocation. The project manager should make the conflict and its consequences visible to those with authority to resolve it."
+    },
+    {
+      "question": "A team member reports a serious defect but fears being blamed for delaying delivery. What is the best response from the project manager?",
+      "options": [
+        "Tell the employee to resolve it privately",
+        "Thank the employee for raising it, assess the defect and focus on corrective action rather than blame",
+        "Ignore the defect unless the customer discovers it",
+        "Remove the employee from the project"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Constructive responses to bad news strengthen psychological safety and improve the likelihood that future issues will be raised early."
+    },
+    {
+      "question": "A sponsor asks the project manager to present an unrealistic status report to protect executive confidence. What should the project manager do?",
+      "options": [
+        "Follow the instruction because the sponsor owns the Business Case",
+        "Present an accurate status and explain the implications and recovery options",
+        "Remove all negative information from the report",
+        "Cancel the project immediately"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Accurate reporting is necessary for governance and informed decisions. Concealing material information creates ethical and managerial risk."
+    },
+    {
+      "question": "A project is experiencing repeated conflict between engineering and procurement. Engineering prioritizes performance, while procurement prioritizes supplier cost. What should the project manager do?",
+      "options": [
+        "Allow the functions to negotiate until one side gives up",
+        "Clarify the project objectives and facilitate a decision based on value, requirements, risk and total consequences",
+        "Always support engineering because technical quality is most important",
+        "Always support procurement because cost is part of the Iron Triangle"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The project manager should integrate competing functional perspectives and guide the decision toward overall project value rather than departmental optimization."
+    },
+    {
+      "question": "A new project manager inherits a team with low trust after frequent changes in leadership. What should be the manager's first priority?",
+      "options": [
+        "Introduce stricter reporting immediately",
+        "Establish credibility through clarity, consistency, listening and reliable follow-through",
+        "Replace the entire team",
+        "Avoid discussing previous leadership problems"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Trust is rebuilt through observable behavior. Consistent communication and follow-through are more effective than demanding commitment before credibility has been established."
+    },
+    {
+      "question": "A customer requests an additional feature that could create substantial value but would delay delivery. What should the project manager do first?",
+      "options": [
+        "Accept the feature because customer value defines success",
+        "Reject the feature because the baseline must never change",
+        "Assess its impact on objectives, benefits, risks, commitments and governance before recommending a decision",
+        "Ask the development team to include it informally"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Potential value should be evaluated, but the project manager should not bypass change control or ignore broader consequences."
+    },
+    {
+      "question": "A project manager notices that team meetings are dominated by two senior specialists while junior members remain silent. What is the best response?",
+      "options": [
+        "Accept the situation because senior specialists have more experience",
+        "Use facilitation methods that create structured opportunities for broader participation",
+        "Remove the senior specialists from all meetings",
+        "Ask junior members to submit only written comments"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Effective facilitation improves access to information and reduces the risk that status or personality prevents relevant knowledge from being considered."
+    },
+    {
+      "question": "A project is nearing completion, but operational managers have not prepared training, support or new work procedures. What should the project manager do?",
+      "options": [
+        "Close the project because the deliverable is technically finished",
+        "Escalate the transition risk and coordinate readiness activities with the relevant operational owners",
+        "Take permanent ownership of operations",
+        "Remove benefit targets from the Business Case"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Operational readiness is critical to adoption and benefit realization. The project manager should coordinate the transition while ensuring that the proper business owners remain accountable."
+    },
+    {
+      "question": "A project manager has strong formal authority but repeatedly makes decisions without consulting specialists. The project remains on schedule, but technical risks are increasing. What is the central leadership weakness?",
+      "options": [
+        "The manager is using too little authority",
+        "The manager is confusing decision authority with having all the necessary knowledge",
+        "The specialists have too much influence",
+        "The schedule should be abandoned"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Formal authority enables decisions but does not replace expertise. Strong leaders involve relevant knowledge while retaining accountability for the decision process."
+    },
+    {
+      "question": "A project team meets all performance targets, but team members report burnout, high turnover and unwillingness to work together again. What is the best assessment?",
+      "options": [
+        "The project was fully successful because targets were met",
+        "The project may have achieved short-term delivery success while damaging long-term organizational capability",
+        "Team well-being is unrelated to project success",
+        "The project was unsuccessful only if customers complained"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Success can be assessed across multiple dimensions. Unsustainable delivery practices may achieve immediate targets while reducing future capacity, trust and performance."
+    },
+    {
+      "question": "A sponsor evaluates success solely by whether the original schedule was maintained, even though market conditions changed and the product is no longer commercially attractive. What is the main flaw in this reasoning?",
+      "options": [
+        "Schedules should never be used to evaluate projects",
+        "It prioritizes plan conformance over continued relevance and value creation",
+        "The sponsor should focus only on team satisfaction",
+        "Market conditions are outside project governance"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "A project should not be considered successful merely because it followed an outdated plan. Continued business justification and relevance remain essential."
+    },
+    {
+      "question": "A project manager resolves every conflict personally and discourages team members from making decisions without approval. The project initially appears well controlled. What long-term risk is greatest?",
+      "options": [
+        "The team may become overly independent",
+        "Decision bottlenecks and dependency on the project manager may reduce team ownership and responsiveness",
+        "The sponsor may gain too much authority",
+        "Stakeholders may receive too much information"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Excessive centralization can create apparent control while weakening team capability, accountability and decision speed."
+    },
+    {
+      "question": "A project delivers a profitable service but causes regulatory breaches and reputational damage. Which conclusion is most defensible?",
+      "options": [
+        "The project is successful because it is profitable",
+        "The project cannot be judged only by financial benefits because legality, ethics and broader consequences also matter",
+        "The project is successful if the sponsor accepts the damage",
+        "Regulatory issues should be evaluated only after closure"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Project value cannot be separated from legal, ethical and reputational consequences. Financial return alone is an inadequate measure of success."
+    },
+    {
+      "question": "A project manager must choose between disclosing a major uncertainty now or waiting until more evidence is available. Early disclosure may create concern, but delayed disclosure could reduce management's options. What is the strongest approach?",
+      "options": [
+        "Wait until the uncertainty becomes a confirmed problem",
+        "Communicate the uncertainty transparently, distinguish facts from assumptions and explain possible consequences and response options",
+        "Report only the most optimistic interpretation",
+        "Transfer responsibility for communication to the project team"
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "High-quality governance requires timely transparency. The project manager should communicate uncertainty without presenting speculation as fact and should support informed decision-making."
+    },
+    {
+      "question": "A project manager can preserve the approved baseline or recommend a major redesign that is more likely to deliver strategic value. The redesign would make historical performance metrics appear worse. What principle should guide the recommendation?",
+      "options": [
+        "Protect the baseline because variance always represents failure",
+        "Protect the project manager's performance rating",
+        "Prioritize defensible value creation and continued business justification while making the consequences of change transparent",
+        "Allow the delivery team to decide without involving governance"
+      ],
+      "answer": 2,
+      "difficulty": "Expert",
+      "explanation": "The baseline is a control mechanism, not an objective in itself. When evidence shows that another approach better supports strategic value, the project manager should present it through proper governance rather than optimize appearances."
     }
   ]
 }
