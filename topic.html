@@ -10,10 +10,10 @@
 
   <meta
     name="description"
-    content="Course reading module"
+    content="Course topics, reading modules and quizzes"
   >
 
-  <title>Reading Module | UiA Indøk</title>
+  <title>Course Topics | UiA Indøk</title>
 
   <link
     rel="stylesheet"
@@ -42,83 +42,161 @@
     </div>
   </header>
 
-  <main class="reading-page">
-    <div class="container reading-layout">
-
-      <aside
-        class="reading-sidebar"
-        aria-label="Module navigation"
+  <main class="topic-page">
+    <div class="container">
+      <a
+        id="back-to-course"
+        href="index.html"
+        class="back-link"
       >
-        <a
-          href="javascript:history.back()"
-          class="back-link"
+        ← Back to course
+      </a>
+
+      <section
+        id="topic-header"
+        class="topic-header"
+        aria-labelledby="topic-title"
+      >
+        <p
+          id="course-code"
+          class="eyebrow"
         >
-          ← Back to topic
-        </a>
+          Course module
+        </p>
 
-        <div class="reading-sidebar-card">
-          <p class="sidebar-label">Module contents</p>
+        <h1 id="topic-title">
+          Loading topic...
+        </h1>
 
-          <nav
-            id="reading-navigation"
-            class="reading-navigation"
-            aria-label="Reading sections"
-          >
-            <p class="navigation-placeholder">
-              Loading sections...
-            </p>
-          </nav>
-        </div>
-      </aside>
+        <p
+          id="topic-description"
+          class="topic-description"
+        >
+          Please wait while the module is being loaded.
+        </p>
+      </section>
 
-      <article
-        id="reading-content"
-        class="reading-content"
+      <section
+        id="topic-loading"
+        class="topic-state"
         aria-live="polite"
       >
-        <section
-          id="loading-state"
-          class="reading-state"
+        <h2>Loading module</h2>
+
+        <p>
+          The reading material and quiz are being prepared.
+        </p>
+      </section>
+
+      <section
+        id="topic-error"
+        class="topic-state topic-error"
+        hidden
+        aria-live="assertive"
+      >
+        <h2>The module could not be loaded</h2>
+
+        <p id="topic-error-message">
+          Check that the topic file exists and that the URL is correct.
+        </p>
+
+        <a
+          href="index.html"
+          class="button button-primary"
         >
-          <p class="eyebrow">Reading module</p>
-          <h1>Loading module...</h1>
-          <p>
-            Please wait while the reading material is being loaded.
-          </p>
-        </section>
+          Return to courses
+        </a>
+      </section>
+
+      <section
+        id="topic-content"
+        class="topic-content"
+        hidden
+      >
+        <div class="module-options">
+          <article class="module-option-card reading-option-card">
+            <div
+              class="module-option-icon"
+              aria-hidden="true"
+            >
+              📖
+            </div>
+
+            <div class="module-option-content">
+              <p class="module-option-label">
+                Step 1
+              </p>
+
+              <h2>Read the Module</h2>
+
+              <p>
+                Study the central concepts, practical examples and key
+                distinctions before taking the quiz.
+              </p>
+
+              <a
+                id="reading-link"
+                href="#"
+                class="button button-secondary"
+              >
+                Read Module
+              </a>
+            </div>
+          </article>
+
+          <article class="module-option-card quiz-option-card">
+            <div
+              class="module-option-icon"
+              aria-hidden="true"
+            >
+              📝
+            </div>
+
+            <div class="module-option-content">
+              <p class="module-option-label">
+                Step 2
+              </p>
+
+              <h2>Take the Quiz</h2>
+
+              <p>
+                Test your understanding through practical, scenario-based
+                questions at university level.
+              </p>
+
+              <a
+                id="quiz-link"
+                href="#"
+                class="button button-primary"
+              >
+                Start Quiz
+              </a>
+            </div>
+          </article>
+        </div>
 
         <section
-          id="error-state"
-          class="reading-state reading-error"
+          id="topic-details"
+          class="topic-details"
           hidden
         >
-          <p class="eyebrow">Unable to load module</p>
-          <h1>The reading material could not be opened</h1>
+          <h2>About This Module</h2>
 
-          <p id="error-message">
-            Check that the file path is correct and that the JSON file exists.
-          </p>
-
-          <a
-            href="index.html"
-            class="button button-primary"
-          >
-            Return to courses
-          </a>
+          <div
+            id="topic-details-content"
+            class="topic-details-content"
+          ></div>
         </section>
-      </article>
-
+      </section>
     </div>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>
-        UiA Indøk Learning Platform
-      </p>
+      <p>UiA Indøk Learning Platform</p>
     </div>
   </footer>
 
-  <script src="js/reading.js"></script>
+  <script src="js/topic.js"></script>
 </body>
 </html>
