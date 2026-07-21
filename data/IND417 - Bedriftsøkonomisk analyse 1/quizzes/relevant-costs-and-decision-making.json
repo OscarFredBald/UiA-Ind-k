@@ -1,0 +1,368 @@
+{
+  "title": "Relevant Costs and Decision Making",
+  "description": "Test your understanding of relevant costs, irrelevant costs, sunk costs, opportunity costs and managerial decision making.",
+  "questions": [
+    {
+      "question": "What is a relevant cost?",
+      "options": [
+        "A future cost that differs between decision alternatives",
+        "Any cost recorded in the accounting system",
+        "A cost that has already been incurred",
+        "A cost that never changes"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Relevant costs are future costs that differ between alternatives and therefore influence the decision."
+    },
+    {
+      "question": "Which type of cost should generally be ignored when making business decisions?",
+      "options": [
+        "Relevant costs",
+        "Opportunity costs",
+        "Sunk costs",
+        "Incremental costs"
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "Sunk costs have already been incurred and cannot be changed by any future decision."
+    },
+    {
+      "question": "What is an opportunity cost?",
+      "options": [
+        "The total manufacturing cost of a product",
+        "The benefit given up by choosing one alternative over another",
+        "A fixed operating expense",
+        "The depreciation of equipment"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Opportunity cost represents the benefit sacrificed when one alternative is chosen instead of another."
+    },
+    {
+      "question": "A company has already spent $200,000 developing a new product. Management must now decide whether to launch it. How should the development cost be treated?",
+      "options": [
+        "As a relevant cost",
+        "As a sunk cost",
+        "As an opportunity cost",
+        "As an incremental revenue"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "The development cost has already been incurred and cannot be recovered, making it a sunk cost."
+    },
+    {
+      "question": "Which statement best describes an irrelevant cost?",
+      "options": [
+        "It changes depending on the decision",
+        "It remains the same regardless of the decision",
+        "It is always a variable cost",
+        "It only exists in manufacturing companies"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Irrelevant costs do not differ between alternatives and therefore should not influence the decision."
+    },
+    {
+      "question": "What are incremental costs?",
+      "options": [
+        "Costs that have already been paid",
+        "Additional costs resulting from choosing one alternative",
+        "Allocated overhead costs",
+        "Fixed costs that never change"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Incremental costs are additional costs that occur because of a specific decision."
+    },
+    {
+      "question": "A factory pays $30,000 per month in rent regardless of production volume. When evaluating whether to accept a one-time special order, how is the rent normally classified?",
+      "options": [
+        "Relevant cost",
+        "Opportunity cost",
+        "Irrelevant cost",
+        "Incremental cost"
+      ],
+      "answer": 2,
+      "difficulty": "Understanding",
+      "explanation": "Since the rent will be paid regardless of the decision, it is irrelevant for this particular analysis."
+    },
+    {
+      "question": "Why are opportunity costs important even though they usually do not appear in accounting records?",
+      "options": [
+        "They represent taxes paid on future profits",
+        "They measure the value of benefits forgone by choosing one alternative",
+        "They eliminate fixed costs",
+        "They replace contribution margin calculations"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Opportunity costs capture the value of the best alternative that is sacrificed."
+    },
+    {
+      "question": "A company has unused production capacity and receives a special order. Which costs are usually most relevant when evaluating the order?",
+      "options": [
+        "Additional variable production costs",
+        "Historical depreciation",
+        "Past marketing expenses",
+        "Allocated fixed costs that will not change"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "When unused capacity exists, the additional variable costs are normally the primary relevant costs."
+    },
+    {
+      "question": "Which statement best summarizes the purpose of relevant cost analysis?",
+      "options": [
+        "To include every accounting cost in the decision",
+        "To focus only on costs and revenues that change between alternatives",
+        "To eliminate uncertainty from business decisions",
+        "To maximize sales regardless of profitability"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Relevant cost analysis helps managers ignore information that will not affect the outcome of the decision."
+    },
+
+        {
+      "question": "A company must choose between producing a component internally or purchasing it from an external supplier. Which costs are most relevant to this decision?",
+      "options": [
+        "Avoidable manufacturing costs and the supplier's purchase price",
+        "Historical research and development costs",
+        "Allocated corporate overhead that will remain unchanged",
+        "The original purchase price of the production equipment"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Managers should compare the costs that differ between the two alternatives, including avoidable production costs and the supplier's price."
+    },
+    {
+      "question": "A supplier offers to sell a component for $18 per unit. Internal production costs $20 per unit, but $5 consists of unavoidable fixed costs. Which alternative is financially preferable?",
+      "options": [
+        "Purchase from the supplier",
+        "Continue producing internally",
+        "Both alternatives cost exactly the same",
+        "There is not enough information"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The relevant internal production cost is only $15 ($20 − $5 unavoidable fixed costs), making internal production cheaper than buying for $18."
+    },
+    {
+      "question": "A manager is deciding whether to discontinue a product line that appears unprofitable. Which cost should be examined most carefully?",
+      "options": [
+        "Avoidable fixed costs",
+        "Historical depreciation",
+        "Sunk costs",
+        "Allocated fixed costs that will remain regardless"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Only fixed costs that can actually be avoided by discontinuing the product are relevant."
+    },
+    {
+      "question": "Why can allocating fixed costs across products sometimes lead to poor decisions?",
+      "options": [
+        "Because allocated costs may continue even if a product is discontinued",
+        "Because allocated costs are always variable",
+        "Because accounting standards prohibit allocations",
+        "Because contribution margin becomes irrelevant"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Many allocated fixed costs remain after a product is discontinued, making them irrelevant for that decision."
+    },
+    {
+      "question": "Which statement best describes a make-or-buy decision?",
+      "options": [
+        "A decision about whether to manufacture a product internally or purchase it externally",
+        "A decision about increasing selling prices",
+        "A decision about calculating depreciation",
+        "A decision about allocating indirect costs"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Make-or-buy decisions compare the costs and benefits of internal production versus outsourcing."
+    },
+    {
+      "question": "A company has already invested $2 million in machinery. The equipment is now outdated, and replacing it would reduce future operating costs. What should management focus on?",
+      "options": [
+        "Future cost savings from replacing the equipment",
+        "Recovering the original investment",
+        "The historical purchase price of the machinery",
+        "Ignoring future operating costs"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "The original investment is a sunk cost. Managers should focus on future costs and benefits."
+    },
+    {
+      "question": "A business has enough production capacity to manufacture only one of two products. Which concept becomes especially important?",
+      "options": [
+        "Opportunity cost",
+        "Depreciation",
+        "Historical cost",
+        "Allocated overhead"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Choosing one product means giving up the profit from the other, creating an opportunity cost."
+    },
+    {
+      "question": "Why should managers include qualitative factors when making decisions?",
+      "options": [
+        "Because financial analysis does not capture factors such as quality, customer satisfaction and supplier reliability",
+        "Because qualitative factors always have a larger financial impact",
+        "Because accounting data is unnecessary",
+        "Because opportunity costs become irrelevant"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Some important business considerations cannot easily be measured in monetary terms but may still determine the best decision."
+    },
+    {
+      "question": "Two suppliers offer nearly identical prices. One has a history of frequent delivery delays. Which decision is generally best?",
+      "options": [
+        "Consider supplier reliability alongside the financial comparison",
+        "Always choose the cheaper supplier regardless of service",
+        "Ignore delivery performance because it is qualitative",
+        "Choose the supplier with the oldest contract"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Reliable deliveries may reduce operational disruptions, making a slightly more expensive supplier the better choice."
+    },
+    {
+      "question": "Which statement best explains why relevant cost analysis is useful?",
+      "options": [
+        "It helps managers focus only on information that will change depending on the decision",
+        "It guarantees the correct decision in every situation",
+        "It eliminates business risk",
+        "It replaces strategic planning"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Relevant cost analysis filters out unnecessary information so managers can compare alternatives more effectively."
+    },
+
+        {
+      "question": "A company has already spent $750,000 developing a new product. Market research now suggests future demand will be much lower than expected. What should management do?",
+      "options": [
+        "Base the decision on future revenues and future relevant costs",
+        "Launch the product because the development cost was so high",
+        "Ignore future market conditions because the money has already been spent",
+        "Continue the project until the development cost has been recovered"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "The development cost is a sunk cost. Management should base its decision on future costs, future revenues and expected profitability."
+    },
+    {
+      "question": "A factory is operating at full capacity. Producing Product A means Product B cannot be produced. Which concept is most important when evaluating the decision?",
+      "options": [
+        "Opportunity cost",
+        "Depreciation expense",
+        "Historical cost",
+        "Sunk cost"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "When capacity is limited, choosing one product means sacrificing the contribution from another product."
+    },
+    {
+      "question": "A supplier offers slightly lower prices, but its deliveries are often delayed, causing production interruptions. Which approach is most appropriate?",
+      "options": [
+        "Evaluate both financial and qualitative factors before deciding",
+        "Always choose the cheapest supplier",
+        "Ignore delivery performance because it is difficult to measure",
+        "Select the supplier with the lowest historical prices"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Reliable deliveries may outweigh a small price advantage because production interruptions can be very costly."
+    },
+    {
+      "question": "A company is deciding whether to discontinue a product that shows an accounting loss. Most allocated fixed costs will remain after the product is removed. What is the best conclusion?",
+      "options": [
+        "The product should only be discontinued if the avoidable costs exceed the contribution it generates",
+        "The product should always be discontinued because it reports an accounting loss",
+        "Allocated fixed costs disappear immediately after discontinuation",
+        "The accounting profit alone determines the correct decision"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Managers should focus on avoidable costs and contribution margin rather than allocated accounting costs."
+    },
+    {
+      "question": "A manufacturer receives a one-time order at a lower selling price. The factory has significant unused capacity, and the order covers all additional variable costs while generating extra contribution margin. What is generally the best decision?",
+      "options": [
+        "Accept the order if it does not negatively affect existing business",
+        "Reject the order because the selling price is below the normal price",
+        "Reject the order because fixed costs have already been paid",
+        "Accept the order only if it increases the selling price of future orders"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "With unused capacity, any positive contribution margin generally increases operating profit, provided there are no negative strategic consequences."
+    },
+    {
+      "question": "A shipping company can either accept a charter today or keep the vessel available in the hope of securing a higher-paying contract next week. Which concept best captures the potential cost of accepting today's charter?",
+      "options": [
+        "Opportunity cost",
+        "Sunk cost",
+        "Depreciation expense",
+        "Historical cost"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Accepting today's charter may mean giving up the profit from a more profitable future charter, creating an opportunity cost."
+    },
+    {
+      "question": "A business manager argues that a poor investment should continue because 'we have already spent too much money to stop now.' Which decision-making error is being made?",
+      "options": [
+        "Allowing sunk costs to influence future decisions",
+        "Ignoring contribution margin",
+        "Using incremental analysis",
+        "Applying target pricing"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Past expenditures cannot be recovered and should never determine future decisions."
+    },
+    {
+      "question": "Why is relevant cost analysis considered a better decision-making tool than relying solely on financial statements?",
+      "options": [
+        "Because it focuses only on costs and revenues that will change between alternatives",
+        "Because it eliminates uncertainty from business decisions",
+        "Because financial statements are inaccurate",
+        "Because it guarantees higher profits"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Financial statements include many historical and allocated costs that may not be relevant to a specific decision."
+    },
+    {
+      "question": "Which statement best describes how experienced managers make important business decisions?",
+      "options": [
+        "They combine relevant cost analysis with qualitative and strategic considerations",
+        "They always choose the option with the lowest accounting cost",
+        "They focus primarily on sunk costs to recover previous investments",
+        "They ignore uncertainty and rely only on financial calculations"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Good decisions require both quantitative analysis and consideration of strategic, operational and qualitative factors."
+    },
+    {
+      "question": "What is the most important principle of relevant cost analysis?",
+      "options": [
+        "Only future costs and benefits that differ between alternatives should influence a decision",
+        "Every accounting cost should be included in every decision",
+        "Historical costs are the most reliable basis for future decisions",
+        "Fixed costs are always relevant regardless of the situation"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "The core principle of relevant cost analysis is to focus exclusively on future costs and revenues that change depending on the decision."
+    }
+  ]
+}
