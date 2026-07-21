@@ -1,238 +1,159 @@
 {
   "title": "Cost Planning",
-  "description": "Learn how project costs are estimated, budgets are developed and project expenditures are monitored to ensure financial objectives are achieved.",
-  "estimatedReadingTime": "10 min",
+  "description": "Learn how projects estimate, budget, and control costs throughout the project lifecycle.",
+  "estimatedReadingTime": "10 minutes",
   "level": "Intermediate",
   "sections": [
     {
-      "id": "learning-objectives",
       "type": "learningObjectives",
-      "heading": "Learning Objectives",
-      "bullets": [
-        "Explain why cost planning is essential for successful projects.",
-        "Describe the project cost management process.",
-        "Differentiate between cost estimating and budgeting.",
+      "title": "Learning Objectives",
+      "items": [
+        "Explain why cost planning is critical for project success.",
+        "Differentiate between estimating, budgeting, and cost control.",
         "Understand common cost estimating techniques.",
-        "Explain contingency and management reserves.",
-        "Understand how project costs are monitored and controlled."
+        "Explain contingency reserves and management reserves.",
+        "Understand the project cost baseline.",
+        "Recognize how earned value can monitor project performance."
       ]
     },
+
     {
-      "id": "why-cost-planning",
       "type": "theory",
-      "heading": "Why Cost Planning Matters",
-      "paragraphs": [
-        "Every project operates under financial constraints. Whether the project involves constructing a bridge, implementing a new IT system or launching a product, resources are limited and must be used efficiently.",
-        "Cost planning ensures that sufficient funding is available, resources are allocated appropriately and financial risks are understood before work begins.",
-        "Poor cost planning often results in budget overruns, delayed decisions and reduced stakeholder confidence."
+      "title": "Introduction",
+      "content": [
+        "Every project requires financial resources. Whether constructing a bridge, developing software, or launching a new product, organizations need to understand how much the project will cost before committing to it.",
+        "Cost planning is the process of estimating, allocating, and controlling the financial resources required to complete the project successfully.",
+        "Good cost planning increases confidence among stakeholders, supports better decision making, and reduces the likelihood of budget overruns."
       ]
     },
+
     {
-      "id": "cost-management-process",
       "type": "theory",
-      "heading": "The Cost Management Process",
-      "paragraphs": [
-        "Project cost management consists of several related processes that transform estimated work into an approved project budget and provide mechanisms for monitoring expenditures throughout the project.",
-        "These activities continue from project planning until project completion.",
-        "Effective cost management balances financial discipline with the flexibility needed to respond to changing project conditions."
-      ],
-      "bullets": [
-        "Plan cost management.",
-        "Estimate project costs.",
-        "Determine the project budget.",
-        "Monitor and control project costs."
+      "title": "The Three Stages of Cost Planning",
+      "content": [
+        "**1. Cost Estimating** predicts the expected cost of individual activities.",
+        "**2. Cost Budgeting** combines those estimates into an approved project budget.",
+        "**3. Cost Control** compares actual spending with the budget throughout project execution."
       ]
     },
+
     {
-      "id": "types-of-project-costs",
-      "type": "theory",
-      "heading": "Types of Project Costs",
-      "paragraphs": [
-        "Projects incur many different types of costs. Identifying all expected costs early improves the accuracy of the project budget.",
-        "Some costs are directly related to project activities, while others are shared across multiple projects or organizational functions."
-      ],
-      "bullets": [
-        "Labour costs",
-        "Materials and equipment",
-        "Contractor and supplier costs",
-        "Software and technology",
-        "Training",
-        "Travel expenses",
-        "Administrative overhead",
-        "Contingency reserves"
-      ]
-    },
-    {
-      "id": "cost-estimating",
-      "type": "theory",
-      "heading": "Cost Estimating",
-      "paragraphs": [
-        "Cost estimating predicts the financial resources required to complete project activities.",
-        "Early estimates are often based on limited information and become increasingly accurate as planning progresses.",
-        "Project Managers should document important assumptions because estimates are only as reliable as the information on which they are based."
-      ]
-    },
-    {
-      "id": "estimating-techniques",
-      "type": "theory",
-      "heading": "Cost Estimating Techniques",
-      "paragraphs": [
-        "Several estimation techniques are available depending on project complexity and the information available.",
-        "Experienced Project Managers often combine multiple techniques to improve estimate accuracy."
-      ],
-      "bullets": [
-        "Analogous estimating (using historical projects).",
-        "Parametric estimating (using statistical relationships).",
-        "Bottom-up estimating (estimating individual activities).",
-        "Three-point estimating (considering uncertainty).",
-        "Expert judgment."
-      ]
-    },
-    {
-      "id": "bottom-up-example",
       "type": "example",
-      "heading": "Example: Bottom-Up Estimating",
-      "paragraphs": [
-        "A project team estimates the cost of every work package individually.",
-        "Software development is estimated at $180,000, testing at $45,000, training at $20,000 and deployment at $15,000.",
-        "The individual estimates are then combined to produce the total project estimate.",
-        "Although this method requires more effort, it generally produces the most accurate estimates."
+      "title": "Example: Building a Warehouse",
+      "content": [
+        "Suppose a company wants to build a warehouse.",
+        "Engineers estimate material costs, labor costs, equipment rental, permits, and contingency.",
+        "These estimates are combined into a total project budget.",
+        "As construction progresses, actual invoices are compared with the budget to detect cost overruns early."
       ]
     },
+
     {
-      "id": "budget-development",
       "type": "theory",
-      "heading": "Developing the Project Budget",
-      "paragraphs": [
-        "After estimating project costs, individual estimates are aggregated into an approved project budget.",
-        "The budget represents the authorized amount of money available to complete the project.",
-        "Once approved, the budget becomes part of the project's performance baseline."
+      "title": "Cost Estimating Techniques",
+      "content": [
+        "**Analogous Estimating** uses historical projects.",
+        "**Parametric Estimating** uses statistical relationships such as cost per square meter.",
+        "**Bottom-Up Estimating** estimates every work package individually before summing the costs.",
+        "**Three-Point Estimating** considers optimistic, most likely, and pessimistic scenarios to account for uncertainty."
       ]
     },
+
     {
-      "id": "contingency-management-reserve",
       "type": "theory",
-      "heading": "Contingency Reserve vs. Management Reserve",
-      "paragraphs": [
-        "Projects rarely proceed exactly as planned. Financial reserves provide flexibility when uncertainty becomes reality.",
-        "Contingency reserves cover identified risks that have been analyzed during planning.",
-        "Management reserves are held by senior management to address unforeseen events that were not included in the original risk analysis."
-      ],
-      "bullets": [
-        "Contingency Reserve → Known risks.",
-        "Management Reserve → Unknown risks.",
-        "Both improve financial resilience.",
-        "Neither should be treated as free spending money."
+      "title": "Direct and Indirect Costs",
+      "content": [
+        "Direct costs are directly linked to project work, such as materials, labor, and equipment.",
+        "Indirect costs support the project but cannot easily be assigned to one activity, such as office rent, utilities, and administrative salaries."
       ]
     },
+
     {
-      "id": "cost-baseline",
       "type": "theory",
-      "heading": "The Cost Baseline",
-      "paragraphs": [
-        "The approved project budget becomes the cost baseline.",
-        "Actual project expenditures are compared against this baseline throughout project execution.",
-        "Changes to the cost baseline should only occur through the project's formal change control process."
+      "title": "Contingency vs Management Reserve",
+      "content": [
+        "Projects rarely go exactly as planned.",
+        "Contingency reserves cover known risks that have been identified during planning.",
+        "Management reserves are additional funds kept by senior management for unforeseen events outside the identified project risks."
       ]
     },
+
     {
-      "id": "monitoring-costs",
-      "type": "theory",
-      "heading": "Monitoring Project Costs",
-      "paragraphs": [
-        "Once project execution begins, the Project Manager continuously compares planned spending with actual expenditures.",
-        "Regular monitoring allows financial problems to be identified early, giving the team time to implement corrective actions before budget overruns become significant.",
-        "Cost monitoring should focus on future trends as well as historical spending."
-      ]
-    },
-    {
-      "id": "earned-value",
-      "type": "theory",
-      "heading": "Introduction to Earned Value Management",
-      "paragraphs": [
-        "Earned Value Management (EVM) combines scope, schedule and cost information to evaluate project performance.",
-        "Rather than comparing only planned and actual spending, EVM considers how much work has actually been completed.",
-        "This allows Project Managers to determine whether the project is receiving appropriate value for the money already spent."
-      ],
-      "bullets": [
-        "Planned Value (PV)",
-        "Earned Value (EV)",
-        "Actual Cost (AC)"
-      ]
-    },
-    {
-      "id": "cost-variance",
-      "type": "theory",
-      "heading": "Cost Variance and Cost Performance",
-      "paragraphs": [
-        "A project may spend less money than planned because work has not yet been completed. Likewise, spending more money does not automatically mean poor performance if additional work has already been delivered.",
-        "Cost performance should therefore consider both expenditures and completed work.",
-        "Variance analysis helps identify trends before they become major financial problems."
-      ]
-    },
-    {
-      "id": "example-budget-overrun",
       "type": "example",
-      "heading": "Example: Investigating a Budget Overrun",
-      "paragraphs": [
-        "Halfway through an infrastructure project, actual spending is 15% higher than planned.",
-        "The Project Manager investigates the cause and discovers that unexpected ground conditions required additional excavation.",
-        "Because this risk had been identified during planning, contingency reserves are used without requiring additional project funding."
+      "title": "Practical Example",
+      "content": [
+        "A shipyard estimates that steel prices may fluctuate by 5%.",
+        "The project includes a contingency reserve to cover this known uncertainty.",
+        "If an unexpected government regulation later requires major redesign, management reserve—not contingency—would normally be used."
       ]
     },
+
     {
-      "id": "life-cycle-costing",
       "type": "theory",
-      "heading": "Life Cycle Costing",
-      "paragraphs": [
-        "Projects should not always select the solution with the lowest purchase price.",
-        "Life Cycle Costing evaluates the total cost of ownership, including acquisition, operation, maintenance and disposal.",
-        "A more expensive solution may ultimately provide better value if operating costs are significantly lower over time."
+      "title": "The Cost Baseline",
+      "content": [
+        "Once estimates are approved, they become the project's Cost Baseline.",
+        "The baseline represents the authorized budget used to measure project performance.",
+        "Actual costs are continuously compared against the baseline throughout execution."
       ]
     },
+
     {
-      "id": "common-cost-mistakes",
       "type": "theory",
-      "heading": "Common Cost Planning Mistakes",
-      "paragraphs": [
-        "Many project budget problems originate during planning rather than execution.",
-        "Overly optimistic estimates, missing cost categories and unrealistic assumptions frequently result in budget overruns.",
-        "Successful Project Managers regularly review estimates and update financial forecasts as new information becomes available."
-      ],
-      "bullets": [
-        "Ignoring inflation.",
-        "Underestimating labour costs.",
-        "Forgetting indirect costs.",
-        "No contingency reserve.",
-        "Poor documentation of assumptions.",
-        "Failing to update forecasts."
+      "title": "Monitoring Project Costs",
+      "content": [
+        "Project managers continuously compare planned spending with actual spending.",
+        "One widely used approach is Earned Value Management (EVM), which combines scope, schedule, and cost into a single performance measurement system.",
+        "Important EVM metrics include:",
+        "• Planned Value (PV)",
+        "• Earned Value (EV)",
+        "• Actual Cost (AC)",
+        "• Cost Variance (CV = EV − AC)",
+        "• Schedule Variance (SV = EV − PV)",
+        "These indicators help managers identify problems before they become critical."
       ]
     },
+
     {
-      "id": "expert-insight",
       "type": "expertInsight",
-      "heading": "Expert Insight",
-      "paragraphs": [
-        "The purpose of cost planning is not to create the lowest possible budget—it is to create the most realistic one.",
-        "Experienced Project Managers recognize that uncertainty cannot be eliminated. Instead, they estimate transparently, document assumptions and monitor financial performance continuously.",
-        "Good financial planning increases confidence among sponsors, customers and project teams alike."
+      "title": "Expert Insight",
+      "content": [
+        "Many project failures are not caused by inaccurate estimates but by poor cost control. Successful organizations update forecasts regularly and act quickly when spending begins to deviate from the approved budget."
       ]
     },
+
     {
-      "id": "key-takeaways",
+      "type": "warning",
+      "title": "Common Mistakes",
+      "content": [
+        "Confusing estimates with approved budgets.",
+        "Ignoring indirect costs.",
+        "Using contingency reserves for unrelated scope changes.",
+        "Failing to update forecasts during execution.",
+        "Monitoring only spending instead of earned value."
+      ]
+    },
+
+    {
       "type": "summary",
-      "heading": "Key Takeaways",
-      "bullets": [
-        "Cost planning ensures that sufficient financial resources are available.",
-        "Project cost management includes estimating, budgeting and cost control.",
-        "Different estimating techniques are appropriate in different situations.",
-        "The approved budget becomes the cost baseline.",
-        "Contingency reserves cover known risks, while management reserves cover unknown risks.",
-        "Cost monitoring compares actual spending against the approved baseline.",
-        "Earned Value Management evaluates both cost and completed work.",
-        "Life Cycle Costing considers the total cost of ownership.",
-        "Accurate cost planning requires realistic assumptions and continuous monitoring.",
-        "Effective cost management improves project success and stakeholder confidence."
+      "title": "Key Takeaways",
+      "items": [
+        "Cost planning includes estimating, budgeting, and cost control.",
+        "Several estimating techniques exist, each suited for different situations.",
+        "Direct and indirect costs should both be considered.",
+        "Contingency reserves manage known risks, while management reserves cover unknown events.",
+        "The Cost Baseline provides the reference for measuring project performance.",
+        "Earned Value Management helps monitor cost and schedule performance simultaneously."
+      ]
+    },
+
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "Why might two different estimating techniques produce different results for the same project?",
+        "When would contingency reserve be appropriate instead of management reserve?",
+        "Why is monitoring costs throughout the project just as important as creating the initial budget?"
       ]
     }
   ]
