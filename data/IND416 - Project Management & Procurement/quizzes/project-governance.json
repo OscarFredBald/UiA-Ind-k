@@ -1,0 +1,368 @@
+{
+  "title": "Project Governance",
+  "description": "Quiz covering project governance, governance roles, accountability, decision-making, strategic oversight and project performance.",
+  "questions": [
+    {
+      "question": "What is the primary purpose of project governance?",
+      "options": [
+        "To provide strategic direction, oversight and accountability throughout the project",
+        "To create the Work Breakdown Structure",
+        "To develop the project schedule",
+        "To replace the project manager"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Project governance provides the framework for directing, monitoring and controlling projects while ensuring they support organizational objectives."
+    },
+    {
+      "question": "Project governance mainly focuses on:",
+      "options": [
+        "Strategic oversight and major decision-making",
+        "Completing daily project tasks",
+        "Writing technical specifications",
+        "Managing employee salaries"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Governance focuses on strategic direction, accountability and oversight rather than daily project execution."
+    },
+    {
+      "question": "Who is primarily responsible for the day-to-day management of a project?",
+      "options": [
+        "The Project Manager",
+        "The Steering Committee",
+        "The Project Sponsor",
+        "The Board of Directors"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The Project Manager is responsible for planning, executing and controlling the project's daily activities."
+    },
+    {
+      "question": "Which governance role is typically responsible for providing strategic direction and securing project funding?",
+      "options": [
+        "Project Sponsor",
+        "Project Engineer",
+        "Supplier",
+        "Customer"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The Project Sponsor provides strategic leadership, secures funding and is ultimately accountable for project success."
+    },
+    {
+      "question": "Which group commonly reviews major project decisions such as large budget increases or significant scope changes?",
+      "options": [
+        "The Steering Committee",
+        "The Project Team",
+        "The Procurement Department",
+        "The Quality Inspector"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "The Steering Committee provides oversight and reviews major strategic decisions."
+    },
+    {
+      "question": "How does project governance differ from project management?",
+      "options": [
+        "Governance provides oversight, while project management focuses on daily execution",
+        "Governance creates the project schedule, while project management creates contracts",
+        "There is no practical difference",
+        "Governance only exists after project completion"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Project management executes the project, while governance ensures it remains aligned with organizational objectives."
+    },
+    {
+      "question": "Why is clear decision-making authority important in project governance?",
+      "options": [
+        "It prevents confusion about who is responsible for making different decisions",
+        "It eliminates all project risks",
+        "It guarantees every project finishes early",
+        "It reduces the need for communication"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Clearly defined authority helps projects avoid delays caused by uncertainty and conflicting decisions."
+    },
+    {
+      "question": "Which of the following is an example of a governance responsibility?",
+      "options": [
+        "Approving a major increase in the project budget",
+        "Updating the daily task list",
+        "Assigning tomorrow's work schedule",
+        "Inspecting completed concrete work"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Strategic financial decisions are normally handled by the governance structure rather than the project manager."
+    },
+    {
+      "question": "A project manager wants to increase the project budget by 20%. What should normally happen?",
+      "options": [
+        "The request should be escalated to the appropriate governance body for approval",
+        "The project manager should approve it independently",
+        "The supplier should decide",
+        "No approval is required"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Major financial decisions usually require approval from the Project Sponsor or Steering Committee."
+    },
+    {
+      "question": "Why do organizations establish project governance structures?",
+      "options": [
+        "To ensure projects remain aligned with business strategy while maintaining accountability",
+        "To reduce the number of stakeholders",
+        "To eliminate project management",
+        "To remove all project risks"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Project governance helps organizations ensure projects deliver value while supporting strategic objectives."
+    },
+
+        {
+      "question": "A project manager discovers that a design change will increase project costs by 15%. What should normally happen next?",
+      "options": [
+        "Escalate the issue to the appropriate governance body for review and approval",
+        "Approve the additional cost without informing anyone",
+        "Ignore the cost increase until project completion",
+        "Ask the supplier to decide"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Significant cost changes are strategic decisions that normally require approval from the project's governance structure."
+    },
+    {
+      "question": "Which situation should most likely be escalated to the Steering Committee?",
+      "options": [
+        "A major scope change affecting the project's strategic objectives",
+        "A team member requesting a vacation day",
+        "A spelling mistake in a project report",
+        "A daily stand-up meeting taking five minutes longer than planned"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Strategic issues with major business impact should be reviewed by the Steering Committee."
+    },
+    {
+      "question": "Why should routine operational decisions normally remain with the Project Manager?",
+      "options": [
+        "To allow faster decision-making and avoid unnecessary escalation",
+        "Because governance bodies are not allowed to make decisions",
+        "Because project sponsors cannot attend meetings",
+        "Because operational decisions have no impact on the project"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Delegating operational decisions to the Project Manager improves efficiency while allowing governance to focus on strategic matters."
+    },
+    {
+      "question": "Which of the following best demonstrates accountability in project governance?",
+      "options": [
+        "Clearly defining who is responsible for making specific project decisions",
+        "Allowing everyone to approve major changes",
+        "Avoiding written responsibilities",
+        "Changing decision-makers every month"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Accountability requires clear ownership of responsibilities and decision-making authority."
+    },
+    {
+      "question": "A project reports that it is likely to exceed its approved budget by 10%. What is the primary purpose of escalating this information?",
+      "options": [
+        "To allow governance bodies to evaluate strategic options before the situation worsens",
+        "To remove the Project Manager",
+        "To automatically cancel the project",
+        "To avoid updating project reports"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Governance bodies provide strategic oversight and decide how significant project issues should be addressed."
+    },
+    {
+      "question": "Why do governance bodies regularly review project performance reports?",
+      "options": [
+        "To monitor whether the project continues to meet its strategic objectives",
+        "To manage employees' daily schedules",
+        "To replace the project manager",
+        "To reduce the number of stakeholders"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Performance reporting allows governance bodies to monitor project health and make informed strategic decisions."
+    },
+    {
+      "question": "Which Key Performance Indicator (KPI) would be most useful for a governance board reviewing project performance?",
+      "options": [
+        "Budget status, schedule performance and major project risks",
+        "The project team's lunch schedule",
+        "The number of emails sent each day",
+        "The color of the project documentation"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Governance focuses on high-level indicators that reflect project performance and organizational value."
+    },
+    {
+      "question": "What is the greatest risk of having unclear governance roles?",
+      "options": [
+        "Important decisions may be delayed or made by the wrong people",
+        "The project schedule automatically becomes shorter",
+        "Project costs always decrease",
+        "Stakeholders become unnecessary"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Unclear governance structures often result in confusion, duplicated effort and slow decision-making."
+    },
+    {
+      "question": "A governance board frequently becomes involved in approving small day-to-day operational decisions. What is the most likely consequence?",
+      "options": [
+        "Project progress slows because governance is micromanaging daily operations",
+        "The project automatically becomes more efficient",
+        "The Project Manager becomes unnecessary",
+        "Project risks disappear"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Governance should focus on strategic oversight rather than routine operational management."
+    },
+    {
+      "question": "Which statement best describes effective project governance?",
+      "options": [
+        "It provides strategic oversight while allowing the Project Manager sufficient authority to manage daily work",
+        "It requires senior management to approve every task",
+        "It replaces project management completely",
+        "It focuses only on project finances"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Successful governance balances executive oversight with operational autonomy, allowing the Project Manager to efficiently lead the project."
+    },
+
+        {
+      "question": "A project has experienced several months of delays because no one is certain who has authority to approve major changes. Which governance weakness is most likely responsible?",
+      "options": [
+        "Unclear decision-making authority",
+        "Too many project milestones",
+        "A detailed Work Breakdown Structure",
+        "Frequent team meetings"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "An effective governance structure clearly defines who has authority to make different types of project decisions."
+    },
+    {
+      "question": "A project sponsor wants to approve every small operational decision made by the project team. What is the most likely consequence?",
+      "options": [
+        "Project progress slows because decision-making becomes centralized unnecessarily",
+        "The project automatically becomes more successful",
+        "The need for a Project Manager disappears",
+        "Project risks are eliminated"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Governance should provide oversight, not micromanage daily project activities."
+    },
+    {
+      "question": "Which project issue is most appropriate for escalation to the governance board?",
+      "options": [
+        "A significant legal risk that could affect the organization's reputation",
+        "A minor formatting error in a weekly report",
+        "A team member requesting new office equipment",
+        "The location of the next project meeting"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Strategic risks with significant organizational impact should be escalated to the governance body."
+    },
+    {
+      "question": "Why is accountability considered a fundamental principle of project governance?",
+      "options": [
+        "Because every important decision should have a clearly responsible owner",
+        "Because accountability eliminates all project risks",
+        "Because it allows every stakeholder to make decisions",
+        "Because it replaces project planning"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Clear accountability ensures that responsibilities are understood and that decisions can be made efficiently."
+    },
+    {
+      "question": "A governance board receives reports showing increasing schedule delays, rising costs and growing project risks. What should the board do?",
+      "options": [
+        "Evaluate strategic options and provide direction to keep the project aligned with organizational objectives",
+        "Ignore the reports until project completion",
+        "Replace the entire project team immediately",
+        "Stop all project activities without further analysis"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Governance exists to review significant project issues and make strategic decisions that support project success."
+    },
+    {
+      "question": "A Project Manager decides to approve a major scope increase without consulting the Project Sponsor, even though governance procedures require sponsor approval. What governance principle has been violated?",
+      "options": [
+        "Decision-making authority",
+        "Quality management",
+        "Procurement planning",
+        "Resource leveling"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Governance structures define which decisions can be made by the Project Manager and which require higher-level approval."
+    },
+    {
+      "question": "Which statement best describes the relationship between project governance and organizational strategy?",
+      "options": [
+        "Project governance ensures that project decisions continue to support the organization's long-term objectives",
+        "Project governance focuses only on technical project details",
+        "Project governance exists independently of business strategy",
+        "Project governance only becomes important after project completion"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Governance helps ensure that projects continue delivering strategic value throughout their lifecycle."
+    },
+    {
+      "question": "An organization rarely reviews project performance after approval. What is the greatest governance risk?",
+      "options": [
+        "Serious problems may remain unnoticed until they become difficult and expensive to correct",
+        "Projects will automatically finish ahead of schedule",
+        "Project Managers gain too much technical knowledge",
+        "Stakeholder communication becomes unnecessary"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Regular governance reviews help identify issues early, allowing corrective actions before problems escalate."
+    },
+    {
+      "question": "Which governance approach is most likely to contribute to successful project delivery?",
+      "options": [
+        "Clear roles, defined decision authority, regular performance reviews and appropriate escalation of major issues",
+        "Approving every operational decision at executive level",
+        "Allowing anyone to authorize budget changes",
+        "Avoiding governance meetings to reduce administration"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Successful governance combines accountability, structured oversight and efficient decision-making."
+    },
+    {
+      "question": "What is the ultimate objective of project governance?",
+      "options": [
+        "To ensure projects deliver value by providing strategic oversight, accountability and informed decision-making while allowing effective day-to-day project management",
+        "To replace the Project Manager in all decisions",
+        "To approve every project activity personally",
+        "To eliminate the need for stakeholders"
+      ],
+      "answer": 0,
+      "difficulty": "Expert",
+      "explanation": "Project governance exists to maximize project success through strategic oversight, accountability and alignment with organizational objectives—not by managing daily operations."
+    }
+  ]
+}
