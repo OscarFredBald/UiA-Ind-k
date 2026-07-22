@@ -1,0 +1,716 @@
+{
+  "title": "Practical Negotiation Simulation",
+  "description": "Learn how to prepare for and conduct practical negotiations in engineering and commercial projects. The reading covers negotiation planning, interests, positions, alternatives, bargaining, communication, concessions, deadlocks, ethics and settlement documentation.",
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": [
+        "Negotiation is a structured process used to reach agreement between parties with different interests.",
+        "Engineering and commercial projects require negotiation throughout procurement, contracting and project execution.",
+        "Common negotiation topics include price, scope, schedule, risk, payment terms, variations and claims.",
+        "Effective negotiation combines preparation, communication, commercial judgment and relationship management.",
+        "A practical simulation allows participants to apply negotiation principles in a realistic project situation."
+      ]
+    },
+    {
+      "title": "Why Negotiation Matters",
+      "content": [
+        "Contracts cannot predict every event that may occur during a project.",
+        "Parties therefore need to negotiate when circumstances change or disagreements arise.",
+        "Good negotiation can reduce cost, prevent disputes and preserve commercial relationships.",
+        "Poor negotiation may create unrealistic commitments, unresolved risks or unnecessary conflict."
+      ]
+    },
+    {
+      "title": "Common Negotiation Situations",
+      "content": [
+        "Negotiations may take place before contract award or during project execution.",
+        "Pre-award negotiations often concern price, technical requirements, liability and payment conditions.",
+        "Post-award negotiations may involve variations, delays, defects, claims and settlement.",
+        "The negotiation approach should reflect the project phase and contractual context."
+      ]
+    },
+    {
+      "title": "The Negotiation Process",
+      "content": [
+        "A typical negotiation includes preparation, opening, exploration, bargaining, agreement and follow-up.",
+        "The stages may overlap, but each serves a different purpose.",
+        "Preparation defines objectives and limits.",
+        "Exploration identifies interests and possible solutions.",
+        "Bargaining develops an acceptable exchange.",
+        "Follow-up ensures that the agreement is properly implemented."
+      ]
+    },
+    {
+      "title": "Negotiation Preparation",
+      "content": [
+        "Preparation is usually the most important part of negotiation.",
+        "The team should understand the facts, contract, commercial position and technical issues.",
+        "Objectives, priorities and acceptable outcomes should be defined before the meeting.",
+        "The other party's likely objectives and constraints should also be considered."
+      ]
+    },
+    {
+      "title": "Define the Issue",
+      "content": [
+        "The negotiation team must clearly identify what is being negotiated.",
+        "Several disagreements may appear connected but require separate analysis.",
+        "For example, entitlement to additional payment is different from the amount of that payment.",
+        "Clear issue definition prevents the discussion from becoming unfocused."
+      ]
+    },
+    {
+      "title": "Establish Objectives",
+      "content": [
+        "Negotiators should distinguish between ideal, target and minimum acceptable outcomes.",
+        "The ideal outcome is the most favorable realistic result.",
+        "The target is the result the team intends to achieve.",
+        "The minimum position is the least favorable result that can still be accepted."
+      ]
+    },
+    {
+      "title": "Positions and Interests",
+      "content": [
+        "A position is what a party says it wants.",
+        "An interest is the underlying reason why it wants it.",
+        "A contractor may demand additional time because avoiding delay damages is more important than receiving extra payment.",
+        "Understanding interests creates more possibilities for agreement than arguing only about positions."
+      ]
+    },
+    {
+      "title": "Example of Positions and Interests",
+      "content": [
+        "The client says that the project must be completed by the original date.",
+        "The contractor says that completion must be extended by six weeks.",
+        "The client's underlying interest may be opening one part of the facility on time.",
+        "The contractor's interest may be avoiding an unrealistic obligation and delay liability.",
+        "A phased handover could potentially satisfy both interests."
+      ]
+    },
+    {
+      "title": "Priorities",
+      "content": [
+        "Not every negotiation issue has equal importance.",
+        "The team should rank issues as critical, important or flexible.",
+        "Low-priority issues may be exchanged for concessions on high-priority issues.",
+        "Prioritization helps the negotiator avoid sacrificing valuable terms for minor benefits."
+      ]
+    },
+    {
+      "title": "BATNA",
+      "content": [
+        "BATNA means Best Alternative to a Negotiated Agreement.",
+        "It is the best realistic action available if no agreement is reached.",
+        "A strong BATNA increases negotiating confidence and leverage.",
+        "A weak BATNA makes settlement more important.",
+        "The BATNA should be evaluated before negotiations begin."
+      ]
+    },
+    {
+      "title": "Examples of BATNA",
+      "content": [
+        "A client negotiating with a supplier may have another qualified bidder available.",
+        "A contractor negotiating a claim may have the option of arbitration.",
+        "A supplier may have another customer for the equipment.",
+        "The cost, time and risk of each alternative must be assessed realistically."
+      ]
+    },
+    {
+      "title": "Reservation Point",
+      "content": [
+        "The reservation point is the least favorable agreement a party is willing to accept.",
+        "Beyond this point, the party prefers its BATNA.",
+        "Negotiators should know their reservation point but normally keep it confidential.",
+        "Accepting a result below the reservation point may leave the party worse off than no agreement."
+      ]
+    },
+    {
+      "title": "ZOPA",
+      "content": [
+        "ZOPA means Zone of Possible Agreement.",
+        "It is the range in which both parties can accept a settlement.",
+        "A positive ZOPA exists when the parties' acceptable ranges overlap.",
+        "If no overlap exists, the parties may need to change the structure of the deal or improve their alternatives."
+      ]
+    },
+    {
+      "title": "Negotiation Authority",
+      "content": [
+        "The negotiation team must understand its authority.",
+        "Some participants may discuss terms but cannot approve a final agreement.",
+        "Authority may be limited by value, risk or subject matter.",
+        "Unclear authority can cause delays or create unauthorized commitments."
+      ]
+    },
+    {
+      "title": "The Negotiation Team",
+      "content": [
+        "Complex negotiations often require several specialists.",
+        "The team may include a lead negotiator, technical expert, commercial representative and legal adviser.",
+        "Each person should have a defined role.",
+        "The team should agree on communication signals and decision procedures before the meeting."
+      ]
+    },
+    {
+      "title": "Lead Negotiator",
+      "content": [
+        "The lead negotiator manages the discussion and communicates the team's position.",
+        "Other team members should normally avoid contradicting the lead during the meeting.",
+        "Internal disagreements should be discussed during a break rather than in front of the other party."
+      ]
+    },
+    {
+      "title": "Fact Preparation",
+      "content": [
+        "Negotiation positions should be supported by reliable facts.",
+        "Relevant information may include contracts, schedules, calculations, market prices and technical reports.",
+        "Unsupported statements are easier for the other party to challenge.",
+        "Facts should be verified before the negotiation."
+      ]
+    },
+    {
+      "title": "Contract Review",
+      "content": [
+        "The contract defines the parties' legal and commercial starting positions.",
+        "Negotiators should identify relevant clauses, notice requirements and remedies.",
+        "A strong contractual position may influence the negotiation but does not automatically guarantee a practical solution.",
+        "Commercial settlements may differ from strict legal entitlement."
+      ]
+    },
+    {
+      "title": "Stakeholder Analysis",
+      "content": [
+        "Negotiators should identify the stakeholders affected by the outcome.",
+        "Senior management, operations, finance, suppliers and project teams may have different priorities.",
+        "An agreement that satisfies the negotiating representatives may still fail if key stakeholders do not support it."
+      ]
+    },
+    {
+      "title": "Understanding the Other Party",
+      "content": [
+        "Effective negotiators prepare for the other party's likely position.",
+        "They consider commercial pressure, deadlines, authority and internal constraints.",
+        "Understanding does not require agreement.",
+        "It helps identify proposals that the other party may realistically accept."
+      ]
+    },
+    {
+      "title": "Opening the Negotiation",
+      "content": [
+        "The opening stage establishes the tone and structure of the meeting.",
+        "Participants should confirm the purpose, agenda and authority of attendees.",
+        "A professional opening can reduce tension and improve cooperation.",
+        "The parties should agree on which issues will be discussed."
+      ]
+    },
+    {
+      "title": "Opening Positions",
+      "content": [
+        "An opening position communicates the party's initial proposal.",
+        "It should be ambitious but credible.",
+        "An extreme or unsupported opening may damage trust.",
+        "The opening should leave room for movement without creating unrealistic expectations."
+      ]
+    },
+    {
+      "title": "Anchoring",
+      "content": [
+        "The first credible proposal may influence the direction of the negotiation.",
+        "This effect is known as anchoring.",
+        "Anchors may concern price, schedule, liability or another measurable term.",
+        "Negotiators should support anchors with objective reasoning rather than arbitrary numbers."
+      ]
+    },
+    {
+      "title": "Information Exchange",
+      "content": [
+        "The exploration stage focuses on understanding facts, interests and constraints.",
+        "Negotiators should ask open and targeted questions.",
+        "Information should be shared strategically.",
+        "Too little information prevents problem-solving, while too much disclosure may weaken leverage."
+      ]
+    },
+    {
+      "title": "Active Listening",
+      "content": [
+        "Active listening involves concentrating on both words and underlying meaning.",
+        "The negotiator may summarize or rephrase the other party's statements.",
+        "This confirms understanding and can reveal hidden interests.",
+        "Interrupting or preparing a response while the other party speaks reduces negotiation quality."
+      ]
+    },
+    {
+      "title": "Effective Questions",
+      "content": [
+        "Open questions encourage detailed explanations.",
+        "Closed questions confirm specific facts.",
+        "Probing questions explore assumptions and consequences.",
+        "Questions should be used to gather information rather than to provoke unnecessary defensiveness."
+      ]
+    },
+    {
+      "title": "Clarifying Assumptions",
+      "content": [
+        "Negotiations often fail because parties rely on different assumptions.",
+        "One party may assume that a proposed price includes installation while the other does not.",
+        "Assumptions should be made explicit and verified.",
+        "Clarification reduces the risk of later disagreement."
+      ]
+    },
+    {
+      "title": "Communication Style",
+      "content": [
+        "Negotiation communication should be clear, controlled and professional.",
+        "Aggressive language may produce short-term pressure but harm cooperation.",
+        "Passive communication may result in unnecessary concessions.",
+        "Assertive communication protects interests while respecting the other party."
+      ]
+    },
+    {
+      "title": "Body Language and Tone",
+      "content": [
+        "Tone, posture and facial expressions can influence negotiation dynamics.",
+        "Non-verbal signals may communicate confidence, uncertainty or frustration.",
+        "These signals should be interpreted cautiously because cultural and individual differences exist."
+      ]
+    },
+    {
+      "title": "Bargaining",
+      "content": [
+        "Bargaining is the stage where proposals and counterproposals are exchanged.",
+        "The objective is to move toward an outcome acceptable to both parties.",
+        "Good bargaining considers the total package rather than discussing every issue separately."
+      ]
+    },
+    {
+      "title": "Distributive Negotiation",
+      "content": [
+        "Distributive negotiation treats value as fixed.",
+        "A simple price negotiation is often distributive because one party's gain is the other's cost.",
+        "The parties compete over how the existing value will be divided.",
+        "This approach may be necessary for some issues but can limit creative solutions."
+      ]
+    },
+    {
+      "title": "Integrative Negotiation",
+      "content": [
+        "Integrative negotiation looks for ways to create additional value.",
+        "The parties identify differences in priorities and exchange concessions accordingly.",
+        "For example, one party may value faster payment while the other values a lower total price.",
+        "A revised payment schedule may benefit both parties."
+      ]
+    },
+    {
+      "title": "Creating Value",
+      "content": [
+        "Value can be created by expanding the range of issues under discussion.",
+        "Price, schedule, warranty, payment, risk and future work may be negotiated together.",
+        "Differences in cost or importance allow parties to make mutually beneficial exchanges."
+      ]
+    },
+    {
+      "title": "Claiming Value",
+      "content": [
+        "Creating value does not remove the need to protect one's own interests.",
+        "Negotiators must also decide how the available value will be divided.",
+        "A balanced approach combines cooperative problem-solving with disciplined commercial judgment."
+      ]
+    },
+    {
+      "title": "Concessions",
+      "content": [
+        "A concession is movement from a previous position.",
+        "Concessions should normally be conditional rather than unilateral.",
+        "For example: 'We can accept the revised delivery date if the warranty is extended.'",
+        "Conditional concessions create exchange and protect value."
+      ]
+    },
+    {
+      "title": "Concession Planning",
+      "content": [
+        "The negotiation team should plan possible concessions before the meeting.",
+        "Each concession should have an estimated value and required return.",
+        "Unplanned concessions may be given away too easily.",
+        "The sequence and size of concessions may signal how much room remains."
+      ]
+    },
+    {
+      "title": "Do Not Concede Against Yourself",
+      "content": [
+        "A negotiator should avoid improving an offer before the other party responds.",
+        "Repeatedly lowering a price without receiving a counteroffer weakens the position.",
+        "Silence does not necessarily mean rejection.",
+        "The other party should be given an opportunity to respond."
+      ]
+    },
+    {
+      "title": "Package Proposals",
+      "content": [
+        "A package proposal combines several terms into one offer.",
+        "This allows the parties to trade across issues.",
+        "For example, a contractor may accept a lower claim amount in exchange for additional time and faster payment.",
+        "Packages are often more effective than negotiating one item at a time."
+      ]
+    },
+    {
+      "title": "Multiple Equivalent Offers",
+      "content": [
+        "A negotiator may present several packages that have approximately equal value.",
+        "The other party's preference reveals which issues matter most.",
+        "This information can help both sides develop an efficient agreement."
+      ]
+    },
+    {
+      "title": "Objective Criteria",
+      "content": [
+        "Objective criteria make negotiation proposals more credible.",
+        "Examples include market prices, industry standards, expert assessments and contractual rates.",
+        "Objective references reduce the appearance that a proposal is arbitrary."
+      ]
+    },
+    {
+      "title": "Managing Pressure",
+      "content": [
+        "Negotiations may involve deadlines, threats or demands for immediate decisions.",
+        "The team should avoid accepting unfavorable terms simply because of pressure.",
+        "A break may be used to review new information.",
+        "Urgency should be distinguished from manipulation."
+      ]
+    },
+    {
+      "title": "Silence",
+      "content": [
+        "Silence can be an effective negotiation tool.",
+        "It allows time to think and may encourage the other party to provide more information.",
+        "Negotiators should not feel forced to fill every pause with additional concessions."
+      ]
+    },
+    {
+      "title": "Taking a Break",
+      "content": [
+        "A break allows the negotiation team to review proposals and resolve internal disagreements.",
+        "Breaks are particularly useful when new terms are introduced.",
+        "Important decisions should not be made without sufficient analysis."
+      ]
+    },
+    {
+      "title": "Emotions",
+      "content": [
+        "Negotiations may involve frustration, pressure and personal disagreement.",
+        "Emotions should be recognized without allowing them to control decisions.",
+        "The team should separate the people from the problem.",
+        "Personal attacks rarely improve a commercial outcome."
+      ]
+    },
+    {
+      "title": "Deadlock",
+      "content": [
+        "A deadlock occurs when the parties cannot progress toward agreement.",
+        "Deadlock may result from unrealistic expectations, limited authority or focus on a single issue.",
+        "The negotiators should diagnose the cause before deciding how to proceed."
+      ]
+    },
+    {
+      "title": "Breaking a Deadlock",
+      "content": [
+        "Possible responses include taking a break, changing the issue or introducing a package proposal.",
+        "The parties may refer to objective criteria or involve more senior representatives.",
+        "Independent mediation may help where direct negotiation has failed."
+      ]
+    },
+    {
+      "title": "Escalation",
+      "content": [
+        "Some negotiations require escalation to higher management.",
+        "Escalation may provide additional authority or a broader commercial perspective.",
+        "It should not be used merely as a threat.",
+        "The matter should be presented accurately and professionally."
+      ]
+    },
+    {
+      "title": "Walking Away",
+      "content": [
+        "A party should be prepared to end negotiations when the proposed agreement is worse than its BATNA.",
+        "Walking away should be a deliberate commercial decision rather than an emotional reaction.",
+        "The consequences should be assessed before taking this step."
+      ]
+    },
+    {
+      "title": "Ethical Negotiation",
+      "content": [
+        "Negotiators should act honestly and within their authority.",
+        "They should not knowingly provide false information or make commitments they cannot honor.",
+        "Ethical conduct protects reputation and long-term commercial relationships."
+      ]
+    },
+    {
+      "title": "Confidentiality",
+      "content": [
+        "Negotiations may involve sensitive technical, financial or strategic information.",
+        "Confidential information should only be used and shared as permitted.",
+        "Unauthorized disclosure may breach the contract or damage trust."
+      ]
+    },
+    {
+      "title": "Cultural Awareness",
+      "content": [
+        "Negotiation styles differ across cultures and organizations.",
+        "Differences may involve hierarchy, communication, time and decision-making.",
+        "Cultural awareness helps prevent misinterpretation.",
+        "Stereotypes should be avoided because individuals do not always follow cultural patterns."
+      ]
+    },
+    {
+      "title": "Remote Negotiation",
+      "content": [
+        "Video and telephone negotiations require additional structure.",
+        "Participants should confirm identities, roles and decision authority.",
+        "Documents should be shared clearly and version-controlled.",
+        "Frequent summaries help prevent misunderstanding."
+      ]
+    },
+    {
+      "title": "Reaching Agreement",
+      "content": [
+        "Before closing, the parties should confirm all important terms.",
+        "Agreement on one issue should not be confused with agreement on the entire package.",
+        "Outstanding conditions and approvals should be clearly identified."
+      ]
+    },
+    {
+      "title": "Summarizing the Agreement",
+      "content": [
+        "The negotiator should summarize the agreed scope, price, schedule and risk allocation.",
+        "Both parties should confirm that they have the same understanding.",
+        "Ambiguous expressions should be replaced with precise language."
+      ]
+    },
+    {
+      "title": "Written Documentation",
+      "content": [
+        "Important agreements should be documented in writing.",
+        "The document may be a variation order, contract amendment or settlement agreement.",
+        "It should be signed or approved by authorized representatives."
+      ]
+    },
+    {
+      "title": "Without Prejudice Discussions",
+      "content": [
+        "Some legal systems allow settlement discussions to be conducted on a protected basis.",
+        "The objective is to encourage open negotiation without every proposal being used later as evidence.",
+        "The precise legal effect depends on applicable law.",
+        "Project teams should obtain legal advice when necessary."
+      ]
+    },
+    {
+      "title": "Follow-Up",
+      "content": [
+        "An agreement has limited value if it is not implemented.",
+        "Relevant project documents, schedules and budgets should be updated.",
+        "Responsibilities and deadlines should be assigned.",
+        "The team should monitor compliance with the agreement."
+      ]
+    },
+    {
+      "title": "Preparing for the Simulation",
+      "content": [
+        "Participants should read the simulation brief carefully.",
+        "Each team may receive confidential information that should not be shared automatically.",
+        "The team should identify objectives, interests, BATNA and reservation points.",
+        "Roles and negotiation authority should be assigned."
+      ]
+    },
+    {
+      "title": "Simulation Roles",
+      "content": [
+        "One team may represent the client and another the contractor or supplier.",
+        "Each participant should act according to the assigned role.",
+        "The goal is not simply to defeat the other team.",
+        "The goal is to achieve the best realistic outcome while managing the relationship."
+      ]
+    },
+    {
+      "title": "Simulation Scenario",
+      "content": [
+        "A supplier is manufacturing specialized equipment for an engineering project.",
+        "The client requests a design change after manufacturing has started.",
+        "The change will increase cost and may delay delivery.",
+        "The parties must negotiate price, schedule, risk allocation, payment and warranty consequences."
+      ]
+    },
+    {
+      "title": "Possible Client Interests",
+      "content": [
+        "The client may need the revised equipment to satisfy operational requirements.",
+        "It may have a fixed project completion date and limited budget.",
+        "The client may prioritize certainty, faster delivery and strong performance guarantees."
+      ]
+    },
+    {
+      "title": "Possible Supplier Interests",
+      "content": [
+        "The supplier may need compensation for redesign, materials and disruption.",
+        "It may seek additional time and protection from delay damages.",
+        "The supplier may prioritize cash flow, realistic obligations and future business."
+      ]
+    },
+    {
+      "title": "Issues for Negotiation",
+      "content": [
+        "The parties may negotiate the variation price, delivery extension and payment schedule.",
+        "They may also address acceleration, warranty, performance testing and liability.",
+        "Several possible agreement packages may exist."
+      ]
+    },
+    {
+      "title": "Simulation Preparation Questions",
+      "content": [
+        "What is the team's ideal outcome?",
+        "What is the target outcome?",
+        "What is the reservation point?",
+        "What is the BATNA?",
+        "Which issues are most important?",
+        "What concessions can be offered?",
+        "What information should remain confidential?",
+        "What authority does the team have?"
+      ]
+    },
+    {
+      "title": "Simulation Conduct",
+      "content": [
+        "Begin by confirming the agenda and participants.",
+        "Exchange opening positions and explore underlying interests.",
+        "Develop package proposals and make conditional concessions.",
+        "Take breaks when analysis is required.",
+        "Summarize any agreement before ending the meeting."
+      ]
+    },
+    {
+      "title": "Simulation Observation",
+      "content": [
+        "Observers should focus on process as well as outcome.",
+        "They may evaluate preparation, listening, questions, teamwork and concession strategy.",
+        "They should also note whether the final agreement is clear and implementable."
+      ]
+    },
+    {
+      "title": "Simulation Debrief",
+      "content": [
+        "After the simulation, participants should compare objectives with actual outcomes.",
+        "They should discuss which strategies were effective and which created difficulties.",
+        "The debrief should examine whether value was created or unnecessarily lost.",
+        "Participants should identify lessons for future negotiations."
+      ]
+    },
+    {
+      "title": "Practical Scenario: Variation Negotiation",
+      "content": [
+        "The client requests additional equipment but rejects the contractor's initial price.",
+        "The contractor should support its valuation with cost records and contractual rates.",
+        "The parties may negotiate price together with payment timing and schedule relief."
+      ]
+    },
+    {
+      "title": "Practical Scenario: Delay Settlement",
+      "content": [
+        "Both parties have contributed to project delay.",
+        "Instead of pursuing expensive dispute proceedings, they negotiate a revised completion date and reduced financial claim.",
+        "The settlement should clearly identify which delay claims are released."
+      ]
+    },
+    {
+      "title": "Practical Scenario: Defective Equipment",
+      "content": [
+        "Equipment fails to meet part of the performance specification.",
+        "Replacement would cause major delay.",
+        "The parties may negotiate repair, reduced price, extended warranty or performance compensation."
+      ]
+    },
+    {
+      "title": "Practical Scenario: Supplier Financial Pressure",
+      "content": [
+        "A supplier requests earlier payment because of cash-flow problems.",
+        "The client may consider earlier payment in exchange for security, a discount or improved delivery commitments.",
+        "The parties should assess whether the proposal creates or reduces project risk."
+      ]
+    },
+    {
+      "title": "Common Negotiation Mistakes",
+      "content": [
+        "Entering the meeting without clear objectives.",
+        "Focusing only on positions instead of interests.",
+        "Making concessions without receiving anything in return.",
+        "Revealing the reservation point unnecessarily.",
+        "Ignoring contractual and technical facts.",
+        "Allowing emotions to control decisions.",
+        "Accepting unclear verbal agreements.",
+        "Failing to consider implementation."
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "content": [
+        "Prepare objectives, priorities and alternatives.",
+        "Understand the other party's likely interests.",
+        "Use objective facts and criteria.",
+        "Ask questions and listen actively.",
+        "Negotiate several issues as a package.",
+        "Make conditional concessions.",
+        "Take breaks before important decisions.",
+        "Document agreements precisely.",
+        "Protect long-term relationships without sacrificing essential interests."
+      ]
+    },
+    {
+      "title": "Role of the Project Manager",
+      "content": [
+        "The project manager often participates in technical and commercial negotiations.",
+        "The manager should understand the contract, project priorities and decision authority.",
+        "The project manager also coordinates internal stakeholders and ensures that agreements are implemented."
+      ]
+    },
+    {
+      "title": "Role of the Contract Manager",
+      "content": [
+        "The contract manager provides guidance on rights, obligations and contractual procedures.",
+        "This role helps ensure that proposed agreements are consistent with the contract and properly documented.",
+        "The contract manager may also support claim and settlement negotiations."
+      ]
+    },
+    {
+      "title": "Measuring Negotiation Success",
+      "content": [
+        "Success should not be measured only by the amount of money gained.",
+        "A successful agreement should be commercially acceptable, clear and practical to implement.",
+        "It should also address major risks and support project objectives.",
+        "Preserving a productive relationship may provide additional long-term value."
+      ]
+    },
+    {
+      "title": "Summary",
+      "content": [
+        "Effective negotiation begins with thorough preparation.",
+        "Negotiators should understand objectives, interests, alternatives and authority.",
+        "Value can be created by trading across issues with different priorities.",
+        "Concessions should be planned, conditional and exchanged.",
+        "Agreements should be precise, authorized and documented.",
+        "Practical simulations develop judgment, communication and commercial decision-making."
+      ]
+    },
+    {
+      "title": "Key Takeaways",
+      "content": [
+        "Prepare before every important negotiation.",
+        "Separate positions from underlying interests.",
+        "Know your BATNA and reservation point.",
+        "Identify the possible zone of agreement.",
+        "Use objective evidence to support proposals.",
+        "Listen actively and ask effective questions.",
+        "Negotiate complete packages rather than isolated issues.",
+        "Never make unnecessary unilateral concessions.",
+        "Manage deadlock without reacting emotionally.",
+        "Document and implement every final agreement."
+      ]
+    }
+  ]
+}
