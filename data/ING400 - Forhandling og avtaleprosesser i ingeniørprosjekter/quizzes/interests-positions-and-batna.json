@@ -1,0 +1,368 @@
+{
+  "title": "Interests, Positions and BATNA",
+  "description": "Test your understanding of positions, interests, BATNA, reservation points and interest-based negotiation in engineering projects.",
+  "questions": [
+    {
+      "question": "What is a position in a negotiation?",
+      "options": [
+        "The underlying reason why an issue matters",
+        "The outcome or demand a party states during the negotiation",
+        "The best alternative if negotiations fail",
+        "The final signed agreement"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "A position is what a party says it wants, such as a price, delivery date or contract term."
+    },
+    {
+      "question": "What is an interest in a negotiation?",
+      "options": [
+        "The first proposal made during the negotiation",
+        "The underlying need, motivation or concern behind a position",
+        "A legal obligation in the contract",
+        "A reservation point"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Interests explain why a party wants a particular outcome."
+    },
+    {
+      "question": "Why is it useful to identify interests instead of focusing only on positions?",
+      "options": [
+        "Because positions are always dishonest.",
+        "Because several different solutions may satisfy the same underlying interest.",
+        "Because contracts only describe interests.",
+        "Because interests eliminate disagreements."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Understanding interests creates opportunities to develop alternative solutions that satisfy both parties."
+    },
+    {
+      "question": "Which of the following is most likely to be an underlying interest rather than a position?",
+      "options": [
+        "The supplier demands payment within 14 days.",
+        "The contractor wants to avoid cash-flow problems.",
+        "The buyer requires a five-year warranty.",
+        "The project manager requests a delivery date of 1 October."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Avoiding cash-flow problems explains why the supplier may request early payment."
+    },
+    {
+      "question": "A contractor requests a four-week extension because specialized engineers are unavailable. What is the contractor's stated position?",
+      "options": [
+        "Keeping the project profitable.",
+        "Obtaining a four-week extension.",
+        "Avoiding liquidated damages.",
+        "Maintaining a good relationship."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The position is the specific demand, while the reasons behind it are the contractor's interests."
+    },
+    {
+      "question": "Which question is MOST effective for discovering another party's interests?",
+      "options": [
+        "Will you lower your price by 10%?",
+        "Why is this requirement important for your organization?",
+        "Is this your final offer?",
+        "Who approved your proposal?"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Open questions help uncover the motivations behind stated demands."
+    },
+    {
+      "question": "Which of the following is an example of a shared interest in an engineering project?",
+      "options": [
+        "Each party wants the other to accept full responsibility.",
+        "Both parties want the project completed safely and on time.",
+        "Both parties want to maximize their own profit regardless of project success.",
+        "Both parties want the other side to make the first concession."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Many engineering negotiations include shared interests such as safety, quality and successful project completion."
+    },
+    {
+      "question": "Why can negotiators become trapped in positional bargaining?",
+      "options": [
+        "Because changing a public position may appear to be a sign of weakness.",
+        "Because interests cannot change.",
+        "Because BATNA prevents flexibility.",
+        "Because engineering projects always require fixed solutions."
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Negotiators often defend publicly stated positions instead of exploring better alternatives."
+    },
+    {
+      "question": "Which statement best describes the relationship between positions and interests?",
+      "options": [
+        "Each position has only one possible underlying interest.",
+        "Several positions may satisfy the same underlying interest.",
+        "Positions are always more important than interests.",
+        "Interests only exist in legal negotiations."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Understanding interests allows negotiators to create multiple possible solutions."
+    },
+    {
+      "question": "A supplier insists on early payment. After discussion, you discover the real concern is maintaining positive cash flow during production. Which negotiation principle is illustrated?",
+      "options": [
+        "The supplier changed its BATNA.",
+        "Understanding interests provides opportunities to develop alternative solutions.",
+        "Early payment is always required in engineering contracts.",
+        "The supplier has revealed its reservation point."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Once the underlying interest is known, other payment structures may satisfy both parties."
+    },
+
+        {
+      "question": "What does BATNA stand for?",
+      "options": [
+        "Best Agreement Through Negotiated Authority",
+        "Best Alternative to a Negotiated Agreement",
+        "Basic Approach to Negotiation and Arbitration",
+        "Binding Alternative to a Negotiated Arrangement"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "BATNA means Best Alternative to a Negotiated Agreement. It describes the best realistic course of action available if no agreement is reached."
+    },
+    {
+      "question": "What is the main purpose of identifying your BATNA before a negotiation?",
+      "options": [
+        "To ensure that the other party accepts your first offer",
+        "To determine whether a proposed agreement is better than your available alternative",
+        "To avoid preparing a reservation point",
+        "To create an aggressive threat"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "A BATNA provides a reference point for deciding whether accepting an agreement is better than walking away."
+    },
+    {
+      "question": "A project team is negotiating with a preferred equipment supplier. If no agreement is reached, the team can purchase technically compliant equipment from another supplier at a higher price and with a three-week delay. What is this alternative?",
+      "options": [
+        "The team's opening position",
+        "The team's BATNA",
+        "The supplier's reservation point",
+        "The bargaining range"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The alternative supplier represents the best available course of action if the preferred negotiation fails."
+    },
+    {
+      "question": "Which action is most likely to strengthen a buyer's BATNA before a procurement negotiation?",
+      "options": [
+        "Stopping communication with all alternative suppliers",
+        "Qualifying additional suppliers and confirming their capacity",
+        "Revealing the maximum acceptable price",
+        "Accepting the first technically compliant offer"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Qualifying credible alternatives reduces dependency on one supplier and strengthens the buyer's ability to walk away."
+    },
+    {
+      "question": "Why is an unrealistic alternative not a valid BATNA?",
+      "options": [
+        "Because BATNA must always be cheaper than the proposed agreement",
+        "Because a BATNA must be feasible within the relevant technical, commercial and schedule constraints",
+        "Because only signed contracts can be BATNAs",
+        "Because BATNA applies only to legal disputes"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "A BATNA must be realistic and implementable. A theoretical option with no capacity, approval or practical feasibility cannot guide a sound decision."
+    },
+    {
+      "question": "What is the main difference between BATNA and a reservation point?",
+      "options": [
+        "BATNA is the first offer, while the reservation point is the final offer.",
+        "BATNA is the best alternative outside the negotiation, while the reservation point is the least favourable negotiated outcome a party will accept.",
+        "BATNA applies to buyers, while reservation points apply to suppliers.",
+        "There is no practical difference."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "The BATNA describes what happens without agreement. The reservation point defines the limit beyond which the negotiated agreement is worse than that alternative."
+    },
+    {
+      "question": "A buyer can obtain equipment from an alternative supplier for EUR 600,000, but switching would cause EUR 40,000 in redesign costs and a significant delay. How should the buyer assess this BATNA?",
+      "options": [
+        "Use only the EUR 600,000 purchase price",
+        "Ignore the alternative because it is more expensive",
+        "Evaluate the total project impact, including redesign, delay, quality and risk",
+        "Treat the BATNA as equal to the preferred supplier's opening offer"
+      ],
+      "answer": 2,
+      "difficulty": "Analysis",
+      "explanation": "Engineering BATNAs must be assessed using total project impact rather than price alone."
+    },
+    {
+      "question": "How does a strong BATNA normally affect bargaining power?",
+      "options": [
+        "It reduces bargaining power because the party appears less committed.",
+        "It increases bargaining power because the party is less dependent on reaching the agreement.",
+        "It has no effect unless disclosed.",
+        "It guarantees that the other party will make concessions."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "A credible alternative allows a negotiator to reject an unfavourable agreement and therefore reduces dependency."
+    },
+    {
+      "question": "Why should a negotiator estimate the other party's BATNA?",
+      "options": [
+        "To determine how dependent and flexible the other party may be",
+        "To obtain the other party's confidential reservation point",
+        "To eliminate the need for objective criteria",
+        "To ensure that both parties have identical alternatives"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Understanding the other party's likely alternatives helps assess relative bargaining power and likely flexibility."
+    },
+    {
+      "question": "A contractor has submitted a claim for EUR 1 million and says arbitration is its BATNA. Success is uncertain, legal costs are high and the process may take two years. What is the most accurate assessment?",
+      "options": [
+        "The contractor's BATNA is automatically worth EUR 1 million.",
+        "Arbitration is not an alternative because it is a legal process.",
+        "The BATNA should be risk-adjusted for probability of success, cost, delay and management effort.",
+        "The client must accept any settlement below EUR 1 million."
+      ],
+      "answer": 2,
+      "difficulty": "Expert",
+      "explanation": "An uncertain legal claim cannot be valued at its full face value. A realistic BATNA assessment must account for probability, expense, time and implementation consequences."
+    }
+
+        {
+      "question": "A buyer has a strong BATNA but chooses not to mention it during the negotiation. Why can this be a sensible strategy?",
+      "options": [
+        "Because BATNAs are legally confidential.",
+        "Because a strong BATNA provides confidence even if it is never disclosed.",
+        "Because BATNAs cannot influence negotiation decisions.",
+        "Because revealing a BATNA automatically weakens bargaining power."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "A strong BATNA strengthens decision-making even when it remains confidential. It only needs to be revealed if doing so supports the negotiation."
+    },
+    {
+      "question": "Which situation best demonstrates an interest rather than a position?",
+      "options": [
+        "A supplier demands payment within 30 days.",
+        "A contractor requests a four-week extension.",
+        "A project manager wants to minimize operational downtime during installation.",
+        "A client refuses to increase the contract price."
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Minimizing downtime is the underlying objective. The other options describe stated positions."
+    },
+    {
+      "question": "Why should negotiators avoid assuming the other party's interests?",
+      "options": [
+        "Because interests never influence negotiation outcomes.",
+        "Because assumptions are often incorrect and may lead to poor solutions.",
+        "Because only lawyers can determine interests.",
+        "Because interests are always confidential."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Effective negotiators verify interests through questions and active listening rather than relying on assumptions."
+    },
+    {
+      "question": "Which action best demonstrates interest-based negotiation?",
+      "options": [
+        "Rejecting every proposal that differs from your opening position.",
+        "Exploring why a requirement is important before proposing alternative solutions.",
+        "Keeping all information completely confidential.",
+        "Making immediate price concessions to maintain the relationship."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Interest-based negotiation focuses on understanding the problem before developing possible solutions."
+    },
+    {
+      "question": "A supplier cannot deliver the complete system by the required date, but can deliver critical components first and provide additional technicians during installation. Which negotiation principle is illustrated?",
+      "options": [
+        "Focusing only on positions.",
+        "Creating options that satisfy underlying interests.",
+        "Replacing BATNA with a reservation point.",
+        "Using an aggressive bargaining strategy."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The supplier is proposing an alternative that protects the client's interest in maintaining the project schedule."
+    },
+    {
+      "question": "Which factor should normally NOT be ignored when comparing a negotiated agreement with your BATNA?",
+      "options": [
+        "Technical risk and implementation consequences.",
+        "Only the purchase price.",
+        "The color of the supplier's logo.",
+        "The personal preferences of individual negotiators."
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Engineering negotiations should compare alternatives using total project value, including technical, operational and commercial consequences."
+    },
+    {
+      "question": "A negotiation team has different internal priorities: engineering wants proven reliability, procurement wants the lowest price and operations wants easy maintenance. What should happen before negotiating with the supplier?",
+      "options": [
+        "Allow each department to negotiate independently.",
+        "Agree internally on priorities, interests and negotiation limits.",
+        "Let procurement decide because price is always most important.",
+        "Hide the disagreement from management and negotiate anyway."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Internal alignment ensures that the negotiation team presents a consistent position and understands which interests are most important."
+    },
+    {
+      "question": "When is walking away from a negotiation generally the correct decision?",
+      "options": [
+        "Whenever the negotiation becomes difficult.",
+        "Whenever the other party refuses the first offer.",
+        "When every realistic agreement is worse than your BATNA.",
+        "When the relationship is expected to continue."
+      ],
+      "answer": 2,
+      "difficulty": "Analysis",
+      "explanation": "Negotiators should reject agreements that are less valuable than their best available alternative."
+    },
+    {
+      "question": "Why should a BATNA be updated during a long engineering project?",
+      "options": [
+        "Because alternatives, market conditions and project risks may change over time.",
+        "Because BATNAs expire automatically every month.",
+        "Because reservation points become BATNAs.",
+        "Because engineering contracts require annual BATNA reviews."
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Supplier availability, prices, schedules and technical constraints often change during projects, affecting the quality of available alternatives."
+    },
+    {
+      "question": "You are negotiating a long-term maintenance contract for a fleet of offshore vessels. The preferred supplier offers the best price but cannot guarantee spare-part availability during emergency breakdowns. A second supplier is more expensive but has regional warehouses, faster response times and stronger technical support. Your operations team states that avoiding vessel downtime is more important than reducing purchase price. Which decision best reflects the principles of interests, positions and BATNA?",
+      "options": [
+        "Accept the lowest price because commercial savings always create the greatest value.",
+        "Continue negotiating with the preferred supplier, but compare every proposal against the operational value of the alternative supplier and choose the agreement that best protects the organization's underlying interests.",
+        "Choose the alternative supplier immediately without further negotiation.",
+        "Ignore the operational team's concerns because they are not directly involved in procurement."
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "Strong negotiators compare proposals against their BATNA while focusing on the organization's true interests. In engineering projects, lifecycle performance, operational reliability and technical support may outweigh a lower purchase price."
+    }
+  ]
+}
