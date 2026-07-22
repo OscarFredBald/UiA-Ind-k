@@ -1,0 +1,793 @@
+{
+  "title": "Negotiation Fundamentals in Engineering Projects",
+  "description": "Learn the fundamental principles of negotiation and how engineers, project managers, clients, contractors and suppliers can prepare for, conduct and conclude negotiations in engineering projects.",
+  "estimatedReadingTime": "40 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Explain what negotiation is and why it is important in engineering projects.",
+        "Identify common negotiation situations throughout the project lifecycle.",
+        "Distinguish between interests, positions, needs and demands.",
+        "Understand the difference between distributive and integrative negotiation.",
+        "Explain the importance of preparation, objectives, priorities and negotiation authority.",
+        "Recognize the role of alternatives, reservation points and bargaining ranges.",
+        "Apply effective questioning, listening and communication techniques during negotiations.",
+        "Understand how trust, relationships, power and information influence negotiation outcomes.",
+        "Recognize common negotiation mistakes and unethical practices.",
+        "Describe how negotiated outcomes should be documented and implemented."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "What Is Negotiation?",
+      "content": [
+        "Negotiation is a structured process in which two or more parties communicate to reach an agreement on matters where their interests are not fully aligned.",
+        "The parties may agree on the overall objective but disagree about price, scope, responsibility, risk, time, quality or contractual terms.",
+        "Negotiation is not limited to formal contract discussions. It also occurs during planning, design coordination, procurement, project execution, change management and dispute resolution.",
+        "The purpose of negotiation is not necessarily to defeat the other party. The objective is to reach an outcome that is acceptable and implementable for the parties involved."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Negotiation in an Engineering Project",
+      "content": [
+        "A shipowner wants a ballast water treatment system installed during a scheduled dry-docking period.",
+        "The supplier can meet the technical requirements but needs two additional installation days.",
+        "The shipowner wants to avoid extending the dry dock, while the supplier wants sufficient time to complete the work safely.",
+        "The parties negotiate the work sequence, resources, testing plan, responsibilities and possible additional cost."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Why Engineers Need Negotiation Skills",
+      "content": [
+        "Engineers regularly make decisions that affect cost, schedule, risk and contractual responsibility.",
+        "Technical discussions often become negotiations because the parties have different priorities or interpretations.",
+        "An engineer may need to negotiate technical requirements, design changes, testing criteria, delivery dates, resource allocation or responsibility for additional work.",
+        "Strong technical knowledge is important, but it does not automatically produce a good negotiated outcome.",
+        "Engineers must also understand communication, commercial consequences, contractual limits and stakeholder interests."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Where Negotiation Occurs in the Project Lifecycle",
+      "content": [
+        "During project initiation, stakeholders may negotiate objectives, priorities and funding.",
+        "During planning and design, project participants may negotiate scope boundaries, technical solutions and responsibilities.",
+        "During procurement, clients and suppliers negotiate price, delivery, performance requirements, warranties and risk allocation.",
+        "During execution, negotiations may concern delays, changes, interfaces, payment and access to resources.",
+        "During commissioning and handover, the parties may negotiate acceptance criteria, defects, documentation and outstanding work.",
+        "Negotiation is therefore a continuous project activity rather than a single event."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Negotiation Is Different from Discussion",
+      "content": [
+        "A discussion is an exchange of information, opinions or ideas.",
+        "A negotiation involves issues on which the parties seek an agreement.",
+        "A technical discussion may develop into a negotiation when a proposed solution affects cost, time, responsibility or contractual obligations.",
+        "Project participants should recognize when a conversation has become a negotiation because authority, preparation and documentation may then be required."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "From Technical Discussion to Negotiation",
+      "content": [
+        "A supplier suggests using an alternative valve because the specified model is unavailable.",
+        "The parties first discuss whether the alternative is technically acceptable.",
+        "The conversation becomes a negotiation when they begin discussing price reduction, approval responsibility, delivery risk and warranty consequences."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Parties in a Negotiation",
+      "content": [
+        "A negotiation may involve individuals, departments or separate organizations.",
+        "Typical parties include owners, clients, contractors, consultants, suppliers, operators and regulatory representatives.",
+        "Each party may include several participants with different roles.",
+        "A negotiation team may contain technical, commercial, contractual and managerial personnel.",
+        "The parties should understand who represents whom and who has authority to make commitments."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Negotiation Authority",
+      "content": [
+        "Negotiation authority is the formal right to make offers, accept conditions or commit an organization.",
+        "A person may participate in a negotiation without having authority to approve the final agreement.",
+        "Authority limits may relate to price, risk, scope, schedule or legal terms.",
+        "Before negotiations begin, participants should understand their own authority and the likely authority of the other party.",
+        "An agreement made by someone without proper authority may require later approval or may not be binding."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Do Not Assume Authority",
+      "content": [
+        "A senior job title does not always mean that a person may accept all commercial or contractual terms.",
+        "Before relying on a commitment, confirm whether the representative is authorized to make it.",
+        "Important agreements should be approved and documented through the correct organizational process."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Positions",
+      "content": [
+        "A position is the specific outcome a party says it wants.",
+        "Positions are often expressed as demands, proposals or conditions.",
+        "Examples include a required price, a delivery date, a contractual clause or a requested technical solution.",
+        "Positions are visible, but they do not always reveal why the party wants that outcome.",
+        "Negotiations that focus only on positions can become rigid and confrontational."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Interests",
+      "content": [
+        "An interest is the underlying reason, concern or objective behind a stated position.",
+        "Interests may relate to cost, operational reliability, safety, reputation, cash flow, resource availability or risk exposure.",
+        "Different positions may sometimes satisfy the same underlying interest.",
+        "Understanding interests creates more opportunities for mutually acceptable solutions.",
+        "Effective negotiators ask why a condition matters rather than reacting only to the stated demand."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Position versus Interest",
+      "content": [
+        "A contractor demands an additional two weeks to complete the work. This is the contractor's position.",
+        "The underlying interest may be the need to avoid unsafe overtime, limited specialist availability or uncertainty about access to the worksite.",
+        "The client may be able to address the interest through additional shifts, improved access or revised work sequencing without granting the full extension."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Needs, Wants and Preferences",
+      "content": [
+        "A need is an essential requirement that must be satisfied.",
+        "A want is an outcome a party would like to obtain but may be willing to trade.",
+        "A preference is one acceptable option among several possibilities.",
+        "Negotiation preparation should distinguish between these categories.",
+        "Treating every preference as a non-negotiable need makes agreement more difficult."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Distributive Negotiation",
+      "content": [
+        "Distributive negotiation concerns how a limited amount of value will be divided between the parties.",
+        "This is sometimes described as fixed-pie negotiation.",
+        "Price negotiations are often partly distributive because a higher price benefits the seller and increases the buyer's cost.",
+        "Distributive negotiation commonly involves opening offers, concessions, reservation points and bargaining pressure.",
+        "A purely distributive approach may be appropriate for some single-issue transactions but can damage long-term relationships if used aggressively."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Distributive Negotiation",
+      "content": [
+        "A supplier offers an engineering package for EUR 250,000.",
+        "The client's maximum budget is EUR 220,000.",
+        "The supplier is unwilling to accept less than EUR 210,000.",
+        "The bargaining range lies between EUR 210,000 and EUR 220,000 if no other terms are changed."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Integrative Negotiation",
+      "content": [
+        "Integrative negotiation seeks to create value before deciding how that value should be distributed.",
+        "The parties explore differences in priorities, resources, risk tolerance and timing.",
+        "A solution may improve the outcome for both parties without requiring one party to surrender an equally valuable benefit.",
+        "Integrative negotiation is particularly useful when several issues are negotiable.",
+        "It requires information sharing, problem-solving and a willingness to understand underlying interests."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Creating Value",
+      "content": [
+        "A supplier cannot reduce the equipment price significantly.",
+        "However, the supplier can include operator training, extend the warranty and provide spare parts at relatively low internal cost.",
+        "These elements may be highly valuable to the client.",
+        "The parties create a more attractive total agreement without focusing only on the equipment price."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Mixed-Motive Negotiation",
+      "content": [
+        "Most engineering negotiations contain both cooperative and competitive elements.",
+        "The parties may benefit from solving a problem together while still competing over price, liability or risk.",
+        "This is known as a mixed-motive negotiation.",
+        "Effective negotiators cooperate to create value while protecting their own essential interests.",
+        "Excessive competition may prevent value creation, while excessive cooperation may lead to unnecessary concessions."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Negotiation Preparation",
+      "content": [
+        "Preparation is one of the strongest predictors of negotiation performance.",
+        "A negotiator should understand the issues, objectives, priorities, alternatives, authority limits and possible interests of the other party.",
+        "Preparation should include technical, commercial, contractual and relational considerations.",
+        "The team should also decide who will lead, who will provide specialist input and who will record agreements.",
+        "Poor preparation creates a risk of accepting unfavourable conditions or making commitments without understanding their consequences."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Defining Negotiation Objectives",
+      "content": [
+        "Objectives describe what the negotiator wants to achieve.",
+        "A target objective is the preferred realistic outcome.",
+        "A minimum acceptable outcome defines the point below which an agreement should not normally be accepted.",
+        "A negotiator may also define an ambitious opening position.",
+        "Objectives should be prioritized because not every issue has equal importance.",
+        "Clear objectives help the negotiator evaluate proposals during the discussion."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Negotiation Objectives",
+      "content": [
+        "A client purchasing a new pump package may define the following objectives:",
+        "Target price: EUR 180,000.",
+        "Maximum acceptable price: EUR 195,000.",
+        "Required delivery: no later than 1 September.",
+        "Preferred warranty: 24 months.",
+        "Minimum acceptable warranty: 18 months.",
+        "Operator training is desirable but may be exchanged for a lower price."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Priorities and Tradeable Issues",
+      "content": [
+        "Negotiators should identify which issues are essential and which can be exchanged.",
+        "Issues may include price, payment timing, delivery date, technical scope, warranty, testing, documentation, training and liability.",
+        "The parties often value these issues differently.",
+        "A term that has low cost to one party may have high value to the other.",
+        "These differences create opportunities for trades that improve the total agreement."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Negotiation Alternatives",
+      "content": [
+        "An alternative is the course of action available if no agreement is reached.",
+        "A strong alternative reduces dependence on the current negotiation.",
+        "A weak alternative may increase pressure to reach an agreement.",
+        "Negotiators should identify realistic alternatives before deciding whether a proposal is acceptable.",
+        "An agreement should generally be preferred only if it is better than the best available alternative."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Alternative to an Agreement",
+      "content": [
+        "A client is negotiating with Supplier A.",
+        "Supplier B can provide similar equipment at a slightly higher price but with a longer delivery time.",
+        "The offer from Supplier B is an alternative if the client cannot reach an acceptable agreement with Supplier A.",
+        "The client should compare the complete consequences of both options rather than considering price alone."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Reservation Point",
+      "content": [
+        "The reservation point is the least favourable outcome a party is willing to accept before choosing its alternative.",
+        "For a buyer, this may be the maximum acceptable total cost.",
+        "For a seller, it may be the minimum acceptable price or commercial return.",
+        "A reservation point should be based on analysis rather than emotion.",
+        "Negotiators should protect this information because revealing it can weaken their bargaining position."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Bargaining Range",
+      "content": [
+        "A bargaining range exists when the parties' acceptable outcomes overlap.",
+        "For example, if a buyer can pay up to EUR 200,000 and a seller can accept EUR 185,000, a possible bargaining range exists between those amounts.",
+        "If the acceptable outcomes do not overlap, agreement may require changes to other terms or the creation of additional value.",
+        "The parties may not know each other's true limits.",
+        "Negotiation is partly a process of discovering whether an acceptable agreement zone exists."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Information in Negotiation",
+      "content": [
+        "Information influences negotiation power and decision quality.",
+        "Relevant information may include market prices, supplier capacity, project deadlines, technical alternatives, cost drivers and legal obligations.",
+        "A negotiator should determine what information to share, what to request and what to protect.",
+        "Sharing selected information about interests may support joint problem-solving.",
+        "However, disclosing confidential limits or weak alternatives may reduce bargaining strength."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Information Should Be Shared Deliberately",
+      "content": [
+        "Complete secrecy can prevent collaborative solutions.",
+        "Complete openness can expose the organization unnecessarily.",
+        "Effective negotiators share information that supports problem-solving while protecting sensitive commercial and strategic information."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Power in Negotiation",
+      "content": [
+        "Negotiation power is the ability to influence the process or outcome.",
+        "Power may come from strong alternatives, specialist knowledge, time flexibility, market position, contractual rights or control of essential resources.",
+        "Power is not determined only by company size.",
+        "A small supplier may have significant power if it owns unique technology or is the only available source.",
+        "Power can change during the project as deadlines approach or alternatives disappear."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Changing Negotiation Power",
+      "content": [
+        "Early in procurement, a client may have several qualified suppliers and strong bargaining power.",
+        "After selecting one supplier and designing the system around that supplier's equipment, switching becomes difficult.",
+        "The supplier's bargaining power may therefore increase during execution."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Time Pressure",
+      "content": [
+        "Deadlines can influence negotiation behaviour and bargaining power.",
+        "A party with an urgent need may accept less favourable conditions.",
+        "Artificial deadlines may also be used as a negotiation tactic.",
+        "Negotiators should determine whether a deadline is real, flexible or strategically presented.",
+        "Time pressure should not prevent proper technical, commercial or contractual evaluation."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Opening the Negotiation",
+      "content": [
+        "The opening phase establishes the tone, purpose and practical structure of the negotiation.",
+        "The parties may confirm participants, authority, agenda, time available and issues to be discussed.",
+        "A constructive opening helps create professional dialogue.",
+        "The negotiator should clarify the problem and avoid moving immediately into concessions before understanding the situation.",
+        "For complex negotiations, the parties may first agree on process before negotiating substance."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Opening Offers",
+      "content": [
+        "An opening offer is the first concrete proposal presented in a negotiation.",
+        "Opening offers can influence expectations and the range of later discussion.",
+        "An ambitious but credible opening may provide room for movement.",
+        "An unrealistic offer may damage trust or cause the other party to disengage.",
+        "Opening positions should be supported by objective reasoning where possible."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Anchoring",
+      "content": [
+        "Anchoring occurs when an initial number or proposal influences later judgments.",
+        "The first price mentioned may become a reference point even when it is not objectively justified.",
+        "Negotiators should prepare independent estimates before being exposed to the other party's anchor.",
+        "An unreasonable anchor can be challenged using market data, cost analysis or alternative proposals.",
+        "Responding too quickly to an anchor may unintentionally give it legitimacy."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Responding to an Anchor",
+      "content": [
+        "A contractor requests EUR 500,000 for additional work.",
+        "The client should not immediately negotiate downward from that number.",
+        "The client should first request the cost breakdown, contractual basis and supporting documentation.",
+        "An independent assessment may show that the reasonable value is substantially lower."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Asking Effective Questions",
+      "content": [
+        "Questions help reveal interests, assumptions, constraints and priorities.",
+        "Open questions encourage explanation.",
+        "Clarifying questions reduce ambiguity.",
+        "Testing questions explore how the other party might respond to alternatives.",
+        "Questions should be used to understand rather than to trap or embarrass the other party.",
+        "A well-timed question can be more effective than a strong argument."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Useful Negotiation Questions",
+      "content": [
+        "What is the main reason this delivery date is important to you?",
+        "Which technical requirements create the largest cost impact?",
+        "What would need to change for you to accept this proposal?",
+        "How would this option affect your production schedule?",
+        "Which parts of the agreement are most important to your organization?"
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Active Listening in Negotiation",
+      "content": [
+        "Active listening helps negotiators identify information that is not immediately visible.",
+        "The listener should pay attention to facts, concerns, priorities and emotional signals.",
+        "Summarizing the other party's position can confirm understanding and reduce defensiveness.",
+        "Listening does not mean agreeing.",
+        "It means understanding the other party accurately before developing a response."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Listening Without Agreeing",
+      "content": [
+        "A contractor says that a delay was caused entirely by late client information.",
+        "The project manager responds: 'I understand that you believe the drawing delay affected your work sequence. Let us review the dates and identify which activities were actually affected.'",
+        "The project manager acknowledges the concern without accepting liability before the evidence is reviewed."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Proposals",
+      "content": [
+        "A proposal presents a possible solution or set of terms.",
+        "Effective proposals are clear, specific and conditional where appropriate.",
+        "Instead of making isolated concessions, negotiators can link issues together.",
+        "For example: 'We can accept the revised delivery date if you include additional commissioning support at no extra cost.'",
+        "Conditional proposals protect value and encourage reciprocal movement."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Concessions",
+      "content": [
+        "A concession is a movement from a previous position.",
+        "Concessions may concern price, time, scope, warranty, risk or other conditions.",
+        "Concessions should be planned and should normally receive something in return.",
+        "Large or rapid concessions may create the impression that further movement is available.",
+        "The size and timing of concessions communicate information about priorities and limits."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Avoid Unilateral Concessions",
+      "content": [
+        "Do not give away valuable terms without considering what should be received in return.",
+        "Use conditional language such as: 'If you can provide the documentation by Friday, we can review the payment schedule.'",
+        "This connects movement by one party to movement by the other."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Package Negotiation",
+      "content": [
+        "Package negotiation combines several issues into one proposal.",
+        "This allows the parties to make trades across differently valued terms.",
+        "For example, price, delivery, warranty and training may be negotiated together.",
+        "A package reduces the risk that one issue is settled without understanding its relationship to the total agreement.",
+        "Multiple package proposals can also help reveal the other party's priorities."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Package Proposals",
+      "content": [
+        "Option A offers a lower price with standard delivery and a 12-month warranty.",
+        "Option B offers a higher price with accelerated delivery and a 24-month warranty.",
+        "Option C offers the original price with standard delivery, operator training and additional spare parts.",
+        "The other party's response provides information about which terms it values most."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Objective Criteria",
+      "content": [
+        "Objective criteria are independent standards that can support fair and reasoned negotiation.",
+        "Examples include market prices, industry standards, technical calculations, historical data, contractual formulas and expert assessments.",
+        "Objective criteria reduce reliance on personal opinion or pressure.",
+        "The parties may still disagree about which criteria are appropriate.",
+        "However, a discussion based on evidence is generally more productive than unsupported demands."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Emotions in Negotiation",
+      "content": [
+        "Negotiations involve people and may produce frustration, fear, disappointment or anger.",
+        "Emotions can influence judgment, communication and willingness to cooperate.",
+        "A negotiator should recognize emotions without allowing them to control decisions.",
+        "Taking a break, restating facts or separating people from the problem may reduce tension.",
+        "Emotional reactions should not replace technical, commercial and contractual analysis."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Do Not Personalize the Problem",
+      "content": [
+        "Disagreement about a proposal is not necessarily a personal attack.",
+        "Focus on the issue, evidence and project consequences.",
+        "Personal criticism often reduces trust and makes agreement more difficult."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Trust and Relationships",
+      "content": [
+        "Many engineering projects involve long-term relationships between owners, contractors and suppliers.",
+        "Trust can improve information sharing, flexibility and problem-solving.",
+        "Trust does not mean avoiding contracts or accepting unsupported claims.",
+        "Professional trust combines openness with verification and clear documentation.",
+        "A negotiation outcome that damages an essential long-term relationship may create larger costs later."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Reputation",
+      "content": [
+        "Negotiators and organizations develop reputations based on how they behave.",
+        "A reputation for reliability and fairness may make future negotiations more efficient.",
+        "A reputation for breaking commitments, hiding information or using unreasonable pressure can reduce cooperation.",
+        "Short-term gains achieved through unfair behaviour may therefore create long-term commercial damage."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Ethics in Negotiation",
+      "content": [
+        "Ethical negotiation requires honesty regarding material facts, commitments and authority.",
+        "Negotiators should not knowingly make promises they cannot fulfil.",
+        "They should not falsify technical information, costs, approvals or contractual rights.",
+        "Ethical negotiation does not require disclosure of every internal priority or reservation point.",
+        "There is a difference between protecting confidential information and intentionally deceiving the other party."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Misrepresentation",
+      "content": [
+        "Misrepresenting technical performance, safety information, project authority or contractual facts can create serious legal and commercial consequences.",
+        "Negotiators should distinguish between persuasive presentation and false statements."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Common Negotiation Tactics",
+      "content": [
+        "Negotiators may use deadlines, high opening demands, limited authority, silence, repeated requests or package offers.",
+        "Some tactics are normal parts of negotiation, while others may be manipulative.",
+        "The best response is usually preparation, calm questioning and objective evaluation.",
+        "A negotiator should avoid reacting emotionally or making immediate concessions under pressure.",
+        "Understanding a tactic does not require responding with the same tactic."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Limited Authority",
+      "content": [
+        "A supplier representative says: 'I would accept your proposal, but my director will never approve it.'",
+        "This may be a genuine authority limitation or a negotiation tactic.",
+        "The client can ask what terms the director could approve and whether the decision-maker should join the discussion."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Deadlock",
+      "content": [
+        "Deadlock occurs when the parties cannot make further progress.",
+        "It may result from incompatible limits, missing information, emotional conflict or excessive focus on one issue.",
+        "Possible responses include taking a break, changing negotiators, obtaining new information, introducing additional issues or using an independent facilitator.",
+        "The parties should also reconsider their alternatives.",
+        "Not every negotiation should end in agreement."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Walking Away",
+      "content": [
+        "A good negotiator must be prepared to reject an agreement that is worse than the available alternative.",
+        "Walking away should be based on analysis rather than anger.",
+        "The decision should consider technical, financial, contractual, operational and relational consequences.",
+        "A negotiated agreement is not automatically a good agreement.",
+        "Pressure to complete the negotiation should not override essential project requirements."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Closing the Negotiation",
+      "content": [
+        "A negotiation should close only when the parties understand the complete agreement.",
+        "The negotiator should summarize the agreed terms, unresolved matters, responsibilities and deadlines.",
+        "The parties should check that individual concessions form a consistent total package.",
+        "Ambiguous wording should be clarified before final acceptance.",
+        "The negotiators should also confirm whether additional internal approvals are required."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Documenting the Agreement",
+      "content": [
+        "Negotiated outcomes should be documented accurately and promptly.",
+        "Documentation may take the form of meeting minutes, a letter of agreement, a contract amendment, a purchase order or a formal change order.",
+        "The document should identify scope, price, schedule, responsibilities, assumptions and approval status.",
+        "Technical and commercial documents should be consistent.",
+        "A verbal agreement may be difficult to prove or implement when participants later remember it differently."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Incomplete Documentation",
+      "content": [
+        "The parties agree that the supplier will accelerate delivery.",
+        "They do not document whether overtime cost is included, whether the warranty changes or what happens if the revised date is missed.",
+        "Although they agreed on the general objective, the missing details may create a later dispute."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Implementation and Follow-Up",
+      "content": [
+        "A negotiation is successful only if the agreement can be implemented.",
+        "The outcome should be communicated to the people responsible for execution.",
+        "Schedules, budgets, drawings, contracts and risk registers may need to be updated.",
+        "The parties should monitor whether agreed actions are completed.",
+        "Failure to translate the agreement into project controls can make the negotiation ineffective."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Team Negotiation",
+      "content": [
+        "Complex engineering negotiations are often conducted by teams.",
+        "The team may include a lead negotiator, technical specialist, commercial representative, contract manager and note-taker.",
+        "Roles should be agreed before the meeting.",
+        "The team should coordinate its messages and avoid contradicting itself in front of the other party.",
+        "Private internal discussions may be required before responding to important proposals."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Negotiation Team Roles",
+      "content": [
+        "The project manager leads the discussion.",
+        "The engineering manager explains technical consequences.",
+        "The contract manager evaluates contractual rights.",
+        "The project controller verifies cost and schedule impacts.",
+        "A team member records proposals, concessions and action items."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Internal Disagreement",
+      "content": [
+        "Internal disagreement should normally be discussed privately rather than in front of the other party.",
+        "Conflicting messages can reveal weaknesses and create uncertainty about the organization's position.",
+        "The negotiation team should prepare and agree on its strategy before the meeting."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Negotiating Technical Requirements",
+      "content": [
+        "Technical requirements should be discussed using measurable criteria where possible.",
+        "The parties should distinguish mandatory requirements from preferences.",
+        "Changes should be assessed for their effects on performance, safety, compliance, cost and interfaces.",
+        "Technical concessions should not be made without understanding the complete project consequence.",
+        "The relevant engineers should participate when technical terms are negotiated."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Technical Compromise",
+      "content": [
+        "A client requests a system capacity of 100 units per hour.",
+        "The supplier explains that achieving 100 requires a major increase in equipment size and cost.",
+        "Operational analysis shows that 90 units per hour is sufficient for nearly all expected conditions.",
+        "The parties may agree on 90 units per hour with an overload mode for exceptional situations."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Negotiating Changes and Claims",
+      "content": [
+        "Changes and claims often involve disagreement about scope, responsibility, entitlement, cost or time.",
+        "The parties should separate factual questions from commercial negotiation.",
+        "Relevant documentation may include contracts, drawings, instructions, schedules and cost records.",
+        "A negotiated settlement may be preferable to a lengthy dispute when it protects project progress and commercial relationships.",
+        "However, settlement decisions should be based on authority and a realistic assessment of rights and risks."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Change Negotiation",
+      "content": [
+        "A contractor requests EUR 100,000 and ten additional days for a client-requested design change.",
+        "The client agrees that the change is outside the original scope but disputes the cost and schedule impact.",
+        "The parties review labour estimates, material cost, work sequencing and possible mitigation measures.",
+        "They agree on EUR 75,000 and five additional days, with the contractor adding a second work shift."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Cultural Differences in Negotiation",
+      "content": [
+        "International engineering projects involve different communication and negotiation traditions.",
+        "Cultures may differ in directness, hierarchy, decision speed, relationship building and attitudes toward disagreement.",
+        "A behaviour considered efficient in one culture may be considered disrespectful in another.",
+        "Negotiators should adapt their communication while maintaining clear objectives and professional standards.",
+        "Cultural awareness should inform preparation but should not lead to stereotypes about individuals."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Effective negotiation begins before the parties enter the meeting room.",
+        "The strongest negotiators understand their alternatives, priorities, authority and evidence.",
+        "They listen carefully, ask disciplined questions and avoid making concessions without receiving value in return.",
+        "In engineering projects, a commercially attractive agreement is not successful if it creates unsafe, unclear or technically impossible obligations.",
+        "The best outcomes integrate technical feasibility, commercial value, contractual clarity and a workable relationship."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Negotiation Mistakes",
+      "items": [
+        "Beginning negotiations without clear objectives or authority limits.",
+        "Focusing only on stated positions instead of exploring underlying interests.",
+        "Negotiating only one issue, such as price, when several terms can be traded.",
+        "Making large or unconditional concessions too quickly.",
+        "Allowing time pressure to replace proper evaluation.",
+        "Failing to verify technical or commercial claims.",
+        "Revealing confidential limits or weak alternatives unnecessarily.",
+        "Treating disagreement as a personal conflict.",
+        "Allowing several team members to communicate inconsistent positions.",
+        "Accepting vague language in the final agreement.",
+        "Failing to document negotiated commitments.",
+        "Agreeing to terms that cannot be implemented operationally."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Negotiation is a process for reaching agreement where the parties have both shared and conflicting interests.",
+        "Negotiation occurs throughout the engineering project lifecycle.",
+        "Positions describe what parties request, while interests explain why those outcomes matter.",
+        "Distributive negotiation divides value, while integrative negotiation seeks to create additional value.",
+        "Preparation should define objectives, priorities, authority, alternatives and limits.",
+        "A reservation point identifies the least favourable acceptable agreement.",
+        "Strong alternatives improve negotiation power.",
+        "Questions and active listening help reveal interests and constraints.",
+        "Concessions should be deliberate, conditional and connected to reciprocal value.",
+        "Objective criteria improve fairness and decision quality.",
+        "Negotiated outcomes must be clearly documented and implemented.",
+        "A good engineering agreement must be technically feasible, commercially acceptable, contractually clear and operationally workable."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "What is the difference between a discussion and a negotiation?",
+        "Why is it useful to distinguish between a party's position and its underlying interests?",
+        "When is a distributive negotiation approach appropriate, and when may it be harmful?",
+        "How can several negotiable issues create opportunities for an integrative agreement?",
+        "Why should a negotiator define a reservation point before the meeting?",
+        "How can alternatives affect negotiation power?",
+        "Why should concessions normally be conditional?",
+        "What information should an engineering negotiation team prepare before discussing a proposed change?",
+        "How can objective criteria help resolve disagreement about price or schedule?",
+        "What risks arise when negotiated agreements are not documented clearly?"
+      ]
+    }
+  ]
+}
