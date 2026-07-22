@@ -1,0 +1,512 @@
+{
+  "title": "Risk Allocation and Liability",
+  "description": "Learn how engineering contracts identify, allocate and manage project risks, and how contractual liability may arise from delay, defects, negligence, non-compliance and other failures.",
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": [
+        "Engineering projects involve technical, commercial, legal and operational risks.",
+        "Risk allocation determines which party is responsible when a particular event occurs.",
+        "Liability concerns the legal or contractual responsibility for loss, damage or failure.",
+        "Clear risk allocation helps parties price their obligations and manage the project effectively.",
+        "Poorly allocated or unclear risks frequently lead to disputes, delays and unexpected costs."
+      ]
+    },
+    {
+      "title": "What Is Project Risk?",
+      "content": [
+        "A project risk is an uncertain event or condition that may affect project objectives.",
+        "Risks may affect cost, schedule, quality, safety, performance or reputation.",
+        "Some risks are threats, while others may create opportunities.",
+        "Risk cannot normally be eliminated completely.",
+        "The objective is to identify, allocate and manage it appropriately."
+      ]
+    },
+    {
+      "title": "Common Engineering Project Risks",
+      "content": [
+        "Typical risks include design errors, delayed delivery, cost increases and equipment failure.",
+        "Projects may also face site conditions, regulatory changes, safety incidents and environmental damage.",
+        "Other risks include supplier insolvency, labor shortages, currency movements and political instability.",
+        "The relevant risks depend on the project's location, complexity, technology and contract structure."
+      ]
+    },
+    {
+      "title": "What Is Risk Allocation?",
+      "content": [
+        "Risk allocation is the process of assigning responsibility for identified risks.",
+        "A contract may allocate a risk to the client, contractor, supplier or another party.",
+        "Some risks are shared between several parties.",
+        "The party carrying a risk may be responsible for its financial and practical consequences.",
+        "Risk allocation is one of the most important commercial functions of a contract."
+      ]
+    },
+    {
+      "title": "Principle of Efficient Risk Allocation",
+      "content": [
+        "A risk should generally be allocated to the party best able to control or manage it.",
+        "The responsible party should also be able to assess and price the risk.",
+        "Allocating an uncontrollable risk to a weaker party may increase prices without improving risk management.",
+        "Efficient allocation supports realistic pricing and better project outcomes.",
+        "However, bargaining power often influences the final allocation."
+      ]
+    },
+    {
+      "title": "Risk Allocation and Pricing",
+      "content": [
+        "Suppliers normally include the cost of accepted risks in their price.",
+        "A contractor carrying significant uncertainty may add a risk premium.",
+        "The more unpredictable the exposure, the larger the premium may become.",
+        "Transferring every risk to the contractor does not necessarily reduce the client's total cost.",
+        "The client may ultimately pay for the transferred risk through higher tender prices."
+      ]
+    },
+    {
+      "title": "What Is Liability?",
+      "content": [
+        "Liability is responsibility for the consequences of an act, omission or contractual failure.",
+        "Liability may arise under a contract, legislation or general legal principles.",
+        "A liable party may be required to pay compensation, correct defective work or perform another remedy.",
+        "The existence and extent of liability depend on the applicable law and contract wording."
+      ]
+    },
+    {
+      "title": "Contractual Liability",
+      "content": [
+        "Contractual liability arises when a party fails to perform an obligation under the agreement.",
+        "Examples include late delivery, defective design, failure to meet performance guarantees or non-payment.",
+        "The contract normally defines available remedies and procedures.",
+        "The injured party may need to prove the breach and resulting loss."
+      ]
+    },
+    {
+      "title": "Liability Outside the Contract",
+      "content": [
+        "A party may also face liability outside the contract.",
+        "This may arise from negligence, property damage, personal injury or violation of statutory duties.",
+        "Some legal duties cannot be excluded through contract wording.",
+        "A project event may create both contractual and non-contractual claims."
+      ]
+    },
+    {
+      "title": "Breach of Contract",
+      "content": [
+        "A breach occurs when a party does not perform according to the contract.",
+        "The breach may involve non-performance, defective performance or late performance.",
+        "Not every breach automatically gives the same remedy.",
+        "The consequences depend on the seriousness of the breach, the contract and applicable law."
+      ]
+    },
+    {
+      "title": "Causation",
+      "content": [
+        "A claimant normally needs to show a connection between the breach and the claimed loss.",
+        "This connection is known as causation.",
+        "A party is not usually liable for every problem that happens after a breach.",
+        "The loss must have been caused, at least sufficiently, by the relevant failure.",
+        "Complex engineering projects may involve several contributing causes."
+      ]
+    },
+    {
+      "title": "Foreseeability",
+      "content": [
+        "Compensation may be limited to losses that were reasonably foreseeable when the contract was formed.",
+        "Unusual or indirect consequences may be harder to recover.",
+        "Parties should communicate special risks before signing the contract.",
+        "Clear communication can make unusual potential losses more foreseeable."
+      ]
+    },
+    {
+      "title": "Duty to Mitigate Loss",
+      "content": [
+        "A party suffering loss is normally expected to take reasonable steps to reduce it.",
+        "This is often called the duty to mitigate.",
+        "A client should not allow avoidable losses to continue merely to increase a claim.",
+        "Reasonable mitigation costs may themselves be recoverable.",
+        "Mitigation does not require a party to take unreasonable or unsafe action."
+      ]
+    },
+    {
+      "title": "Direct and Indirect Loss",
+      "content": [
+        "Contracts often distinguish between direct and indirect or consequential loss.",
+        "Direct loss usually follows naturally from the contractual failure.",
+        "Indirect loss may involve more remote commercial consequences.",
+        "The precise meaning varies between legal systems.",
+        "Contracts should define excluded loss categories as clearly as possible."
+      ]
+    },
+    {
+      "title": "Examples of Potential Loss",
+      "content": [
+        "Direct costs may include repair, replacement, rework and additional labor.",
+        "Delay may create extra site costs, storage expenses or extended equipment rental.",
+        "Commercial losses may include lost production, lost profit or loss of business opportunity.",
+        "Environmental incidents may create cleanup costs, fines and third-party claims.",
+        "The contract may treat these categories differently."
+      ]
+    },
+    {
+      "title": "Limitation of Liability",
+      "content": [
+        "A limitation of liability clause restricts the amount or type of liability a party may face.",
+        "The contract may establish an overall financial cap.",
+        "It may also create separate caps for delay, warranty or specific risks.",
+        "Limitations allow parties to assess their maximum contractual exposure.",
+        "They must be drafted clearly and may be restricted by mandatory law."
+      ]
+    },
+    {
+      "title": "Liability Caps",
+      "content": [
+        "A liability cap may be expressed as a fixed amount or percentage of the contract value.",
+        "The cap may apply to all claims combined or to individual claims.",
+        "Parties should clarify whether damages, indemnities and other remedies fall within the cap.",
+        "A low cap may leave the client exposed to losses that cannot be recovered."
+      ]
+    },
+    {
+      "title": "Exclusions from the Liability Cap",
+      "content": [
+        "Some liabilities may be excluded from the general cap.",
+        "Examples may include fraud, deliberate misconduct, confidentiality breaches and intellectual property infringement.",
+        "Personal injury or death may also be treated separately.",
+        "The treatment depends on the agreement and applicable law.",
+        "Exclusions should be expressly identified."
+      ]
+    },
+    {
+      "title": "Exclusion Clauses",
+      "content": [
+        "An exclusion clause removes liability for specific categories of loss.",
+        "A common example is exclusion of indirect or consequential loss.",
+        "Other clauses may exclude loss of profit, production or revenue.",
+        "The wording must be sufficiently precise.",
+        "Ambiguous exclusions may be interpreted narrowly."
+      ]
+    },
+    {
+      "title": "Liquidated Damages",
+      "content": [
+        "Liquidated damages are predetermined amounts payable for a specified breach.",
+        "They are commonly used for delay or failure to meet performance targets.",
+        "The amount may be calculated per day or week of delay.",
+        "They provide predictability and reduce the need to prove the exact loss.",
+        "The clause must comply with the applicable legal rules."
+      ]
+    },
+    {
+      "title": "Delay Liquidated Damages",
+      "content": [
+        "Delay liquidated damages compensate the client for late completion or delivery.",
+        "The contract should define the completion date and the triggering event.",
+        "It should also define the applicable rate and maximum amount.",
+        "The contractor may avoid liability when entitled to an extension of time.",
+        "Accurate schedule records are essential in delay disputes."
+      ]
+    },
+    {
+      "title": "Performance Liquidated Damages",
+      "content": [
+        "Performance liquidated damages may apply when equipment fails to achieve guaranteed performance.",
+        "Examples include insufficient output, excessive energy consumption or reduced efficiency.",
+        "The contract should define the testing method and acceptance criteria.",
+        "It should also state whether payment allows the client to accept reduced performance."
+      ]
+    },
+    {
+      "title": "Indemnities",
+      "content": [
+        "An indemnity is a contractual promise to protect another party against specified loss or claims.",
+        "Indemnities are often used for third-party injury, property damage and intellectual property claims.",
+        "The clause should identify the covered events and losses.",
+        "It should also explain claim notification, defense and settlement procedures.",
+        "Indemnity wording can create significant exposure and should be reviewed carefully."
+      ]
+    },
+    {
+      "title": "Third-Party Claims",
+      "content": [
+        "Engineering activities may cause loss to persons who are not parties to the contract.",
+        "Examples include injury to visitors or damage to neighboring property.",
+        "The contract may allocate responsibility for handling such claims.",
+        "Insurance and indemnity provisions often operate together."
+      ]
+    },
+    {
+      "title": "Negligence",
+      "content": [
+        "Negligence generally involves failure to exercise the required level of care.",
+        "Engineers and contractors are expected to act with reasonable professional competence.",
+        "The applicable standard of care depends on the role, circumstances and legal system.",
+        "A poor outcome alone does not always prove negligence.",
+        "The conduct must be evaluated against the required standard."
+      ]
+    },
+    {
+      "title": "Professional Standard of Care",
+      "content": [
+        "Designers are often required to exercise reasonable skill and care.",
+        "This is different from guaranteeing a perfect result.",
+        "The professional may be liable if the work falls below the expected competence level.",
+        "The contract should avoid creating unintended obligations that exceed available insurance."
+      ]
+    },
+    {
+      "title": "Fitness for Purpose",
+      "content": [
+        "A fitness-for-purpose obligation requires the completed work to achieve a defined purpose or result.",
+        "This may be stricter than a reasonable-skill-and-care obligation.",
+        "A contractor may be liable even when it acted carefully if the required result is not achieved.",
+        "Such obligations should be clearly identified and priced.",
+        "They may not be fully covered by professional indemnity insurance."
+      ]
+    },
+    {
+      "title": "Design Responsibility",
+      "content": [
+        "The contract should clearly allocate responsibility for design.",
+        "The client may provide the design, or the contractor may design all or part of the project.",
+        "Responsibility can become unclear when both parties contribute.",
+        "Review or approval by the client does not automatically transfer design responsibility.",
+        "Interfaces between designers should be carefully managed."
+      ]
+    },
+    {
+      "title": "Defects",
+      "content": [
+        "A defect is work or equipment that does not satisfy the contract requirements.",
+        "Defects may relate to design, material, workmanship or performance.",
+        "The contract normally gives the contractor an opportunity to correct defects.",
+        "The client may obtain other remedies if correction is not completed."
+      ]
+    },
+    {
+      "title": "Defects Liability Period",
+      "content": [
+        "Many contracts include a defined period for reporting and correcting defects.",
+        "This is commonly called a defects liability or notification period.",
+        "The contractor remains responsible for covered defects during that period.",
+        "The period does not necessarily eliminate liability for hidden defects discovered later."
+      ]
+    },
+    {
+      "title": "Warranties",
+      "content": [
+        "A warranty is a contractual promise concerning quality, condition or performance.",
+        "Warranties may cover materials, workmanship and equipment reliability.",
+        "The contract should define the warranty period and available remedies.",
+        "Supplier warranties should be coordinated with the contractor's obligations to the client."
+      ]
+    },
+    {
+      "title": "Client-Caused Risk",
+      "content": [
+        "The client may cause delay or additional cost through late information, access restrictions or design changes.",
+        "The contractor may be entitled to additional time or payment.",
+        "The entitlement depends on notice requirements and contractual procedures.",
+        "Failure to provide timely notice may weaken the contractor's claim."
+      ]
+    },
+    {
+      "title": "Contractor-Caused Risk",
+      "content": [
+        "The contractor normally carries risks related to its methods, workforce, suppliers and coordination.",
+        "Poor planning or subcontractor failure may remain the contractor's responsibility.",
+        "The contractor should manage these risks through planning, supervision and suitable subcontracts."
+      ]
+    },
+    {
+      "title": "Site Condition Risk",
+      "content": [
+        "Unexpected ground or site conditions can create major cost and schedule impacts.",
+        "The contract should state which party carries this risk.",
+        "The client may provide site information, but its accuracy may be qualified.",
+        "Contractors should review available information and perform required investigations.",
+        "Notice procedures are important when unexpected conditions are found."
+      ]
+    },
+    {
+      "title": "Force Majeure",
+      "content": [
+        "Force majeure clauses address exceptional events outside the parties' reasonable control.",
+        "Examples may include natural disasters, war, embargoes or government restrictions.",
+        "The clause should define covered events and available relief.",
+        "Relief may include additional time, suspension or termination.",
+        "Additional payment is not always available."
+      ]
+    },
+    {
+      "title": "Insurance",
+      "content": [
+        "Insurance transfers certain financial risks to an insurer.",
+        "Common project policies include property, construction, liability and professional indemnity insurance.",
+        "Insurance does not replace contractual risk management.",
+        "A contract may allocate risks that are excluded from available insurance.",
+        "Parties should review coverage, exclusions, deductibles and policy limits."
+      ]
+    },
+    {
+      "title": "Relationship Between Liability and Insurance",
+      "content": [
+        "A party may remain liable even when insurance does not respond.",
+        "Contractual liability should therefore be compared with actual insurance coverage.",
+        "Uninsured exposure may create serious financial risk.",
+        "The contract should not assume that every liability is insurable."
+      ]
+    },
+    {
+      "title": "Subcontractor Liability",
+      "content": [
+        "The main contractor is often responsible to the client for subcontractor performance.",
+        "The client normally does not need to pursue the subcontractor directly.",
+        "The main contract and subcontracts should contain compatible obligations.",
+        "Liability gaps may arise when subcontractor caps are lower than the main contractor's exposure."
+      ]
+    },
+    {
+      "title": "Back-to-Back Contracting",
+      "content": [
+        "Back-to-back contracting aligns subcontract obligations with the main contract.",
+        "The subcontractor should accept relevant technical, schedule and liability requirements.",
+        "Simply stating that a subcontract is back-to-back may be insufficient.",
+        "Important obligations should be incorporated clearly and specifically."
+      ]
+    },
+    {
+      "title": "Risk Register",
+      "content": [
+        "A risk register records identified risks and planned responses.",
+        "It may include probability, impact, owner, mitigation action and current status.",
+        "The register should reflect contractual risk allocation.",
+        "It should be updated throughout the project."
+      ]
+    },
+    {
+      "title": "Risk Responses",
+      "content": [
+        "Common responses include avoiding, reducing, transferring and accepting risk.",
+        "Avoidance removes the activity creating the risk.",
+        "Reduction lowers probability or impact.",
+        "Transfer allocates financial consequences to another party or insurer.",
+        "Acceptance means the party retains and manages the risk."
+      ]
+    },
+    {
+      "title": "Notice Requirements",
+      "content": [
+        "Contracts often require formal notice when a risk event occurs.",
+        "The notice may need to be submitted within a specified period.",
+        "It should describe the event, expected impact and requested relief.",
+        "Failure to comply may reduce or eliminate contractual entitlement.",
+        "Project teams should maintain a clear notice procedure."
+      ]
+    },
+    {
+      "title": "Documentation and Evidence",
+      "content": [
+        "Liability claims depend heavily on reliable evidence.",
+        "Useful records include correspondence, meeting minutes, schedules, photographs and inspection reports.",
+        "Cost records and time sheets may be needed to prove financial impact.",
+        "Poor documentation can prevent a valid claim from succeeding."
+      ]
+    },
+    {
+      "title": "Practical Scenario: Late Information",
+      "content": [
+        "The client delivers critical design information four weeks late.",
+        "The contractor's work is delayed and additional labor costs arise.",
+        "The contractor should review the contract, issue timely notice and document the impact.",
+        "The client may carry the risk if the information was its responsibility."
+      ]
+    },
+    {
+      "title": "Practical Scenario: Design Failure",
+      "content": [
+        "A contractor designs a system that fails to achieve the guaranteed output.",
+        "The contractor argues that it followed accepted engineering practices.",
+        "If the contract contains a fitness-for-purpose obligation, reasonable care may not be a complete defense.",
+        "The exact liability depends on the wording of the performance obligation."
+      ]
+    },
+    {
+      "title": "Practical Scenario: Subcontractor Delay",
+      "content": [
+        "A subcontractor delivers critical equipment late.",
+        "The main contractor misses the contractual completion date.",
+        "The main contractor may remain liable to the client.",
+        "It must then determine whether it can recover the loss under the subcontract."
+      ]
+    },
+    {
+      "title": "Practical Scenario: Unexpected Ground Conditions",
+      "content": [
+        "Excavation reveals conditions that were not shown in the site information.",
+        "The contractor should stop affected work where necessary and notify the client.",
+        "The parties should determine who carries the risk under the contract.",
+        "The contractor should document the actual condition and resulting impact."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Allocating every risk to the contractor without assessing who can manage it.",
+        "Accepting unlimited liability without understanding the exposure.",
+        "Confusing insurance coverage with contractual protection.",
+        "Failing to align subcontracts with the main contract.",
+        "Missing notice deadlines.",
+        "Using unclear exclusions or indemnities.",
+        "Failing to document delay, defects or additional costs."
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "content": [
+        "Identify key risks before contract award.",
+        "Allocate each risk to the party best able to manage it.",
+        "Use clear and specific contract wording.",
+        "Review liability caps and exclusions carefully.",
+        "Compare contractual exposure with insurance coverage.",
+        "Align main contracts and subcontracts.",
+        "Follow notice procedures.",
+        "Maintain complete project records.",
+        "Update the risk register throughout execution."
+      ]
+    },
+    {
+      "title": "Role of the Project Manager",
+      "content": [
+        "The project manager should understand the project's main risk allocations.",
+        "The manager coordinates technical, commercial and legal responses to risk events.",
+        "Potential claims should be identified early.",
+        "Relevant notices, records and mitigation actions should be managed promptly.",
+        "Specialist legal or insurance advice should be obtained when necessary."
+      ]
+    },
+    {
+      "title": "Summary",
+      "content": [
+        "Risk allocation determines which party carries the consequences of uncertain events.",
+        "Liability arises when a party is legally or contractually responsible for loss or failure.",
+        "Effective allocation considers control, knowledge, pricing and insurance.",
+        "Contracts may limit liability through caps, exclusions and liquidated damages.",
+        "Indemnities, warranties and insurance also influence exposure.",
+        "Clear wording, timely notices and strong documentation are essential."
+      ]
+    },
+    {
+      "title": "Key Takeaways",
+      "content": [
+        "Allocate risks to the party best able to manage them.",
+        "Understand the difference between risk and liability.",
+        "Review liability caps, exclusions and indemnities.",
+        "Distinguish reasonable skill and care from fitness for purpose.",
+        "Ensure subcontract obligations support the main contract.",
+        "Check whether contractual risks are insured.",
+        "Follow notice requirements carefully.",
+        "Document causes, consequences and mitigation actions.",
+        "Do not assume that transferring risk always reduces total project cost."
+      ]
+    }
+  ]
+}
