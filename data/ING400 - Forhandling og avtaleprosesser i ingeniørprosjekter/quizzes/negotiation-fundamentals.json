@@ -1,0 +1,368 @@
+{
+  "title": "Negotiation Fundamentals in Engineering Projects",
+  "description": "Test your understanding of negotiation principles, preparation, interests, positions, bargaining ranges, alternatives, concessions, communication and negotiated agreements in engineering projects.",
+  "questions": [
+    {
+      "question": "What is the best definition of negotiation?",
+      "options": [
+        "A process where one party forces another party to accept its conditions",
+        "A structured process where parties communicate to reach agreement on issues where their interests are not fully aligned",
+        "A technical discussion where no commercial issues are considered",
+        "A formal dispute that can only be resolved by lawyers"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Negotiation is a structured process used to reach an acceptable agreement when parties have both shared and conflicting interests."
+    },
+    {
+      "question": "Why are negotiation skills important for engineers?",
+      "options": [
+        "Because engineers are normally responsible for signing every contract",
+        "Because technical decisions often affect cost, schedule, risk and contractual responsibility",
+        "Because negotiation replaces the need for engineering calculations",
+        "Because engineers should always prioritize commercial outcomes over safety"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Engineering decisions frequently have technical, commercial, scheduling and contractual consequences that require negotiation."
+    },
+    {
+      "question": "Which situation is most clearly a negotiation rather than only a discussion?",
+      "options": [
+        "Two engineers explain how a pump operates",
+        "A supplier presents the dimensions of its standard equipment",
+        "A client and supplier attempt to agree on price, delivery time and warranty conditions",
+        "A project manager distributes the weekly progress report"
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "The parties are seeking agreement on several issues where their preferred outcomes may differ."
+    },
+    {
+      "question": "A supplier proposes an alternative component because the specified component is unavailable. At what point does the technical discussion become a negotiation?",
+      "options": [
+        "When the supplier first mentions the alternative component",
+        "When the parties begin discussing price, delivery, warranty and responsibility for the substitution",
+        "When the engineer reads the component specification",
+        "When the component is delivered to the project site"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The conversation becomes a negotiation when the parties seek agreement on consequences affecting contractual, commercial or project obligations."
+    },
+    {
+      "question": "What is negotiation authority?",
+      "options": [
+        "The technical knowledge required to participate in a negotiation",
+        "The ability to speak more confidently than the other party",
+        "The formal right to make offers, accept conditions or commit an organization",
+        "The right to ignore internal approval procedures"
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "Negotiation authority defines the commitments and decisions a representative is formally permitted to make."
+    },
+    {
+      "question": "A project engineer participates in a supplier negotiation but may not approve changes above EUR 25,000. The supplier presents a proposal worth EUR 60,000. What should the engineer do?",
+      "options": [
+        "Accept the proposal because the engineer attended the negotiation",
+        "Reject the proposal without reviewing it",
+        "Clarify that the proposal requires approval from the appropriate authority before it can be accepted",
+        "Verbally accept the proposal and document it later"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "The engineer must remain within the assigned authority limit and obtain approval from the authorized decision-maker."
+    },
+    {
+      "question": "What is a position in negotiation?",
+      "options": [
+        "The underlying reason why an outcome matters",
+        "The specific outcome, demand or condition a party says it wants",
+        "The best available alternative if no agreement is reached",
+        "The minimum result the other party will accept"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "A position is the visible proposal or demand presented by a party."
+    },
+    {
+      "question": "What is an interest in negotiation?",
+      "options": [
+        "The formal opening offer presented by a party",
+        "The underlying concern, objective or reason behind a stated position",
+        "The written record of the negotiated agreement",
+        "The difference between two proposed prices"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Interests explain why a party wants a particular outcome and can reveal alternative ways of satisfying its needs."
+    },
+    {
+      "question": "A contractor requests a two-week extension. Which question would best help identify the contractor's underlying interest?",
+      "options": [
+        "Why did you submit such an unreasonable demand?",
+        "Will you accept one week instead?",
+        "What specific constraints make the additional two weeks necessary?",
+        "Who authorized you to request an extension?"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "The question explores the reason behind the position and may reveal resource, safety, access or sequencing concerns."
+    },
+    {
+      "question": "A contractor needs more time because a specialist technician is unavailable. Which solution best demonstrates interest-based negotiation?",
+      "options": [
+        "The client rejects the request because the original deadline cannot change",
+        "The contractor repeats its demand for a two-week extension",
+        "The parties investigate whether another qualified technician or a revised work sequence can solve the availability problem",
+        "The client immediately accepts every condition requested by the contractor"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Interest-based negotiation focuses on solving the underlying constraint instead of arguing only about the stated position."
+    },
+
+        {
+      "question": "What is the main characteristic of distributive negotiation?",
+      "options": [
+        "The parties attempt to create additional value by combining several issues",
+        "The parties focus on dividing a limited amount of value between them",
+        "The parties avoid discussing price or responsibility",
+        "The parties automatically share all confidential information"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Distributive negotiation focuses on how a limited amount of value, such as price, will be divided between the parties."
+    },
+    {
+      "question": "A buyer can pay a maximum of EUR 220,000, while the supplier will not accept less than EUR 210,000. What does this indicate?",
+      "options": [
+        "There is no possible agreement",
+        "There is a bargaining range between EUR 210,000 and EUR 220,000",
+        "The buyer must accept EUR 220,000",
+        "The supplier has no reservation point"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The parties' acceptable limits overlap, creating a possible bargaining range."
+    },
+    {
+      "question": "What is integrative negotiation?",
+      "options": [
+        "A negotiation where one party attempts to maximize its gain without considering other issues",
+        "A negotiation focused only on legal rights",
+        "A negotiation where the parties explore interests and trade across issues to create additional value",
+        "A negotiation where both parties must make equal concessions"
+      ],
+      "answer": 2,
+      "difficulty": "Understanding",
+      "explanation": "Integrative negotiation seeks to create value by identifying different priorities and developing mutually beneficial trades."
+    },
+    {
+      "question": "A supplier cannot reduce the equipment price but offers operator training, spare parts and an extended warranty. Why may this create value?",
+      "options": [
+        "Because these additions may have high value to the client but relatively low cost to the supplier",
+        "Because the supplier is avoiding all responsibility",
+        "Because non-price terms are never contractually important",
+        "Because every negotiation must include free services"
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Value can be created when one party provides terms that are inexpensive for it but valuable to the other party."
+    },
+    {
+      "question": "Why are most engineering negotiations described as mixed-motive negotiations?",
+      "options": [
+        "Because they involve only personal emotions",
+        "Because the parties must cooperate to solve problems while also protecting their own commercial interests",
+        "Because technical issues are never connected to commercial issues",
+        "Because one party normally controls the entire outcome"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Engineering negotiations usually contain both cooperative value creation and competitive value distribution."
+    },
+    {
+      "question": "Which action is most important during negotiation preparation?",
+      "options": [
+        "Deciding in advance to accept the first reasonable proposal",
+        "Identifying objectives, priorities, alternatives, authority limits and relevant evidence",
+        "Preparing only arguments against the other party",
+        "Avoiding discussion of possible concessions"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Thorough preparation requires understanding the desired outcomes, limits, alternatives and supporting information."
+    },
+    {
+      "question": "What is a target objective?",
+      "options": [
+        "The least favourable result a party is willing to accept",
+        "The preferred realistic outcome the negotiator aims to achieve",
+        "The other party's opening demand",
+        "The result that must be rejected"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "A target objective is the preferred but realistic result a negotiator seeks."
+    },
+    {
+      "question": "Why should negotiators rank issues by priority before entering a negotiation?",
+      "options": [
+        "To ensure every issue is treated as equally important",
+        "To identify which terms must be protected and which can be traded",
+        "To avoid considering the other party's interests",
+        "To make the negotiation as short as possible"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Prioritization helps negotiators protect essential requirements while using lower-priority issues in trades."
+    },
+    {
+      "question": "A client strongly values early delivery, while the supplier values flexible payment timing. What is the best negotiation approach?",
+      "options": [
+        "Discuss only the total price",
+        "Use the difference in priorities to develop a trade involving delivery and payment terms",
+        "Require both parties to value each issue equally",
+        "Remove both issues from the negotiation"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Differences in priorities can create trades that improve the agreement for both parties."
+    },
+    {
+      "question": "What is the best available alternative to a negotiated agreement?",
+      "options": [
+        "The most ambitious opening offer",
+        "The action a party can realistically take if no agreement is reached",
+        "The other party's minimum acceptable result",
+        "The first concession made during the meeting"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "The best alternative is the most attractive realistic option available if the current negotiation does not produce an agreement."
+    },
+
+        {
+      "question": "What is a reservation point in a negotiation?",
+      "options": [
+        "The first offer presented during the negotiation",
+        "The least favourable outcome a party is willing to accept before choosing its alternative",
+        "The point where both parties sign the agreement",
+        "The maximum opening demand made by the other party"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "A reservation point defines the limit beyond which a negotiator should normally reject the agreement and pursue the best available alternative."
+    },
+    {
+      "question": "Why should negotiators avoid revealing their reservation point?",
+      "options": [
+        "Because it is always confidential by law",
+        "Because revealing it may weaken their bargaining position",
+        "Because reservation points are never calculated before negotiations",
+        "Because only lawyers may know the reservation point"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "If the other party knows your absolute limit, they may negotiate directly toward that limit."
+    },
+    {
+      "question": "A supplier opens the negotiation by demanding EUR 500,000 for additional work. Before discussing price, what should the client do?",
+      "options": [
+        "Immediately counter with EUR 300,000",
+        "Accept the offer to maintain a good relationship",
+        "Request the technical justification, cost breakdown and contractual basis for the claim",
+        "End the negotiation immediately"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Objective information should be gathered before responding to an opening offer or anchor."
+    },
+    {
+      "question": "What is anchoring in negotiation?",
+      "options": [
+        "Documenting the final agreement",
+        "Allowing the first proposal or number to influence later judgments",
+        "Changing negotiators during the meeting",
+        "Negotiating several issues simultaneously"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "The first number presented often becomes a psychological reference point for later discussion."
+    },
+    {
+      "question": "Which question is most effective for discovering a supplier's underlying priorities?",
+      "options": [
+        "Can you lower the price by 10%?",
+        "Who approved this quotation?",
+        "Which parts of this agreement are most important for your organization?",
+        "Why is your proposal so expensive?"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Open questions encourage the other party to explain their priorities and interests."
+    },
+    {
+      "question": "Why should concessions normally be conditional?",
+      "options": [
+        "Because every concession should create an opportunity to receive value in return",
+        "Because concessions should only be made after signing the contract",
+        "Because unconditional concessions are legally invalid",
+        "Because the first concession always ends the negotiation"
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Effective negotiators exchange value rather than giving away valuable terms without receiving something in return."
+    },
+    {
+      "question": "A client says, 'We can accept the revised delivery date if you extend the warranty by twelve months.' This is an example of:",
+      "options": [
+        "A unilateral concession",
+        "A conditional proposal",
+        "An opening anchor",
+        "A reservation point"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The client links one concession to another benefit, creating a conditional proposal."
+    },
+    {
+      "question": "Which statement best describes objective criteria in negotiation?",
+      "options": [
+        "Personal opinions that support your preferred outcome",
+        "Independent standards such as market prices, technical calculations or industry standards used to evaluate proposals",
+        "Arguments based on company hierarchy",
+        "Confidential internal targets"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Objective criteria help parties justify proposals using evidence rather than personal opinion."
+    },
+    {
+      "question": "During a negotiation, emotions begin to dominate the discussion. What is generally the BEST response?",
+      "options": [
+        "Respond emotionally to demonstrate strength",
+        "Focus on the facts, acknowledge concerns and, if necessary, pause the discussion before continuing",
+        "Accept every proposal to end the meeting quickly",
+        "Ignore the emotions completely"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Managing emotions professionally helps the parties return to evidence-based problem solving."
+    },
+    {
+      "question": "You are negotiating a major engineering contract involving equipment supply, installation, commissioning and long-term service. The supplier offers a lower price but removes technical support during commissioning and reduces the warranty period. The purchasing team focuses only on the price reduction. As the project manager, what is the BEST recommendation?",
+      "options": [
+        "Accept the lowest price because procurement cost is the most important success factor",
+        "Reject the proposal immediately without further discussion",
+        "Evaluate the complete package—including lifecycle cost, technical support, warranty, project risk and operational consequences—before deciding whether the proposal creates greater overall value",
+        "Allow procurement to make the decision without consulting the engineering team"
+      ],
+      "answer": 2,
+      "difficulty": "Expert",
+      "explanation": "Engineering negotiations should evaluate the total value of the agreement, not just the purchase price. Technical support, warranty, risk allocation and lifecycle performance often have a much greater impact on long-term project success than a lower initial cost."
+    }
+  ]
+}
