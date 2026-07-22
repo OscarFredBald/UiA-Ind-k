@@ -1,0 +1,369 @@
+{
+  "title": "Laws, Regulations and Standards",
+  "questions": [
+    {
+      "question": "An engineering team is preparing to construct a new industrial facility. Why must the team identify applicable laws and regulations before detailed design begins?",
+      "options": [
+        "To guarantee that the project will be profitable",
+        "To determine whether legal approvals and mandatory requirements affect the design",
+        "To avoid preparing technical specifications",
+        "To transfer all project risk to the authorities"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Applicable laws and regulations may impose mandatory design, safety, environmental and approval requirements."
+    },
+    {
+      "question": "Which statement best describes a regulation?",
+      "options": [
+        "A voluntary recommendation created by a supplier",
+        "A commercial condition that only applies after negotiation",
+        "A detailed rule issued under legal authority",
+        "An informal engineering practice"
+      ],
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "Regulations are detailed legally binding rules issued by authorities under powers established by law."
+    },
+    {
+      "question": "A contract requires a pump to comply with a specific ISO standard. Why does the standard become binding for the supplier?",
+      "options": [
+        "Because every ISO standard is automatically law",
+        "Because the supplier has used ISO standards before",
+        "Because the project manager prefers international standards",
+        "Because the standard has been incorporated into the contract"
+      ],
+      "answer": 3,
+      "difficulty": "Easy",
+      "explanation": "A technical standard can become contractually binding when it is expressly referenced in the agreement."
+    },
+    {
+      "question": "A contractor wants to begin excavation, but the mandatory construction permit has not yet been issued. What is the most appropriate action?",
+      "options": [
+        "Wait until the required authorization has been obtained",
+        "Begin work because the permit will probably be approved",
+        "Ask the subcontractor to accept responsibility",
+        "Proceed only during hours when authorities are not present"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Work should not begin when a legally required permit or authorization is still outstanding."
+    },
+    {
+      "question": "Which statement correctly distinguishes a law from a technical standard?",
+      "options": [
+        "A technical standard always overrides national law",
+        "A law is legally binding, while a standard may require incorporation through law, regulation or contract",
+        "A law only applies to public projects",
+        "A standard is always mandatory for every engineering project"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Laws are legally binding, while standards become binding only in particular legal, regulatory or contractual circumstances."
+    },
+    {
+      "question": "A procurement specification refers to 'the applicable ISO standard' without identifying a number or edition. What is the main problem?",
+      "options": [
+        "The supplier is automatically free to ignore ISO requirements",
+        "The project must use every ISO standard",
+        "Different bidders may base their offers on different requirements",
+        "The contract automatically becomes invalid"
+      ],
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "Unclear standard references can cause bidders to price and design according to different technical requirements."
+    },
+    {
+      "question": "A supplier provides a valid quality-management certificate. What does this certificate normally demonstrate?",
+      "options": [
+        "That every product supplied will automatically satisfy the project requirements",
+        "That the supplier can never produce defective work",
+        "That client inspection is no longer necessary",
+        "That the supplier operates a certified quality-management system"
+      ],
+      "answer": 3,
+      "difficulty": "Easy",
+      "explanation": "Management-system certification concerns the supplier's processes and does not automatically prove that each delivered product complies."
+    },
+    {
+      "question": "An engineer discovers that installed equipment does not meet a mandatory safety requirement. What should the engineer do?",
+      "options": [
+        "Report the non-conformity and ensure that it is evaluated and corrected",
+        "Accept it if replacement would delay the project",
+        "Hide the issue until final inspection",
+        "Approve it if the contractor offers a price reduction"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Mandatory safety non-conformities must be reported, assessed and corrected rather than accepted for commercial convenience."
+    },
+    {
+      "question": "A contract signed in 2026 requires compliance with the 2022 edition of a technical standard. A newer 2025 edition is available. Which edition should the supplier normally apply?",
+      "options": [
+        "The newest edition in every situation",
+        "The 2022 edition identified in the contract, unless an authorized change is agreed",
+        "Whichever edition is cheaper to follow",
+        "The edition normally used by the supplier"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "The contractually specified edition normally applies unless legislation or an approved contractual amendment requires otherwise."
+    },
+    {
+      "question": "A supplier proposes equipment complying with a national standard instead of the international standard named in the contract. The supplier claims the standards are equivalent. What should the project team do?",
+      "options": [
+        "Reject the equipment automatically without review",
+        "Accept the supplier's statement because both documents are standards",
+        "Evaluate the technical and legal differences and formally approve any deviation",
+        "Allow the supplier to decide which standard applies"
+      ],
+      "answer": 2,
+      "difficulty": "Medium",
+      "explanation": "Claims of equivalence should be technically and legally assessed, and any accepted deviation must be formally authorized and documented."
+    },
+
+    ,
+{
+  "question": "A new environmental regulation enters into force halfway through a five-year engineering project. What should the project team do first?",
+  "options": [
+    "Ignore the regulation because the contract has already been signed",
+    "Determine whether the new regulation applies and review the contract's change-in-law provisions",
+    "Immediately redesign the entire project",
+    "Wait until the final inspection before considering the regulation"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "The first step is to determine whether the new regulation applies and how the contract allocates responsibility for changes in law."
+},
+{
+  "question": "During procurement, two suppliers submit bids based on different editions of the same technical standard because the tender documents were unclear. What is the biggest consequence?",
+  "options": [
+    "The bids become difficult to compare fairly",
+    "Both bids are automatically rejected",
+    "The suppliers become legally liable for the mistake",
+    "The client must accept the lowest bid"
+  ],
+  "answer": 0,
+  "difficulty": "Medium",
+  "explanation": "Unclear references to standards can result in suppliers pricing different technical solutions."
+},
+{
+  "question": "A contractor discovers that a contractual requirement conflicts with a mandatory national safety regulation. Which requirement should normally take priority?",
+  "options": [
+    "The contract because both parties signed it",
+    "The requirement that is less expensive",
+    "The mandatory national safety regulation",
+    "The contractor's internal procedures"
+  ],
+  "answer": 2,
+  "difficulty": "Medium",
+  "explanation": "Mandatory legislation generally overrides conflicting contractual provisions."
+},
+{
+  "question": "A quality inspector asks for documentation proving that installed equipment complies with the required standard. Which document would normally provide the strongest evidence?",
+  "options": [
+    "A supplier's marketing brochure",
+    "An employee's verbal confirmation",
+    "A project schedule",
+    "Certificates and documented test results"
+  ],
+  "answer": 3,
+  "difficulty": "Medium",
+  "explanation": "Compliance should be supported by objective evidence such as certificates, inspection reports and test documentation."
+},
+{
+  "question": "A contractor wants to replace a specified material with another material that also meets the required performance. What should normally happen before the substitution is accepted?",
+  "options": [
+    "The substitution should be technically evaluated and formally approved",
+    "The contractor may substitute materials whenever costs are reduced",
+    "The supplier decides without informing the client",
+    "Nothing, provided the project stays on schedule"
+  ],
+  "answer": 0,
+  "difficulty": "Medium",
+  "explanation": "Material substitutions normally require technical evaluation and contractual approval."
+},
+{
+  "question": "Who is generally responsible for ensuring that engineering work complies with applicable laws and regulations?",
+  "options": [
+    "Only the government authority",
+    "Only the client",
+    "The relevant project parties according to law and contract",
+    "Only the supplier"
+  ],
+  "answer": 2,
+  "difficulty": "Medium",
+  "explanation": "Responsibility is usually shared and allocated through both legislation and the contract."
+},
+{
+  "question": "An engineer notices that the project team is using an outdated version of a technical standard. What is the best course of action?",
+  "options": [
+    "Continue because older standards are usually acceptable",
+    "Verify which edition is required by the contract and update the project documents if necessary",
+    "Always switch to the newest published edition immediately",
+    "Ignore the issue unless the client complains"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "The correct edition depends on the contract and applicable legal requirements."
+},
+{
+  "question": "A supplier claims that its product complies with all applicable requirements but refuses to provide supporting documentation. What should the project team do?",
+  "options": [
+    "Accept the supplier's statement",
+    "Approve the equipment if it appears well built",
+    "Use the equipment temporarily and request documents later",
+    "Require objective evidence before accepting the compliance claim"
+  ],
+  "answer": 3,
+  "difficulty": "Hard",
+  "explanation": "Compliance claims should always be supported by verifiable documentation."
+},
+{
+  "question": "During an audit, several inspection records cannot be located. What project risk does this create?",
+  "options": [
+    "Difficulty demonstrating compliance with contractual and regulatory requirements",
+    "The engineering calculations automatically become invalid",
+    "The project budget is cancelled",
+    "The supplier automatically loses future contracts"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Without proper records, the project may struggle to prove compliance during inspections or audits."
+},
+{
+  "question": "A compliance register is maintained throughout an engineering project. What is its primary purpose?",
+  "options": [
+    "To replace all project drawings",
+    "To track applicable requirements, responsibilities and evidence of compliance",
+    "To calculate project profitability",
+    "To manage employee salaries"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "A compliance register provides an organized overview of legal, contractual and technical requirements throughout the project."
+},
+
+    ,
+{
+  "question": "A contractor receives approval from the client to use an alternative material that complies with the same technical standard. However, the change is never documented. Several months later, the client disputes the substitution. What would have best protected both parties?",
+  "options": [
+    "A formal written approval recorded through the project's change management process",
+    "A verbal agreement during a site meeting",
+    "The supplier's internal quality procedure",
+    "A statement from the site supervisor"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Technical changes should always be formally documented and approved to avoid future contractual disputes."
+},
+{
+  "question": "A project specification requires compliance with an international standard, while local legislation requires stricter safety measures. Which requirement should normally be followed?",
+  "options": [
+    "Only the international standard",
+    "The stricter legal requirement",
+    "Whichever requirement increases project profit",
+    "The requirement preferred by the contractor"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Mandatory legal requirements normally take precedence, especially when they impose stricter safety obligations."
+},
+{
+  "question": "During procurement, a supplier identifies that one required standard has been withdrawn and replaced by a newer version. Before changing to the newer version, what should happen?",
+  "options": [
+    "The supplier should automatically use the newest version",
+    "The project manager should ignore the issue",
+    "The contract requirements should be reviewed and any change formally approved",
+    "The supplier should select whichever version is easier to satisfy"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "Even when standards are updated, contractual requirements should be reviewed before changing the applicable edition."
+},
+{
+  "question": "A contractor discovers that several completed installations do not fully satisfy a mandatory regulation. Correcting them will delay the project by two weeks. What is the best course of action?",
+  "options": [
+    "Hide the issue until project handover",
+    "Request final acceptance before the issue is discovered",
+    "Accept the installations because they function correctly",
+    "Report the issue and implement corrective actions despite the delay"
+  ],
+  "answer": 3,
+  "difficulty": "Hard",
+  "explanation": "Compliance with mandatory regulations should never be sacrificed to maintain schedule."
+},
+{
+  "question": "An authority performs an inspection and does not identify any problems. Can the contractor assume that all legal responsibilities have been transferred to the authority?",
+  "options": [
+    "No. The contractor remains responsible for complying with applicable requirements.",
+    "Yes. The authority is now fully responsible for the project.",
+    "Yes, unless the client objects.",
+    "Only if the inspection lasted more than one day."
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Passing an inspection does not transfer legal responsibility away from the contractor."
+},
+{
+  "question": "A supplier proposes using an equivalent foreign standard instead of the one specified in the contract. Which factor is MOST important before approving the proposal?",
+  "options": [
+    "Whether the supplier has used it previously",
+    "Whether technical, legal and contractual equivalence has been verified",
+    "Whether it reduces manufacturing costs",
+    "Whether it shortens the delivery time"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Equivalent standards should only be accepted after technical and contractual evaluation."
+},
+{
+  "question": "Which situation represents the greatest compliance risk during a long engineering project?",
+  "options": [
+    "Using digital documentation",
+    "Holding weekly project meetings",
+    "Continuing to use outdated regulatory documents after new requirements have become applicable",
+    "Ordering equipment earlier than planned"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "Using obsolete legal or technical requirements can result in non-compliant work."
+},
+{
+  "question": "A contract assigns responsibility for obtaining environmental permits to the client. The contractor realizes that no permit has been issued, but excavation is scheduled to begin tomorrow. What should the contractor do?",
+  "options": [
+    "Begin work because the permit is the client's responsibility",
+    "Proceed only on private property",
+    "Wait until the first inspection",
+    "Notify the client and avoid starting work until the legal requirement has been satisfied"
+  ],
+  "answer": 3,
+  "difficulty": "Hard",
+  "explanation": "Even if another party is responsible for obtaining permits, knowingly proceeding without required authorization creates significant legal and contractual risk."
+},
+{
+  "question": "A project contains requirements from laws, regulations, standards, client specifications and manufacturer instructions. What is the best strategy for managing these requirements?",
+  "options": [
+    "Maintain a structured compliance register that tracks responsibilities, evidence and status",
+    "Rely on each department to remember the applicable requirements",
+    "Focus only on the contract because other documents are less important",
+    "Review the requirements only before project handover"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "A compliance register helps ensure that all applicable requirements are identified, assigned and monitored throughout the project."
+},
+{
+  "question": "During project close-out, the client asks for documentation proving compliance with all applicable standards. Several certificates are missing, although the work itself appears satisfactory. What is the most likely consequence?",
+  "options": [
+    "The missing documents are irrelevant if the equipment works",
+    "The project is automatically terminated",
+    "Acceptance may be delayed until sufficient compliance documentation is provided",
+    "The supplier automatically receives financial penalties regardless of the contract"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "Engineering projects often require documented evidence of compliance before final acceptance, even when the physical work appears satisfactory."
+}
+  ]
+}
