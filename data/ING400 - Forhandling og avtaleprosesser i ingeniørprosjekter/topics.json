@@ -1,1 +1,97 @@
-
+{
+  "course": "ING400 - Negotiation and Agreement Processes in Engineering Projects",
+  "code": "ING400",
+  "topics": [
+    {
+      "id": "introduction-to-engineering-project-processes",
+      "title": "Introduction to Engineering Project Processes",
+      "description": "Learn how engineering projects are initiated, organized, and managed from idea to completion.",
+      "reading": "reading/introduction-to-engineering-project-processes.json",
+      "quiz": "quizzes/introduction-to-engineering-project-processes.json"
+    },
+    {
+      "id": "parties-roles-and-responsibilities",
+      "title": "Parties, Roles and Responsibilities",
+      "description": "Understand the responsibilities and relationships between key stakeholders in engineering projects.",
+      "reading": "reading/parties-roles-and-responsibilities.json",
+      "quiz": "quizzes/parties-roles-and-responsibilities.json"
+    },
+    {
+      "id": "communication-and-dialogue",
+      "title": "Communication and Dialogue",
+      "description": "Develop effective communication skills for project teams, clients and suppliers.",
+      "reading": "reading/communication-and-dialogue.json",
+      "quiz": "quizzes/communication-and-dialogue.json"
+    },
+    {
+      "id": "negotiation-fundamentals",
+      "title": "Negotiation Fundamentals",
+      "description": "Learn the principles, stages and objectives of successful negotiations.",
+      "reading": "reading/negotiation-fundamentals.json",
+      "quiz": "quizzes/negotiation-fundamentals.json"
+    },
+    {
+      "id": "negotiation-strategies",
+      "title": "Negotiation Strategies",
+      "description": "Compare collaborative, competitive and hybrid negotiation approaches.",
+      "reading": "reading/negotiation-strategies.json",
+      "quiz": "quizzes/negotiation-strategies.json"
+    },
+    {
+      "id": "interests-positions-and-batna",
+      "title": "Interests, Positions and BATNA",
+      "description": "Understand the difference between positions and interests, and how BATNA strengthens negotiations.",
+      "reading": "reading/interests-positions-and-batna.json",
+      "quiz": "quizzes/interests-positions-and-batna.json"
+    },
+    {
+      "id": "contracts-and-agreement-processes",
+      "title": "Contracts and Agreement Processes",
+      "description": "Explore how contracts are negotiated, drafted and finalized in engineering projects.",
+      "reading": "reading/contracts-and-agreement-processes.json",
+      "quiz": "quizzes/contracts-and-agreement-processes.json"
+    },
+    {
+      "id": "interpretation-of-contracts",
+      "title": "Interpretation of Contracts",
+      "description": "Learn how contract clauses are interpreted and applied in practice.",
+      "reading": "reading/interpretation-of-contracts.json",
+      "quiz": "quizzes/interpretation-of-contracts.json"
+    },
+    {
+      "id": "laws-regulations-and-standards",
+      "title": "Laws, Regulations and Standards",
+      "description": "Gain an overview of the legal framework governing engineering projects.",
+      "reading": "reading/laws-regulations-and-standards.json",
+      "quiz": "quizzes/laws-regulations-and-standards.json"
+    },
+    {
+      "id": "procurement-and-tendering",
+      "title": "Procurement and Tendering",
+      "description": "Understand procurement strategies, tender processes and supplier selection.",
+      "reading": "reading/procurement-and-tendering.json",
+      "quiz": "quizzes/procurement-and-tendering.json"
+    },
+    {
+      "id": "risk-allocation-and-liability",
+      "title": "Risk Allocation and Liability",
+      "description": "Learn how contractual risks and liabilities are distributed between parties.",
+      "reading": "reading/risk-allocation-and-liability.json",
+      "quiz": "quizzes/risk-allocation-and-liability.json"
+    },
+    {
+      "id": "changes-claims-and-disputes",
+      "title": "Changes, Claims and Disputes",
+      "description": "Study contract changes, claims management and dispute resolution techniques.",
+      "reading": "reading/changes-claims-and-disputes.json",
+      "quiz": "quizzes/changes-claims-and-disputes.json"
+    },
+    {
+      "id": "practical-negotiation-simulation",
+      "title": "Practical Negotiation Simulation",
+      "description": "Apply negotiation techniques in realistic engineering project scenarios.",
+      "reading": "reading/practical-negotiation-simulation.json",
+      "quiz": "quizzes/practical-negotiation-simulation.json"
+    }
+  ]
+}
