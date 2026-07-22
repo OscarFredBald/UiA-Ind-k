@@ -1,0 +1,369 @@
+{
+  "title": "Interpretation of Contracts",
+  "questions": [
+    {
+      "question": "A contractor is unsure whether commissioning is included in the agreed scope of work. What should the contractor do first?",
+      "options": [
+        "Ask the supplier what is normally included",
+        "Review the contract and its supporting documents",
+        "Assume commissioning is excluded",
+        "Invoice the client for additional work immediately"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "The written contract and its supporting documents are always the primary source for determining contractual obligations."
+    },
+    {
+      "question": "Why is precise wording important when drafting engineering contracts?",
+      "options": [
+        "It guarantees that no disputes will ever occur",
+        "It removes the need for technical specifications",
+        "It reduces the risk of different interpretations",
+        "It allows either party to change the scope later"
+      ],
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "Clear wording minimizes ambiguity and helps all parties interpret the contract consistently."
+    },
+    {
+      "question": "A project manager notices that the technical specification requires stainless steel pipes, while a drawing simply states 'steel pipe'. What should be done?",
+      "options": [
+        "Continue using ordinary steel because it is cheaper",
+        "Request clarification before proceeding",
+        "Ignore the specification and follow the drawing",
+        "Let the supplier decide"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Whenever contract documents appear inconsistent, clarification should be obtained before work continues."
+    },
+    {
+      "question": "Which document normally contains the detailed engineering requirements for equipment and materials?",
+      "options": [
+        "The technical specification",
+        "The payment schedule",
+        "The insurance certificate",
+        "The invoice"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Technical specifications describe the engineering and performance requirements of the project."
+    },
+    {
+      "question": "Several contract documents appear to contradict each other. What should be checked before deciding which requirement applies?",
+      "options": [
+        "The weather forecast",
+        "The supplier's website",
+        "The document hierarchy defined in the contract",
+        "The contractor's previous projects"
+      ],
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "Many engineering contracts define which documents take precedence if inconsistencies exist."
+    },
+    {
+      "question": "Why should engineers avoid making assumptions when interpreting contracts?",
+      "options": [
+        "Assumptions can result in incorrect work and contractual disputes",
+        "Assumptions automatically terminate the contract",
+        "Assumptions reduce engineering quality by law",
+        "Assumptions increase project costs in every situation"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Engineering decisions should be based on documented contractual requirements rather than assumptions."
+    },
+    {
+      "question": "During construction, an engineer discovers that a contract clause is unclear. What is generally the most professional action?",
+      "options": [
+        "Interpret the clause in the contractor's favor",
+        "Ignore the uncertainty until project close-out",
+        "Request clarification and document the response",
+        "Continue according to personal experience"
+      ],
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "Clarifying uncertainty early helps prevent misunderstandings and future disputes."
+    },
+    {
+      "question": "A supplier receives revised drawings by email, but the formal contract has not yet been updated. What is the safest approach?",
+      "options": [
+        "Begin manufacturing according to the revised drawings immediately",
+        "Wait until the contractual change has been confirmed through the agreed procedure",
+        "Ignore both the original and revised drawings",
+        "Choose whichever drawing results in the lowest production cost"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Changes should normally follow the contract's agreed change management procedure."
+    },
+    {
+      "question": "Two engineers disagree about the meaning of one sentence in the contract. What is usually the best starting point for resolving the disagreement?",
+      "options": [
+        "Read the entire contract and related documents in context",
+        "Ask another contractor what they think",
+        "Use the interpretation that saves the most money",
+        "Ignore the disputed clause"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Individual clauses should be interpreted together with the rest of the contract."
+    },
+    {
+      "question": "A project manager keeps detailed meeting minutes throughout the project. What is the primary benefit if a contractual disagreement later arises?",
+      "options": [
+        "Meeting minutes automatically override the contract",
+        "They provide documented evidence of discussions and decisions",
+        "They replace the need for technical specifications",
+        "They eliminate the need for dispute resolution"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Well-maintained project documentation helps establish what was discussed and agreed during project execution."
+    },
+
+    ,
+{
+  "question": "A contractor discovers that the contract requires equipment to meet ISO standards, while the technical specification refers to a different industry standard. What should the contractor do first?",
+  "options": [
+    "Select the standard that is easier to comply with",
+    "Follow the technical specification without question",
+    "Request clarification based on the contract's document hierarchy",
+    "Ignore both standards and use company practice"
+  ],
+  "answer": 2,
+  "difficulty": "Medium",
+  "explanation": "Conflicting requirements should be clarified using the document hierarchy defined in the contract."
+},
+{
+  "question": "A client insists that a contractor should perform additional work because 'it was obviously intended,' even though the work is not mentioned anywhere in the contract. What is the strongest argument for the contractor?",
+  "options": [
+    "The written contract does not include the additional work",
+    "The contractor has completed similar work on previous projects",
+    "The work is technically simple",
+    "The client requested it verbally"
+  ],
+  "answer": 0,
+  "difficulty": "Medium",
+  "explanation": "Contract interpretation begins with the written agreement, not assumptions about what was intended."
+},
+{
+  "question": "During construction, two engineers interpret the same contract clause differently. What is the most professional way to resolve the disagreement?",
+  "options": [
+    "Allow each engineer to continue with their own interpretation",
+    "Review the clause together with the surrounding contract documents",
+    "Choose the interpretation that saves the most money",
+    "Ignore the issue until project completion"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "Contract clauses should always be interpreted in the context of the entire agreement."
+},
+{
+  "question": "A supplier notices an error in the contract before manufacturing begins. Why is it important to raise the issue immediately?",
+  "options": [
+    "It reduces the likelihood of delays, rework and contractual disputes",
+    "It guarantees additional payment",
+    "It automatically changes the contract",
+    "It allows the supplier to ignore future specifications"
+  ],
+  "answer": 0,
+  "difficulty": "Medium",
+  "explanation": "Identifying problems early gives the parties an opportunity to resolve them before work starts."
+},
+{
+  "question": "A contractor receives conflicting verbal instructions from two representatives of the client. What should the contractor do?",
+  "options": [
+    "Follow whichever instruction seems technically best",
+    "Carry out both instructions",
+    "Request written clarification from the authorized representative",
+    "Ignore both representatives"
+  ],
+  "answer": 2,
+  "difficulty": "Medium",
+  "explanation": "Only authorized and documented instructions should normally be relied upon."
+},
+{
+  "question": "A contract requires all correspondence regarding technical changes to be made in writing. The client gives a verbal approval during a meeting. What is the contractor's best next step?",
+  "options": [
+    "Document the approval and request written confirmation",
+    "Assume the verbal approval is sufficient",
+    "Ignore the approval",
+    "Invoice the work immediately"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Written confirmation creates a clear contractual record and protects both parties."
+},
+{
+  "question": "A project manager notices that one clause appears ambiguous, but another section of the contract clearly explains the intended requirement. Which principle should be applied?",
+  "options": [
+    "Ignore the explanatory section",
+    "Interpret the contract as a complete document",
+    "Delete the ambiguous clause",
+    "Use whichever interpretation benefits the contractor"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Individual clauses should not be interpreted in isolation."
+},
+{
+  "question": "A contractor begins additional work without requesting clarification because the client 'will probably approve it later.' What is the greatest contractual risk?",
+  "options": [
+    "The contractor may not be entitled to payment for the additional work",
+    "The project automatically becomes invalid",
+    "The contractor loses all warranty obligations",
+    "The project budget is automatically increased"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Work performed without proper authorization may not be compensated."
+},
+{
+  "question": "During project close-out, the client argues that certain documentation should have been delivered, while the contractor claims it was never included. Which documents should be reviewed first?",
+  "options": [
+    "The technical specification, scope of work and contract requirements",
+    "The latest invoice",
+    "The contractor's internal procedures",
+    "Previous projects completed by the company"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "The agreed contract documents determine which deliverables are required."
+},
+{
+  "question": "A contractor notices that the wording of a contract clause is broad enough to allow two reasonable interpretations. What approach is most likely to reduce the chance of a future dispute?",
+  "options": [
+    "Continue using the contractor's preferred interpretation",
+    "Seek clarification and document the agreed interpretation before continuing",
+    "Ignore the issue until the project is completed",
+    "Let individual engineers decide how to interpret the clause"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Resolving ambiguity early and documenting the agreement is one of the best ways to avoid future contractual conflicts."
+},
+
+    ,
+{
+  "question": "A contract states that equipment must be delivered by 1 October, while an approved schedule attached to the contract shows 15 October. The contract hierarchy gives the signed contract priority over schedules. Which date should normally apply?",
+  "options": [
+    "15 October, because schedules are more detailed",
+    "The contractor may choose either date",
+    "1 October, because the signed contract has higher priority",
+    "The average of the two dates"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "Where contract documents conflict, the agreed document hierarchy determines which requirement takes priority."
+},
+{
+  "question": "A technical clause uses the term 'commissioning complete' without defining it. The project documents contain detailed acceptance tests elsewhere. How should the term most reasonably be interpreted?",
+  "options": [
+    "By considering the acceptance tests and the contract as a whole",
+    "By using the contractor's internal definition only",
+    "By treating installation as automatically equal to commissioning",
+    "By ignoring the acceptance tests because they appear elsewhere"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Ambiguous wording should be interpreted in the context of the entire contract and related requirements."
+},
+{
+  "question": "A contractor argues that a vague clause should be interpreted in its favor because the client drafted the contract. What is the best initial response?",
+  "options": [
+    "The contractor automatically wins every ambiguous issue",
+    "The clause should first be interpreted using its wording, context and the full contract",
+    "The clause should be deleted immediately",
+    "The interpretation should be based only on the contract value"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "The first step is to analyze the wording and contractual context rather than automatically favoring one party."
+},
+{
+  "question": "A supplier's bid included an assumption that testing would be performed by the client. The final signed contract clearly assigns testing to the supplier. Which requirement normally governs?",
+  "options": [
+    "The supplier's original assumption",
+    "Common industry practice",
+    "Whichever arrangement costs less",
+    "The final signed contract"
+  ],
+  "answer": 3,
+  "difficulty": "Hard",
+  "explanation": "The final signed agreement normally governs over earlier assumptions or tender qualifications unless they were incorporated into the contract."
+},
+{
+  "question": "A drawing shows a valve in one location, while the written specification requires it in another. The contract does not clearly state which document has priority. What is the safest action?",
+  "options": [
+    "Install it according to the drawing without notice",
+    "Request formal clarification before installation",
+    "Install two valves",
+    "Follow whichever option requires less labor"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Where no clear hierarchy resolves the inconsistency, formal clarification should be obtained before work proceeds."
+},
+{
+  "question": "During execution, both parties have consistently followed one interpretation of a clause for six months. A dispute later arises about that clause. Why may the previous conduct be relevant?",
+  "options": [
+    "It may help show how the parties understood and applied the clause in practice",
+    "It automatically replaces the written contract",
+    "It proves that every later claim is invalid",
+    "It allows the project manager to rewrite the clause alone"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Consistent conduct may provide context for how the parties understood an ambiguous provision, although the written contract remains central."
+},
+{
+  "question": "A contract contains a general requirement to provide 'all necessary accessories,' while a detailed equipment list omits a specific accessory required for operation. What is the strongest interpretation?",
+  "options": [
+    "The accessory is excluded because it is not individually listed",
+    "The contractor should decide after delivery",
+    "The general requirement may include the accessory if it is necessary for proper operation",
+    "The client must always purchase every omitted item separately"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "General and specific provisions must be read together, and functional requirements may include items necessary to deliver an operable system."
+},
+{
+  "question": "A client representative sends an email interpreting a clause, but that representative has no contractual authority to issue binding instructions. What should the contractor do?",
+  "options": [
+    "Treat the email as a formal contract amendment",
+    "Proceed immediately because any client employee may change the contract",
+    "Ignore the issue permanently",
+    "Seek confirmation from the authorized contractual representative"
+  ],
+  "answer": 3,
+  "difficulty": "Hard",
+  "explanation": "Contractual communications should come from persons with the authority defined in the agreement."
+},
+{
+  "question": "A clause can be interpreted in a way that makes another clause meaningless, or in a way that allows both clauses to operate. Which interpretation is generally preferable?",
+  "options": [
+    "The interpretation that gives effect to both clauses",
+    "The interpretation that removes the more expensive obligation",
+    "The interpretation preferred by the party that drafted the contract",
+    "The interpretation based only on the clause appearing first"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Contracts should generally be interpreted coherently so that provisions are given effect rather than made redundant."
+},
+{
+  "question": "A project team identifies an ambiguity that could affect safety, cost and schedule. What is the best overall response?",
+  "options": [
+    "Continue work and record the issue only at close-out",
+    "Choose the interpretation with the lowest immediate cost",
+    "Escalate the issue, obtain authorized clarification and document the agreed interpretation",
+    "Allow each discipline to apply its own interpretation"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "Material ambiguities should be resolved promptly through the contractual communication process and formally documented."
+}
+  ]
+}
