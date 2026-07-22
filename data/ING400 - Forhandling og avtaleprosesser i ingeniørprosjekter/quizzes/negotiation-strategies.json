@@ -1,653 +1,368 @@
 {
   "title": "Negotiation Strategies in Engineering Projects",
-  "description": "Learn how different negotiation strategies can be selected and applied in engineering projects, including competitive, cooperative, interest-based and problem-solving approaches.",
-  "estimatedReadingTime": "30 minutes",
-  "level": "Intermediate",
-  "sections": [
+  "description": "Test your understanding of negotiation strategies, tactics, collaboration, competition, concessions and strategic decision-making in engineering projects.",
+  "questions": [
     {
-      "type": "learningObjectives",
-      "title": "Learning Objectives",
-      "items": [
-        "Explain what a negotiation strategy is.",
-        "Distinguish between competitive and cooperative negotiation strategies.",
-        "Understand when distributive and integrative strategies are appropriate.",
-        "Select a strategy based on objectives, relationships, power and alternatives.",
-        "Recognize common negotiation tactics and appropriate responses.",
-        "Use package proposals, conditional concessions and objective criteria.",
-        "Adapt negotiation strategies when circumstances change.",
-        "Evaluate the risks of overly aggressive or overly cooperative behaviour.",
-        "Apply negotiation strategies to engineering project scenarios.",
-        "Develop a structured strategy before entering a negotiation."
-      ]
+      "question": "What is a negotiation strategy?",
+      "options": [
+        "A single technique used to pressure the other party",
+        "The overall approach used to achieve negotiation objectives",
+        "The first offer made during a negotiation",
+        "The written agreement signed after negotiations"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "A negotiation strategy is the overall plan that guides preparation, communication and decision-making throughout the negotiation."
     },
     {
-      "type": "theory",
-      "title": "What Is a Negotiation Strategy?",
-      "content": [
-        "A negotiation strategy is the overall approach a party uses to achieve its objectives during a negotiation.",
-        "It guides how the negotiator prepares, communicates, shares information, makes proposals and responds to pressure.",
-        "A strategy is broader than an individual tactic.",
-        "A tactic is a specific action, while a strategy describes the general direction of the negotiation.",
-        "An effective strategy should reflect the importance of the outcome, the relationship between the parties and the available alternatives."
-      ]
+      "question": "What is the main difference between a negotiation strategy and a negotiation tactic?",
+      "options": [
+        "Strategies are only used by lawyers.",
+        "Strategies describe the overall approach, while tactics are individual actions used to support that approach.",
+        "Tactics are planned before the meeting, while strategies are created during the meeting.",
+        "There is no practical difference."
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "A strategy defines the overall direction, while tactics are the specific methods used to implement it."
     },
     {
-      "type": "theory",
-      "title": "Strategy versus Tactics",
-      "content": [
-        "Strategy concerns the overall plan for reaching an acceptable agreement.",
-        "Tactics are the individual methods used during the negotiation.",
-        "For example, an integrative strategy may use open questions, package proposals and information sharing.",
-        "A competitive strategy may use ambitious opening offers, limited concessions and firm deadlines.",
-        "Tactics should support the chosen strategy rather than being used without a clear purpose."
-      ]
+      "question": "Which factor should have the greatest influence on the negotiation strategy you choose?",
+      "options": [
+        "Your personal negotiation style.",
+        "The circumstances, objectives, relationship and available alternatives.",
+        "The opening offer only.",
+        "The age of the negotiators."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "An effective strategy depends on the importance of the outcome, the relationship, bargaining power and the available alternatives."
     },
     {
-      "type": "example",
-      "title": "Strategy and Tactic Example",
-      "content": [
-        "A shipyard wants to preserve a long-term relationship with an equipment supplier.",
-        "Its overall strategy is cooperative and problem-solving.",
-        "During the negotiation, it uses the tactics of asking open questions, presenting alternative packages and making conditional concessions.",
-        "The tactics support the larger relationship-oriented strategy."
-      ]
+      "question": "When is a competitive negotiation strategy generally most appropriate?",
+      "options": [
+        "When maintaining a long-term relationship is the highest priority.",
+        "When negotiating a one-time transaction where price is the primary issue.",
+        "When solving a complex engineering problem with multiple stakeholders.",
+        "When both parties have identical objectives."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Competitive strategies are most suitable for transactional negotiations where claiming value is more important than preserving a long-term relationship."
     },
     {
-      "type": "theory",
-      "title": "Factors That Influence Strategy Selection",
-      "content": [
-        "The correct negotiation strategy depends on the circumstances.",
-        "Important factors include the value of the agreement, the importance of the relationship, time pressure, bargaining power and available alternatives.",
-        "The number of negotiable issues also matters.",
-        "A single-price transaction may require a different approach from a long-term engineering contract involving scope, performance, risk and service.",
-        "The strategy should therefore be selected deliberately rather than based only on personality."
-      ]
+      "question": "Which statement best describes a cooperative negotiation strategy?",
+      "options": [
+        "It focuses on defeating the other party.",
+        "It emphasizes collaboration, trust and solving problems together.",
+        "It avoids discussing commercial issues.",
+        "It requires both parties to make identical concessions."
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "A cooperative strategy seeks mutually beneficial outcomes while maintaining a productive relationship."
     },
     {
-      "type": "theory",
-      "title": "Importance of the Outcome",
-      "content": [
-        "Some negotiations have major financial, technical or operational consequences.",
-        "When the outcome is highly important, the negotiator should protect essential requirements and prepare carefully.",
-        "When the issue has limited importance, a flexible or accommodating strategy may save time and preserve the relationship.",
-        "The amount of effort invested in a negotiation should reflect the value and risk involved."
-      ]
+      "question": "A shipowner and supplier discover a technical issue during commissioning. They openly share technical information and work together to find the best solution before discussing cost allocation. Which strategy are they primarily using?",
+      "options": [
+        "Competitive strategy",
+        "Avoiding strategy",
+        "Cooperative problem-solving strategy",
+        "Power-based strategy"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "The parties are collaborating to solve the technical problem before negotiating commercial consequences."
     },
     {
-      "type": "theory",
-      "title": "Importance of the Relationship",
-      "content": [
-        "The relationship between the parties strongly influences strategy.",
-        "A one-time purchase may allow a more transactional approach.",
-        "A long-term supplier relationship requires consideration of trust, cooperation and future performance.",
-        "An aggressive short-term victory may damage the relationship and create higher costs later.",
-        "However, preserving the relationship does not mean accepting an unfavourable agreement."
-      ]
+      "question": "What is one major risk of using an overly competitive strategy?",
+      "options": [
+        "Negotiations always finish faster.",
+        "Trust and long-term cooperation may be damaged.",
+        "Engineering quality automatically decreases.",
+        "Contracts become legally invalid."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Aggressive negotiations may achieve short-term gains but often damage future cooperation."
     },
     {
-      "type": "theory",
-      "title": "Competitive Negotiation Strategy",
-      "content": [
-        "A competitive strategy focuses on maximizing one party's share of a limited amount of value.",
-        "It is commonly associated with distributive negotiation.",
-        "The negotiator may use a strong opening position, limited information sharing and carefully controlled concessions.",
-        "The strategy may be suitable when the relationship is limited, the issue is mainly price-based and the parties have clear alternatives.",
-        "It carries a risk of damaging trust or reducing future cooperation."
-      ]
+      "question": "What is one major risk of being overly cooperative?",
+      "options": [
+        "The other party may receive valuable concessions without offering anything in return.",
+        "The negotiation will always fail.",
+        "The parties will stop communicating.",
+        "The contract automatically becomes unenforceable."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Cooperation should not mean giving away value without protecting important commercial interests."
     },
     {
-      "type": "example",
-      "title": "Competitive Strategy Example",
-      "content": [
-        "A company is purchasing standard equipment from several qualified suppliers.",
-        "The technical specifications are identical and the suppliers are easily replaceable.",
-        "The buyer may use competitive tendering and firm price negotiation.",
-        "Because the relationship is not critical, the buyer can place greater emphasis on obtaining favourable commercial terms."
-      ]
+      "question": "Why is an integrative negotiation strategy often effective in engineering projects?",
+      "options": [
+        "Because engineering projects usually involve several negotiable issues that can be traded.",
+        "Because price is the only issue discussed.",
+        "Because engineering negotiations never involve commercial considerations.",
+        "Because both parties always have identical interests."
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Engineering projects often involve multiple interconnected issues such as delivery, warranty, support, payment and technical performance."
     },
     {
-      "type": "warning",
-      "title": "Risks of Excessive Competition",
-      "items": [
-        "The other party may stop sharing useful information.",
-        "Trust may be reduced.",
-        "The parties may focus only on positions rather than solving the project problem.",
-        "The supplier may recover lost value through claims or reduced service.",
-        "An agreement may become commercially attractive but difficult to implement.",
-        "The relationship may be damaged beyond the current negotiation."
-      ]
+      "question": "A supplier cannot lower the purchase price but can provide extended technical support, operator training and faster delivery. Which negotiation strategy is being demonstrated?",
+      "options": [
+        "Competitive bargaining",
+        "Integrative value creation",
+        "Avoiding conflict",
+        "Anchoring"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Instead of negotiating only on price, the parties create additional value by trading across several issues."
+    },
+
+        {
+      "question": "What is the primary objective of an interest-based negotiation strategy?",
+      "options": [
+        "To persuade the other party to accept your position.",
+        "To understand the underlying interests behind each party's positions and develop mutually beneficial solutions.",
+        "To negotiate only on price.",
+        "To avoid discussing technical issues."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Interest-based negotiation focuses on understanding why each party wants a particular outcome rather than arguing over stated positions."
     },
     {
-      "type": "theory",
-      "title": "Cooperative Negotiation Strategy",
-      "content": [
-        "A cooperative strategy emphasizes collaboration, trust and mutual problem-solving.",
-        "The parties share selected information and attempt to understand each other's interests.",
-        "This strategy is useful when the parties depend on each other during project execution.",
-        "It supports long-term relationships and complex negotiations with several connected issues.",
-        "Cooperation should still be combined with clear objectives, limits and verification."
-      ]
+      "question": "A contractor requests unrestricted weekend access to the project site. Instead of immediately rejecting the request, the client asks why weekend access is necessary. Which strategy is being applied?",
+      "options": [
+        "Competitive negotiation",
+        "Interest-based negotiation",
+        "Power-based negotiation",
+        "Avoiding strategy"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The client is exploring the contractor's underlying interests before responding to the stated position."
     },
     {
-      "type": "example",
-      "title": "Cooperative Strategy Example",
-      "content": [
-        "A shipowner and shipyard discover an unexpected structural problem during dry docking.",
-        "Both parties want to complete the repair safely and minimize delay.",
-        "They share technical information, evaluate several repair methods and develop a joint work plan.",
-        "They then negotiate how the additional cost and time risk should be allocated."
-      ]
+      "question": "What is the main purpose of a problem-solving negotiation strategy?",
+      "options": [
+        "To determine which party is responsible before discussing solutions.",
+        "To jointly identify and solve the project problem before negotiating responsibilities or compensation.",
+        "To negotiate only legal matters.",
+        "To reduce the number of stakeholders involved."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Problem-solving negotiations focus first on understanding and resolving the project issue before discussing commercial consequences."
     },
     {
-      "type": "warning",
-      "title": "Risks of Excessive Cooperation",
-      "items": [
-        "The negotiator may reveal sensitive information unnecessarily.",
-        "Important commercial interests may not be protected.",
-        "The other party may interpret flexibility as weakness.",
-        "Concessions may be made without receiving value in return.",
-        "The final agreement may be based on goodwill rather than clear obligations."
-      ]
+      "question": "A vessel's automation system cannot communicate correctly with newly installed equipment. The owner and supplier first investigate the technical cause together before discussing who should pay for the corrective work. Which negotiation strategy best describes this approach?",
+      "options": [
+        "Competitive strategy",
+        "Problem-solving strategy",
+        "Avoiding strategy",
+        "Accommodation strategy"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The parties first solve the engineering problem before negotiating liability."
     },
     {
-      "type": "theory",
-      "title": "Integrative Negotiation Strategy",
-      "content": [
-        "An integrative strategy seeks to create value by exploring different interests and priorities.",
-        "It is particularly effective when several issues can be negotiated together.",
-        "The parties may trade across price, delivery, warranty, payment, risk, training and technical support.",
-        "The objective is not to avoid competition but to improve the total value available before dividing it.",
-        "Integrative negotiation requires preparation, information exchange and creative problem-solving."
-      ]
+      "question": "When is a compromising strategy often appropriate?",
+      "options": [
+        "When one party has complete bargaining power.",
+        "When time is limited and both parties have relatively equal bargaining strength.",
+        "When the relationship is unimportant and only price matters.",
+        "When technical requirements are still unknown."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Compromise is often useful when a practical solution is needed quickly and both parties have similar influence."
     },
     {
-      "type": "example",
-      "title": "Creating Value Across Several Issues",
-      "content": [
-        "A supplier cannot significantly reduce its price.",
-        "The client values early delivery and long-term technical support.",
-        "The supplier values early payment and flexible testing dates.",
-        "The parties agree on accelerated delivery and extended support in exchange for earlier payment and a revised testing schedule.",
-        "Both parties receive benefits that are especially valuable to them."
-      ]
+      "question": "Why is simply 'splitting the difference' not always the best compromise?",
+      "options": [
+        "Because the midpoint between two demands may not reflect technical, commercial or contractual reality.",
+        "Because compromise is never acceptable.",
+        "Because engineers should never compromise.",
+        "Because contracts prohibit compromise."
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "A fair agreement should be based on evidence, not simply on the mathematical midpoint between two positions."
     },
     {
-      "type": "theory",
-      "title": "Interest-Based Strategy",
-      "content": [
-        "An interest-based strategy focuses on the reasons behind the parties' stated positions.",
-        "The negotiator asks why a particular term is important.",
-        "Understanding interests makes it possible to develop alternative solutions.",
-        "The strategy is especially useful when the parties appear to have incompatible positions.",
-        "Interests may include safety, schedule reliability, cash flow, resource availability or reputation."
-      ]
+      "question": "When is an accommodating strategy most appropriate?",
+      "options": [
+        "When the issue is relatively unimportant to you but important to the other party.",
+        "When you want to maximize your commercial gain.",
+        "When no relationship exists between the parties.",
+        "When your alternative is extremely strong."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Accommodation can preserve goodwill when the issue has little value to one party but significant value to the other."
     },
     {
-      "type": "example",
-      "title": "Position and Interest",
-      "content": [
-        "A contractor demands access to the project site seven days per week.",
-        "The client's position is that weekend access is not permitted.",
-        "The contractor's underlying interest is maintaining the installation schedule.",
-        "The parties agree on longer weekday shifts and priority access during specific periods.",
-        "The interest is addressed without accepting the original position."
-      ]
+      "question": "A client has no preference regarding the format of weekly reports, while the contractor strongly prefers using its existing reporting template. The client agrees to use the contractor's format. Which strategy is demonstrated?",
+      "options": [
+        "Competitive strategy",
+        "Accommodation strategy",
+        "Power strategy",
+        "Anchoring strategy"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The client accommodates the contractor on an issue of low importance while preserving effort for more significant negotiations."
     },
     {
-      "type": "theory",
-      "title": "Problem-Solving Strategy",
-      "content": [
-        "A problem-solving strategy treats the negotiation as a joint effort to address a project challenge.",
-        "The parties define the problem, collect facts, identify constraints and evaluate alternatives.",
-        "This strategy is effective when technical and commercial issues are closely connected.",
-        "It is important to separate the people from the problem.",
-        "The focus should remain on project needs, evidence and workable solutions."
-      ]
+      "question": "When may an avoiding strategy be appropriate?",
+      "options": [
+        "When additional information or approval is needed before continuing the negotiation.",
+        "When every issue must be solved immediately.",
+        "When you want to pressure the other party.",
+        "When you have already reached a final agreement."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Postponing negotiations may be appropriate if better decisions can be made after obtaining additional information or authority."
     },
     {
-      "type": "example",
-      "title": "Engineering Problem-Solving",
-      "content": [
-        "A new control system does not communicate correctly with the vessel's existing automation system.",
-        "The supplier claims that the original interface information was incomplete.",
-        "The client believes the supplier should have identified the problem earlier.",
-        "Instead of beginning with blame, the parties first establish the technical cause and possible corrective actions.",
-        "Responsibility and cost are negotiated after the solution options are understood."
-      ]
+      "question": "Which statement best describes the relationship between the importance of the outcome and the importance of the relationship when selecting a negotiation strategy?",
+      "options": [
+        "The same strategy should be used regardless of the situation.",
+        "The chosen strategy should balance how important the agreement is with how important the long-term relationship is.",
+        "Relationships should always take priority over project objectives.",
+        "Commercial outcomes should always take priority over relationships."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Effective negotiators select strategies based on both the value of the outcome and the importance of maintaining future cooperation."
+    },
+
+        {
+      "question": "Why should an opening offer be ambitious but still credible?",
+      "options": [
+        "Because unrealistic opening offers usually strengthen trust.",
+        "Because an ambitious but realistic offer creates room for negotiation without damaging credibility.",
+        "Because the first offer always becomes the final agreement.",
+        "Because the opening offer cannot be changed."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "An effective opening offer establishes a favorable starting point while remaining believable and supported by objective reasoning."
     },
     {
-      "type": "theory",
-      "title": "Compromising Strategy",
-      "content": [
-        "A compromising strategy seeks a middle position that both parties can accept.",
-        "It is often faster than a full interest-based process.",
-        "Compromise may be useful when time is limited and the parties have similar bargaining power.",
-        "However, simply splitting the difference does not always produce a fair or effective outcome.",
-        "The midpoint between two unsupported positions is not automatically reasonable."
-      ]
+      "question": "A contractor submits an extremely high claim for additional work. Before responding with a counteroffer, what should the client do?",
+      "options": [
+        "Immediately offer half of the requested amount.",
+        "Accept the claim to preserve the relationship.",
+        "Request supporting documentation and evaluate the technical and commercial basis of the claim.",
+        "Ignore the claim completely."
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "A negotiator should challenge unreasonable anchors with objective evidence rather than negotiating from unsupported figures."
     },
     {
-      "type": "example",
-      "title": "When Compromise May Be Appropriate",
-      "content": [
-        "A contractor requests six additional days, while the client accepts only two.",
-        "The schedule analysis shows that some delay occurred but that mitigation is possible.",
-        "The parties agree on four additional days combined with additional staffing.",
-        "The compromise is connected to evidence and a mitigation commitment."
-      ]
+      "question": "What is the main purpose of selective information sharing during a negotiation?",
+      "options": [
+        "To reveal every internal objective.",
+        "To improve cooperation while protecting confidential commercial information.",
+        "To prevent the other party from asking questions.",
+        "To eliminate bargaining power."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Sharing relevant information can create value, but sensitive information such as reservation points should normally remain confidential."
     },
     {
-      "type": "theory",
-      "title": "Accommodating Strategy",
-      "content": [
-        "An accommodating strategy gives priority to the other party's interests or to the relationship.",
-        "It may be appropriate when the issue has low importance to one party but high importance to the other.",
-        "It can also be used to correct an error or build goodwill.",
-        "Accommodation should be deliberate and proportionate.",
-        "Repeated accommodation may create unrealistic expectations."
-      ]
+      "question": "Which negotiation technique is demonstrated by the proposal: 'If you can complete installation two weeks earlier, we can revise the payment schedule'?",
+      "options": [
+        "Anchoring",
+        "Conditional proposal",
+        "Avoidance strategy",
+        "Accommodation"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Conditional proposals exchange value by linking one concession to another."
     },
     {
-      "type": "example",
-      "title": "Strategic Accommodation",
-      "content": [
-        "A client has no strong preference regarding the format of weekly progress reports.",
-        "The contractor prefers a format already used in its internal systems.",
-        "The client accepts the contractor's format because the issue has low importance and reduces administrative work.",
-        "The concession preserves effort for more important negotiation issues."
-      ]
+      "question": "Why should concessions normally become smaller as a negotiation progresses?",
+      "options": [
+        "To signal that you are approaching your practical negotiation limit.",
+        "Because smaller concessions are legally required.",
+        "Because negotiations should become more emotional over time.",
+        "Because the other party expects identical concessions throughout the negotiation."
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Reducing the size of concessions indicates that further movement is becoming increasingly difficult."
     },
     {
-      "type": "theory",
-      "title": "Avoiding Strategy",
-      "content": [
-        "Avoiding means postponing or withdrawing from a negotiation.",
-        "It may be appropriate when more information is needed, authority is unclear or emotions are too strong.",
-        "Avoidance may also be suitable when the issue has little importance.",
-        "However, avoiding important project problems can allow cost, delay or conflict to increase.",
-        "The decision to postpone should include a clear plan for when and how the issue will be addressed."
-      ]
+      "question": "What is the main advantage of presenting a package proposal instead of negotiating one issue at a time?",
+      "options": [
+        "It guarantees agreement.",
+        "It allows several issues to be traded together, increasing opportunities for value creation.",
+        "It prevents discussion of technical requirements.",
+        "It eliminates the need for preparation."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Package proposals allow negotiators to exchange value across issues with different priorities."
     },
     {
-      "type": "warning",
-      "title": "Avoidance Is Not Resolution",
-      "content": [
-        "Delaying a difficult discussion does not remove the underlying issue.",
-        "In engineering projects, unresolved interface, scope or responsibility questions often become more expensive over time.",
-        "Postponement should only be used when it improves the conditions for a later negotiation."
-      ]
+      "question": "During a negotiation, the supplier says, 'I would agree, but my director must approve anything above this amount.' Which negotiation tactic may this represent?",
+      "options": [
+        "Nibbling",
+        "Limited authority",
+        "Anchoring",
+        "Compromise"
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Limited authority may be genuine or tactical. The negotiator should clarify what approvals are actually required."
     },
     {
-      "type": "theory",
-      "title": "Strategy Based on Outcome and Relationship",
-      "content": [
-        "When both the outcome and the relationship are important, a collaborative or integrative strategy is generally suitable.",
-        "When the outcome is important but the relationship is not, a more competitive strategy may be appropriate.",
-        "When the relationship is important but the issue is minor, accommodation may be effective.",
-        "When neither the outcome nor the relationship is important, avoiding or simplifying the negotiation may be reasonable.",
-        "These categories provide guidance but should not replace professional judgment."
-      ]
+      "question": "At the end of a successful negotiation, the supplier asks, 'Could you also include free operator training?' even though all major issues have already been agreed. Which tactic is this?",
+      "options": [
+        "Good Cop / Bad Cop",
+        "Anchoring",
+        "Nibbling",
+        "Problem-solving"
+      ],
+      "answer": 2,
+      "difficulty": "Analysis",
+      "explanation": "Nibbling involves requesting small additional concessions after the main agreement appears complete."
     },
     {
-      "type": "theory",
-      "title": "Opening Strategy",
-      "content": [
-        "The opening phase influences the tone and direction of the negotiation.",
-        "The negotiator should confirm the purpose, agenda, authority and participants.",
-        "The opening position should normally be ambitious but credible.",
-        "An unreasonable opening may damage trust or create unnecessary conflict.",
-        "The negotiator should avoid making important concessions before understanding the other party's interests and constraints."
-      ]
+      "question": "Why is it sometimes necessary to change negotiation strategy during a meeting?",
+      "options": [
+        "Because changing strategy always confuses the other party.",
+        "Because new information, changing priorities or shifts in bargaining power may require a different approach.",
+        "Because the first strategy is always incorrect.",
+        "Because negotiators should change strategies every thirty minutes."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Effective negotiators adapt deliberately when circumstances change rather than following one rigid strategy."
     },
     {
-      "type": "theory",
-      "title": "Anchoring Strategy",
-      "content": [
-        "An anchor is an initial number or proposal that influences later discussion.",
-        "A well-supported opening offer can establish a favourable reference point.",
-        "The anchor should be based on market data, technical analysis or commercial reasoning.",
-        "An unsupported extreme anchor may reduce credibility.",
-        "When facing an unreasonable anchor, the negotiator should challenge its basis before presenting a counterproposal."
-      ]
-    },
-    {
-      "type": "example",
-      "title": "Responding to an Aggressive Anchor",
-      "content": [
-        "A contractor requests EUR 400,000 for additional work.",
-        "The client does not immediately negotiate from that figure.",
-        "Instead, the client asks for labour hours, material costs, subcontractor quotations and the contractual basis.",
-        "The client then presents an independent estimate of EUR 230,000.",
-        "This prevents the contractor's original figure from becoming the accepted reference point."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Information-Sharing Strategy",
-      "content": [
-        "Information sharing can support trust and value creation.",
-        "The parties may share priorities, technical constraints and implementation concerns.",
-        "However, sensitive information such as reservation points or weak alternatives should normally be protected.",
-        "The objective is selective openness rather than complete secrecy or complete disclosure.",
-        "Information should be shared when it improves the likelihood of a better agreement."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Questioning Strategy",
-      "content": [
-        "Questions are used to discover priorities, test assumptions and identify flexibility.",
-        "Open questions encourage detailed explanations.",
-        "Clarifying questions reduce misunderstanding.",
-        "Hypothetical questions test possible trades without making an immediate commitment.",
-        "Questions should be planned as part of the negotiation strategy."
-      ]
-    },
-    {
-      "type": "example",
-      "title": "Strategic Questions",
-      "items": [
-        "Which part of the proposed schedule creates the greatest difficulty?",
-        "What would need to change for this option to become acceptable?",
-        "How important is the warranty period compared with the delivery date?",
-        "What is the reason for the proposed payment milestone?",
-        "How would your cost change if the work were completed in two phases?"
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Conditional Proposal Strategy",
-      "content": [
-        "Conditional proposals connect movement by one party to movement by the other.",
-        "They are commonly expressed using if-then language.",
-        "For example: 'If you can deliver by 1 October, we can accept the revised payment schedule.'",
-        "Conditional proposals prevent concessions from being given away without receiving value.",
-        "They also help the parties explore possible packages."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Concession Strategy",
-      "content": [
-        "Concessions should be planned before the negotiation.",
-        "The negotiator should identify which issues can be moved and which must be protected.",
-        "Concessions should normally decrease in size as the negotiation approaches the limit.",
-        "Large and rapid concessions may encourage the other party to demand more.",
-        "Every important concession should be linked to a reciprocal benefit."
-      ]
-    },
-    {
-      "type": "warning",
-      "title": "Unplanned Concessions",
-      "content": [
-        "Unplanned concessions are often made under pressure.",
-        "They may create internal approval problems or reduce the value of the agreement.",
-        "A negotiator should take a break when a proposal requires analysis beyond the agreed mandate."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Package Proposal Strategy",
-      "content": [
-        "A package proposal combines several terms in one offer.",
-        "This allows the parties to trade across issues they value differently.",
-        "Packages can include price, delivery, warranty, training, payment and liability.",
-        "Several alternative packages may be presented at the same time.",
-        "The other party's response helps reveal its priorities."
-      ]
-    },
-    {
-      "type": "example",
-      "title": "Alternative Packages",
-      "content": [
-        "Package A offers the lowest price with standard delivery and a 12-month warranty.",
-        "Package B offers accelerated delivery at a higher price with a 24-month warranty.",
-        "Package C keeps the original price but includes training, spare parts and extended technical support.",
-        "The supplier's response shows which commercial and operational terms matter most."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Objective-Criteria Strategy",
-      "content": [
-        "Objective criteria provide an independent basis for evaluating proposals.",
-        "Examples include market prices, engineering calculations, industry standards and historical performance.",
-        "This strategy is useful when parties disagree strongly about value, time or responsibility.",
-        "Evidence reduces reliance on pressure and unsupported opinions.",
-        "The parties should agree on which data and standards are relevant."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Power-Based Strategy",
-      "content": [
-        "A party may use bargaining power based on alternatives, market position, specialist knowledge or contractual rights.",
-        "Power should be assessed realistically before the negotiation.",
-        "Using power aggressively may create short-term advantages but damage implementation and relationships.",
-        "Power is often temporary and may change during the project.",
-        "A strong position should therefore be used carefully and professionally."
-      ]
-    },
-    {
-      "type": "example",
-      "title": "Changing Bargaining Power",
-      "content": [
-        "During early procurement, the client has several qualified suppliers.",
-        "After one supplier is selected and the design is based on its equipment, switching becomes expensive.",
-        "The supplier's bargaining power increases.",
-        "The client should therefore negotiate important commercial and technical protections before dependency becomes high."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Time-Pressure Strategy",
-      "content": [
-        "Deadlines can be used to encourage decisions or concessions.",
-        "A deadline may be genuine, flexible or created as a negotiation tactic.",
-        "The negotiator should investigate why the deadline exists.",
-        "Important technical or contractual decisions should not be accepted only because time is limited.",
-        "Where possible, preparation should begin early to avoid negotiating from a position of urgency."
-      ]
-    },
-    {
-      "type": "warning",
-      "title": "Artificial Deadlines",
-      "content": [
-        "Statements such as 'This offer is only valid today' may be genuine or tactical.",
-        "The negotiator should assess whether the deadline is supported by market conditions, resource availability or another objective reason.",
-        "Pressure should not replace proper decision-making."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Silence as a Tactic",
-      "content": [
-        "Silence may be used after a proposal to encourage the other party to speak or improve its offer.",
-        "Negotiators often feel uncomfortable with silence and may make unnecessary concessions.",
-        "A disciplined negotiator should allow time for consideration.",
-        "Silence should not be confused with agreement.",
-        "Important proposals should always receive a clear response."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Limited-Authority Tactic",
-      "content": [
-        "A negotiator may state that another person must approve the agreement.",
-        "This may be a genuine organizational limitation or a bargaining tactic.",
-        "The other party can ask what level of approval is required and what terms could be authorized.",
-        "Where practical, the relevant decision-maker may be included in the negotiation.",
-        "The negotiator should also understand and communicate their own authority limits."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Good Cop and Bad Cop",
-      "content": [
-        "This tactic involves one negotiator taking a hard position while another appears more cooperative.",
-        "The contrast may encourage the other party to accept the cooperative negotiator's proposal.",
-        "The best response is to focus on the substance of the proposal rather than the personalities.",
-        "The negotiator should evaluate all terms against objectives and alternatives."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Nibbling",
-      "content": [
-        "Nibbling occurs when a party requests small additional benefits after the main agreement appears complete.",
-        "Examples include free training, additional spare parts or extended support.",
-        "Each request may appear minor, but the combined value can be significant.",
-        "The negotiator should confirm that any new request changes the total package.",
-        "A small final concession should normally receive something in return."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Changing Strategy During Negotiation",
-      "content": [
-        "A negotiation strategy should be flexible.",
-        "New information may change bargaining power, alternatives or project priorities.",
-        "A competitive negotiation may become collaborative when the parties discover a shared technical problem.",
-        "A cooperative approach may need to become firmer if the other party repeatedly avoids commitments.",
-        "Changing strategy should be deliberate rather than emotional."
-      ]
-    },
-    {
-      "type": "example",
-      "title": "Adapting the Strategy",
-      "content": [
-        "A client begins with a cooperative strategy because the supplier is a long-term partner.",
-        "During the negotiation, the supplier refuses to provide cost documentation for a major claim.",
-        "The client shifts to a firmer evidence-based approach and withholds approval until adequate documentation is provided.",
-        "The relationship remains important, but commercial control is strengthened."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Negotiation Team Strategy",
-      "content": [
-        "A team negotiation requires coordinated roles and messages.",
-        "The team should appoint a lead negotiator.",
-        "Technical, contractual and commercial specialists should know when to contribute.",
-        "The team should agree on objectives, concessions and authority before the meeting.",
-        "Internal disagreement should normally be handled privately."
-      ]
-    },
-    {
-      "type": "example",
-      "title": "Engineering Negotiation Team",
-      "items": [
-        "The project manager leads the negotiation.",
-        "The technical manager evaluates engineering consequences.",
-        "The contract manager explains contractual rights.",
-        "The project controller assesses cost and schedule impact.",
-        "A team member records proposals, concessions and decisions."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Strategy for Changes and Claims",
-      "content": [
-        "Change and claim negotiations should begin with facts and contractual analysis.",
-        "The parties should identify whether the work is outside the original scope.",
-        "Cost, time and responsibility should be assessed separately.",
-        "A settlement strategy may be used when continued disagreement threatens project progress.",
-        "The final agreement should clearly state the scope, compensation, schedule effect and release of further claims."
-      ]
-    },
-    {
-      "type": "example",
-      "title": "Claim Negotiation Strategy",
-      "content": [
-        "A contractor requests EUR 150,000 and twelve additional days.",
-        "The client confirms that part of the work is a valid change but disputes the amount.",
-        "The client requests detailed evidence and independently evaluates the impact.",
-        "The parties negotiate a package of EUR 105,000, six additional days and additional contractor resources.",
-        "The agreement is documented in a formal change order."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Strategy for Long-Term Supplier Relationships",
-      "content": [
-        "Long-term relationships require a balance between commercial discipline and collaboration.",
-        "The parties should avoid creating agreements that one side cannot perform profitably.",
-        "Open discussion of operational risks can improve total project value.",
-        "Performance incentives may align the parties' interests.",
-        "Clear contracts and objective performance measures support trust rather than replacing it."
-      ]
-    },
-    {
-      "type": "theory",
-      "title": "Strategy for Deadlock",
-      "content": [
-        "Deadlock occurs when the parties cannot make further progress.",
-        "The negotiators can restate interests, introduce new issues or develop alternative packages.",
-        "They may also obtain additional data, involve decision-makers or use an independent facilitator.",
-        "A temporary break can reduce tension and allow internal evaluation.",
-        "The parties should not accept a poor agreement only to avoid deadlock."
-      ]
-    },
-    {
-      "type": "expertInsight",
-      "title": "Expert Insight",
-      "content": [
-        "No negotiation strategy is correct in every situation.",
-        "Strong negotiators diagnose the situation before selecting their approach.",
-        "They consider the value of the outcome, the importance of the relationship, available alternatives and the number of negotiable issues.",
-        "They create value through cooperation where possible but protect essential limits through preparation and conditional concessions.",
-        "In engineering projects, the best strategy produces an agreement that is technically feasible, commercially balanced and practical to implement."
-      ]
-    },
-    {
-      "type": "warning",
-      "title": "Common Strategic Mistakes",
-      "items": [
-        "Using the same strategy in every negotiation.",
-        "Confusing aggressive behaviour with strong negotiation.",
-        "Cooperating without protecting confidential information.",
-        "Focusing only on price instead of the full agreement.",
-        "Making concessions without receiving value in return.",
-        "Using tactics without understanding their purpose.",
-        "Ignoring long-term relationship consequences.",
-        "Failing to adapt when new information becomes available.",
-        "Allowing deadlines to replace technical or contractual analysis.",
-        "Agreeing to terms that cannot be implemented."
-      ]
-    },
-    {
-      "type": "summary",
-      "title": "Key Takeaways",
-      "items": [
-        "A negotiation strategy is the overall plan used to reach an acceptable agreement.",
-        "Competitive strategies focus on claiming value.",
-        "Cooperative and integrative strategies focus on understanding interests and creating value.",
-        "The selected strategy should reflect the importance of the outcome and the relationship.",
-        "Compromising, accommodating and avoiding strategies can be appropriate in specific situations.",
-        "Opening offers and anchors should be ambitious but credible.",
-        "Information should be shared selectively.",
-        "Conditional proposals and package offers support value exchange.",
-        "Concessions should be planned and reciprocal.",
-        "Objective criteria strengthen negotiation arguments.",
-        "Strategies may need to change when circumstances change.",
-        "The final strategy should support technical feasibility, commercial value and effective implementation."
-      ]
-    },
-    {
-      "type": "reflection",
-      "title": "Reflection Questions",
-      "questions": [
-        "What is the difference between a negotiation strategy and a negotiation tactic?",
-        "When may a competitive strategy be appropriate in an engineering project?",
-        "What are the risks of using an overly competitive strategy?",
-        "How can a cooperative strategy protect both the relationship and the commercial outcome?",
-        "Why are several negotiable issues useful in integrative negotiation?",
-        "When may compromise be better than continued negotiation?",
-        "How should a negotiator respond to an unreasonable opening anchor?",
-        "Why should concessions normally be conditional?",
-        "How can objective criteria reduce conflict?",
-        "When should a negotiation team change its original strategy?"
-      ]
+      "question": "You are negotiating a long-term maintenance agreement for a fleet of vessels. Price is important, but future technical support, spare parts availability, response time, warranty, operational reliability and the relationship with the supplier will affect the fleet for many years. Which overall negotiation strategy is MOST likely to produce the best long-term outcome?",
+      "options": [
+        "Use a purely competitive strategy focused on achieving the lowest purchase price.",
+        "Avoid discussing technical issues until after the contract is signed.",
+        "Use an integrative, interest-based strategy that evaluates the complete lifecycle value while protecting essential commercial interests through objective criteria and conditional concessions.",
+        "Accept the supplier's first proposal to preserve the relationship."
+      ],
+      "answer": 2,
+      "difficulty": "Expert",
+      "explanation": "Complex engineering projects rarely succeed by focusing only on price. The strongest strategy considers lifecycle cost, technical performance, risk allocation, implementation, long-term cooperation and commercial protection together."
     }
   ]
 }
