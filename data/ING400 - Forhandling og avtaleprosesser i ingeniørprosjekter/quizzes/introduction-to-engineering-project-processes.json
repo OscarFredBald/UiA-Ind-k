@@ -1,1 +1,368 @@
+{
+  "title": "Introduction to Engineering Project Processes",
+  "description": "Test your understanding of engineering project lifecycles, technical and commercial processes, project roles, interfaces, communication, documentation, risk and change management.",
+  "questions": [
+    {
+      "question": "What best distinguishes an engineering project from routine operations?",
+      "options": [
+        "It always involves construction work",
+        "It is a temporary and organized effort with defined objectives and a limited duration",
+        "It must be completed by an external contractor",
+        "It only focuses on technical design"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "An engineering project is temporary, has a defined beginning and end, and is established to achieve specific technical and business objectives."
+    },
+    {
+      "question": "Why do engineering projects require structured processes?",
+      "options": [
+        "To remove the need for managerial judgment",
+        "To ensure that every project follows exactly the same technical solution",
+        "To coordinate complex work, clarify decisions and reduce the risk of misunderstandings",
+        "To prevent any changes from occurring during execution"
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "Structured processes help participants coordinate technical, commercial, contractual and organizational activities while managing uncertainty."
+    },
+    {
+      "question": "Which sequence best represents a typical engineering project lifecycle?",
+      "options": [
+        "Execution, procurement, initiation, design, handover",
+        "Planning, close-out, procurement, testing, initiation",
+        "Initiation, feasibility, planning, design, procurement, execution, testing and handover",
+        "Design, operation, budgeting, procurement and marketing"
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "Although terminology varies, most engineering projects move from need identification through feasibility, planning, design, procurement, execution, testing and handover."
+    },
+    {
+      "question": "What is the primary purpose of the initiation phase?",
+      "options": [
+        "To select the lowest-priced supplier",
+        "To identify the underlying need, problem or opportunity",
+        "To prepare final construction drawings",
+        "To complete acceptance testing"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "The initiation phase should clarify why the project is needed and what objective it is intended to achieve."
+    },
+    {
+      "question": "A factory is experiencing frequent production stops. Management immediately decides to buy a new machine without investigating the cause. What is the main weakness in this approach?",
+      "options": [
+        "The company has started with a preferred solution before clearly defining the problem",
+        "The company has used too much documentation",
+        "The company has focused too heavily on stakeholder analysis",
+        "The company has completed the feasibility phase too thoroughly"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "A project should begin by understanding the underlying need. Otherwise, the selected solution may not address the real problem."
+    },
+    {
+      "question": "What is normally assessed during the feasibility and concept-development phase?",
+      "options": [
+        "Only the technical performance of the preferred solution",
+        "Whether the project is technically, financially and operationally realistic",
+        "Only the legal wording of the final contract",
+        "Whether all project invoices have been paid"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Feasibility analysis considers whether a viable project exists by evaluating technical, financial, operational, regulatory and risk-related factors."
+    },
+    {
+      "question": "Which activity belongs most directly to the planning phase?",
+      "options": [
+        "Defining scope, responsibilities, schedule, budget and reporting routines",
+        "Performing final acceptance tests",
+        "Closing all supplier warranty claims",
+        "Transferring the completed system to operations"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Planning converts the chosen concept into a structured project with a defined scope, schedule, resources and responsibilities."
+    },
+    {
+      "question": "An equipment supplier increases the size and weight of a motor during detailed engineering. Which response best reflects good project-process thinking?",
+      "options": [
+        "Approve the change immediately because it only concerns the motor",
+        "Assess the effect on structures, cables, cooling, lifting, space, cost and schedule",
+        "Ignore the change until commissioning",
+        "Ask the commercial team to evaluate it without involving engineers"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "A change in one discipline may affect several technical and commercial interfaces and should be evaluated across the project."
+    },
+    {
+      "question": "Why must technical specifications and commercial contract terms be consistent?",
+      "options": [
+        "Because technical requirements automatically determine the final market price",
+        "Because a technically suitable solution can still create disputes if responsibilities, payment terms or delivery conditions are unclear",
+        "Because commercial terms replace the need for technical documentation",
+        "Because suppliers are only responsible for commercial performance"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Technical and commercial requirements must support each other. Unclear contractual obligations can undermine an otherwise technically strong solution."
+    },
+    {
+      "question": "A supplier delivers an automated crane. The customer expects 30 container movements per hour, but the contract does not define test duration, operating conditions or acceptable interruptions. What is the most likely project risk?",
+      "options": [
+        "The project team will be unable to calculate depreciation",
+        "The parties may disagree about whether the performance requirement has been satisfied",
+        "The supplier will automatically receive additional payment",
+        "The crane cannot legally be commissioned"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Acceptance criteria must be clear and measurable. Otherwise, the parties may interpret the same performance requirement differently."
+    },
 
+        {
+      "question": "Which statement best describes the relationship between technical, commercial, contractual and organizational processes?",
+      "options": [
+        "They are independent processes that rarely influence each other.",
+        "Technical processes always have higher priority than commercial processes.",
+        "Decisions in one process often influence the others throughout the project lifecycle.",
+        "Only the project manager needs to understand how they interact."
+      ],
+      "answer": 2,
+      "difficulty": "Understanding",
+      "explanation": "Engineering projects require integration between technical, commercial, contractual and organizational processes because decisions in one area often affect the others."
+    },
+    {
+      "question": "Which statement best describes the purpose of procurement in an engineering project?",
+      "options": [
+        "To purchase equipment at the lowest possible price.",
+        "To obtain the required goods and services while balancing technical, commercial and contractual requirements.",
+        "To reduce the number of project stakeholders.",
+        "To transfer all project risks to suppliers."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Procurement is not only about price—it involves selecting suppliers that meet technical, commercial and contractual requirements."
+    },
+    {
+      "question": "Which of the following is an example of a technical process?",
+      "options": [
+        "Negotiating payment terms",
+        "Preparing engineering drawings and calculations",
+        "Approving supplier invoices",
+        "Resolving warranty claims"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Technical processes include engineering calculations, design work, technical reviews and validation."
+    },
+    {
+      "question": "Which activity primarily belongs to a commercial process?",
+      "options": [
+        "Developing structural calculations",
+        "Preparing welding procedures",
+        "Evaluating supplier pricing and project budgets",
+        "Testing control software"
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "Commercial processes include budgeting, pricing, supplier evaluation and financial control."
+    },
+    {
+      "question": "Why are project interfaces considered a significant source of risk?",
+      "options": [
+        "Because they always require additional contractors.",
+        "Because different parties may make different assumptions about responsibilities and deliverables.",
+        "Because interfaces only exist during commissioning.",
+        "Because interface management is only relevant in construction projects."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Interfaces create uncertainty when responsibilities or assumptions are not clearly defined between parties."
+    },
+    {
+      "question": "A mechanical contractor assumes the electrical contractor will provide power cables, while the electrical contractor assumes the opposite. What project issue does this illustrate?",
+      "options": [
+        "Scope creep",
+        "A project interface failure",
+        "A procurement audit",
+        "An acceptance test"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Poor interface management often results in gaps or overlaps in responsibility."
+    },
+    {
+      "question": "Which statement best describes a stakeholder?",
+      "options": [
+        "Only organizations that have signed the project contract.",
+        "Any individual or organization that can affect or be affected by the project.",
+        "Only the project owner and suppliers.",
+        "Only regulatory authorities."
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Stakeholders include anyone who influences or is influenced by the project."
+    },
+    {
+      "question": "A local community opposes a new port expansion because of expected noise. From a project perspective, the local community is:",
+      "options": [
+        "A subcontractor",
+        "A stakeholder",
+        "A supplier",
+        "A project sponsor"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Stakeholders are not limited to contractual parties. They include groups affected by project outcomes."
+    },
+    {
+      "question": "What is the difference between responsibility and authority?",
+      "options": [
+        "Responsibility defines who performs or owns the work, while authority defines who has the right to make decisions.",
+        "Authority is only used by suppliers.",
+        "Responsibility refers to legal liability only.",
+        "There is no practical difference."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Responsibility concerns accountability for work, while authority concerns decision-making power."
+    },
+    {
+      "question": "A project engineer is responsible for approving design changes but is not allowed to authorize any modifications. What is the most likely consequence?",
+      "options": [
+        "Improved project flexibility.",
+        "Confusion and delays because responsibility exceeds authority.",
+        "Lower procurement costs.",
+        "Faster project execution."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Assigning responsibility without sufficient authority often delays decisions and creates uncertainty."
+    },
+
+        {
+      "question": "Why are decision gates used between major project phases?",
+      "options": [
+        "To eliminate all project risks before continuing.",
+        "To review whether the project is sufficiently mature before committing additional resources.",
+        "To allow suppliers to renegotiate the contract after every phase.",
+        "To ensure that every engineering discipline finishes at the same time."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Decision gates allow management to evaluate technical maturity, costs, risks and readiness before proceeding to the next phase."
+    },
+    {
+      "question": "A project team discovers that a regulatory requirement has changed halfway through execution. What should happen first?",
+      "options": [
+        "Immediately implement the change without informing the customer.",
+        "Evaluate the technical, commercial, schedule and contractual consequences before implementing the change.",
+        "Ignore the new regulation until project completion.",
+        "Ask the supplier to absorb all additional costs."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Changes should be formally evaluated before implementation to understand their full impact."
+    },
+    {
+      "question": "Which statement best describes project risk?",
+      "options": [
+        "A problem that has already occurred.",
+        "The effect of uncertainty on project objectives.",
+        "The financial value of a project.",
+        "Any disagreement between two stakeholders."
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Project risk is defined as the effect of uncertainty on project objectives, both positive and negative."
+    },
+    {
+      "question": "Which project phase generally offers the greatest opportunity to influence total project cost?",
+      "options": [
+        "Commissioning",
+        "Construction",
+        "Close-out",
+        "Initiation and early planning"
+      ],
+      "answer": 3,
+      "difficulty": "Understanding",
+      "explanation": "Early project decisions determine scope, concept and major design choices before large costs have been committed."
+    },
+    {
+      "question": "A customer verbally asks the contractor to install additional equipment. The contractor completes the work but no written record exists. Which project-management principle was violated?",
+      "options": [
+        "Preventive maintenance",
+        "Interface management",
+        "Documentation and change control",
+        "Risk identification"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "Important changes affecting scope, cost or schedule should always be documented through a formal change process."
+    },
+    {
+      "question": "Which situation best demonstrates strong project-process thinking?",
+      "options": [
+        "The engineering team approves a major design change without consulting procurement or contract management.",
+        "The project manager evaluates every decision from technical, commercial and contractual perspectives before approval.",
+        "Every discipline makes decisions independently to increase efficiency.",
+        "Only technical performance is considered when selecting suppliers."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Successful engineering projects integrate decisions across multiple disciplines and project processes."
+    },
+    {
+      "question": "A supplier proposes replacing a specified component with a cheaper alternative. Which department should evaluate whether the substitution is permitted under the agreement?",
+      "options": [
+        "Only the finance department.",
+        "Only the engineering department.",
+        "Contract management together with the relevant technical and commercial personnel.",
+        "Only the supplier."
+      ],
+      "answer": 2,
+      "difficulty": "Analysis",
+      "explanation": "Component substitutions affect technical performance, commercial value and contractual obligations, requiring a multidisciplinary assessment."
+    },
+    {
+      "question": "During commissioning, several systems supplied by different companies fail to work together because communication protocols differ. What is the most likely root cause?",
+      "options": [
+        "Poor budgeting.",
+        "Weak interface management during design and planning.",
+        "Late project close-out.",
+        "An incorrect project schedule."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Poorly managed technical interfaces frequently lead to integration problems during commissioning."
+    },
+    {
+      "question": "Which statement best explains why documentation is important in engineering projects?",
+      "options": [
+        "It mainly satisfies administrative requirements.",
+        "It provides traceability for requirements, decisions, approvals and changes throughout the project lifecycle.",
+        "It removes the need for communication between stakeholders.",
+        "It guarantees that disputes will never occur."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Documentation allows the project team to understand what was decided, why it was decided and who approved it."
+    },
+    {
+      "question": "You are the project manager for the installation of a ballast water treatment system on an operating vessel. Two weeks before installation, the supplier announces that the equipment dimensions have changed. Dry-dock time cannot be extended. What is the BEST first action?",
+      "options": [
+        "Reject the new equipment immediately without further discussion.",
+        "Accept the change because the supplier is technically responsible.",
+        "Initiate a multidisciplinary review involving engineering, planning, commercial and contract management to assess technical, schedule and contractual consequences before deciding how to proceed.",
+        "Continue installation according to the original drawings and solve any problems during commissioning."
+      ],
+      "answer": 2,
+      "difficulty": "Expert",
+      "explanation": "This scenario requires integrated project-process thinking. Technical changes should always be evaluated from engineering, commercial, scheduling and contractual perspectives before implementation."
+    }
+  ]
+}
