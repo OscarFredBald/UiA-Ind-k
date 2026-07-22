@@ -1,0 +1,369 @@
+{
+  "title": "Procurement and Tendering",
+  "questions": [
+    {
+      "question": "A project team is preparing to purchase a new pumping system for a processing plant. What is the primary purpose of the procurement process?",
+      "options": [
+        "To obtain the required goods and services that best support the project's objectives",
+        "To purchase equipment as quickly as possible",
+        "To select the supplier with the lowest price regardless of quality",
+        "To eliminate all project risks"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Procurement aims to obtain the right goods and services at the right quality, cost and time to support successful project delivery."
+    },
+    {
+      "question": "A project manager starts procurement before defining the technical requirements. What is the biggest risk?",
+      "options": [
+        "Suppliers may submit bids based on different assumptions",
+        "The project will automatically exceed its budget",
+        "The contract becomes legally invalid",
+        "Suppliers will refuse to participate"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Without clearly defined requirements, suppliers may propose completely different solutions, making fair evaluation difficult."
+    },
+    {
+      "question": "A company decides to manufacture a component internally instead of buying it from an external supplier. What type of procurement decision is this?",
+      "options": [
+        "Supplier qualification",
+        "Life-cycle costing",
+        "Make-or-buy decision",
+        "Contract award"
+      ],
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "A make-or-buy decision determines whether work should be performed internally or outsourced."
+    },
+    {
+      "question": "Why is market analysis performed before inviting suppliers to bid?",
+      "options": [
+        "To identify capable suppliers and understand the competitive market",
+        "To negotiate contract prices before preparing specifications",
+        "To avoid writing tender documents",
+        "To determine the project budget"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Market analysis helps the project understand supplier capability, competition and market conditions."
+    },
+    {
+      "question": "Which procurement method allows any qualified supplier to submit an offer?",
+      "options": [
+        "Negotiated procurement",
+        "Selective tendering",
+        "Open tendering",
+        "Direct award"
+      ],
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "Open tendering invites competition from all qualified suppliers."
+    },
+    {
+      "question": "A procurement engineer wants to reduce misunderstandings during bidding. Which document is most important to prepare carefully?",
+      "options": [
+        "The supplier's invoice",
+        "The tender documents",
+        "The project organization chart",
+        "The meeting agenda"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Well-prepared tender documents clearly describe the project's requirements and reduce misunderstandings."
+    },
+    {
+      "question": "Why should a scope of work be clearly defined before requesting bids?",
+      "options": [
+        "To prevent suppliers from participating",
+        "To reduce the need for technical specifications",
+        "To minimize disputes about what the supplier must deliver",
+        "To guarantee the lowest price"
+      ],
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "A clear scope defines responsibilities and reduces contractual disagreements."
+    },
+    {
+      "question": "A supplier submits its bid one day after the deadline stated in the tender documents. What should normally happen?",
+      "options": [
+        "The bid should normally be rejected according to the tender rules",
+        "The supplier should automatically receive a deadline extension",
+        "The bid should always be accepted if it offers the lowest price",
+        "The supplier should be allowed to negotiate a new deadline"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Tender deadlines promote fairness by ensuring all suppliers compete under the same conditions."
+    },
+    {
+      "question": "A project team compares two technically compliant bids. One costs slightly more but has significantly lower maintenance costs over its expected lifetime. Which concept supports selecting the more expensive option?",
+      "options": [
+        "Open tendering",
+        "Life-cycle cost",
+        "Supplier qualification",
+        "Selective tendering"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Life-cycle costing considers the total cost of ownership, not only the purchase price."
+    },
+    {
+      "question": "A contractor receives three technically acceptable bids. Before opening the bids, the evaluation team agrees that delivery time, quality and price will each receive a weighted score. Why is this important?",
+      "options": [
+        "It allows the evaluation team to change the criteria after reviewing the bids",
+        "It guarantees that the cheapest supplier will win",
+        "It ensures the evaluation is objective, transparent and consistent",
+        "It allows suppliers to modify their offers after submission"
+      ],
+      "answer": 2,
+      "difficulty": "Medium",
+      "explanation": "Evaluation criteria should be established before reviewing bids to ensure a fair and transparent procurement process."
+    },
+
+    ,
+{
+  "question": "A project team has pre-qualified five suppliers before issuing the tender documents. What is the primary advantage of this approach?",
+  "options": [
+    "It guarantees the lowest purchase price",
+    "It limits competition to suppliers that have demonstrated the required capability",
+    "It allows the project to skip technical evaluations",
+    "It eliminates the need for contracts"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "Selective tendering focuses competition on suppliers that have already demonstrated suitable technical, financial and organizational capability."
+},
+{
+  "question": "During bid evaluation, one supplier offers the lowest price but does not meet several mandatory technical requirements. What should the evaluation team do?",
+  "options": [
+    "Reject the bid as technically non-compliant",
+    "Award the contract because price is always the most important factor",
+    "Ignore the missing technical requirements",
+    "Allow the supplier to redesign its entire proposal after bid submission"
+  ],
+  "answer": 0,
+  "difficulty": "Medium",
+  "explanation": "A bid that fails mandatory technical requirements is normally considered non-compliant regardless of price."
+},
+{
+  "question": "A procurement engineer asks a supplier to explain an unclear statement in its submitted bid. Which principle is being applied?",
+  "options": [
+    "Contract renegotiation",
+    "Bid clarification",
+    "Supplier qualification",
+    "Life-cycle costing"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "Clarification allows suppliers to explain existing information without fundamentally changing their offer."
+},
+{
+  "question": "Why should evaluation criteria be communicated to suppliers before bids are submitted?",
+  "options": [
+    "To allow suppliers to understand how their offers will be evaluated",
+    "To help suppliers copy each other's bids",
+    "To allow the client to change the criteria later",
+    "To guarantee identical prices from every supplier"
+  ],
+  "answer": 0,
+  "difficulty": "Medium",
+  "explanation": "Published evaluation criteria promote fairness, transparency and equal treatment of suppliers."
+},
+{
+  "question": "A supplier has excellent pricing but has delivered several previous projects months behind schedule. Which procurement consideration is most relevant?",
+  "options": [
+    "Supplier performance history",
+    "Invoice formatting",
+    "Company logo quality",
+    "Office location"
+  ],
+  "answer": 0,
+  "difficulty": "Medium",
+  "explanation": "Past performance is an important indicator of future reliability and should be considered during supplier evaluation."
+},
+{
+  "question": "A project team evaluates the purchase price, maintenance costs, energy consumption and expected service life before selecting equipment. Which procurement principle are they applying?",
+  "options": [
+    "Selective tendering",
+    "Life-cycle cost evaluation",
+    "Direct procurement",
+    "Supplier negotiation"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "Life-cycle costing evaluates the total cost of owning and operating equipment throughout its lifetime."
+},
+{
+  "question": "A procurement manager shares one supplier's confidential pricing with another supplier to obtain a lower bid. Which procurement principle has been violated?",
+  "options": [
+    "Supplier qualification",
+    "Market analysis",
+    "Confidentiality and ethical procurement",
+    "Competitive pricing"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "Supplier pricing and commercial information must remain confidential throughout the tender process."
+},
+{
+  "question": "During negotiations, a supplier proposes changing a key technical requirement to reduce costs. What should happen before accepting the proposal?",
+  "options": [
+    "The change should be technically evaluated and approved by the appropriate project personnel",
+    "Accept the proposal immediately if money is saved",
+    "Ignore the technical implications",
+    "Ask the supplier to decide independently"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Technical changes should be evaluated to ensure they continue to satisfy project requirements."
+},
+{
+  "question": "A supplier experiences financial difficulties halfway through manufacturing critical equipment. Which procurement activity would have reduced this risk before contract award?",
+  "options": [
+    "Market advertising",
+    "Supplier financial qualification",
+    "Invoice verification",
+    "Purchase order approval"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Financial capability assessments help identify suppliers that may struggle to complete contractual obligations."
+},
+{
+  "question": "After awarding a contract, the project team continues monitoring delivery performance, quality, communication and compliance. Which phase of procurement is this?",
+  "options": [
+    "Supplier relationship management",
+    "Open tendering",
+    "Bid submission",
+    "Procurement planning"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Procurement continues after contract award through supplier performance and relationship management."
+},
+
+    ,
+{
+  "question": "A project team receives three technically compliant bids. Supplier A offers the lowest price, Supplier B has the best delivery record, and Supplier C offers the longest warranty and lowest maintenance costs. Which supplier should normally be selected?",
+  "options": [
+    "Supplier A because purchase price is always the deciding factor",
+    "The supplier that provides the best overall value based on the published evaluation criteria",
+    "Supplier C because warranties are always more important than price",
+    "The supplier with the largest company"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Contract awards should follow the predefined evaluation criteria and select the supplier offering the best overall value—not simply the lowest purchase price."
+},
+{
+  "question": "A supplier discovers a mistake in its bid after the submission deadline and asks to replace several prices. What is the fairest response?",
+  "options": [
+    "Allow the supplier to submit a completely new bid",
+    "Allow changes only if they improve the client's position",
+    "Follow the tender rules—major changes after submission are normally not permitted",
+    "Reject every bid and restart the tender process"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "Allowing major bid changes after the deadline could compromise fairness and equal treatment of suppliers."
+},
+{
+  "question": "A project requires a highly specialized piece of equipment that only one qualified manufacturer can produce. Which procurement approach is most appropriate?",
+  "options": [
+    "Open tendering with unlimited competition",
+    "Negotiated procurement with the qualified supplier",
+    "Cancel the procurement",
+    "Purchase from an unqualified supplier to increase competition"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Negotiated procurement is appropriate when only one supplier can reasonably meet the project's requirements."
+},
+{
+  "question": "During procurement planning, the project team realizes that a critical component has a manufacturing lead time of twelve months. What should the team do?",
+  "options": [
+    "Delay procurement until construction begins",
+    "Assume the supplier can shorten production later",
+    "Ignore the lead time because it is the supplier's responsibility",
+    "Plan procurement early so the component is available when needed"
+  ],
+  "answer": 3,
+  "difficulty": "Hard",
+  "explanation": "Long-lead items should be identified early to avoid delays to the overall project schedule."
+},
+{
+  "question": "A procurement engineer has a close family member working for one of the bidding suppliers. What is the most appropriate action?",
+  "options": [
+    "Declare the conflict of interest and follow the organization's ethics procedures",
+    "Keep the relationship private because it does not affect the evaluation",
+    "Evaluate only the technical part of that supplier's bid",
+    "Recommend the supplier to avoid suspicion"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Conflicts of interest should be disclosed immediately to maintain fairness and integrity in procurement."
+},
+{
+  "question": "A contractor receives equipment that satisfies the specification but arrives three weeks late, delaying the project. Which procurement objective was not achieved?",
+  "options": [
+    "Supplier confidentiality",
+    "Timely delivery",
+    "Tender transparency",
+    "Market competition"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Successful procurement requires both technical compliance and delivery according to the agreed schedule."
+},
+{
+  "question": "A supplier offers a significantly lower price than every competitor. During evaluation, the procurement team suspects that the supplier misunderstood an important technical requirement. What should the team do first?",
+  "options": [
+    "Award the contract immediately because it is the lowest price",
+    "Reject the bid without review",
+    "Request clarification to determine whether the supplier's offer satisfies the tender requirements",
+    "Increase the supplier's price to match the competitors"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "An unusually low bid may indicate a misunderstanding. Clarification helps determine whether the bid is technically compliant."
+},
+{
+  "question": "Several suppliers ask the same technical question during the tender period. What is normally considered best practice?",
+  "options": [
+    "Answer only the supplier that asked the question",
+    "Provide the clarification to all participating suppliers",
+    "Ignore all questions until bids are submitted",
+    "Extend the contract without changing the tender documents"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Sharing clarifications with all bidders promotes fairness and ensures everyone works from the same information."
+},
+{
+  "question": "After contract award, the supplier repeatedly fails to meet agreed quality requirements. What should the project team do?",
+  "options": [
+    "Monitor the non-conformities and manage them according to the contract",
+    "Ignore the issues because the contract has already been signed",
+    "Accept the products if they are cheaper",
+    "Immediately terminate the contract in every situation"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Supplier performance should be actively managed through inspections, corrective actions and contractual procedures."
+},
+{
+  "question": "Looking back after project completion, which procurement practice would most likely have prevented many disputes, delays and unexpected costs?",
+  "options": [
+    "Selecting suppliers based only on the lowest bid",
+    "Reducing the amount of procurement documentation",
+    "Negotiating every purchase without specifications",
+    "Clearly defining requirements, evaluating suppliers objectively and documenting every major procurement decision"
+  ],
+  "answer": 3,
+  "difficulty": "Hard",
+  "explanation": "Successful procurement depends on clear requirements, objective evaluation, good documentation and active supplier management throughout the project."
+}
+  ]
+}
