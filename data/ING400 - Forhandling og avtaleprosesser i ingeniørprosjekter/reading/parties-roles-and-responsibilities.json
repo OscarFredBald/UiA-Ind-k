@@ -1,0 +1,615 @@
+{
+  "title": "Parties, Roles and Responsibilities in Engineering Projects",
+  "description": "Learn who participates in engineering projects, how responsibilities and authority are distributed, and why clear roles, interfaces and communication are essential for successful project execution.",
+  "estimatedReadingTime": "30 minutes",
+  "level": "Intermediate",
+  "sections": [
+    {
+      "type": "learningObjectives",
+      "title": "Learning Objectives",
+      "items": [
+        "Identify the main parties commonly involved in engineering projects.",
+        "Explain the difference between a party, stakeholder, role, responsibility and authority.",
+        "Describe the responsibilities of the project owner, client, project manager, consultant, contractor, supplier and subcontractor.",
+        "Understand how responsibilities may differ depending on the project delivery model.",
+        "Explain why roles and decision authority should be clarified at the beginning of a project.",
+        "Recognize common responsibility gaps, overlaps and interface risks.",
+        "Understand how responsibility matrices and organization charts support project governance.",
+        "Apply role and responsibility analysis to practical engineering-project scenarios."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Why Parties and Responsibilities Matter",
+      "content": [
+        "Engineering projects are rarely completed by one person or one organization. They normally involve several parties that contribute technical knowledge, financing, equipment, labour, approvals and operational experience.",
+        "Each party enters the project with its own objectives, risks, obligations and expectations. The owner may focus on long-term value, the contractor on efficient delivery, the supplier on product performance and the operator on safe and reliable operation.",
+        "Project performance depends on how effectively these parties cooperate.",
+        "When roles, responsibilities or authority are unclear, important tasks may be delayed, duplicated or omitted. Disagreements may also arise about who should make a decision, perform additional work or pay for an unexpected cost."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Party, Stakeholder, Role, Responsibility and Authority",
+      "content": [
+        "A party is an individual or organization that participates formally in a project relationship. A party may be connected to the project through a contract, appointment, ownership interest or regulatory mandate.",
+        "A stakeholder is any person or organization that can influence the project or be affected by it. A stakeholder does not need to be a contractual party.",
+        "A role describes the function a person or organization performs in the project.",
+        "Responsibility describes the task, decision or result for which that person or organization is accountable.",
+        "Authority describes the formal right to approve work, commit funds, issue instructions, accept deliverables or make decisions.",
+        "These concepts are related but not identical. A person may have responsibility for preparing a recommendation without having authority to approve it."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Responsibility Without Authority",
+      "content": [
+        "A project engineer is responsible for evaluating design changes.",
+        "The engineer can recommend whether a change should be accepted, but only the project manager has authority to approve changes that affect cost or schedule.",
+        "The engineer therefore has technical responsibility but not final commercial authority."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Project Owner",
+      "content": [
+        "The project owner is the organization that initiates and ultimately owns the project outcome.",
+        "The owner normally defines the business need, provides funding and determines the strategic objectives of the project.",
+        "The owner may also approve the overall budget, major scope changes, major contracts and key project decisions.",
+        "In some projects, the owner and the client are the same organization. In others, the owner appoints another organization or department to act as the client or project representative.",
+        "The owner remains concerned with whether the completed project creates the expected long-term value."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Client or Customer",
+      "content": [
+        "The client is the party that purchases or commissions the engineering work, equipment or project delivery.",
+        "The client defines requirements, communicates expectations, evaluates offers and enters agreements with consultants, contractors or suppliers.",
+        "The client is normally responsible for providing accurate information, access, approvals and decisions required for the project to proceed.",
+        "The client should also avoid giving informal instructions through unauthorized personnel.",
+        "A client may be the project owner, an operator acting on behalf of the owner or a main contractor purchasing work from a supplier."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Owner and Client",
+      "content": [
+        "A shipping company owns a vessel and decides to install a new fuel-efficiency system.",
+        "The shipping company is the project owner.",
+        "Its technical management department may act as the client when purchasing engineering services and equipment from suppliers."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Project Sponsor",
+      "content": [
+        "The project sponsor is a senior person who supports the project within the owner's or client's organization.",
+        "The sponsor helps secure funding, resolves high-level organizational problems and provides strategic direction.",
+        "The sponsor normally does not manage daily project activities.",
+        "Instead, the sponsor ensures that the project remains aligned with organizational objectives and receives the necessary management support.",
+        "The sponsor may also approve major deviations that exceed the project manager's authority."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Project Manager",
+      "content": [
+        "The project manager is responsible for coordinating the project and guiding it toward its objectives.",
+        "Typical responsibilities include planning, organizing resources, monitoring progress, managing risks, coordinating stakeholders and controlling scope, cost, schedule and quality.",
+        "The project manager also ensures that decisions are made by the correct authority and that important issues are escalated when necessary.",
+        "A project manager does not personally perform every task. The role is to integrate the work of different disciplines, organizations and specialists.",
+        "The project manager's authority should be defined clearly, especially regarding budgets, changes, supplier instructions and contract commitments."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Project Manager Does Not Mean Unlimited Authority",
+      "content": [
+        "The project manager may coordinate the project without having authority to approve every change.",
+        "Financial limits, contractual requirements and governance procedures may require approval from the sponsor, owner or contract manager.",
+        "A project manager should understand both the authority granted to the role and the decisions that must be escalated."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Engineering Manager",
+      "content": [
+        "The engineering manager coordinates the project's technical development.",
+        "The role may include managing engineering disciplines, approving technical methods, coordinating design reviews and ensuring that technical requirements are satisfied.",
+        "The engineering manager often works closely with the project manager, but the roles are different.",
+        "The engineering manager focuses primarily on the technical solution, while the project manager integrates technical, commercial, contractual and organizational considerations.",
+        "In smaller projects, one person may perform both roles."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Discipline Engineers",
+      "content": [
+        "Discipline engineers provide specialist knowledge within areas such as mechanical engineering, electrical engineering, automation, software, structural engineering or process engineering.",
+        "They may prepare calculations, specifications, drawings, technical evaluations and test procedures.",
+        "Discipline engineers are also responsible for identifying technical risks and interfaces related to their area.",
+        "They should communicate assumptions and changes that may affect other disciplines.",
+        "A technically correct decision within one discipline can still create problems if its effects on the rest of the project are ignored."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Multidisciplinary Consequences",
+      "content": [
+        "A mechanical engineer selects a larger pump to increase capacity.",
+        "The larger pump may require more electrical power, stronger foundations, larger pipes and additional cooling.",
+        "The mechanical decision must therefore be coordinated with electrical, structural and process engineers."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Consultant",
+      "content": [
+        "A consultant provides professional expertise to the owner, client or contractor.",
+        "Consultants may perform studies, design work, calculations, project management, procurement support, inspections or technical verification.",
+        "The consultant's responsibilities are defined by the consulting agreement.",
+        "A consultant may recommend a solution without having authority to commit the client.",
+        "The client should clarify whether the consultant may issue instructions, approve work or represent the client in contractual matters."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Consultant Advice and Client Decisions",
+      "content": [
+        "A consultant may provide expert advice, but the client normally remains responsible for business and contractual decisions unless authority has been formally delegated.",
+        "Both parties should understand whether the consultant is acting as an adviser, designer, project manager or authorized representative."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Main Contractor",
+      "content": [
+        "The main contractor is responsible for delivering a defined part of the project under a contract with the client.",
+        "Depending on the contract, the contractor may be responsible for construction, installation, engineering, procurement, commissioning or complete project delivery.",
+        "The contractor must perform the agreed scope in accordance with the contract, technical requirements, schedule, quality standards and safety obligations.",
+        "The contractor is normally responsible for managing its own employees, suppliers and subcontractors.",
+        "The client generally communicates formal instructions through the contractual channels defined in the agreement."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Supplier",
+      "content": [
+        "A supplier provides equipment, materials, systems or specialist services.",
+        "The supplier may be responsible for design, manufacturing, documentation, delivery, installation support, testing, training and warranties.",
+        "Supplier responsibility should be defined by the purchase order or contract.",
+        "The technical specification should clarify performance requirements, while the commercial terms should clarify price, delivery, liability, acceptance and payment.",
+        "A supplier should notify the customer when proposed changes may affect performance, compliance, interfaces or delivery."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Subcontractor",
+      "content": [
+        "A subcontractor performs work for a main contractor rather than directly for the project owner or client.",
+        "The main contractor normally remains responsible to the client for subcontracted work.",
+        "The client may communicate with the subcontractor during daily work, but formal instructions should normally pass through the main contractor unless the contract states otherwise.",
+        "Direct instructions from the client to a subcontractor can create confusion about responsibility, price and schedule."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Direct Instruction to a Subcontractor",
+      "content": [
+        "A client representative asks an electrical subcontractor to install an additional cable.",
+        "The subcontractor completes the work and later charges the main contractor.",
+        "The main contractor argues that it never approved the change.",
+        "The problem arose because the client bypassed the agreed contractual communication channel."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Operator and End User",
+      "content": [
+        "The operator is responsible for using, maintaining or managing the completed system after handover.",
+        "The end user is the person or group that directly uses the system, facility or product.",
+        "Operators and end users often possess practical knowledge that is essential during requirement definition, design reviews, testing and training.",
+        "A project can satisfy the technical specification and still fail operationally if the solution is difficult to use, maintain or integrate into existing operations.",
+        "Early operator involvement can reduce this risk."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Operator Involvement",
+      "content": [
+        "A new control system is technically functional but requires operators to complete several unnecessary manual steps.",
+        "Had the operators participated in the design review, the workflow could have been simplified before installation."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Regulatory Authorities",
+      "content": [
+        "Regulatory authorities ensure that the project complies with applicable laws, regulations, permits and safety requirements.",
+        "Authorities may review applications, inspect work, approve designs or issue certificates.",
+        "The project team should identify regulatory requirements early because approval processes may influence scope, design and schedule.",
+        "The authority does not normally manage the project, but its decisions may determine whether the project can proceed or operate legally."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Independent Verification and Classification",
+      "content": [
+        "Some engineering projects require independent verification by a third party.",
+        "This may include classification societies, certification bodies, technical inspectors, testing laboratories or independent engineers.",
+        "The independent party verifies compliance with specified rules, standards or contractual requirements.",
+        "Independent verification does not normally replace the contractor's responsibility for the quality and correctness of its work.",
+        "The exact role and authority of the verifier should be defined."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Contract Manager",
+      "content": [
+        "The contract manager supports the administration and interpretation of project agreements.",
+        "Responsibilities may include monitoring contractual obligations, handling notices, evaluating changes, supporting negotiations and maintaining contract records.",
+        "The contract manager works with technical, commercial and project personnel.",
+        "The role is particularly important when decisions affect scope, payment, schedule, liability or risk allocation.",
+        "Contract management is not only performed when a dispute occurs. It should be integrated into daily project execution."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "The Procurement Manager",
+      "content": [
+        "The procurement manager coordinates the process of obtaining goods and services from external parties.",
+        "Responsibilities may include supplier identification, tender preparation, bid evaluation, negotiation and purchase-order administration.",
+        "Procurement decisions should be based on more than purchase price.",
+        "Technical capability, delivery reliability, quality, commercial terms, lifecycle cost and risk should also be considered.",
+        "The procurement manager typically cooperates with engineers, project management, finance and contract management."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Quality, Safety and Risk Roles",
+      "content": [
+        "Quality personnel help ensure that processes and deliverables comply with specified requirements.",
+        "Safety personnel identify hazards, support risk assessments and monitor compliance with safety procedures.",
+        "Risk managers or project personnel responsible for risk coordination maintain the risk process and support risk reviews.",
+        "These roles provide specialist support, but they do not remove responsibility from the people performing and managing the work.",
+        "For example, a safety adviser supports the project, but every participant remains responsible for working safely."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Finance and Project Control",
+      "content": [
+        "Finance and project-control personnel support budgeting, forecasting, cost monitoring, progress measurement and reporting.",
+        "They help the project manager understand whether the project is performing according to plan.",
+        "Project control may also monitor commitments, invoices, earned progress, schedule performance and expected final cost.",
+        "These functions provide information for decision-making but normally do not own the technical scope.",
+        "Accurate reporting depends on timely information from engineers, contractors and project managers."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Internal and External Parties",
+      "content": [
+        "Internal parties belong to the owner's, client's or contractor's own organization.",
+        "External parties include consultants, suppliers, contractors, authorities and other independent organizations.",
+        "Internal parties may still have different priorities and reporting lines.",
+        "For example, operations may prioritize reliability, finance may prioritize investment cost and engineering may prioritize technical performance.",
+        "The project team must manage both organizational and contractual interfaces."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Project Governance",
+      "content": [
+        "Project governance defines how the project is directed, controlled and supervised.",
+        "It establishes decision levels, reporting lines, approval limits and escalation procedures.",
+        "Governance helps ensure that major decisions are made by people with the appropriate authority and information.",
+        "A governance structure may include the project sponsor, steering committee, project manager and specialist approval functions.",
+        "Governance should be proportionate to the project's size, complexity and risk."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Escalation of a Major Change",
+      "content": [
+        "A project manager has authority to approve changes up to EUR 50,000.",
+        "A proposed design change is expected to cost EUR 200,000.",
+        "The project manager should evaluate the change and prepare a recommendation, but the final decision must be escalated to the authorized management level."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Organization Charts",
+      "content": [
+        "A project organization chart shows the formal structure of the project.",
+        "It may identify project leadership, engineering disciplines, commercial functions, contractors and reporting relationships.",
+        "The chart helps participants understand where they belong in the project and who they report to.",
+        "However, an organization chart does not normally describe detailed responsibilities or approval authority.",
+        "It should therefore be supported by role descriptions and responsibility matrices."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Responsibility Matrices",
+      "content": [
+        "A responsibility matrix connects project activities or deliverables with the parties responsible for them.",
+        "One common model is the RACI matrix.",
+        "RACI stands for Responsible, Accountable, Consulted and Informed.",
+        "Responsible identifies the person or party performing the work.",
+        "Accountable identifies the person who owns the result and approves completion.",
+        "Consulted identifies people whose input is required.",
+        "Informed identifies people who should receive information about the activity or decision."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: RACI for a Design Change",
+      "content": [
+        "The discipline engineer may be Responsible for evaluating the technical change.",
+        "The project manager may be Accountable for coordinating the complete change evaluation.",
+        "The contract manager and operator may be Consulted.",
+        "The project sponsor may be Informed, or may become Accountable if the value exceeds the project manager's authority."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Too Many Accountable Parties",
+      "content": [
+        "An activity should normally have one clearly identified accountable person.",
+        "When several people are described as equally accountable, final ownership may become unclear.",
+        "Multiple specialists may contribute, but one role should own the final decision or deliverable."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Responsibility Gaps",
+      "content": [
+        "A responsibility gap exists when no party is clearly assigned to perform or own an activity.",
+        "Gaps often occur at interfaces between contracts, departments or disciplines.",
+        "Examples include missing responsibility for temporary power, software integration, foundation design or operating documentation.",
+        "Responsibility gaps may remain unnoticed until execution or commissioning.",
+        "The project team should review scope boundaries and interfaces early."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Responsibility Overlaps",
+      "content": [
+        "A responsibility overlap exists when two or more parties believe they are responsible for the same activity.",
+        "Overlaps may lead to duplicated work, conflicting decisions or unnecessary cost.",
+        "They may also cause disputes if both parties expect payment for similar work.",
+        "Overlaps are not always harmful if coordination is clear, but ownership and decision authority must be defined.",
+        "The project team should distinguish between cooperation and duplicated accountability."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Responsibility Gap at an Interface",
+      "content": [
+        "A supplier provides a new machine, while a contractor prepares the foundation.",
+        "The supplier assumes the contractor will design the anchor bolts.",
+        "The contractor assumes the supplier will provide the complete anchoring design.",
+        "The gap is discovered only when the machine arrives on site."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Authority to Issue Instructions",
+      "content": [
+        "Project contracts often identify specific people who may issue formal instructions.",
+        "This protects both parties from unauthorized commitments.",
+        "Employees may discuss technical matters without having authority to change scope, price or schedule.",
+        "Before acting on an instruction, the receiving party should determine whether the instruction comes from an authorized representative.",
+        "When authority is unclear, the issue should be clarified and documented."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Informal Instructions",
+      "content": [
+        "Informal discussions are useful for coordination, but they should not be treated automatically as formal changes.",
+        "Instructions affecting scope, cost, schedule, performance or contractual obligations should be confirmed through the agreed process.",
+        "Acting on an unauthorized instruction may create disputes about payment and responsibility."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Delegation",
+      "content": [
+        "Delegation occurs when a person with authority assigns responsibility or decision rights to another person.",
+        "Delegation should be clear regarding scope, limits and duration.",
+        "A project manager may delegate technical approval within a discipline while retaining responsibility for overall project coordination.",
+        "Delegation does not always remove the original manager's accountability.",
+        "The delegated person must also receive sufficient information, competence and resources."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Communication Between Parties",
+      "content": [
+        "Effective project communication depends on clear channels, timing and purpose.",
+        "Daily coordination may occur directly between engineers, supervisors and suppliers.",
+        "Formal contractual communication may need to pass through named representatives.",
+        "The project should distinguish between technical discussion, information sharing, approval and contractual instruction.",
+        "Meeting minutes, decision logs and action lists help confirm what was discussed and who is responsible for the next step."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Meetings and Decision-Making",
+      "content": [
+        "Project meetings should have a defined purpose, appropriate participants and clear follow-up.",
+        "Typical meetings include progress meetings, design reviews, risk reviews, interface meetings and commercial meetings.",
+        "Participants should know whether the meeting is intended to exchange information, develop recommendations or make decisions.",
+        "Important decisions should identify the decision-maker, basis, date and required actions.",
+        "A meeting does not create clear accountability unless decisions and actions are documented."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Role Conflicts",
+      "content": [
+        "Role conflict occurs when a person or organization faces incompatible expectations.",
+        "For example, a consultant may be asked to provide independent verification while also being responsible for the original design.",
+        "A project manager may experience pressure to reduce cost while maintaining schedule and quality.",
+        "Role conflicts should be recognized and managed through clear governance, transparency and appropriate separation of duties.",
+        "Unmanaged conflicts can weaken trust and decision quality."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Different Project Delivery Models",
+      "content": [
+        "Roles and responsibilities depend partly on how the project is organized contractually.",
+        "In a traditional model, the client may appoint a consultant to complete the design and then contract separately with a construction contractor.",
+        "In a design-and-build model, one contractor may be responsible for both design and execution.",
+        "In an engineering, procurement and construction model, the contractor may deliver a complete facility or system.",
+        "The project team must understand which responsibilities remain with the owner and which are transferred to other parties."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Design Responsibility",
+      "content": [
+        "In one project, the client provides a complete design and the contractor builds according to it.",
+        "In another project, the contractor is responsible for developing the design from performance requirements.",
+        "The contractor's design responsibility is much greater in the second project, even though both projects may involve similar construction work."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Transferred Responsibility Does Not Mean No Involvement",
+      "content": [
+        "A client may transfer design or construction responsibility to a contractor through the contract.",
+        "However, the client may still need to provide information, review documents, make timely decisions and coordinate with operators or authorities.",
+        "The client should not interfere in a way that creates unclear responsibility.",
+        "At the same time, the client should maintain sufficient oversight to protect project objectives.",
+        "The balance between control and transferred responsibility should be understood by both parties."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Responsibility for Information",
+      "content": [
+        "Project parties often depend on information supplied by others.",
+        "The client may provide site data, operating conditions or existing drawings.",
+        "The contractor may provide design documents, calculations and progress information.",
+        "The supplier may provide equipment data and interface requirements.",
+        "Each party should clarify what information must be provided, when it is required and whether the receiving party must verify it.",
+        "Incorrect or late information can affect cost, schedule and technical performance."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Responsibility for Approvals",
+      "content": [
+        "Projects may require internal, client, regulatory and third-party approvals.",
+        "The project plan should define who prepares documents, who reviews them and who gives final approval.",
+        "Approval does not always transfer responsibility for the original work.",
+        "For example, client approval of a contractor's drawing may not remove the contractor's responsibility for design correctness.",
+        "The contractual meaning of review and approval should therefore be understood."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Approval Is Not Always Acceptance of Responsibility",
+      "content": [
+        "A party reviewing or approving a document may only be confirming that it is acceptable for the project to proceed.",
+        "The creator of the document may remain responsible for errors, compliance and technical performance.",
+        "The effect of approval depends on the agreement and the wording of the approval process."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Responsibility During Changes",
+      "content": [
+        "When a change is proposed, several roles may become involved.",
+        "Engineering evaluates technical feasibility and consequences.",
+        "Planning assesses schedule effects.",
+        "Commercial and project-control personnel evaluate cost.",
+        "Contract management determines contractual rights and procedures.",
+        "The authorized decision-maker approves or rejects the change.",
+        "The change should not be implemented before responsibilities and authority are clarified."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Example: Change Responsibility",
+      "content": [
+        "A vessel operator requests relocation of a control panel.",
+        "The engineer evaluates technical suitability.",
+        "The contractor estimates additional work.",
+        "The project manager assesses schedule impact.",
+        "The contract manager checks whether the request is outside the original scope.",
+        "The authorized client representative decides whether to approve the change."
+      ]
+    },
+    {
+      "type": "theory",
+      "title": "Responsibility During Handover",
+      "content": [
+        "Handover transfers the completed system from the project organization to the owner or operator.",
+        "Responsibilities may include completing testing, correcting defects, delivering documentation, providing training and transferring spare parts.",
+        "The receiving organization should verify that agreed handover requirements are satisfied.",
+        "The project team should also clarify which responsibilities continue after handover, such as warranties, maintenance support and defect correction.",
+        "Unclear handover responsibilities can delay operational use and final payment."
+      ]
+    },
+    {
+      "type": "expertInsight",
+      "title": "Expert Insight",
+      "content": [
+        "Many engineering-project failures are not caused by a lack of technical skill. They result from unclear ownership, weak interfaces, delayed decisions or unauthorized instructions.",
+        "Strong project teams make responsibilities visible. They clarify who performs the work, who owns the result, who must be consulted and who has authority to decide.",
+        "Responsibility should be reviewed whenever scope, organization, contracts or project phases change."
+      ]
+    },
+    {
+      "type": "warning",
+      "title": "Common Mistakes",
+      "items": [
+        "Assuming that job titles automatically define project authority.",
+        "Giving a person responsibility without sufficient decision-making authority.",
+        "Allowing several parties to believe they are equally accountable for the same decision.",
+        "Failing to assign responsibility for technical and organizational interfaces.",
+        "Allowing unauthorized personnel to issue instructions to contractors or suppliers.",
+        "Confusing technical approval with commercial authorization.",
+        "Assuming that client review removes contractor responsibility.",
+        "Failing to involve operators and end users during design and testing.",
+        "Using organization charts without detailed role descriptions.",
+        "Not updating responsibilities when the project scope or organization changes."
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "Key Takeaways",
+      "items": [
+        "Engineering projects involve several parties with different objectives, obligations and risks.",
+        "A party is formally involved in the project, while a stakeholder may influence or be affected by it without having a contract.",
+        "A role describes a function, responsibility describes ownership of work or results, and authority describes the right to make decisions.",
+        "The project owner, client, sponsor, project manager, engineers, consultants, contractors, suppliers and operators have different responsibilities.",
+        "Responsibility and authority must be aligned to avoid confusion and delay.",
+        "Organization charts show reporting relationships, while responsibility matrices clarify ownership of activities and decisions.",
+        "Responsibility gaps and overlaps commonly occur at technical, organizational and contractual interfaces.",
+        "Formal instructions should be issued only by authorized representatives.",
+        "Roles and responsibilities depend on the project's contractual and organizational model.",
+        "Responsibilities should be reviewed throughout the project lifecycle, especially when changes occur."
+      ]
+    },
+    {
+      "type": "reflection",
+      "title": "Reflection",
+      "questions": [
+        "What is the difference between being responsible for evaluating a decision and having authority to approve it?",
+        "Why might a project fail if the operator is not involved during design and testing?",
+        "How can direct communication between a client and a subcontractor create contractual problems?",
+        "What information should be included in a responsibility matrix?",
+        "Why should one person normally be clearly accountable for each major activity or deliverable?",
+        "How may design responsibility differ between a traditional project and a design-and-build project?",
+        "Who should be involved when a technical change affects scope, cost and schedule?",
+        "What responsibility gaps could occur when one supplier delivers equipment and another contractor performs installation?"
+      ]
+    }
+  ]
+}
