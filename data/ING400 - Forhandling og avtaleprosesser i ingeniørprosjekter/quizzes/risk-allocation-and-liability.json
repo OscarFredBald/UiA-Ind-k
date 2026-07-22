@@ -1,0 +1,369 @@
+{
+  "title": "Risk Allocation and Liability",
+  "questions": [
+    {
+      "question": "A client wants to transfer all ground-condition risk to the contractor, even though the client controls the site information and the contractor has limited access before tendering. What is the main commercial consequence?",
+      "options": [
+        "The contractor will probably include a larger risk premium in the tender price",
+        "The client automatically eliminates the risk",
+        "The contractor becomes insured against all ground conditions",
+        "The project will necessarily finish earlier"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Contractors normally price uncertain risks. Allocating poorly controlled risk to the contractor may therefore increase the tender price."
+    },
+    {
+      "question": "A supplier delivers critical equipment three weeks late. Which type of contractual failure has most clearly occurred?",
+      "options": [
+        "A confidentiality breach",
+        "Late performance",
+        "A design approval",
+        "A force majeure event"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Failure to deliver by the agreed date is a form of breach involving late performance."
+    },
+    {
+      "question": "A contractor discovers defective welding during an inspection. What is normally the first appropriate response?",
+      "options": [
+        "Ignore the defect if the schedule is tight",
+        "Invoice the client for the repair",
+        "Record the defect and arrange evaluation and corrective action",
+        "Transfer ownership of the defect to the inspector"
+      ],
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "Defects should be documented, assessed and corrected through the project's quality and contractual procedures."
+    },
+    {
+      "question": "Why are liability caps included in engineering contracts?",
+      "options": [
+        "To guarantee that no claim can ever be made",
+        "To define a maximum financial exposure for specified liabilities",
+        "To remove all legal duties",
+        "To replace the need for insurance"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "A liability cap limits the maximum amount one party may be required to pay for covered claims."
+    },
+    {
+      "question": "A client suffers additional costs after a contractor breaches the contract. What must the client normally demonstrate to recover those costs?",
+      "options": [
+        "That the contractor made a profit",
+        "That the loss was caused by the breach",
+        "That the project manager disagreed with the contractor",
+        "That another supplier offered a lower price"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "A claimant normally needs to establish causation between the contractual failure and the claimed loss."
+    },
+    {
+      "question": "A contractor receives design information late from the client. What should the contractor do to protect a possible claim for time and cost?",
+      "options": [
+        "Wait until project completion before mentioning it",
+        "Issue the required contractual notice and document the impact",
+        "Stop the entire project permanently",
+        "Assume the client will compensate the delay automatically"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Timely notice and supporting records are essential when claiming relief for client-caused delay."
+    },
+    {
+      "question": "Which party should generally carry a risk?",
+      "options": [
+        "The party with the weakest negotiating position",
+        "The party best able to control, manage or price it",
+        "The client in every situation",
+        "The contractor in every situation"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Efficient risk allocation normally places a risk with the party best able to manage and assess it."
+    },
+    {
+      "question": "A project contract requires the equipment to achieve a guaranteed output. The contractor used reasonable care, but the equipment does not achieve that output. Which obligation may still make the contractor liable?",
+      "options": [
+        "A confidentiality obligation",
+        "A fitness-for-purpose obligation",
+        "A payment obligation",
+        "A tender-validity obligation"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Fitness-for-purpose obligations focus on achieving the required result, not only on whether reasonable care was used."
+    },
+    {
+      "question": "A client suffers a loss but takes no reasonable steps to reduce it, even though a simple temporary solution was available. Which principle may reduce the client's recovery?",
+      "options": [
+        "Duty to mitigate loss",
+        "Open tendering",
+        "Document hierarchy",
+        "Supplier qualification"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "A party suffering loss is generally expected to take reasonable measures to prevent avoidable additional loss."
+    },
+    {
+      "question": "A subcontractor delivers equipment late, causing the main contractor to miss the completion date owed to the client. Who is normally responsible to the client?",
+      "options": [
+        "Only the subcontractor",
+        "The insurer",
+        "The main contractor, subject to the main contract",
+        "The equipment manufacturer in every case"
+      ],
+      "answer": 2,
+      "difficulty": "Medium",
+      "explanation": "The main contractor is generally responsible to the client for subcontractor performance and may later seek recovery under the subcontract."
+    },
+
+    ,
+{
+  "question": "A contract includes delay liquidated damages of USD 20,000 per week, capped at 10% of the contract value. What is the main purpose of this clause?",
+  "options": [
+    "To punish the contractor regardless of actual delay",
+    "To predetermine compensation for delay and limit the maximum amount payable",
+    "To remove the contractor's duty to complete the work",
+    "To guarantee that the client recovers every possible loss"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "Delay liquidated damages provide a predetermined remedy for late completion, while the cap limits the maximum exposure."
+},
+{
+  "question": "A contractor discovers unexpected underground rock that was not shown in the client's site data. What should the contractor do first?",
+  "options": [
+    "Continue excavation and submit a claim after completion",
+    "Assume the contractor carries the risk in every contract",
+    "Notify the client promptly and document the actual conditions and project impact",
+    "Remove the rock without recording additional time or cost"
+  ],
+  "answer": 2,
+  "difficulty": "Medium",
+  "explanation": "Unexpected site conditions should be reported promptly, supported by evidence and assessed under the contract's risk-allocation provisions."
+},
+{
+  "question": "A contract excludes liability for loss of profit. The contractor causes damage requiring the client to pay for physical repairs. Which statement is most accurate?",
+  "options": [
+    "The repair costs may still be recoverable because they are different from loss of profit",
+    "The exclusion removes liability for every type of loss",
+    "The client can only recover if the contractor agrees voluntarily",
+    "Physical repair costs automatically become indirect losses"
+  ],
+  "answer": 0,
+  "difficulty": "Medium",
+  "explanation": "An exclusion for loss of profit does not necessarily exclude direct repair or replacement costs."
+},
+{
+  "question": "A supplier agrees to indemnify the client against third-party intellectual property claims. What does this generally mean?",
+  "options": [
+    "The supplier guarantees that the project will make a profit",
+    "The supplier promises to protect the client against specified claims and losses",
+    "The supplier becomes responsible for every project risk",
+    "The client transfers ownership of all intellectual property to the supplier"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "An indemnity is a contractual promise to cover specified losses or third-party claims."
+},
+{
+  "question": "A contractor carries professional indemnity insurance with a limit of USD 2 million but accepts unlimited design liability. What is the main risk?",
+  "options": [
+    "The insurance automatically increases to match the contract",
+    "The client becomes responsible for all design errors",
+    "The contractor may face liability exceeding the available insurance coverage",
+    "The liability clause becomes invalid automatically"
+  ],
+  "answer": 2,
+  "difficulty": "Medium",
+  "explanation": "Contractual liability may exceed insurance limits, leaving the contractor with significant uninsured exposure."
+},
+{
+  "question": "The client reviews and approves the contractor's design drawings. A design defect is later discovered. What is normally the correct starting assumption?",
+  "options": [
+    "Approval automatically transfers all design responsibility to the client",
+    "The contractor normally remains responsible unless the contract clearly states otherwise",
+    "Neither party can be responsible after approval",
+    "The reviewing engineer becomes personally liable in every case"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "Client review or approval does not normally remove the contractor's design responsibility unless the contract expressly provides otherwise."
+},
+{
+  "question": "A contractor misses a contractual notice deadline after a client-caused delay. What is the greatest contractual risk?",
+  "options": [
+    "The contractor may lose or reduce its entitlement to additional time or payment",
+    "The client automatically terminates the contract",
+    "The contractor becomes liable for all future project risks",
+    "The delay is automatically treated as force majeure"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Many contracts make timely notice a condition for obtaining contractual relief."
+},
+{
+  "question": "A main contractor accepts liability to the client for USD 10 million but limits the subcontractor's liability to USD 1 million for the same work package. What risk does this create?",
+  "options": [
+    "The subcontractor automatically becomes liable for USD 10 million",
+    "The client must pursue the subcontractor directly",
+    "The main contractor may be unable to recover its full loss from the subcontractor",
+    "The main contractor's liability to the client is automatically reduced"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "A liability gap arises when the main contractor's exposure exceeds the amount recoverable under the subcontract."
+},
+{
+  "question": "A contractor is delayed by both its own poor planning and late information from the client during the same period. Why is this situation difficult to assess?",
+  "options": [
+    "Because every delay automatically becomes force majeure",
+    "Because multiple concurrent or contributing causes may affect entitlement and liability",
+    "Because project schedules cannot be used as evidence",
+    "Because client-caused delay always removes contractor responsibility"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "When several events contribute to the same delay, the parties must analyze causation, contractual responsibility and the effect on entitlement."
+},
+{
+  "question": "A contractor corrects a defect during the defects liability period. The same defect reappears shortly afterward. What should be reviewed first?",
+  "options": [
+    "Whether the contract extends or renews the defect period for corrected work",
+    "Whether the client has already paid the final invoice",
+    "Whether the contractor made a profit on the repair",
+    "Whether the original tender was competitive"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Contracts often specify whether repaired or replaced work receives a renewed or extended defects liability period."
+},
+
+    ,
+{
+  "question": "A client provides a geotechnical report stating that the ground conditions are 'for information only.' During excavation, the contractor encounters significantly harder rock than expected. What should the contractor do first?",
+  "options": [
+    "Assume the contractor automatically carries the entire risk",
+    "Notify the client, document the conditions and review the contract's site-condition provisions",
+    "Continue the work without documenting the issue",
+    "Stop the entire project permanently"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Unexpected site conditions should be documented immediately and assessed according to the contract's allocation of site-condition risk."
+},
+{
+  "question": "A contractor agrees to a contract containing unlimited liability but carries insurance with a limit of USD 5 million. Six months later, a design failure causes USD 12 million in damages. What is the greatest commercial risk?",
+  "options": [
+    "The insurer automatically covers the entire loss",
+    "The client must reduce its claim to match the insurance limit",
+    "The contractor may be personally responsible for losses exceeding the insurance coverage",
+    "The liability clause automatically becomes unenforceable"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "Insurance limits do not automatically limit contractual liability. The contractor may remain liable for uninsured losses."
+},
+{
+  "question": "A project experiences flooding caused by an extraordinary natural disaster that neither party could reasonably foresee or prevent. Assuming the contract contains an appropriate clause, which contractual mechanism is most likely to apply?",
+  "options": [
+    "Force majeure",
+    "Liquidated damages",
+    "Warranty",
+    "Indemnity"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Force majeure clauses are designed to address exceptional events outside the reasonable control of the contracting parties."
+},
+{
+  "question": "A contractor discovers a client-caused delay but waits two months before informing the client, even though the contract requires notice within seven days. What is the greatest contractual consequence?",
+  "options": [
+    "The contractor automatically wins the claim because the delay was the client's fault",
+    "The contractor may lose its contractual entitlement because notice requirements were not followed",
+    "The client automatically becomes liable for all project delays",
+    "The contract becomes void"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Many engineering contracts make timely notice a condition for obtaining extensions of time or additional compensation."
+},
+{
+  "question": "A supplier's equipment fails to achieve the guaranteed efficiency specified in the contract, but the client decides to keep the equipment because replacing it would delay production. Which contractual remedy is commonly used in this situation?",
+  "options": [
+    "Performance liquidated damages",
+    "Termination for convenience",
+    "Advance payment",
+    "Retention release"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Performance liquidated damages allow the client to accept equipment with reduced performance while receiving predetermined compensation."
+},
+{
+  "question": "A contractor signs a subcontract without ensuring that it reflects the liability obligations accepted under the main contract. What is the primary commercial risk?",
+  "options": [
+    "The subcontractor automatically accepts every obligation in the main contract",
+    "The contractor may become liable to the client for risks it cannot recover from the subcontractor",
+    "The client becomes responsible for subcontractor performance",
+    "The subcontract automatically replaces the main contract"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Poorly aligned ('non-back-to-back') subcontracts can leave the main contractor exposed to unrecoverable losses."
+},
+{
+  "question": "Following a major equipment failure, the contractor immediately organizes temporary repairs to prevent additional damage while investigating the root cause. Which risk-management principle is being demonstrated?",
+  "options": [
+    "Competitive tendering",
+    "Limitation of liability",
+    "Mitigation of loss",
+    "Warranty extension"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "Reasonable actions taken to reduce the consequences of a loss are examples of mitigation."
+},
+{
+  "question": "A client argues that every financial consequence of a contractor's breach should be recoverable. The contract, however, expressly excludes consequential losses and loss of profit. What should happen first?",
+  "options": [
+    "The exclusions should be reviewed to determine which losses remain recoverable",
+    "The client automatically recovers every claimed loss",
+    "The exclusions should be ignored because a breach occurred",
+    "The contractor automatically pays the full claim"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "The contract must first be interpreted to determine which categories of loss are recoverable and which have been excluded."
+},
+{
+  "question": "During project execution, several risks identified in the risk register have increased in probability because of new geopolitical events. What is the project manager's most appropriate response?",
+  "options": [
+    "Ignore the changes because the register was completed during tendering",
+    "Update the risk register, reassess mitigation measures and communicate significant changes",
+    "Delete the affected risks from the register",
+    "Transfer every new risk to the contractor regardless of the contract"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Risk management is a continuous process, and the risk register should be updated throughout the project."
+},
+{
+  "question": "Looking back after project completion, which practice would most likely have prevented many liability disputes between the client and contractor?",
+  "options": [
+    "Increasing the liability cap after every variation",
+    "Using broader exclusion clauses",
+    "Avoiding written communication whenever possible",
+    "Clearly allocating risks in the contract, following notice procedures and maintaining thorough project documentation"
+  ],
+  "answer": 3,
+  "difficulty": "Hard",
+  "explanation": "Most contractual disputes are easier to resolve when risks are clearly allocated, notices are submitted on time and the project maintains strong documentation."
+}
+  ]
+}
