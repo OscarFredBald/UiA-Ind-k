@@ -1,0 +1,227 @@
+{
+  "title": "Interpretation of Contracts",
+  "description": "Learn how contracts are interpreted, why precise wording matters, and how engineers and project managers use contract interpretation to resolve uncertainty and avoid disputes.",
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": [
+        "Engineering contracts are intended to clearly describe the rights and obligations of each party.",
+        "However, no contract can predict every possible situation that may occur during a project.",
+        "Questions often arise about what a particular clause actually means.",
+        "Contract interpretation is the process of determining the intended meaning of contractual provisions.",
+        "Good contract interpretation helps projects continue efficiently while reducing disputes.",
+        "Every engineer involved in projects should understand the basic principles of contract interpretation."
+      ]
+    },
+    {
+      "title": "Why Contract Interpretation Matters",
+      "content": [
+        "Even carefully written contracts may contain unclear language.",
+        "Different parties often interpret the same clause differently.",
+        "Misunderstandings can lead to delays, additional costs and legal disputes.",
+        "Consistent interpretation ensures that both parties understand their obligations.",
+        "Correct interpretation supports fair project execution.",
+        "It also improves communication and decision-making."
+      ]
+    },
+    {
+      "title": "Common Reasons for Contract Disputes",
+      "content": [
+        "Unclear wording.",
+        "Missing technical specifications.",
+        "Conflicting contract documents.",
+        "Different assumptions made during negotiations.",
+        "Changes introduced during the project.",
+        "Incomplete documentation.",
+        "Poor communication between project participants."
+      ]
+    },
+    {
+      "title": "The Importance of Clear Language",
+      "content": [
+        "Good contracts use precise language.",
+        "Technical requirements should be measurable whenever possible.",
+        "Ambiguous words such as 'adequate', 'reasonable' or 'sufficient' may create different interpretations.",
+        "Simple and precise wording reduces uncertainty.",
+        "Engineers should avoid unnecessary complexity when drafting specifications."
+      ]
+    },
+    {
+      "title": "Reading the Contract as a Whole",
+      "content": [
+        "Individual clauses should never be interpreted in isolation.",
+        "The contract should always be read as one complete document.",
+        "Different sections often explain or support each other.",
+        "Technical specifications, drawings and appendices may all influence interpretation.",
+        "Looking at the complete contract provides better understanding."
+      ]
+    },
+    {
+      "title": "Hierarchy of Contract Documents",
+      "content": [
+        "Many engineering contracts contain several different documents.",
+        "Examples include:",
+        "General conditions.",
+        "Special conditions.",
+        "Technical specifications.",
+        "Drawings.",
+        "Schedules.",
+        "Tender documents.",
+        "Contracts normally specify which document has priority if conflicts exist.",
+        "Understanding this hierarchy is essential when inconsistencies are discovered."
+      ]
+    },
+    {
+      "title": "Literal Interpretation",
+      "content": [
+        "The starting point is usually the ordinary meaning of the written words.",
+        "If the wording is clear, it normally governs the interpretation.",
+        "Courts generally avoid rewriting contracts.",
+        "The written agreement remains the primary source of the parties' obligations."
+      ]
+    },
+    {
+      "title": "Considering the Purpose",
+      "content": [
+        "Sometimes contract wording is unclear.",
+        "In these situations it is helpful to consider the purpose of the agreement.",
+        "The overall objectives of the project may provide useful context.",
+        "Interpretation should support the commercial intention of the parties whenever possible."
+      ]
+    },
+    {
+      "title": "Technical Terms",
+      "content": [
+        "Engineering contracts frequently use technical terminology.",
+        "Technical expressions should normally be interpreted according to their accepted engineering meaning.",
+        "Industry standards and recognized terminology may provide guidance.",
+        "Consistency is important throughout the contract."
+      ]
+    },
+    {
+      "title": "Drawings and Specifications",
+      "content": [
+        "Drawings and specifications complement each other.",
+        "A drawing illustrates the design.",
+        "Specifications describe technical requirements.",
+        "Both documents should normally be considered together.",
+        "If inconsistencies exist, the contract hierarchy should be consulted."
+      ]
+    },
+    {
+      "title": "Changes During the Project",
+      "content": [
+        "Projects rarely proceed exactly as originally planned.",
+        "Changes should always follow the agreed contract procedures.",
+        "Approved variations become part of the contractual obligations.",
+        "Proper documentation prevents confusion later."
+      ]
+    },
+    {
+      "title": "The Role of Documentation",
+      "content": [
+        "Meeting minutes.",
+        "Letters.",
+        "Emails.",
+        "Variation orders.",
+        "Inspection reports.",
+        "Acceptance certificates.",
+        "These documents help explain what was agreed during project execution.",
+        "Well-organized documentation supports later contract interpretation."
+      ]
+    },
+    {
+      "title": "Communication",
+      "content": [
+        "Many disputes result from poor communication rather than poor contracts.",
+        "Questions should be raised as soon as uncertainty appears.",
+        "Clarifications should preferably be provided in writing.",
+        "Open communication often prevents expensive disagreements."
+      ]
+    },
+    {
+      "title": "Practical Example",
+      "content": [
+        "A contractor receives drawings showing ten inspection hatches.",
+        "The written specification mentions twelve inspection hatches.",
+        "Instead of making assumptions, the contractor requests clarification.",
+        "The client confirms that twelve hatches are required.",
+        "The clarification is documented and distributed to everyone involved.",
+        "A potential dispute is avoided before construction begins."
+      ]
+    },
+    {
+      "title": "Another Example",
+      "content": [
+        "A supplier believes delivery only includes installation.",
+        "The client believes commissioning is also included.",
+        "The contract wording is reviewed together with the technical specification.",
+        "The specification clearly states that commissioning is required.",
+        "The parties now share the same understanding of the contract."
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "content": [
+        "Read the complete contract before starting work.",
+        "Understand the hierarchy of contract documents.",
+        "Do not rely on assumptions.",
+        "Request clarification whenever uncertainty exists.",
+        "Document important decisions.",
+        "Use clear written communication.",
+        "Keep accurate project records.",
+        "Follow formal change procedures.",
+        "Review technical specifications carefully.",
+        "Maintain professional dialogue between all parties."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Reading only one clause instead of the entire contract.",
+        "Ignoring technical specifications.",
+        "Assuming verbal agreements replace written contracts.",
+        "Starting changed work without approval.",
+        "Poor documentation.",
+        "Delaying clarification until problems become larger.",
+        "Failing to communicate inconsistencies."
+      ]
+    },
+    {
+      "title": "How Engineers Use Contract Interpretation",
+      "content": [
+        "Reviewing supplier obligations.",
+        "Evaluating technical compliance.",
+        "Managing design changes.",
+        "Assessing payment claims.",
+        "Resolving technical disagreements.",
+        "Supporting project management decisions.",
+        "Reducing commercial risk."
+      ]
+    },
+    {
+      "title": "Summary",
+      "content": [
+        "Contract interpretation helps determine the intended meaning of contractual obligations.",
+        "Clear wording reduces misunderstandings.",
+        "The contract should always be interpreted as a complete document.",
+        "Document hierarchy becomes important when inconsistencies exist.",
+        "Documentation and communication support correct interpretation.",
+        "Formal change procedures reduce future disputes.",
+        "Professional engineers should never make assumptions when contract requirements are unclear."
+      ]
+    },
+    {
+      "title": "Key Takeaways",
+      "content": [
+        "Always read the entire contract.",
+        "Understand the hierarchy of contract documents.",
+        "Interpret technical terms consistently.",
+        "Request clarification whenever uncertainty exists.",
+        "Document important decisions in writing.",
+        "Follow agreed contract procedures.",
+        "Good contract interpretation supports successful engineering projects."
+      ]
+    }
+  ]
+}
