@@ -1,0 +1,369 @@
+{
+  "title": "Contracts and Agreement Processes",
+  "questions": [
+    {
+      "question": "A municipality hires an engineering company to design a new bridge. Why is it important to sign a contract before work begins?",
+      "options": [
+        "To clearly define each party's responsibilities, obligations and expectations",
+        "To guarantee that the project will finish on time",
+        "To eliminate the need for project meetings",
+        "To ensure that no design changes will occur"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "A contract defines what each party must do, reducing uncertainty and misunderstandings."
+    },
+    {
+      "question": "A project manager is preparing a contract with a supplier. Which section is most important for describing exactly what the supplier must deliver?",
+      "options": [
+        "Scope of Work",
+        "Payment Schedule",
+        "Confidentiality Clause",
+        "Termination Clause"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "The Scope of Work clearly defines the required deliverables."
+    },
+    {
+      "question": "A contractor completes the first agreed milestone. According to most engineering contracts, what normally happens next?",
+      "options": [
+        "The contractor becomes eligible for the corresponding milestone payment",
+        "The project automatically enters the warranty period",
+        "The contract is terminated",
+        "The client must immediately release the final payment"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Many contracts link payments to completed milestones rather than calendar dates."
+    },
+    {
+      "question": "During contract negotiations, both parties discuss delivery dates, payment terms and warranties. What is the main purpose of these discussions?",
+      "options": [
+        "To reach mutually acceptable contract conditions before signing",
+        "To delay the project as long as possible",
+        "To replace the technical specifications",
+        "To avoid documenting the agreement"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Negotiations allow both parties to agree on commercial and technical terms."
+    },
+    {
+      "question": "Which of the following parties is normally responsible for paying the contractor according to the contract?",
+      "options": [
+        "The Client or Owner",
+        "The Insurance Company",
+        "The Local Authority",
+        "The Classification Society"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "The client or owner is normally responsible for paying according to the agreed payment terms."
+    },
+    {
+      "question": "A supplier asks for clarification before submitting its tender because one technical requirement is unclear. Why is this beneficial?",
+      "options": [
+        "It reduces the risk of misunderstandings later in the project",
+        "It automatically lowers the contract price",
+        "It removes the need for a contract",
+        "It guarantees that the supplier will win the tender"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Clarifying unclear requirements before signing helps avoid future disputes."
+    },
+    {
+      "question": "Which document is primarily used to communicate the client's technical and commercial requirements to potential suppliers?",
+      "options": [
+        "The Tender Documents",
+        "The Invoice",
+        "The Warranty Certificate",
+        "The Final Payment Request"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Tender documents explain what suppliers are expected to provide and how bids will be evaluated."
+    },
+    {
+      "question": "A contractor notices that the contract contains detailed acceptance criteria for every deliverable. Why is this useful?",
+      "options": [
+        "It provides objective requirements for determining whether work has been completed successfully",
+        "It guarantees that no delays can occur",
+        "It prevents future negotiations",
+        "It removes the need for inspections"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Acceptance criteria provide measurable conditions for project completion."
+    },
+    {
+      "question": "A contractor discovers that one drawing conflicts with another drawing in the contract documents. What should the contractor do first?",
+      "options": [
+        "Request clarification before continuing the work",
+        "Choose whichever drawing is easier to follow",
+        "Ignore both drawings",
+        "Continue working and discuss it after project completion"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Conflicting contract documents should always be clarified before work continues."
+    },
+    {
+      "question": "A supplier submits the lowest-priced bid but has poor delivery performance on previous projects. What is the best procurement decision?",
+      "options": [
+        "Evaluate the supplier using all award criteria before making a decision",
+        "Always select the lowest bidder",
+        "Reject every supplier except the cheapest",
+        "Award the contract without reviewing past performance"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Professional procurement evaluates price together with quality, capability, delivery reliability and overall value."
+    },
+
+        ,
+    {
+      "question": "During construction, the client requests an additional staircase that was not included in the original contract. What should the contractor do first?",
+      "options": [
+        "Submit a formal variation proposal before starting the work",
+        "Build the staircase immediately without discussing the cost",
+        "Refuse to communicate with the client",
+        "Complete the project first and discuss the change afterwards"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Most engineering contracts require changes to be documented, evaluated and approved before the additional work begins."
+    },
+    {
+      "question": "A project manager notices that several important decisions have only been discussed verbally. What is the best course of action?",
+      "options": [
+        "Document the decisions in writing and distribute them to the relevant parties",
+        "Assume everyone remembers the discussion",
+        "Ignore the issue until project close-out",
+        "Wait until a dispute occurs before documenting anything"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Written documentation reduces misunderstandings and provides evidence if disagreements arise."
+    },
+    {
+      "question": "A supplier cannot deliver equipment on the agreed date due to problems at its factory. Which contract section normally explains the consequences?",
+      "options": [
+        "The delivery schedule and delay provisions",
+        "The company organization chart",
+        "The meeting agenda",
+        "The invoice template"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Contracts normally specify delivery obligations and the consequences of delays."
+    },
+    {
+      "question": "The client wants to reduce the project cost by removing part of the original scope. What is the most appropriate contractual approach?",
+      "options": [
+        "Process the scope reduction through the contract's change procedure",
+        "Simply ignore the original contract",
+        "Ask the contractor to absorb the cost difference",
+        "Continue with the original scope without informing anyone"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Any change to the agreed scope should follow the contract's variation procedure."
+    },
+    {
+      "question": "A contractor receives two contract documents containing different technical requirements. What should be done before continuing?",
+      "options": [
+        "Request clarification according to the contract's document hierarchy",
+        "Choose the cheapest solution",
+        "Ignore both documents",
+        "Wait until project completion"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "Many contracts specify which document takes priority if inconsistencies exist."
+    },
+    {
+      "question": "A client refuses to pay for additional work because there is no written approval, even though the work was completed successfully. What is the contractor's biggest weakness?",
+      "options": [
+        "The contractor cannot easily prove that the change was authorized",
+        "The work quality was automatically unacceptable",
+        "The contract immediately becomes invalid",
+        "The warranty period has expired"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Without documented approval, it is difficult to justify additional payment."
+    },
+    {
+      "question": "A fixed-price contract has been signed. Halfway through the project, material prices increase dramatically. Before deciding who should pay the additional cost, what should the parties examine first?",
+      "options": [
+        "The contract's risk allocation and pricing clauses",
+        "Current market prices only",
+        "The contractor's profit margin",
+        "The original tender invitation"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "The contract determines how financial risks such as price increases are allocated."
+    },
+    {
+      "question": "An engineering firm finishes all technical work, but several required documents have not been delivered. Can the client reasonably delay final acceptance?",
+      "options": [
+        "Yes, if documentation is part of the contractual deliverables",
+        "No, documentation is never part of a contract",
+        "No, technical completion automatically ends the contract",
+        "Yes, but only if the project exceeded its budget"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Deliverables often include manuals, certificates and documentation in addition to physical work."
+    },
+    {
+      "question": "During negotiations, the contractor accepts an unrealistic completion date simply to win the project. What is the greatest long-term risk?",
+      "options": [
+        "Delays, disputes and possible contractual penalties",
+        "Lower insurance premiums",
+        "Improved project quality",
+        "Fewer project meetings"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Agreeing to unrealistic commitments often leads to poor project performance and contractual consequences."
+    },
+    {
+      "question": "A project team discovers that a subcontractor has misunderstood the contract requirements because the specifications were vague. Which lesson is most important?",
+      "options": [
+        "Clear and precise contract language is essential to successful project execution",
+        "Contracts should avoid technical details",
+        "Specifications are less important than price",
+        "Misunderstandings cannot be prevented in engineering projects"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "One of the primary purposes of a contract is to communicate expectations clearly and reduce ambiguity."
+    },
+
+        ,
+    {
+      "question": "A contractor receives a client request to begin additional work immediately because the schedule is critical. The client promises that the paperwork will be completed later. What is the most professional response?",
+      "options": [
+        "Request written authorization before starting the additional work whenever possible",
+        "Begin immediately and hope payment will be approved later",
+        "Ignore the client's request completely",
+        "Invoice the client without informing anyone"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Written authorization protects both parties and reduces the risk of future payment disputes."
+    },
+    {
+      "question": "A project is delayed because a government authority introduces new environmental regulations after the contract has been signed. Before assigning responsibility, what should the parties review first?",
+      "options": [
+        "The contract clauses covering regulatory changes and risk allocation",
+        "The contractor's internal procedures",
+        "The project budget only",
+        "The supplier's previous projects"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Contracts often define how unforeseen legal or regulatory changes are handled."
+    },
+    {
+      "question": "Two engineers disagree about the meaning of a contract clause. One relies on assumptions while the other refers to the written wording. Which approach is generally the strongest?",
+      "options": [
+        "Rely on the written contract and supporting contract documents",
+        "Use verbal agreements instead",
+        "Ignore the written contract if both parties disagree",
+        "Allow each party to interpret the clause differently"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Contract interpretation should always begin with the agreed written documents."
+    },
+    {
+      "question": "A supplier delivers equipment one week late, but the delay has no impact on the overall project schedule. Why should the delay still be documented?",
+      "options": [
+        "Because contract performance should be recorded even if the immediate impact is small",
+        "Because documentation automatically increases payment",
+        "Because the contract immediately becomes void",
+        "Because documentation is only required at project close-out"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Accurate records support contract administration and may become important later."
+    },
+    {
+      "question": "A contractor wants to replace an approved component with a cheaper alternative that provides similar performance. What should happen before making the substitution?",
+      "options": [
+        "The proposed change should be reviewed and approved according to the contract",
+        "The contractor may replace any component without informing the client",
+        "Only the supplier needs to approve the change",
+        "The component should be replaced after project completion"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Even technically equivalent substitutions usually require client approval."
+    },
+    {
+      "question": "During contract close-out, both parties discover that one small contractual deliverable is still outstanding. What is the best professional approach?",
+      "options": [
+        "Agree on how and when the remaining obligation will be completed before closing the contract",
+        "Ignore the missing deliverable",
+        "Terminate the contract immediately without discussion",
+        "Remove the requirement from the contract afterwards"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Outstanding obligations should be resolved and documented before final close-out."
+    },
+    {
+      "question": "A client repeatedly gives technical instructions directly to subcontractors instead of communicating through the main contractor. Why can this become a contractual problem?",
+      "options": [
+        "It can create confusion about authority, responsibility and contractual obligations",
+        "It automatically reduces project costs",
+        "It guarantees faster project completion",
+        "It has no effect because subcontractors work independently"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Communication should normally follow the contractual lines of responsibility."
+    },
+    {
+      "question": "A contractor believes a client has breached the contract. Before escalating the matter to legal proceedings, what should normally be attempted first?",
+      "options": [
+        "Follow the contract's agreed dispute resolution procedure",
+        "Stop all work immediately without notice",
+        "Ignore the issue until the project ends",
+        "Delete all project documentation"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Most contracts include structured procedures for resolving disputes before litigation."
+    },
+    {
+      "question": "A project manager spends considerable time documenting meetings, approvals and correspondence. Some team members believe this is unnecessary. Why is thorough documentation actually valuable?",
+      "options": [
+        "It provides objective evidence of what was agreed and supports effective contract management",
+        "It guarantees that disputes can never occur",
+        "It replaces the need for contracts",
+        "It removes all project risks"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Good documentation is one of the strongest tools for preventing and resolving contractual disagreements."
+    },
+    {
+      "question": "Looking back at a successful engineering project, which factor most likely contributed to effective contract management throughout the project lifecycle?",
+      "options": [
+        "Clear contract wording, proactive communication, documented changes and continuous contract administration",
+        "Focusing only on keeping the project under budget",
+        "Avoiding all contract reviews after signing",
+        "Allowing verbal agreements to replace written procedures whenever possible"
+      ],
+      "answer": 0,
+      "difficulty": "Hard",
+      "explanation": "Successful contract management combines clear agreements, continuous communication, proper documentation and disciplined administration throughout the project."
+    }
+  ]
+}
