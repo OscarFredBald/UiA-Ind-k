@@ -1,0 +1,369 @@
+{
+  "title": "Practical Negotiation Simulation",
+  "questions": [
+    {
+      "question": "A supplier negotiation is scheduled for tomorrow. What should the project team do first?",
+      "options": [
+        "Prepare objectives, priorities, authority limits and alternatives",
+        "Decide all concessions during the meeting",
+        "Avoid reviewing the contract to remain flexible",
+        "Let the supplier define the agenda"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Good negotiation starts with preparation. The team should know its objectives, priorities, authority and alternatives before the meeting."
+    },
+    {
+      "question": "A contractor says, 'We need a six-week extension.' What does this statement primarily represent?",
+      "options": [
+        "An underlying interest",
+        "A position",
+        "A BATNA",
+        "A concession"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "A position is what a party says it wants. The underlying interest explains why the extension is needed."
+    },
+    {
+      "question": "What does BATNA describe in a negotiation?",
+      "options": [
+        "The first offer made by the other party",
+        "The most profitable possible agreement",
+        "The best realistic alternative if no agreement is reached",
+        "The minimum contract price"
+      ],
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "BATNA is the Best Alternative to a Negotiated Agreement and should guide the decision on whether to accept or reject a proposed settlement."
+    },
+    {
+      "question": "A negotiation team is authorized to discuss terms but cannot approve any agreement above USD 100,000. What should the team do?",
+      "options": [
+        "Hide the authority limit from its own team members",
+        "Confirm the limit internally and avoid making unauthorized commitments",
+        "Approve any reasonable agreement during the meeting",
+        "Let the technical adviser sign the agreement"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Negotiators must understand their authority and should not make commitments beyond their approval limits."
+    },
+    {
+      "question": "A client values early delivery more than a small price reduction, while the supplier values faster payment. What opportunity does this create?",
+      "options": [
+        "A possible trade that may benefit both parties",
+        "A reason to end the negotiation",
+        "A requirement to negotiate price only",
+        "Evidence that no agreement is possible"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Different priorities can create value. The parties may exchange faster payment for improved delivery commitments."
+    },
+    {
+      "question": "During a negotiation, the other party presents a new proposal with several financial and technical consequences. What is the most appropriate response?",
+      "options": [
+        "Accept it immediately to maintain momentum",
+        "Reject it without review",
+        "Take a break and evaluate the proposal with the team",
+        "Make a larger concession immediately"
+      ],
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "A break allows the team to assess new information, confirm authority and avoid rushed decisions."
+    },
+    {
+      "question": "A negotiator says, 'We can accept the revised delivery date if you extend the warranty by twelve months.' What type of concession is this?",
+      "options": [
+        "An unconditional concession",
+        "A conditional concession",
+        "A withdrawal from negotiation",
+        "A reservation point"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Conditional concessions link one movement to a corresponding benefit from the other party."
+    },
+    {
+      "question": "Why should important negotiation agreements be documented in writing?",
+      "options": [
+        "To prevent future changes to the project",
+        "To ensure the parties have a clear and enforceable record of what was agreed",
+        "To replace all original contract documents",
+        "To avoid obtaining approval from authorized representatives"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Written documentation reduces misunderstanding and creates a reliable record of the agreed terms."
+    },
+    {
+      "question": "A supplier quotes USD 600,000 for a variation. The client believes the price is too high but does not understand the supplier's cost basis. What should the client do first?",
+      "options": [
+        "Demand a 50% discount without explanation",
+        "Ask for a breakdown of the price and supporting assumptions",
+        "Threaten immediate termination",
+        "Accept the price to avoid conflict"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Targeted questions and objective cost information help the parties understand the proposal and negotiate on a factual basis."
+    },
+    {
+      "question": "A contractor's target settlement is USD 400,000, but it would accept no less than USD 300,000 because arbitration is expected to produce a better outcome below that level. What does USD 300,000 represent?",
+      "options": [
+        "The opening position",
+        "The ideal outcome",
+        "The reservation point",
+        "The other party's BATNA"
+      ],
+      "answer": 2,
+      "difficulty": "Medium",
+      "explanation": "The reservation point is the least favorable agreement the party is willing to accept before preferring its BATNA."
+    },
+
+    ,
+{
+  "question": "A client opens a negotiation by demanding a 25% price reduction without providing any supporting reason. What is the supplier's best initial response?",
+  "options": [
+    "Immediately offer a 10% reduction",
+    "Ask questions to understand the basis for the request and the client's underlying interests",
+    "End the negotiation immediately",
+    "Reveal the supplier's minimum acceptable price"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "The supplier should first gather information. Understanding the reason behind the demand may reveal interests that can be addressed through alternatives other than a simple price reduction."
+},
+{
+  "question": "During a negotiation, the client says that delivery by 1 October is essential. Which question would best explore the client's underlying interest?",
+  "options": [
+    "Why is that date important to your operations?",
+    "Will you accept our current price?",
+    "Who approved your budget?",
+    "Can we end the meeting now?"
+  ],
+  "answer": 0,
+  "difficulty": "Medium",
+  "explanation": "Asking why the date matters helps identify the operational interest behind the stated position and may reveal alternative solutions such as phased delivery."
+},
+{
+  "question": "A contractor offers three different settlement packages with different combinations of price, schedule and warranty. What is the main advantage of this approach?",
+  "options": [
+    "It prevents the client from making a counteroffer",
+    "It reveals which issues the client values most",
+    "It guarantees acceptance of one package",
+    "It removes the need to calculate the value of concessions"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "Multiple equivalent offers help reveal the other party's preferences and can identify opportunities for mutually beneficial trades."
+},
+{
+  "question": "The other party remains silent after receiving a proposal. What should the negotiator generally avoid doing?",
+  "options": [
+    "Allowing time for the other party to consider the proposal",
+    "Asking whether clarification is needed",
+    "Improving the offer before receiving a response",
+    "Maintaining a calm and professional tone"
+  ],
+  "answer": 2,
+  "difficulty": "Medium",
+  "explanation": "A negotiator should not concede against themselves by improving an offer before the other party has responded."
+},
+{
+  "question": "A supplier agrees to reduce the price by USD 50,000 in exchange for a larger advance payment. Which negotiation approach does this illustrate?",
+  "options": [
+    "Creating value by trading across issues",
+    "Walking away from the negotiation",
+    "Using an unconditional concession",
+    "Avoiding commercial discussion"
+  ],
+  "answer": 0,
+  "difficulty": "Medium",
+  "explanation": "The parties are trading across issues that they value differently, which is a core feature of integrative negotiation."
+},
+{
+  "question": "A negotiation team disagrees internally about whether to accept a proposal. What should it do?",
+  "options": [
+    "Debate the disagreement openly in front of the other party",
+    "Allow every team member to present a different position",
+    "Take a break and resolve the issue privately",
+    "Ask the other party to decide which internal view is correct"
+  ],
+  "answer": 2,
+  "difficulty": "Medium",
+  "explanation": "Internal disagreements should be handled privately during a break so the team can return with a coordinated position."
+},
+{
+  "question": "A client wants a lower price, while the supplier wants reduced liability exposure. Which proposal is most likely to create value?",
+  "options": [
+    "The supplier reduces the price in exchange for a reasonable liability cap",
+    "The supplier reduces both price and liability cap without receiving anything",
+    "The client refuses to discuss any issue other than price",
+    "Both parties repeat their original positions"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "A package that exchanges value across different priorities can create a mutually acceptable agreement."
+},
+{
+  "question": "The contractor's BATNA is arbitration, but the estimated legal cost is high and the outcome is uncertain. How should this affect the negotiation strategy?",
+  "options": [
+    "The contractor should treat arbitration as guaranteed success",
+    "The contractor should realistically account for the cost, delay and uncertainty when evaluating settlement proposals",
+    "The contractor should reveal every detail of its BATNA to the client",
+    "The contractor should reject any compromise below its original claim"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "A BATNA must be assessed realistically. Cost, time, risk and uncertainty all affect whether a negotiated settlement is preferable."
+},
+{
+  "question": "A supplier proposes a very low price but requires the client to accept broad exclusions of liability and a reduced warranty. What should the client do?",
+  "options": [
+    "Evaluate the total commercial package rather than price alone",
+    "Accept immediately because the price is low",
+    "Ignore the liability and warranty terms",
+    "Compare only the supplier's labor rates"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Negotiation outcomes should be assessed as complete packages, including price, risk, warranty, schedule and performance obligations."
+},
+{
+  "question": "A negotiation reaches deadlock because both parties are arguing only about the claim amount. What is the most useful next step?",
+  "options": [
+    "Repeat the same monetary demands more forcefully",
+    "Expand the discussion to include payment timing, schedule relief, warranty and future work",
+    "Immediately terminate the contract",
+    "Make an unconditional concession to restart the discussion"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Introducing additional issues can create new trade-offs and help the parties move beyond a single-issue deadlock."
+},
+
+    ,
+{
+  "question": "A contractor enters a negotiation with only one objective: obtaining the highest possible payment. During the meeting, the client repeatedly raises concerns about project completion and operational deadlines. What was the contractor's biggest preparation mistake?",
+  "options": [
+    "Failing to understand the client's underlying interests",
+    "Preparing too many financial calculations",
+    "Bringing technical experts to the meeting",
+    "Reviewing the contract before negotiating"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Successful negotiations require understanding both your own objectives and the other party's interests. This often creates opportunities that a price-only approach misses."
+},
+{
+  "question": "A supplier is under significant financial pressure and urgently needs cash. The client has available funds but is unwilling to increase the contract price. Which proposal is most likely to create value for both parties?",
+  "options": [
+    "Increase the contract price without changing anything else",
+    "Offer earlier payment in exchange for another commercial benefit such as a discount or extended warranty",
+    "Refuse to discuss payment terms",
+    "Terminate the contract and restart procurement"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Integrative negotiation focuses on trading issues that have different value to each party, creating mutual benefit without necessarily increasing the total contract value."
+},
+{
+  "question": "Two negotiating teams reach an agreement after several hours. As everyone prepares to leave, one party says, 'We'll sort out the details later.' What should happen instead?",
+  "options": [
+    "Accept the verbal agreement because trust is more important than documentation",
+    "Document all agreed terms, responsibilities, assumptions and outstanding conditions before concluding",
+    "Start negotiating unrelated future projects",
+    "Assume both parties interpreted the agreement the same way"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Many disputes arise because agreements were not documented clearly. Important commercial agreements should always be recorded accurately."
+},
+{
+  "question": "During a negotiation, the supplier discovers that the client representative does not have authority to approve the proposed settlement. What is the most appropriate response?",
+  "options": [
+    "Continue negotiating technical details but avoid treating the agreement as final until authorized approval is obtained",
+    "Pressure the representative into signing anyway",
+    "Immediately terminate the meeting",
+    "Assume approval will be granted automatically"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Understanding decision authority is essential. Discussions may continue, but final agreements should only be made by authorized representatives."
+},
+{
+  "question": "A contractor continues lowering its price every few minutes without receiving any counteroffer from the client. What negotiation mistake is being made?",
+  "options": [
+    "Using objective criteria",
+    "Negotiating too many issues simultaneously",
+    "Conceding against itself",
+    "Creating additional value"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "Improving an offer before the other party responds weakens negotiating leverage and often results in unnecessary concessions."
+},
+{
+  "question": "A negotiation has reached complete deadlock. Both parties still believe a deal is possible, but neither is willing to move further. Which action is most likely to restart productive discussions?",
+  "options": [
+    "Repeat the same arguments more aggressively",
+    "Introduce objective criteria or restructure the negotiation by adding new issues",
+    "Reveal confidential internal strategy documents",
+    "Threaten legal action immediately"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Deadlocks are often resolved by changing the structure of the negotiation, introducing objective standards or expanding the issues under discussion."
+},
+{
+  "question": "A client asks the supplier to reduce the delivery time by three weeks. The supplier estimates this is possible through overtime and additional subcontractors. Before agreeing, what should the supplier negotiate?",
+  "options": [
+    "Only the revised delivery date",
+    "The schedule, additional compensation, responsibility for acceleration costs and any related risks",
+    "Nothing, because acceleration always benefits the client",
+    "Only the revised payment schedule"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Acceleration usually affects cost, risk and resources. The complete commercial impact should be negotiated rather than focusing only on the completion date."
+},
+{
+  "question": "During a practical negotiation simulation, observers are asked to evaluate the teams. Which factor is the LEAST useful when assessing negotiation performance?",
+  "options": [
+    "Preparation and planning",
+    "Quality of questions and active listening",
+    "Whether one team completely defeated the other",
+    "How well the final agreement addressed both parties' interests"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "Professional negotiations are measured by the quality and sustainability of the outcome—not by whether one side 'wins' at the expense of the other."
+},
+{
+  "question": "After a successful settlement, the project manager simply stores the signed agreement without informing the project team. What is the greatest project risk?",
+  "options": [
+    "The project schedule automatically becomes invalid",
+    "The negotiated changes may not be implemented because project documentation and execution are not updated",
+    "The agreement immediately expires",
+    "The client automatically withdraws from the settlement"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "A negotiated agreement only creates value if it is communicated, implemented and reflected in project plans, budgets and responsibilities."
+},
+{
+  "question": "Looking back after completing a complex engineering negotiation, which combination of practices is most likely to consistently produce successful long-term negotiation outcomes?",
+  "options": [
+    "Make aggressive opening offers, avoid sharing information and maximize short-term gains",
+    "Focus only on legal rights and ignore commercial relationships",
+    "Prepare thoroughly, understand interests, use objective evidence, make conditional concessions and document clear agreements",
+    "Reveal your reservation point early to build trust"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "The strongest negotiators combine thorough preparation, commercial awareness, active listening, objective reasoning, planned concessions and clear documentation to achieve sustainable agreements."
+}
+  ]
+}
