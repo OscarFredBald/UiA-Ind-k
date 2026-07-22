@@ -1,0 +1,368 @@
+{
+  "title": "Parties, Roles and Responsibilities in Engineering Projects",
+  "description": "Test your understanding of project parties, stakeholders, roles, responsibilities, authority, governance, interfaces and communication in engineering projects.",
+  "questions": [
+    {
+      "question": "What is the best definition of a stakeholder in an engineering project?",
+      "options": [
+        "Only an organization that has signed a project contract",
+        "Any person or organization that can influence the project or be affected by it",
+        "Only the project owner, contractor and suppliers",
+        "A person who has authority to approve project costs"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "A stakeholder may influence the project or be affected by it even without being a formal contractual party."
+    },
+    {
+      "question": "What does a project role describe?",
+      "options": [
+        "The financial value of a person's work",
+        "The function a person or organization performs in the project",
+        "The legal consequences of a project delay",
+        "The reporting frequency required by the contract"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "A role describes the function performed by a person or organization within the project."
+    },
+    {
+      "question": "What is the main difference between responsibility and authority?",
+      "options": [
+        "Responsibility concerns ownership of work or results, while authority concerns the right to make decisions",
+        "Responsibility applies to contractors, while authority applies only to clients",
+        "Responsibility is informal, while authority is always legal",
+        "Responsibility concerns technical work, while authority concerns only financial work"
+      ],
+      "answer": 0,
+      "difficulty": "Foundation",
+      "explanation": "Responsibility describes what a person or party is accountable for, while authority describes what decisions that person or party is permitted to make."
+    },
+    {
+      "question": "Which party normally initiates the project, provides funding and ultimately owns the project outcome?",
+      "options": [
+        "The subcontractor",
+        "The regulatory authority",
+        "The project owner",
+        "The independent verifier"
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "The project owner establishes the business need, provides or secures funding and owns the completed project outcome."
+    },
+    {
+      "question": "What is the primary purpose of the project sponsor?",
+      "options": [
+        "To perform detailed engineering calculations",
+        "To manage all daily contractor activities",
+        "To provide strategic support, secure resources and resolve high-level issues",
+        "To conduct acceptance testing on behalf of suppliers"
+      ],
+      "answer": 2,
+      "difficulty": "Understanding",
+      "explanation": "The sponsor supports the project at a senior organizational level and helps resolve matters beyond the project manager's authority."
+    },
+    {
+      "question": "Which statement best describes the project manager's role?",
+      "options": [
+        "The project manager personally performs all important technical tasks",
+        "The project manager integrates technical, commercial, contractual and organizational activities",
+        "The project manager has unlimited authority over all project decisions",
+        "The project manager is only responsible for preparing the schedule"
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "The project manager coordinates and integrates the work of different disciplines, organizations and project functions."
+    },
+    {
+      "question": "How does an engineering manager normally differ from a project manager?",
+      "options": [
+        "The engineering manager focuses mainly on technical development, while the project manager coordinates the overall project",
+        "The engineering manager owns the company, while the project manager represents the contractor",
+        "The engineering manager only works during procurement",
+        "There is never any difference between the two roles"
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "The engineering manager coordinates the technical solution, while the project manager integrates technical work with schedule, cost, contracts and stakeholders."
+    },
+    {
+      "question": "A mechanical engineer selects a larger pump. The change increases electrical demand and requires a stronger foundation. What should the engineer do?",
+      "options": [
+        "Approve the pump because it improves mechanical performance",
+        "Coordinate the decision with electrical, structural and other affected disciplines",
+        "Wait until commissioning to inform the other disciplines",
+        "Ask the supplier to make all related decisions independently"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Discipline engineers must identify and communicate the wider consequences of technical decisions across project interfaces."
+    },
+    {
+      "question": "A consultant recommends a technical solution to the client. Unless authority has been formally delegated, who normally makes the final business and contractual decision?",
+      "options": [
+        "The consultant",
+        "The equipment manufacturer",
+        "The client",
+        "The end user"
+      ],
+      "answer": 2,
+      "difficulty": "Application",
+      "explanation": "A consultant may provide expert advice, but the client normally retains decision authority unless it has been formally delegated."
+    },
+    {
+      "question": "A client representative directly asks a subcontractor to install additional equipment. The main contractor is not informed. What is the main risk?",
+      "options": [
+        "The subcontractor automatically becomes the project owner",
+        "The instruction may create uncertainty about authorization, payment and contractual responsibility",
+        "The main contractor loses all responsibility for the project",
+        "The work automatically becomes part of the original contract price"
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Bypassing the agreed contractual communication channel can create disputes about whether the work was authorized and who must pay for it."
+    },
+
+        {
+      "question": "Which statement best describes the responsibility of a supplier in an engineering project?",
+      "options": [
+        "To manage the entire project on behalf of the client.",
+        "To provide equipment, materials or specialist services according to the agreed technical and commercial requirements.",
+        "To approve all project changes.",
+        "To supervise regulatory authorities."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Suppliers deliver equipment, systems or services according to the technical specification and contractual agreement."
+    },
+    {
+      "question": "What distinguishes a subcontractor from a main contractor?",
+      "options": [
+        "A subcontractor contracts directly with the project owner.",
+        "A subcontractor performs work on behalf of the main contractor.",
+        "A subcontractor always provides engineering design.",
+        "There is no practical difference."
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "A subcontractor performs work under a contract with the main contractor, who remains responsible to the client."
+    },
+    {
+      "question": "Why should operators and end users be involved during project development?",
+      "options": [
+        "They approve supplier invoices.",
+        "They provide operational knowledge that can improve usability, maintainability and long-term performance.",
+        "They replace the engineering team during commissioning.",
+        "They negotiate all supplier contracts."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Operators understand how the system will be used and maintained after handover."
+    },
+    {
+      "question": "What is the primary responsibility of a regulatory authority?",
+      "options": [
+        "To maximize project profit.",
+        "To supervise contractors' employees.",
+        "To ensure compliance with laws, regulations and required approvals.",
+        "To negotiate supplier contracts."
+      ],
+      "answer": 2,
+      "difficulty": "Foundation",
+      "explanation": "Authorities ensure that projects comply with applicable legal and regulatory requirements."
+    },
+    {
+      "question": "Which statement best describes the purpose of an independent verification body?",
+      "options": [
+        "To replace the contractor's quality system.",
+        "To verify compliance with agreed rules, standards or specifications.",
+        "To approve all project budgets.",
+        "To manage the construction site."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Independent verification confirms compliance but normally does not remove the contractor's responsibility."
+    },
+    {
+      "question": "What is one of the main responsibilities of a contract manager?",
+      "options": [
+        "Develop structural calculations.",
+        "Administer contractual obligations, changes and notices.",
+        "Operate heavy construction equipment.",
+        "Approve engineering drawings."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Contract managers ensure contractual obligations are properly managed throughout the project."
+    },
+    {
+      "question": "Which activity primarily belongs to procurement management?",
+      "options": [
+        "Designing electrical systems.",
+        "Evaluating suppliers and managing the purchasing process.",
+        "Approving regulatory permits.",
+        "Performing pressure testing."
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Procurement focuses on acquiring goods and services that meet project requirements."
+    },
+    {
+      "question": "A procurement manager selects a supplier solely because they submitted the lowest bid. Which important factor may have been overlooked?",
+      "options": [
+        "The supplier's logo.",
+        "Technical capability, delivery reliability and project risk.",
+        "The project organization chart.",
+        "The number of engineers employed by the client."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Supplier selection should consider technical capability, quality, reliability and lifecycle value—not only price."
+    },
+    {
+      "question": "What is the purpose of a project organization chart?",
+      "options": [
+        "To define payment terms.",
+        "To show reporting relationships and the overall project structure.",
+        "To estimate construction costs.",
+        "To identify technical calculations."
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Organization charts illustrate reporting lines and project structure but do not fully define responsibilities."
+    },
+    {
+      "question": "Why is an organization chart often supported by a responsibility matrix?",
+      "options": [
+        "Because organization charts normally do not define detailed ownership of activities and decisions.",
+        "Because responsibility matrices replace project schedules.",
+        "Because organization charts are only used during procurement.",
+        "Because responsibility matrices contain financial statements."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Organization charts show structure, while responsibility matrices clarify who is responsible and accountable for specific work."
+    },
+
+        {
+      "question": "What does the 'R' in a RACI matrix represent?",
+      "options": [
+        "Reviewer",
+        "Responsible",
+        "Representative",
+        "Regulator"
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "The Responsible person performs the work required to complete the activity."
+    },
+    {
+      "question": "In a RACI matrix, who is Accountable?",
+      "options": [
+        "The person who performs every task personally.",
+        "The person who owns the final outcome and approves completion.",
+        "Everyone involved in the activity.",
+        "The supplier with the lowest bid."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "The Accountable person owns the result and is ultimately answerable for the activity."
+    },
+    {
+      "question": "What is a responsibility gap?",
+      "options": [
+        "When two people perform the same work.",
+        "When no party has been clearly assigned ownership of an activity.",
+        "When a project exceeds its budget.",
+        "When a contractor changes suppliers."
+      ],
+      "answer": 1,
+      "difficulty": "Foundation",
+      "explanation": "Responsibility gaps occur when no one clearly owns a task, increasing the risk that it will be overlooked."
+    },
+    {
+      "question": "Which situation best illustrates a responsibility overlap?",
+      "options": [
+        "No one is assigned to prepare the commissioning plan.",
+        "Both the contractor and supplier believe they are responsible for producing the same installation drawings.",
+        "The client has not approved the project budget.",
+        "A regulatory authority requests additional documentation."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Responsibility overlaps occur when multiple parties believe they own the same activity, creating duplication or conflict."
+    },
+    {
+      "question": "A project engineer receives an email from someone outside the approved communication chain instructing the contractor to relocate equipment. What should the engineer do first?",
+      "options": [
+        "Implement the instruction immediately.",
+        "Verify whether the sender has authority to issue formal project instructions.",
+        "Ignore the instruction permanently.",
+        "Forward it directly to the supplier for implementation."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Only authorized representatives should issue formal instructions affecting scope, cost or schedule."
+    },
+    {
+      "question": "Why is delegation important in engineering projects?",
+      "options": [
+        "Because it removes accountability from managers.",
+        "Because it allows authority and responsibilities to be distributed efficiently while maintaining project control.",
+        "Because it eliminates the need for project governance.",
+        "Because it guarantees that projects finish ahead of schedule."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Delegation enables efficient decision-making while accountability and authority remain clearly defined."
+    },
+    {
+      "question": "A contractor completes additional work based only on a verbal discussion during a progress meeting. The client later refuses payment because no formal change was issued. What is the primary lesson?",
+      "options": [
+        "Verbal discussions automatically change the contract.",
+        "Technical meetings replace contractual procedures.",
+        "Formal instructions and documented change procedures are essential before performing extra work.",
+        "Only suppliers need written documentation."
+      ],
+      "answer": 2,
+      "difficulty": "Analysis",
+      "explanation": "Changes affecting scope or payment should follow the agreed contractual change process."
+    },
+    {
+      "question": "In a Design-Build project compared with a traditional Design-Bid-Build project, the contractor generally has:",
+      "options": [
+        "Less responsibility for engineering design.",
+        "Greater responsibility for both design and execution.",
+        "No responsibility for technical compliance.",
+        "Authority over regulatory approvals."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Design-Build contracts typically transfer significantly more design responsibility to the contractor."
+    },
+    {
+      "question": "A client reviews and approves a contractor's engineering drawing. Later, an error in the drawing causes equipment failure. Which statement is generally most accurate?",
+      "options": [
+        "The contractor is automatically released from all design responsibility.",
+        "The client becomes solely responsible because the drawing was approved.",
+        "Approval does not necessarily transfer responsibility for the correctness of the design.",
+        "The supplier becomes responsible regardless of the contract."
+      ],
+      "answer": 2,
+      "difficulty": "Analysis",
+      "explanation": "Client review or approval often allows work to proceed but does not automatically transfer design responsibility."
+    },
+    {
+      "question": "You are managing the installation of a new propulsion control system on a vessel. During commissioning, it becomes clear that no one prepared the communication interface between the automation supplier and the propulsion manufacturer because each assumed the other was responsible. Which project management failure BEST explains the problem?",
+      "options": [
+        "Poor project scheduling.",
+        "Insufficient financial forecasting.",
+        "An unaddressed responsibility gap and weak interface management.",
+        "Ineffective procurement negotiations."
+      ],
+      "answer": 2,
+      "difficulty": "Expert",
+      "explanation": "This is a classic example of an interface responsibility gap. Neither party clearly owned the integration task, resulting in problems during commissioning."
+    }
+  ]
+}
