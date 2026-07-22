@@ -1,0 +1,237 @@
+{
+  "title": "Contracts and Agreement Processes",
+  "description": "Learn how contracts are developed, negotiated, finalized and managed throughout engineering projects.",
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": [
+        "Every engineering project depends on agreements between people and organizations.",
+        "Some agreements are simple purchase orders, while others are complex contracts worth millions of dollars.",
+        "A contract defines what each party must deliver, when it must be delivered, how much will be paid and what happens if problems occur.",
+        "Without clear agreements, misunderstandings can quickly become expensive disputes.",
+        "Successful engineers therefore need a basic understanding of both technical and contractual processes.",
+        "Contracts are not only legal documents. They are management tools that guide the entire project."
+      ]
+    },
+    {
+      "title": "What is a Contract?",
+      "content": [
+        "A contract is a legally binding agreement between two or more parties.",
+        "It creates rights and obligations for everyone involved.",
+        "Contracts may be written, verbal or implied, although engineering projects almost always use written contracts.",
+        "A good contract clearly explains what each party expects from the other.",
+        "The contract should minimize uncertainty while allowing practical project execution."
+      ]
+    },
+    {
+      "title": "Why Contracts Matter",
+      "content": [
+        "Engineering projects involve significant technical and financial risks.",
+        "Contracts reduce uncertainty by defining responsibilities before work begins.",
+        "They clarify who carries different risks.",
+        "They establish payment mechanisms.",
+        "They describe quality requirements.",
+        "They define schedules and milestones.",
+        "They provide procedures for handling changes and disputes.",
+        "Good contracts improve cooperation because expectations become transparent."
+      ]
+    },
+    {
+      "title": "Typical Parties",
+      "content": [
+        "Owner or Client",
+        "Main Contractor",
+        "Subcontractors",
+        "Consultants",
+        "Suppliers",
+        "Equipment Manufacturers",
+        "Authorities",
+        "Financial Institutions",
+        "Insurance Companies"
+      ]
+    },
+    {
+      "title": "The Contract Lifecycle",
+      "content": [
+        "A contract follows several stages throughout a project.",
+        "Need identification",
+        "Procurement planning",
+        "Tender preparation",
+        "Bid evaluation",
+        "Negotiation",
+        "Contract award",
+        "Execution",
+        "Monitoring",
+        "Changes",
+        "Completion",
+        "Close-out"
+      ]
+    },
+    {
+      "title": "Preparing for a Contract",
+      "content": [
+        "Preparation is often the most important part of the contracting process.",
+        "Before negotiations begin, both parties should clearly understand their objectives.",
+        "Technical requirements must be defined.",
+        "Commercial requirements must be identified.",
+        "Project risks should be analyzed.",
+        "Budget limitations should be understood.",
+        "Schedule requirements must be realistic.",
+        "The better the preparation, the smoother the negotiations."
+      ]
+    },
+    {
+      "title": "Tender Documents",
+      "content": [
+        "Tender documents describe what suppliers are expected to deliver.",
+        "Typical contents include:",
+        "Scope of work",
+        "Technical specifications",
+        "Drawings",
+        "Delivery schedule",
+        "Commercial terms",
+        "Evaluation criteria",
+        "Safety requirements",
+        "Environmental requirements",
+        "Quality requirements"
+      ]
+    },
+    {
+      "title": "Negotiating the Agreement",
+      "content": [
+        "Negotiations normally involve both technical and commercial discussions.",
+        "Price is only one part of the negotiation.",
+        "Delivery dates.",
+        "Warranty periods.",
+        "Performance guarantees.",
+        "Payment terms.",
+        "Risk allocation.",
+        "Insurance.",
+        "Confidentiality.",
+        "Intellectual property.",
+        "Dispute resolution.",
+        "All these issues are normally discussed before signing."
+      ]
+    },
+    {
+      "title": "Essential Contract Clauses",
+      "content": [
+        "Every engineering contract should define:",
+        "Scope of work.",
+        "Responsibilities.",
+        "Price.",
+        "Payment schedule.",
+        "Delivery requirements.",
+        "Acceptance criteria.",
+        "Quality requirements.",
+        "Safety obligations.",
+        "Insurance.",
+        "Termination rights.",
+        "Force majeure.",
+        "Applicable law.",
+        "Dispute resolution."
+      ]
+    },
+    {
+      "title": "Scope of Work",
+      "content": [
+        "The scope describes exactly what must be delivered.",
+        "A poorly defined scope is one of the biggest causes of project disputes.",
+        "Good scope descriptions are measurable.",
+        "They avoid vague wording.",
+        "They define deliverables clearly.",
+        "They identify exclusions."
+      ]
+    },
+    {
+      "title": "Payment Terms",
+      "content": [
+        "Projects rarely pay the full contract value upfront.",
+        "Instead, payments are linked to milestones.",
+        "Examples include:",
+        "Advance payment.",
+        "Delivery payment.",
+        "Installation payment.",
+        "Commissioning payment.",
+        "Final acceptance payment."
+      ]
+    },
+    {
+      "title": "Managing Changes",
+      "content": [
+        "Very few engineering projects finish exactly as originally planned.",
+        "Clients request modifications.",
+        "Unexpected technical issues appear.",
+        "Regulations change.",
+        "Material prices increase.",
+        "Contracts therefore include formal change procedures.",
+        "Changes should always be documented before implementation."
+      ]
+    },
+    {
+      "title": "Contract Administration",
+      "content": [
+        "Signing the contract is only the beginning.",
+        "During execution the project team must monitor:",
+        "Deliverables.",
+        "Schedule.",
+        "Costs.",
+        "Quality.",
+        "Invoices.",
+        "Correspondence.",
+        "Variations.",
+        "Claims."
+      ]
+    },
+    {
+      "title": "Common Causes of Disputes",
+      "content": [
+        "Unclear scope.",
+        "Late deliveries.",
+        "Poor documentation.",
+        "Different interpretations.",
+        "Unexpected site conditions.",
+        "Payment delays.",
+        "Quality disagreements.",
+        "Communication failures."
+      ]
+    },
+    {
+      "title": "Example",
+      "content": [
+        "An engineering company agrees to design and install a new automated production line.",
+        "The client later requests additional sensors that were not included in the original specification.",
+        "Because the contract contains a formal variation procedure, the contractor submits a change proposal with revised cost and schedule.",
+        "The client approves the variation before work begins.",
+        "The project continues without major conflict.",
+        "Without this contractual process, the parties could easily disagree about payment and responsibility."
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "content": [
+        "Prepare thoroughly before negotiations.",
+        "Define the scope clearly.",
+        "Write precise contract language.",
+        "Document every important decision.",
+        "Use formal change procedures.",
+        "Communicate regularly.",
+        "Monitor contract performance continuously.",
+        "Address problems early.",
+        "Maintain a cooperative relationship between parties.",
+        "Remember that successful contracts benefit everyone involved."
+      ]
+    },
+    {
+      "title": "Key Takeaways",
+      "content": [
+        "Contracts provide the legal and commercial framework for engineering projects.",
+        "Good preparation leads to better negotiations.",
+        "Clear scope definitions reduce disputes.",
+        "Formal change management protects both parties.",
+        "Contract administration continues throughout the entire project lifecycle.",
+        "Successful contracts combine legal protection with practical project management."
+      ]
+    }
+  ]
+}
