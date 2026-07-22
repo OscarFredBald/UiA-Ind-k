@@ -1,0 +1,369 @@
+{
+  "title": "Changes, Claims and Disputes",
+  "questions": [
+    {
+      "question": "A client asks the contractor to install an additional pump that was not included in the original contract. What is this normally considered?",
+      "options": [
+        "A variation (contract change)",
+        "A dispute",
+        "A warranty claim",
+        "A force majeure event"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "Adding work that was not included in the original contract is typically treated as a variation or contract change."
+    },
+    {
+      "question": "Before implementing a significant design change, what should normally happen first?",
+      "options": [
+        "The contractor should complete the work immediately",
+        "The change should be evaluated and properly approved",
+        "The client should automatically pay the contractor",
+        "The project schedule should be ignored"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Significant changes should be assessed for technical, commercial and schedule impacts before approval and implementation."
+    },
+    {
+      "question": "Which document is normally used to formally describe a proposed contract change?",
+      "options": [
+        "Daily site report",
+        "Meeting agenda",
+        "Change request",
+        "Final invoice"
+      ],
+      "answer": 2,
+      "difficulty": "Easy",
+      "explanation": "A change request documents the proposed modification and forms the basis for evaluation."
+    },
+    {
+      "question": "A contractor requests additional payment because the client repeatedly delayed the delivery of design drawings. This request is best described as:",
+      "options": [
+        "A claim",
+        "A dispute",
+        "An arbitration award",
+        "A warranty"
+      ],
+      "answer": 0,
+      "difficulty": "Easy",
+      "explanation": "A claim is a formal request for contractual relief such as additional payment or time."
+    },
+    {
+      "question": "Why do engineering contracts normally include notice requirements for claims?",
+      "options": [
+        "To create unnecessary paperwork",
+        "To ensure the other party is informed promptly so impacts can be managed",
+        "To replace project documentation",
+        "To eliminate the need for evidence"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Prompt notice allows both parties to investigate the event and reduce its consequences."
+    },
+    {
+      "question": "Which of the following is the strongest evidence to support a contractual claim?",
+      "options": [
+        "Verbal statements made months later",
+        "Well-maintained project documentation created during the work",
+        "Personal opinions",
+        "Estimated costs with no supporting records"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Claims are strongest when supported by contemporaneous documentation such as schedules, reports and correspondence."
+    },
+    {
+      "question": "A disagreement over payment has arisen, but both parties are still discussing possible solutions. Has the situation necessarily become a dispute?",
+      "options": [
+        "Yes, every disagreement is automatically a dispute",
+        "No, many disagreements are resolved before becoming disputes",
+        "Yes, because payment is involved",
+        "Only if lawyers have been hired"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Many claims are successfully resolved through negotiation without developing into formal disputes."
+    },
+    {
+      "question": "A contractor receives instructions from someone who is not authorized under the contract to approve changes. What should the contractor do?",
+      "options": [
+        "Proceed immediately because every instruction is binding",
+        "Verify that the person has contractual authority before performing major additional work",
+        "Ignore all future instructions",
+        "Invoice the client immediately"
+      ],
+      "answer": 1,
+      "difficulty": "Easy",
+      "explanation": "Major contract changes should only be accepted from representatives with contractual authority."
+    },
+    {
+      "question": "A contractor submits a claim for a four-week extension of time because unexpected site conditions delayed critical work. Which type of claim is this?",
+      "options": [
+        "An extension of time claim",
+        "A warranty claim",
+        "A performance guarantee",
+        "A retention claim"
+      ],
+      "answer": 0,
+      "difficulty": "Medium",
+      "explanation": "An extension of time claim requests an adjustment to the contractual completion date."
+    },
+    {
+      "question": "A client requests a design change that will increase both cost and construction time. Which approach is most appropriate?",
+      "options": [
+        "Implement the change immediately without analysis",
+        "Evaluate the technical, commercial and schedule impacts before approval",
+        "Reject every requested change",
+        "Wait until project completion before discussing the consequences"
+      ],
+      "answer": 1,
+      "difficulty": "Medium",
+      "explanation": "Major changes should always be evaluated for their full project impact before implementation."
+    },
+
+    ,
+{
+  "question": "A contractor receives a verbal instruction from the client's site representative to relocate several pipes. The representative is not listed in the contract as having authority to issue variations. What should the contractor do first?",
+  "options": [
+    "Carry out the work immediately because the instruction came from the client",
+    "Request written confirmation or approval from an authorized representative",
+    "Refuse to perform any further work on the project",
+    "Submit the final invoice immediately"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "Major contract changes should normally be approved by someone with contractual authority. Written confirmation protects both parties."
+},
+{
+  "question": "A contractor receives a variation that increases the scope of work by 15%. Which project element is LEAST likely to require reassessment?",
+  "options": [
+    "Project cost",
+    "Project schedule",
+    "Risk assessment",
+    "The project's postal address"
+  ],
+  "answer": 3,
+  "difficulty": "Medium",
+  "explanation": "Scope changes usually affect cost, schedule and risk, but they rarely affect the project's physical address."
+},
+{
+  "question": "A client delays the approval of drawings, causing construction activities on the critical path to stop. What is the contractor most likely entitled to request?",
+  "options": [
+    "An extension of time and, if permitted by the contract, additional compensation",
+    "Immediate contract termination",
+    "Ownership of the project",
+    "Automatic payment of every future invoice"
+  ],
+  "answer": 0,
+  "difficulty": "Medium",
+  "explanation": "Client-caused delays often entitle the contractor to additional time and, depending on the contract, compensation."
+},
+{
+  "question": "Which document is generally the most valuable when demonstrating exactly when a delaying event occurred?",
+  "options": [
+    "The contractor's company brochure",
+    "Contemporaneous daily site reports and project schedules",
+    "Marketing material",
+    "The supplier's annual report"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "Daily reports and updated schedules provide objective evidence of project events and delays."
+},
+{
+  "question": "A contractor discovers that additional excavation is required due to unforeseen underground utilities. Before performing the work, what should the contractor normally do?",
+  "options": [
+    "Carry out the work without informing anyone",
+    "Notify the client, document the situation and follow the contract's variation procedure",
+    "Ignore the utilities",
+    "Invoice the client before starting the work"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "Unexpected work should normally be documented and managed through the contractual change procedure."
+},
+{
+  "question": "During claim evaluation, what must the contractor generally prove besides the occurrence of the event itself?",
+  "options": [
+    "That the project manager approved the claim personally",
+    "That the event caused the additional cost or delay being claimed",
+    "That the contractor earned less profit than expected",
+    "That another contractor would have experienced the same problem"
+  ],
+  "answer": 1,
+  "difficulty": "Medium",
+  "explanation": "A successful claim requires evidence of causation between the event and the claimed impact."
+},
+{
+  "question": "A contractor submits a claim six months after the event occurred, even though the contract required notice within fourteen days. What is the greatest contractual risk?",
+  "options": [
+    "The contractor may lose or reduce its entitlement because the notice requirement was not followed",
+    "The project automatically becomes a dispute",
+    "The client automatically accepts the claim",
+    "The contract is terminated immediately"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Many engineering contracts require timely notice as a condition for obtaining contractual relief."
+},
+{
+  "question": "During negotiations, both parties agree that a variation increased costs but disagree about the amount. What is usually the best next step?",
+  "options": [
+    "Immediately begin litigation",
+    "Review the supporting records, pricing method and contract before escalating the disagreement",
+    "Cancel the entire project",
+    "Ignore the issue until project completion"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Most valuation disagreements are resolved by reviewing documentation and the contract before using formal dispute resolution."
+},
+{
+  "question": "A project experiences delays caused partly by late client decisions and partly by poor contractor planning during the same period. Why is this situation difficult to resolve?",
+  "options": [
+    "Because the contractor automatically loses every claim",
+    "Because concurrent delay requires careful analysis of responsibility and entitlement",
+    "Because schedules cannot be used as evidence",
+    "Because every delay automatically becomes force majeure"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Concurrent delay is one of the most complex issues in construction contracts because more than one party contributes to the delay."
+},
+{
+  "question": "After months of unsuccessful negotiations, both parties still wish to avoid public court proceedings while obtaining a binding decision from an independent expert. Which dispute-resolution method best fits this objective?",
+  "options": [
+    "Mediation",
+    "Arbitration",
+    "Daily progress meetings",
+    "Internal project reporting"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Arbitration provides a private process that normally results in a binding decision, unlike mediation where the parties reach their own agreement."
+},
+
+    ,
+{
+  "question": "A client requests a major design change after manufacturing has already begun. The contractor estimates that the change will increase costs by USD 500,000 and delay completion by four weeks. What should happen before the contractor proceeds?",
+  "options": [
+    "The contractor should immediately implement the change without discussion",
+    "The contractor should obtain formal approval and agree on the commercial and schedule consequences",
+    "The contractor should reject every change after manufacturing starts",
+    "The contractor should wait until project completion before mentioning the impact"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Major changes should be formally evaluated and approved before implementation whenever possible."
+},
+{
+  "question": "A contractor submits an extension-of-time claim supported only by a short email stating that 'the project was delayed.' Which weakness is most likely to prevent the claim from succeeding?",
+  "options": [
+    "The contractor did not provide sufficient evidence linking the event to the delay",
+    "The contractor submitted the claim electronically",
+    "The contractor used email instead of a printed letter",
+    "The contractor did not request additional payment"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Successful claims require evidence demonstrating both entitlement and the actual impact of the event."
+},
+{
+  "question": "During construction, the contractor discovers an issue that may delay the project but decides not to inform the client because it might resolve itself. Two months later, the delay becomes significant. What is the contractor's greatest risk?",
+  "options": [
+    "The contractor may lose contractual entitlement because notice was not provided in time",
+    "The project automatically becomes force majeure",
+    "The contractor automatically receives an extension of time",
+    "The client must accept the delay because the issue was unforeseen"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Many contracts require prompt notice of potential claim events, even before the full impact is known."
+},
+{
+  "question": "A mediation session is held after negotiations fail. Which statement best describes the mediator's role?",
+  "options": [
+    "The mediator issues a legally binding judgment",
+    "The mediator helps the parties reach a voluntary agreement but does not impose a decision",
+    "The mediator replaces the project manager",
+    "The mediator determines the final contract price"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "A mediator facilitates discussions but does not have authority to impose a binding outcome."
+},
+{
+  "question": "A contractor accelerates the work at the client's request to recover lost time. Additional overtime and equipment costs are incurred. Before expecting compensation, what should the contractor ensure?",
+  "options": [
+    "That the acceleration was formally agreed and properly documented",
+    "That the overtime was approved by every employee",
+    "That the project schedule remains unchanged",
+    "That no additional documentation is created"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Acceleration should normally be formally instructed or agreed upon, with clear documentation of the commercial consequences."
+},
+{
+  "question": "A dispute has developed over the interpretation of a technical specification. Both parties continue exchanging increasingly emotional emails without referring to the contract wording. What is the most effective approach?",
+  "options": [
+    "Focus on the contract provisions, project records and objective technical evidence",
+    "Continue arguing until one party gives up",
+    "Ignore the specification and negotiate only the price",
+    "Refer the matter directly to court without reviewing the contract"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Contract interpretation should be based on the contract documents and objective evidence rather than personal opinions."
+},
+{
+  "question": "A contractor receives an approved variation but fails to update the project schedule and risk register. Which project-management problem is most likely to occur?",
+  "options": [
+    "Future project decisions may be based on outdated information",
+    "The variation automatically becomes invalid",
+    "The client immediately loses the right to inspect the work",
+    "The project budget can no longer be changed"
+  ],
+  "answer": 0,
+  "difficulty": "Hard",
+  "explanation": "Approved changes should be reflected in project planning and risk management documents."
+},
+{
+  "question": "After several weeks of negotiations, both parties agree on a compromise regarding a claim. What should they do next?",
+  "options": [
+    "Leave the agreement verbal to remain flexible",
+    "Document the settlement clearly, including exactly which issues have been resolved",
+    "Continue negotiating the same issue",
+    "Submit the matter to arbitration anyway"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Settlement agreements should clearly define what has been agreed and which claims are fully resolved."
+},
+{
+  "question": "Throughout a project, the contractor keeps detailed daily reports, photographs, updated schedules and meeting minutes. When a dispute later arises, what is the greatest advantage of this practice?",
+  "options": [
+    "It automatically guarantees victory in every dispute",
+    "It provides objective evidence that strengthens claim and dispute resolution",
+    "It removes the need for legal review",
+    "It prevents any future changes from occurring"
+  ],
+  "answer": 1,
+  "difficulty": "Hard",
+  "explanation": "Well-maintained project records are often the strongest evidence when evaluating claims and disputes."
+},
+{
+  "question": "Looking back after project completion, which single practice would most likely have prevented many of the project's changes from developing into costly disputes?",
+  "options": [
+    "Rejecting every requested change",
+    "Avoiding written communication",
+    "Using formal change procedures, timely notices and thorough documentation throughout the project",
+    "Leaving commercial issues until project completion"
+  ],
+  "answer": 2,
+  "difficulty": "Hard",
+  "explanation": "Most disputes are prevented—not won—through good contract administration, including formal change management, timely notices and comprehensive documentation."
+}
+  ]
+}
