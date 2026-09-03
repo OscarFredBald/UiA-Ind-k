@@ -33,7 +33,7 @@
       "description": "Learn negotiation strategies, contract processes, communication, conflict resolution and project agreements.",
       "credits": "7.5 Study Points",
       "semester": "Autumn 2026",
-      "topicCount": 10,
+      "topicCount": 15,
       "topics": "data/ING400 - Forhandling og avtaleprosesser i ingeniørprosjekter/topics.json",
       "difficulty": "Intermediate",
       "color": "#dc2626",
