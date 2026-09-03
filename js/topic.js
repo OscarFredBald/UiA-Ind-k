@@ -142,8 +142,10 @@ function configureReadingLink(topic) {
     return;
   }
 
+  const readingFile = resolveTopicResource(topic.reading);
+
   readingLink.href =
-    `reading.html?file=${encodeURIComponent(topic.reading)}` +
+    `reading.html?file=${encodeURIComponent(readingFile)}` +
     `&course=${encodeURIComponent(courseId || "")}` +
     `&topics=${encodeURIComponent(topicsFile)}` +
     `&topic=${encodeURIComponent(topicId)}`;
@@ -155,11 +157,58 @@ function configureQuizLink(topic) {
     return;
   }
 
+  const quizFile = resolveTopicResource(topic.quiz);
+
   quizLink.href =
-    `quiz.html?file=${encodeURIComponent(topic.quiz)}` +
+    `quiz.html?file=${encodeURIComponent(quizFile)}` +
     `&course=${encodeURIComponent(courseId || "")}` +
     `&topics=${encodeURIComponent(topicsFile)}` +
     `&topic=${encodeURIComponent(topicId)}`;
+}
+
+/*
+  Resolves paths such as:
+
+  quizzes/example.json
+  reading/example.json
+
+  relative to the folder containing topics.json.
+
+  Example:
+
+  topicsFile:
+  data/ING400 - Forhandling og avtaleprosesser i ingeniørprosjekter/topics.json
+
+  topic.quiz:
+  quizzes/introduction-to-engineering-project-processes.json
+
+  becomes:
+
+  data/ING400 - Forhandling og avtaleprosesser i ingeniørprosjekter/
+  quizzes/introduction-to-engineering-project-processes.json
+*/
+function resolveTopicResource(resourcePath) {
+  try {
+    const topicsUrl = new URL(
+      topicsFile,
+      window.location.href
+    );
+
+    const resourceUrl = new URL(
+      resourcePath,
+      topicsUrl
+    );
+
+    return resourceUrl.href;
+  } catch (error) {
+    console.error(
+      "Could not resolve topic resource:",
+      resourcePath,
+      error
+    );
+
+    return resourcePath;
+  }
 }
 
 function disableLink(link, label) {
