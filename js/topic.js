@@ -26,6 +26,14 @@ const topicDetailsContent = document.getElementById(
   "topic-details-content"
 );
 
+const readingCard = document.querySelector(
+  ".reading-option-card"
+);
+
+const quizCard = document.querySelector(
+  ".quiz-option-card"
+);
+
 initializeTopicPage();
 
 async function initializeTopicPage() {
@@ -114,11 +122,15 @@ function renderTopic(courseData, topic) {
 
   topicDescriptionElement.textContent =
     topic.description ||
-    "Study the reading material before completing the quiz.";
+    "Complete the available learning activity.";
 
   configureBackLink();
+
   configureReadingLink(topic);
   configureQuizLink(topic);
+
+  configureModuleCards(topic);
+
   renderTopicDetails(topic);
 
   loadingSection.hidden = true;
@@ -138,11 +150,11 @@ function configureBackLink() {
 
 function configureReadingLink(topic) {
   if (!topic.reading) {
-    disableLink(readingLink, "Reading unavailable");
     return;
   }
 
-  const readingFile = resolveTopicResource(topic.reading);
+  const readingFile =
+    resolveTopicResource(topic.reading);
 
   readingLink.href =
     `reading.html?file=${encodeURIComponent(readingFile)}` +
@@ -153,11 +165,15 @@ function configureReadingLink(topic) {
 
 function configureQuizLink(topic) {
   if (!topic.quiz) {
-    disableLink(quizLink, "Quiz unavailable");
+    disableLink(
+      quizLink,
+      "Quiz unavailable"
+    );
     return;
   }
 
-  const quizFile = resolveTopicResource(topic.quiz);
+  const quizFile =
+    resolveTopicResource(topic.quiz);
 
   quizLink.href =
     `quiz.html?file=${encodeURIComponent(quizFile)}` +
@@ -166,27 +182,60 @@ function configureQuizLink(topic) {
     `&topic=${encodeURIComponent(topicId)}`;
 }
 
-/*
-  Resolves paths such as:
+function configureModuleCards(topic) {
+  /*
+    Normal module:
+    reading + quiz
+    → show both cards
 
-  quizzes/example.json
-  reading/example.json
+    Exam module:
+    quiz only
+    → hide the entire reading card
+  */
 
-  relative to the folder containing topics.json.
+  if (readingCard) {
+    readingCard.hidden = !topic.reading;
+  }
 
-  Example:
+  /*
+    When no reading exists, the quiz becomes
+    the only activity on the page.
+  */
+  if (!topic.reading && quizCard) {
+    configureQuizOnlyCard();
+  }
+}
 
-  topicsFile:
-  data/ING400 - Forhandling og avtaleprosesser i ingeniørprosjekter/topics.json
+function configureQuizOnlyCard() {
+  const label =
+    quizCard.querySelector(
+      ".module-option-label"
+    );
 
-  topic.quiz:
-  quizzes/introduction-to-engineering-project-processes.json
+  const heading =
+    quizCard.querySelector("h2");
 
-  becomes:
+  const description =
+    quizCard.querySelector(
+      ".module-option-content > p:not(.module-option-label)"
+    );
 
-  data/ING400 - Forhandling og avtaleprosesser i ingeniørprosjekter/
-  quizzes/introduction-to-engineering-project-processes.json
-*/
+  if (label) {
+    label.textContent =
+      "Exam Practice";
+  }
+
+  if (heading) {
+    heading.textContent =
+      "Take the Quiz";
+  }
+
+  if (description) {
+    description.textContent =
+      "Practice the oral examination questions and test your understanding of the course.";
+  }
+}
+
 function resolveTopicResource(resourcePath) {
   try {
     const topicsUrl = new URL(
@@ -212,11 +261,27 @@ function resolveTopicResource(resourcePath) {
 }
 
 function disableLink(link, label) {
+  if (!link) {
+    return;
+  }
+
   link.textContent = label;
+
   link.removeAttribute("href");
-  link.classList.add("button-disabled");
-  link.setAttribute("aria-disabled", "true");
-  link.setAttribute("tabindex", "-1");
+
+  link.classList.add(
+    "button-disabled"
+  );
+
+  link.setAttribute(
+    "aria-disabled",
+    "true"
+  );
+
+  link.setAttribute(
+    "tabindex",
+    "-1"
+  );
 }
 
 function renderTopicDetails(topic) {
@@ -258,19 +323,38 @@ function renderTopicDetails(topic) {
   topicDetailsContent.innerHTML = "";
 
   details.forEach(detail => {
-    const item = document.createElement("div");
-    item.className = "topic-detail-item";
+    const item =
+      document.createElement("div");
 
-    const label = document.createElement("span");
-    label.className = "topic-detail-label";
-    label.textContent = detail.label;
+    item.className =
+      "topic-detail-item";
 
-    const value = document.createElement("strong");
-    value.className = "topic-detail-value";
-    value.textContent = detail.value;
+    const label =
+      document.createElement("span");
 
-    item.append(label, value);
-    topicDetailsContent.appendChild(item);
+    label.className =
+      "topic-detail-label";
+
+    label.textContent =
+      detail.label;
+
+    const value =
+      document.createElement("strong");
+
+    value.className =
+      "topic-detail-value";
+
+    value.textContent =
+      detail.value;
+
+    item.append(
+      label,
+      value
+    );
+
+    topicDetailsContent.appendChild(
+      item
+    );
   });
 
   topicDetails.hidden = false;
@@ -281,9 +365,12 @@ function showError(message) {
   topicContent.hidden = true;
   errorSection.hidden = false;
 
-  topicTitleElement.textContent = "Module unavailable";
+  topicTitleElement.textContent =
+    "Module unavailable";
+
   topicDescriptionElement.textContent =
     "The requested module could not be opened.";
 
-  errorMessageElement.textContent = message;
+  errorMessageElement.textContent =
+    message;
 }
