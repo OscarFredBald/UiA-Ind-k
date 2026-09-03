@@ -1,0 +1,761 @@
+{
+  "title": "ING400 – Oral Examination (English)",
+  "description": "58 multiple-choice questions based on the oral examination questions. The alternatives are designed to test understanding, application and precise use of terminology.",
+  "shuffleQuestions": true,
+  "questions": [
+    {
+      "question": "Explain what is meant by process understanding in engineering projects and why this is important. Describe the implementation model.",
+      "options": [
+        "Process understanding mainly means knowing the technical solution; the implementation model only describes how drawings are approved.",
+        "Process understanding is the ability to see how phases, decisions, roles, risk, contracts and deliverables interact; the implementation model structures how the project is organised and realised from need to completion.",
+        "Process understanding means following the schedule without deviations; the implementation model is identical to the project budget.",
+        "Process understanding is mainly the supplier’s responsibility and becomes less important for the client once the contract is signed."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Process understanding means seeing how technical, organisational, commercial and contractual processes interact throughout the project. The implementation model defines how responsibilities, contracts, decisions and execution are organised.",
+      "category": "Process Understanding in Engineering Projects"
+    },
+    {
+      "question": "Describe the main phases of a typical engineering project and how these affect the choice of contract form.",
+      "options": [
+        "The contract form is chosen independently of the project phase because responsibility is always allocated in the same way.",
+        "A project typically moves from need and concept through planning/design and procurement to execution, testing and handover; the earlier responsibility is transferred to the supplier, the more integrated design-and-execution responsibility the contract may place on that supplier.",
+        "The contract form is determined only after handover, when the actual risk is known.",
+        "The main phases are only design and construction, and the contract form is affected only by project price."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The choice of contract form should reflect project maturity, how much design the client has completed, the desired risk allocation, and the need for control and coordination.",
+      "category": "Process Understanding in Engineering Projects"
+    },
+    {
+      "question": "What is the difference between the planning phase and the execution phase of a project?",
+      "options": [
+        "The planning phase defines scope, schedule, responsibilities, resources and the management approach, while the execution phase carries out and follows up the planned work and handles deviations and changes.",
+        "The planning phase concerns only finance, while the execution phase concerns only technical issues.",
+        "The planning phase starts after the work is completed, while the execution phase is used to choose the contract strategy.",
+        "There is no real difference; both phases have the same purpose and decision level."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Planning establishes the basis for execution, while execution means performing, coordinating, controlling and correcting the work against that basis.",
+      "category": "Process Understanding in Engineering Projects"
+    },
+    {
+      "question": "How are risk and uncertainty managed in the different project phases?",
+      "options": [
+        "Risk should first be assessed after the contract is signed because uncertainty cannot be influenced before then.",
+        "Risk is identified and assessed early, allocated and priced through planning and contract terms, and followed up through mitigation, notification and change management during execution.",
+        "All risk should be transferred to the contractor to reduce the client’s need for follow-up.",
+        "Risk is best managed by keeping the risk register unchanged after project start."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Risk management is continuous. Early phases influence concept and strategy; later phases focus on contractual allocation, mitigation, monitoring, notification and handling of realised risks.",
+      "category": "Process Understanding in Engineering Projects"
+    },
+    {
+      "question": "How should a progress plan be designed and followed up in a project? (cf. NS 8405 clause 18.1)",
+      "options": [
+        "The plan should be so high-level that deviations cannot be linked to specific activities or responsible parties.",
+        "The plan should show the main contract activities, sequence and deadlines at a level that makes progress manageable, and it should be updated and compared with actual development and notified deviations.",
+        "The plan is primarily an internal tool for the contractor and should therefore not be used in communication between the parties.",
+        "The plan should be frozen at contract award and never revised, even when approved changes affect progress."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "A progress plan should support management and coordination. Follow-up must make deviations, consequences and the need for corrective action or contractual notification visible.",
+      "category": "Process Understanding in Engineering Projects"
+    },
+    {
+      "question": "What is the significance of keeping records of work and decisions in a project?",
+      "options": [
+        "The project log replaces the contract if the parties later disagree.",
+        "The log provides traceability of events, decisions, instructions, deviations and notices, and can therefore support management, documentation and evidence in a dispute.",
+        "Keeping records is only necessary in public projects.",
+        "The log should contain only final outcomes, not the timing or background of decisions."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "Systematic record-keeping makes it possible to document what happened, when it happened, who decided what, and which consequences were considered.",
+      "category": "Process Understanding in Engineering Projects"
+    },
+    {
+      "question": "Explain the relationship between quality assurance and contract fulfilment.",
+      "options": [
+        "Quality assurance documents and checks that the deliverable meets agreed requirements, while contract fulfilment is assessed against those same requirements.",
+        "Quality assurance concerns only internal procedures and therefore has no connection to contractual requirements.",
+        "Contract fulfilment exists as long as the deliverable is on time, regardless of quality.",
+        "Quality assurance automatically transfers responsibility for defects from the contractor to the client."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Quality assurance provides control and evidence that specifications, standards, procedures and acceptance criteria are met. This is central to demonstrating contractual performance.",
+      "category": "Process Understanding in Engineering Projects"
+    },
+    {
+      "question": "How is communication and documentation ensured between the parties during the project?",
+      "options": [
+        "By keeping all communication oral to avoid conflicting documents.",
+        "Through agreed communication lines, formal notification procedures, meeting minutes, decision logs, revision-controlled documents and clear traceability of changes and approvals.",
+        "By giving only the project manager access to project documentation.",
+        "By documenting matters only at final settlement so the project team can work more flexibly during execution."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Good project communication combines clear contact points and meeting structures with contractually correct documentation and traceability.",
+      "category": "Process Understanding in Engineering Projects"
+    },
+    {
+      "question": "What are the responsibilities of the client and contractor regarding coordination?",
+      "options": [
+        "Coordination is always entirely the contractor’s responsibility, regardless of contract model or terms.",
+        "Coordination responsibility follows the contract and delivery model: each party must coordinate its own scope, while the party responsible for interfaces or overall delivery must ensure necessary integration.",
+        "The client always has detailed responsibility for coordinating all subcontractors, including under a design-and-build contract.",
+        "Coordination is purely an HSE issue and does not affect schedule, design or interfaces."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Who coordinates what depends on the contract structure. The purpose is to avoid gaps in responsibility, clashes and delays at interfaces between parties and disciplines.",
+      "category": "Process Understanding in Engineering Projects"
+    },
+    {
+      "question": "How does technological development affect processes in modern engineering projects?",
+      "options": [
+        "Technology reduces the need for contractual regulation because digital models are self-explanatory.",
+        "Technology can improve modelling, collaboration, data flow, automation and decision support, but also creates new requirements for data quality, systems integration, cybersecurity, responsibility and document control.",
+        "Technological development affects only the design phase, not procurement or operations.",
+        "Digitalisation makes formal notification and change control unnecessary."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Digital tools and new technologies can improve efficiency, but they also change interfaces, information flows and the risk picture. Project processes must therefore adapt.",
+      "category": "Process Understanding in Engineering Projects"
+    },
+    {
+      "question": "Which parties normally participate in an engineering project, and what are their main responsibilities and titles?",
+      "options": [
+        "The client/project owner defines needs and commissions the work, consultants may design and advise, the contractor/supplier performs the agreed scope, and subcontractors deliver under the main contractor’s responsibility towards the client.",
+        "The client always performs the design, while the contractor has only financial responsibility.",
+        "The consultant is contractually superior to both the client and the contractor.",
+        "A subcontractor normally has direct contractual responsibility to the client even without a separate agreement."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Titles vary across industries and standards, but responsibility normally follows the contractual relationships between owner/client, consultant/designer, contractor/supplier and subcontractors.",
+      "category": "Roles, Responsibilities and Project Delivery Models"
+    },
+    {
+      "question": "Explain the difference between client-controlled and design-and-build contracts (cf. NS 8405 and NS 8407).",
+      "options": [
+        "In a client-controlled execution contract, design responsibility mainly rests with the client, while a design-and-build contractor under NS 8407 normally has more integrated responsibility for both design and execution.",
+        "The only difference is that design-and-build contracts always use a fixed price, while client-controlled contracts always use reimbursable pricing.",
+        "Under NS 8405 the contractor normally assumes all design responsibility, while NS 8407 leaves it with the client.",
+        "Design-and-build means the client no longer has any contractual obligations or risk."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "The key distinction is the allocation of design responsibility. NS 8405 is typically linked to execution contracts, while NS 8407 is the standard for design-and-build.",
+      "category": "Roles, Responsibilities and Project Delivery Models"
+    },
+    {
+      "question": "What is the consultant’s role and responsibility in the early stages of a project? Are there standard contracts for this?",
+      "options": [
+        "The consultant may assess needs, concepts, design, risk and decision support and is responsible for the professional services agreed in the engagement; consultant assignments may be governed by dedicated standard agreements.",
+        "The consultant has no independent contractual obligations before the contractor starts execution.",
+        "The consultant normally guarantees the project’s entire financial outcome regardless of the scope of the engagement.",
+        "The consultant’s only role in the early phase is to check contractor invoices."
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Consultants are often used in concept development, studies and design. Their responsibility must be defined in the consultancy agreement and linked to the specific assignment.",
+      "category": "Roles, Responsibilities and Project Delivery Models"
+    },
+    {
+      "question": "How is the contractor’s responsibility defined and limited in a design-and-build contract? Mention contract types that describe this.",
+      "options": [
+        "The contractor’s responsibility follows only oral instructions issued after contract award.",
+        "Responsibility is defined through functional requirements, design and execution scope, interfaces, client obligations, document hierarchy and risk provisions; NS 8407 is a central example.",
+        "The design-and-build contractor assumes, without exception, every risk that may affect the project.",
+        "Responsibility is defined only by the schedule because the contract documents do not govern design responsibility."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "A design-and-build contract must clearly define the functions and results to be delivered, the assumptions retained by the client, and how risk and changes are handled.",
+      "category": "Roles, Responsibilities and Project Delivery Models"
+    },
+    {
+      "question": "Explain what a partnering contract involves and when it should be used.",
+      "options": [
+        "A partnering contract is an agreement without financial or legal obligations.",
+        "Partnering involves early and structured cooperation between key parties, often with shared objectives, open-book economics and joint solution development; it is particularly relevant in complex projects where early contractor expertise and collaborative problem-solving add value.",
+        "Partnering means the client transfers all decision-making authority to the contractor.",
+        "Partnering should only be used when the project is fully detailed and there is no material uncertainty."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Partnering is used to manage complexity and uncertainty through earlier involvement and better information sharing. The contract must still regulate responsibility, economics, decisions and transition into execution.",
+      "category": "Roles, Responsibilities and Project Delivery Models"
+    },
+    {
+      "question": "How do different contracts regulate cooperation between the parties, with emphasis on notification, changes, and risk management?",
+      "options": [
+        "Standard contracts define procedures for who may issue instructions, how claims and notices are submitted, how changes are valued and what consequences follow from the allocation of risk.",
+        "Notification and change management normally have no legal significance as long as the parties cooperate well.",
+        "All standard contracts use identical notice periods and sanctions.",
+        "Risk management takes place outside the contract and should therefore not be linked to change provisions."
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Contracts create a procedural framework for cooperation. Notice rules, change mechanisms and risk allocation must be understood together because they determine rights and obligations when project assumptions change.",
+      "category": "Roles, Responsibilities and Project Delivery Models"
+    },
+    {
+      "question": "What is a subcontract, and how does it affect the main contractor’s responsibility?",
+      "options": [
+        "A subcontract means the client automatically assumes contractual responsibility for the subcontractor’s work.",
+        "The main contractor assigns part of its work to a subcontractor but normally remains responsible to its own contract party for ensuring that the overall performance complies with the main contract.",
+        "A subcontract may only be used if the subcontractor contracts directly with the client.",
+        "Once work is subcontracted, the main contractor’s responsibility for quality and progress on that part ends."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "The subcontractor is normally contracted by the main contractor, not the client. The main contractor therefore remains responsible for managing interfaces, quality and progress under the main contract.",
+      "category": "Roles, Responsibilities and Project Delivery Models"
+    },
+    {
+      "question": "What role does the project owner have in follow-up and control? Give examples.",
+      "options": [
+        "The project owner should normally direct every detail of the contractor’s work operations.",
+        "The project owner safeguards the project’s business objectives and governance framework, follows up decision gates, finances, risk, benefits and overall progress, and may for example approve major changes or escalated deviations.",
+        "The project owner has only a ceremonial role once a project manager has been appointed.",
+        "The project owner should mainly check individual timesheets and technical drawings."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The project owner is normally responsible for ensuring that the project remains aligned with organisational goals and that major constraints and decisions are managed. This differs from the project manager’s operational role.",
+      "category": "Roles, Responsibilities and Project Delivery Models"
+    },
+    {
+      "question": "What does the principle of loyalty between the parties in a contractual relationship entail?",
+      "options": [
+        "The parties must always place the other party’s interests above their own.",
+        "The parties should act honestly and cooperatively within the contract, including avoiding unnecessary harm and sharing relevant information, without the duty of loyalty cancelling agreed rights or risk allocation.",
+        "The duty of loyalty means every ambiguity must be interpreted in favour of the contractor.",
+        "The principle applies only before the contract is signed."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "The duty of loyalty supplements the contract and requires fair and considerate conduct. It does not create a general obligation to surrender contractual rights.",
+      "category": "Roles, Responsibilities and Project Delivery Models"
+    },
+    {
+      "question": "How is responsibility for design errors handled in construction law? Provide examples from selected standards.",
+      "options": [
+        "Responsibility normally follows whoever has design responsibility under the contract; under NS 8407 the design-and-build contractor will typically be responsible for its own design, while the client may retain responsibility for requirements, information or solutions allocated to it.",
+        "Design errors are always the client’s responsibility because the client owns the project.",
+        "A design error is never a breach if the physical execution is otherwise professional.",
+        "The contractor is always responsible for all design, including in an execution contract where the client supplied the design."
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Design responsibility must first be located in the contract. One then assesses whether the error lies within that party’s performance and which notice, change or defect provisions apply.",
+      "category": "Roles, Responsibilities and Project Delivery Models"
+    },
+    {
+      "question": "How are deviations notified according to NS, SSA-K, and NT?",
+      "options": [
+        "Deviations should be handled through the formal notification and change system agreed in the contract, using the correct recipient, sufficient description and relevant deadlines; details and consequences vary between the standards.",
+        "All deviations may be notified orally without documentation as long as they are mentioned in the final settlement.",
+        "NS, SSA-K and NT use the same notice form and the same deadline for every type of deviation.",
+        "Deviations are notified only once the financial consequence has been calculated exactly."
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "The common principle is that deviations must be handled through the process established by the specific contract. The required form, deadline, recipient and consequences of late notice vary by standard.",
+      "category": "Roles, Responsibilities and Project Delivery Models"
+    },
+    {
+      "question": "Name the most important standard contracts and explain when they are used. Choose at least two.",
+      "options": [
+        "NS 8405 is typically used for execution contracts where the client carries substantial design responsibility, while NS 8407 is used for design-and-build where the contractor has more integrated responsibility for design and execution.",
+        "NS 8405 and NS 8407 are both only consultancy standards and do not govern construction work.",
+        "SSA-K is a construction standard for buildings, while NS 8407 is only used for purchases of standard software.",
+        "NTK is a consumer housing contract, while the Housing Construction Act governs offshore deliveries."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "The standard must match the type of performance and the intended allocation of responsibility. NS 8405 and NS 8407 are central construction standards, while SSA and NTK belong to other contract regimes.",
+      "category": "Legislation and Standard Contracts"
+    },
+    {
+      "question": "How should disputes between the parties be handled under these contracts? Mention two.",
+      "options": [
+        "Disputes should always go directly to ordinary courts without prior contractual handling.",
+        "Contracts may provide for negotiation or internal escalation first, followed by a dispute mechanism such as courts, arbitration or an agreed expert/umpire procedure.",
+        "Disputes are automatically decided by the project manager if the contract is silent.",
+        "Disputes must always wait until the warranty period has expired."
+      ],
+      "answer": 1,
+      "difficulty": "Understanding",
+      "explanation": "The dispute mechanism follows the contract. Typical steps include negotiation/escalation followed by a binding or non-binding mechanism such as court proceedings, arbitration or expert determination.",
+      "category": "Legislation and Standard Contracts"
+    },
+    {
+      "question": "Explain the difference between consumer construction (the Housing Construction Act) and professional construction (NS contract).",
+      "options": [
+        "The Housing Construction Act governs agreements between a professional and a consumer for construction of a new dwelling and contains mandatory consumer protection, while NS contracts are typically used between professional parties and rely more heavily on negotiated risk allocation.",
+        "The Housing Construction Act and NS contracts are voluntary standards with the same freedom to deviate from every provision.",
+        "NS contracts apply only when the contractor is a consumer.",
+        "Consumer construction gives the contractor greater freedom to contract out of statutory protection to the consumer’s disadvantage."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "The key difference is the relationship between the parties and the level of mandatory legal protection. Professional parties have considerably greater freedom of contract.",
+      "category": "Legislation and Standard Contracts"
+    },
+    {
+      "question": "What does Section 36 of the Contracts Act say about unreasonable contract terms, and how can this be applied in project contracts?",
+      "options": [
+        "The provision automatically invalidates every contract that appears commercially unbalanced.",
+        "An agreement may be set aside or modified wholly or partly if enforcing it would be unreasonable or contrary to good business practice; the assessment is concrete and the threshold is normally higher between professional parties.",
+        "Section 36 applies only to oral agreements.",
+        "The provision can only be used before signing and has no relevance to later circumstances."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Section 36 functions as a safety valve. Relevant factors can include the contract content, the parties’ positions, circumstances at formation and later developments.",
+      "category": "Legislation and Standard Contracts"
+    },
+    {
+      "question": "How does the procurement regulation govern contracts for public projects? (cf. the Regulation on Public Procurement)",
+      "options": [
+        "Public contracting authorities may freely choose suppliers as long as the contract is published afterwards.",
+        "The rules impose requirements including competition, equal treatment, predictability and verifiability, and constrain both the procurement procedure and the extent to which an awarded contract may later be changed without a new competition.",
+        "The procurement rules regulate only technical quality, not the supplier selection process.",
+        "FOA applies only if the contracting authority chooses an NS standard."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Public contracts must be procured and managed within procurement-law principles and procedures. Material changes after award may in some cases require a new competition.",
+      "category": "Legislation and Standard Contracts"
+    },
+    {
+      "question": "What is the significance of the ranking of documents in standard contracts?",
+      "options": [
+        "The ranking determines which contract document takes precedence when documents conflict.",
+        "The ranking determines which party wins every dispute under the contract.",
+        "The ranking concerns only the dates of documents, not substantive conflict.",
+        "A lower-ranking document always overrides a higher-ranking one if it is more detailed."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Project contracts often consist of many documents. A ranking clause reduces interpretive uncertainty by stating which document prevails when provisions cannot be reconciled.",
+      "category": "Legislation and Standard Contracts"
+    },
+    {
+      "question": "How are changes in contract work handled?",
+      "options": [
+        "Every oral request from the client automatically becomes a valid change order.",
+        "Changes should be identified, notified and processed under the contract’s change procedure, with clarification of legal basis and consequences for price, time, risk and specification before or alongside execution as the contract requires.",
+        "The contractor may unilaterally change the work whenever it considers the technical solution better.",
+        "Changes affect only price and never schedule or other obligations."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Formal change management ensures that the parties know what was ordered, what the consequences are, and which claims are preserved through proper notification.",
+      "category": "Legislation and Standard Contracts"
+    },
+    {
+      "question": "What is liquidated damages (day fines), and where are the rules found? Give two examples.",
+      "options": [
+        "Liquidated damages are a pre-agreed financial consequence, for example for delay, allowing the amount normally to be calculated without proving the exact loss; rules can be found in construction standards such as NS 8405/NS 8407 and in other standard contracts such as NTK.",
+        "Liquidated damages are the same as a criminal fine and can only be imposed by a court.",
+        "Liquidated damages are a bonus paid to the contractor for early completion.",
+        "Liquidated damages can only be claimed if the client proves a loss exactly equal to the amount claimed."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Liquidated damages are a standardised contractual consequence of delay or another defined breach of deadline. The rate, basis, cap and covered milestones follow the particular contract.",
+      "category": "Legislation and Standard Contracts"
+    },
+    {
+      "question": "How do principles of contract law influence the interpretation of agreements?",
+      "options": [
+        "Interpretation is based only on literal wording, while all other context is irrelevant.",
+        "Wording is central, but may be considered together with purpose, negotiations, party conduct, industry practice, loyalty and other contract documents depending on the circumstances.",
+        "Ambiguous contracts are always interpreted against the contractor.",
+        "Contract-law principles apply only when the agreement is not written."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Contracts are interpreted as a whole. In professional contracts, wording often carries substantial weight, but structure, purpose, context and recognised interpretive factors may also matter.",
+      "category": "Legislation and Standard Contracts"
+    },
+    {
+      "question": "Explain the final settlement – form, content, and legal effect.",
+      "options": [
+        "The final settlement is merely an accounting report and normally has no contractual significance.",
+        "The final settlement brings together the parties’ final financial claims and supporting documentation under the contract’s form and deadline rules; missing reservations or late submission of claims may, depending on the contract, lead to loss of those claims.",
+        "The contractor may always raise new claims after final settlement regardless of contractual deadlines.",
+        "The final settlement replaces handover and defect follow-up."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "The final settlement closes the financial settlement process and often contains strict requirements on timing, specification and reservation. The exact legal effect depends on the applicable standard.",
+      "category": "Legislation and Standard Contracts"
+    },
+    {
+      "question": "How are disputes between the parties handled under NT and SSA-K?",
+      "options": [
+        "Both contracts require every dispute to be decided by the same public complaints body.",
+        "Disputes are handled under the escalation and dispute-resolution clauses of the relevant contract, often beginning with negotiation or internal escalation before an agreed final mechanism; the procedure from one standard cannot simply be transferred to the other.",
+        "Disputes under NT and SSA-K can never be resolved by negotiation.",
+        "The project manager’s first assessment is always final and binding."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "NT/NTK and SSA-K are different contractual regimes. The candidate should identify the dispute clause in the relevant version and distinguish escalation, expert mechanisms, court proceedings and arbitration where applicable.",
+      "category": "Legislation and Standard Contracts"
+    },
+    {
+      "question": "What is the daily penalty rate under NT, and how can these be influenced?",
+      "options": [
+        "NT always contains one mandatory daily penalty rate that cannot be affected by contract appendices or the choice of milestones subject to liquidated damages.",
+        "Liquidated damages and the milestones to which they apply follow the contract and its appendices; in NTK 15 the standard refers, among other things, to an agreed rate in Appendix B, while certain provisions use 0.10% per day. Exposure can be influenced by negotiating the rate, cap, milestones and risk allocation before contract award.",
+        "Liquidated damages are always calculated as 1% of the entire contract price per calendar day without a maximum.",
+        "Liquidated damages arise only if the company can prove the exact financial loss for each day."
+      ],
+      "answer": 1,
+      "difficulty": "Expert",
+      "explanation": "NTK/NT must be read together with the contract appendices. NTK 15 Article 24.2 refers to the rate in Appendix B and includes an aggregate cap, while Article 26.3 refers to 0.10% per day in a delay-compensation context. Commercial parameters are affected through negotiation.",
+      "category": "Legislation and Standard Contracts"
+    },
+    {
+      "question": "What are “oppmann” and “specialist” in the standard contracts?",
+      "options": [
+        "Both are internal supplier roles and cannot be used in disputes.",
+        "An “oppmann” is an independent person used within a standard-contract dispute or interpretation mechanism, while a specialist is an expert who may assess or determine defined technical or professional issues under the contractual procedure.",
+        "The “oppmann” always represents the client, while the specialist always represents the contractor.",
+        "The terms are simply synonyms for an arbitral tribunal and an ordinary court."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "These mechanisms are intended to provide faster, competent handling of defined questions without turning every disagreement into full court or arbitration proceedings. Their exact effect follows the contract wording.",
+      "category": "Legislation and Standard Contracts"
+    },
+    {
+      "question": "Explain the difference between positional and interest-based negotiation.",
+      "options": [
+        "Positional negotiation focuses on stated demands and concessions, while interest-based negotiation seeks to understand the needs behind those demands and develop solutions that address several interests.",
+        "Interest-based negotiation means the parties avoid discussing their own objectives.",
+        "Positional and interest-based negotiation are the same method with different meeting structures.",
+        "Positional negotiation is only used in legal disputes, while interest-based negotiation is only used in procurement."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "The key difference is the focus on positions versus underlying interests. Interest-based negotiation often creates more room for trades and value-creating solutions.",
+      "category": "Negotiation, Communication and Behaviour"
+    },
+    {
+      "question": "How do communication and body language influence the outcome of a negotiation?",
+      "options": [
+        "Only the written offer affects the outcome; tone, questions, listening and body language do not matter.",
+        "Communication affects understanding, trust and information exchange, while body language can reinforce or weaken a message; interpretation should still be cautious because non-verbal signals are context-dependent.",
+        "Body language provides reliable information about the other party’s reservation price.",
+        "Good communication mainly means speaking as much as possible to control the agenda."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Active listening, precise questions, summaries and clear language reduce misunderstanding. Non-verbal communication affects the relationship but should not be treated as unambiguous evidence of intent.",
+      "category": "Negotiation, Communication and Behaviour"
+    },
+    {
+      "question": "What preparations would you make for an upcoming negotiation situation?",
+      "options": [
+        "Set one demand and avoid considering alternatives so the position is not weakened.",
+        "Map objectives, interests, priorities, BATNA, reservation point, tradeable variables, the other party’s likely interests, decision authority, facts and negotiation strategy.",
+        "Calculate only the desired price because other issues can be handled spontaneously.",
+        "Avoid clarifying internal roles in order to preserve flexibility during the meeting."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Good preparation combines facts, authority, alternatives and priorities. BATNA and reservation point are particularly important for judging whether a deal is better than the available alternative.",
+      "category": "Negotiation, Communication and Behaviour"
+    },
+    {
+      "question": "How should one prepare for a contract negotiation?",
+      "options": [
+        "Review commercial and legal objectives, identify risk points and deviations, prioritise clauses, clarify authority and BATNA, and plan which concessions can be exchanged for which counter-concessions.",
+        "Enter the negotiation without a deviation list to avoid signalling disagreement.",
+        "Focus only on price and deal with liability, schedule and change rules after signing.",
+        "Give every participant unlimited decision authority regardless of internal mandate."
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Contract negotiation requires commercial, technical and legal preparation. Important risk clauses should be identified before the meeting, and the negotiation team’s mandate should be clear.",
+      "category": "Negotiation, Communication and Behaviour"
+    },
+    {
+      "question": "What tactical tools are used in negotiations, and what ethical limits apply?",
+      "options": [
+        "Tactics such as anchoring, timing, packaging issues and strategic pauses can be used, but deliberate deception, false facts or unacceptable pressure may cross ethical and legal boundaries.",
+        "Any attempt to influence the other party is unethical, so professional negotiations should not use tactics.",
+        "It is ethically acceptable to provide deliberately false information if the other party could have checked it.",
+        "Ethical limits apply only to public procurement, not private contract negotiations."
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Negotiation includes legitimate influence, but strategy must be distinguished from misleading or improper conduct. Ethics, loyalty and applicable legal rules set limits.",
+      "category": "Negotiation, Communication and Behaviour"
+    },
+    {
+      "question": "How are conflicts handled in project negotiations, with a focus on prevention?",
+      "options": [
+        "Conflict is best prevented by postponing difficult issues until final settlement.",
+        "Clear roles and contract requirements, early notification, good documentation, agreed escalation paths, active listening and early treatment of conflicting interests reduce the risk of deadlocked disputes.",
+        "The project team should avoid documenting disagreement because written records intensify conflict.",
+        "Every conflict should be escalated directly to top management before the parties attempt an operational solution."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Prevention means detecting deviations early, creating a shared understanding of the situation and using an agreed process before the disagreement becomes personal or legally entrenched.",
+      "category": "Negotiation, Communication and Behaviour"
+    },
+    {
+      "question": "Explain the importance of trust in contract negotiations.",
+      "options": [
+        "Trust makes contracts unnecessary because the parties can rely on oral expectations.",
+        "Trust can increase information sharing, reduce transaction costs and make problem-solving easier, but it should be combined with clear agreements and control mechanisms.",
+        "High trust means a party should reveal its reservation point early.",
+        "Trust matters only after the contract is signed."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Trust supports cooperation but does not replace clear contractual terms. A robust relationship combines professional trust with clear expectations and documented mechanisms.",
+      "category": "Negotiation, Communication and Behaviour"
+    },
+    {
+      "question": "What does the principle of freedom of contract mean from a negotiation perspective?",
+      "options": [
+        "As a general rule, parties may choose whether to contract, with whom and on what terms, within limits imposed by mandatory law, regulatory requirements and other legal constraints.",
+        "Freedom of contract means every agreement is valid regardless of its content.",
+        "Freedom of contract applies only between private individuals.",
+        "Freedom of contract gives one party the right to change an existing agreement unilaterally."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Freedom of contract is a fundamental principle but is not absolute. Mandatory rules, invalidity rules and regulated processes such as public procurement can limit it.",
+      "category": "Negotiation, Communication and Behaviour"
+    },
+    {
+      "question": "How can cultural differences affect negotiation processes in international projects?",
+      "options": [
+        "Culture affects only language choice and has little impact on decisions or relationships.",
+        "Differences in communication, hierarchy, time orientation, decision processes, risk tolerance and relationship-building can affect pace and interpretation; parties should therefore investigate context and avoid stereotypes.",
+        "International negotiations are most effective when one party requires everyone to follow its own national negotiation style.",
+        "Cultural differences are best handled by avoiding questions about authority and process."
+      ],
+      "answer": 1,
+      "difficulty": "Analysis",
+      "explanation": "Culture can influence norms and expectations, but individuals and organisations vary. Good practice is to remain curious, make processes explicit and pay attention to how messages may be interpreted.",
+      "category": "Negotiation, Communication and Behaviour"
+    },
+    {
+      "question": "How can the use of digital tools support or challenge negotiations in project work?",
+      "options": [
+        "Digital tools can support document sharing, traceability, analysis and remote meetings, but can also create challenges involving information security, version control, reduced relationship-building and misunderstandings in digital communication.",
+        "Digital tools eliminate the need for meeting facilitation and document control.",
+        "Digital negotiations are always more objective than face-to-face negotiations because body language is removed.",
+        "Digital tools affect only the meeting calendar, not the negotiation process."
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Technology can improve the information basis and efficiency, but it requires control over access, security, document versions and how communication affects the negotiation climate.",
+      "category": "Negotiation, Communication and Behaviour"
+    },
+    {
+      "question": "What is meant by environmental requirements in engineering projects, and how are these set in contracts?",
+      "options": [
+        "Environmental requirements are only broad ambitions without measurable criteria.",
+        "Environmental requirements may concern emissions, energy, materials, waste, documentation and other environmental performance and should be converted into clear, measurable requirements, deliverables, control points and documentation duties in the contract.",
+        "Environmental requirements can only be introduced after the supplier has been selected.",
+        "Environmental requirements should not be linked to acceptance or reporting because they are qualitative."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "To be enforceable and followable, environmental objectives should be translated into specifications, evaluation criteria, contract requirements and documentation routines.",
+      "category": "Environmental Requirements and Sustainability in Engineering Projects"
+    },
+    {
+      "question": "How can life cycle costs be used as a basis for decision-making?",
+      "options": [
+        "By comparing only the acquisition price of alternative solutions.",
+        "By assessing relevant costs over the entire life cycle, such as investment, energy, operation, maintenance, replacement and disposal, so that a higher purchase price may still provide a better total economic result.",
+        "By ignoring future costs because they are always too uncertain.",
+        "By adding all costs without considering lifetime, timing or comparable assumptions."
+      ],
+      "answer": 1,
+      "difficulty": "Application",
+      "explanation": "Life-cycle costing provides a broader economic basis than purchase price alone. The analysis must use comparable assumptions and relevant cost elements.",
+      "category": "Environmental Requirements and Sustainability in Engineering Projects"
+    },
+    {
+      "question": "What does the Planning and Building Act say about environmental considerations in design and implementation?",
+      "options": [
+        "The planning and building framework provides rules for sustainable land use and building development and underpins technical requirements and public approvals that can affect energy, environment, safety and resource use.",
+        "The Planning and Building Act regulates only transfer of ownership of completed buildings.",
+        "Environmental considerations become voluntary whenever the client uses an NS contract.",
+        "The Act applies only after the building has been put into use."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Planning and building rules affect planning, design and execution through public-law requirements, permits and technical regulations. Details depend on regulations and project type.",
+      "category": "Environmental Requirements and Sustainability in Engineering Projects"
+    },
+    {
+      "question": "How can NS 3720 (greenhouse gas calculations) be used in the design phase?",
+      "options": [
+        "To calculate and compare greenhouse gas emissions from buildings or infrastructure over relevant life-cycle stages and support selection of lower-emission solutions.",
+        "To determine the contract’s liquidated-damages rate.",
+        "To calculate only the project’s direct labour costs.",
+        "To replace all technical building regulations."
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "NS 3720 provides a structured basis for greenhouse gas calculations. During design, it can support comparison of materials, energy solutions and concepts before key decisions are fixed.",
+      "category": "Environmental Requirements and Sustainability in Engineering Projects"
+    },
+    {
+      "question": "How can requirements for waste management and reuse be incorporated into contracts?",
+      "options": [
+        "By specifying measurable requirements for sorting, reuse, documentation, reporting, responsibility and any approval or control points.",
+        "By stating only that the contractor must be “environmentally friendly” without further specification.",
+        "By leaving all requirements to oral clarification at the construction site.",
+        "By agreeing that waste should never be recorded because registration increases administration."
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Contract requirements should be verifiable. This requires clear performance criteria, allocation of responsibility, documentation and follow-up mechanisms.",
+      "category": "Environmental Requirements and Sustainability in Engineering Projects"
+    },
+    {
+      "question": "Explain the client’s responsibility for HSE and environment (cf. Construction Client Regulations §5).",
+      "options": [
+        "The client must ensure that safety, health and the working environment are addressed through planning and execution, including organisation, coordination and follow-up; this responsibility cannot simply be shifted away by appointing a contractor.",
+        "The client has no HSE responsibility when there is a main contractor.",
+        "Section 5 concerns only individual workers’ use of personal protective equipment.",
+        "The client assumes the employer responsibility for all contractor employees."
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "The client’s duties are overarching and project-oriented. Contractors and employers retain their own HSE duties, while the client must ensure that safety and working-environment considerations are integrated into planning and execution.",
+      "category": "Environmental Requirements and Sustainability in Engineering Projects"
+    },
+    {
+      "question": "How is follow-up of environmental goals ensured in the project’s logs and reports?",
+      "options": [
+        "By linking environmental goals to indicators, responsible persons, measurement frequency, deviations, actions and documented decisions in the project reporting system.",
+        "By reporting environmental status only after a regulatory breach has already occurred.",
+        "By keeping environmental data separate from other project management information so it cannot influence decisions.",
+        "By using the same qualitative status “OK” for every environmental goal without supporting measurements."
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "Environmental goals must be measurable and followed over time. Logs and reporting should make status, deviations, causes, responsibilities and corrective actions visible.",
+      "category": "Environmental Requirements and Sustainability in Engineering Projects"
+    },
+    {
+      "question": "What is the relationship between sustainability and supplier selection in project contracts?",
+      "options": [
+        "Sustainability may be used as a qualification requirement, award criterion, technical requirement or contract condition, so that the supplier’s solution and documented performance are assessed together with price and other project objectives.",
+        "Sustainability can only be assessed after the contract has been awarded.",
+        "Supplier selection must always be based on the lowest acquisition price whenever the project has environmental objectives.",
+        "Sustainability is irrelevant to supplier selection because environmental requirements apply only to the client’s own organisation."
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "Sustainability affects both what is requested and how tenders are evaluated. Requirements and criteria should be relevant, clear, documentable and capable of follow-up.",
+      "category": "Environmental Requirements and Sustainability in Engineering Projects"
+    },
+    {
+      "question": "How should the contractor document environmental measures and compliance with requirements?",
+      "options": [
+        "Through traceable and contract-relevant evidence such as measurements, material data, waste reports, certificates, calculations, inspection forms and deviation handling.",
+        "With only a general declaration at the end of the project and no supporting evidence.",
+        "Only by documenting measures that reduced the contractor’s own cost.",
+        "By storing documentation internally without following agreed reporting or delivery requirements."
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "The documentation should enable the client and, where relevant, authorities to verify whether the requirements have actually been met.",
+      "category": "Environmental Requirements and Sustainability in Engineering Projects"
+    },
+    {
+      "question": "Give a practical example of how environmental requirements have influenced project design or material choice.",
+      "options": [
+        "A project compares greenhouse gas impact and life-cycle performance and selects documented low-carbon concrete or increased use of reused materials where these still meet technical requirements.",
+        "The project automatically selects the most expensive material because a high price proves low emissions.",
+        "The project removes all technical performance requirements to maximise reuse.",
+        "The project chooses materials solely based on supplier marketing without documented environmental data."
+      ],
+      "answer": 0,
+      "difficulty": "Application",
+      "explanation": "A strong example shows how a concrete environmental requirement changes a real technical decision while function, quality and safety are still maintained.",
+      "category": "Environmental Requirements and Sustainability in Engineering Projects"
+    },
+    {
+      "question": "What do the Planning and Building Act and LOA/FOA say about environmental considerations in design and implementation?",
+      "options": [
+        "Planning and building rules may set public-law and technical requirements for the project, while LOA/FOA governs how public contracting authorities may integrate environmental considerations into procurement through requirements, criteria and contract terms.",
+        "LOA/FOA replaces planning and building legislation for all public construction projects.",
+        "Environmental considerations may only be used as award criteria and never as technical requirements or contract terms.",
+        "Planning and building legislation applies only to private projects, while LOA/FOA applies to every project regardless of the contracting authority."
+      ],
+      "answer": 0,
+      "difficulty": "Analysis",
+      "explanation": "The frameworks have different functions: planning and building law regulates the physical project, while procurement law regulates the public competition and contract award process.",
+      "category": "Environmental Requirements and Sustainability in Engineering Projects"
+    },
+    {
+      "question": "Explain the main ethical theories we have covered.",
+      "options": [
+        "Deontological ethics evaluates actions through duties and principles, consequentialism evaluates consequences, and virtue ethics focuses on character and good qualities.",
+        "Deontology, consequentialism and virtue ethics are three names for the same theory of economic utility.",
+        "Consequentialism asks only whether an action follows a rule, while deontology evaluates overall utility.",
+        "Virtue ethics is exclusively about following written laws and contracts."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "The approaches ask different central questions: Which duties apply? What consequences will follow? What would a good and responsible person or professional do?",
+      "category": "Ethics"
+    },
+    {
+      "question": "What is the main content of deontological ethics? Who introduced it?",
+      "options": [
+        "Deontological ethics is especially associated with Immanuel Kant and emphasises duty, principles and whether a rule of action can be justified universally, rather than judging morality only by outcomes.",
+        "Deontological ethics is especially associated with Aristotle and states that the right action is always the one producing the greatest total utility.",
+        "Deontological ethics is associated with Jeremy Bentham and is based on developing moral virtues through experience.",
+        "Deontological ethics holds that there are no general moral obligations."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Kant’s deontological ethics gives decisive weight to moral principles and respect for persons as ends in themselves. A good outcome alone cannot make a fundamentally impermissible act right.",
+      "category": "Ethics"
+    },
+    {
+      "question": "What is the main content of virtue ethics? Who introduced it?",
+      "options": [
+        "Virtue ethics is especially associated with Aristotle and focuses on character, practical wisdom and the development of virtues that enable a person to act well.",
+        "Virtue ethics is especially associated with Kant and reduces morality to following absolute rules regardless of character.",
+        "Virtue ethics is associated with Bentham and evaluates only the sum of measurable consequences.",
+        "Virtue ethics is primarily about the legal validity of agreements."
+      ],
+      "answer": 0,
+      "difficulty": "Understanding",
+      "explanation": "Aristotle is the classical central figure in virtue ethics. The approach asks not only what one should do, but also what kind of person or professional one should become.",
+      "category": "Ethics"
+    }
+  ]
+}
