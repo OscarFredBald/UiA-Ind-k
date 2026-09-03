@@ -98,6 +98,12 @@
       "title": "Muntlig eksamen – Norsk",
       "description": "Øv på de 58 muntlige eksamensspørsmålene i tilfeldig rekkefølge med krevende flervalgsalternativer.",
       "quiz": "quizzes/oral-exam-norwegian.json"
-    }
+    },
+    {
+  "id": "oral-exam-english",
+  "title": "Oral Examination – English",
+  "description": "Practice the 58 oral examination questions in random order with challenging multiple-choice alternatives.",
+  "quiz": "quizzes/oral-exam-english.json"
+}
   ]
 }
