@@ -92,6 +92,12 @@
       "description": "Apply negotiation techniques in realistic engineering project scenarios.",
       "reading": "reading/practical-negotiation-simulation.json",
       "quiz": "quizzes/practical-negotiation-simulation.json"
+    },
+    {
+      "id": "oral-exam-norwegian",
+      "title": "Muntlig eksamen – Norsk",
+      "description": "Øv på de 58 muntlige eksamensspørsmålene i tilfeldig rekkefølge med krevende flervalgsalternativer.",
+      "quiz": "quizzes/oral-exam-norwegian.json"
     }
   ]
 }
