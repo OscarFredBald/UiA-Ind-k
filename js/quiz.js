@@ -36,11 +36,13 @@ async function initializeQuiz() {
   try {
     showLoading();
 
-    const response = await fetch(quizFile);
+    const resolvedQuizFile = resolveQuizFile();
+
+    const response = await fetch(resolvedQuizFile);
 
     if (!response.ok) {
       throw new Error(
-        `The quiz file could not be loaded: ${quizFile}. HTTP status: ${response.status}`
+        `The quiz file could not be loaded: ${resolvedQuizFile}. HTTP status: ${response.status}`
       );
     }
 
@@ -77,6 +79,71 @@ async function initializeQuiz() {
   }
 }
 
+function resolveQuizFile() {
+  if (!quizFile) {
+    return "";
+  }
+
+  /*
+    If quizFile is already a complete URL,
+    use it directly.
+  */
+  try {
+    const directUrl = new URL(quizFile);
+
+    if (
+      directUrl.protocol === "http:" ||
+      directUrl.protocol === "https:"
+    ) {
+      return directUrl.href;
+    }
+  } catch (error) {
+    // quizFile is probably a relative path.
+  }
+
+  /*
+    If topicsFile is available, resolve the quiz
+    relative to the folder containing topics.json.
+
+    Example:
+
+    topicsFile:
+    data/ING400 - Forhandling og avtaleprosesser i ingeniørprosjekter/topics.json
+
+    quizFile:
+    quizzes/introduction-to-engineering-project-processes.json
+
+    Result:
+    data/ING400 - Forhandling og avtaleprosesser i ingeniørprosjekter/
+    quizzes/introduction-to-engineering-project-processes.json
+  */
+  if (topicsFile) {
+    try {
+      const topicsUrl = new URL(
+        topicsFile,
+        window.location.href
+      );
+
+      const resolvedUrl = new URL(
+        quizFile,
+        topicsUrl
+      );
+
+      return resolvedUrl.href;
+    } catch (error) {
+      console.error(
+        "Could not resolve quiz file relative to topics file:",
+        error
+      );
+    }
+  }
+
+  /*
+    Fallback if topicsFile is missing.
+  */
+  return quizFile;
+}
+
 function configureBackLink() {
   if (!backLink) {
     return;
@@ -106,7 +173,10 @@ function configureBackLink() {
 
 function configureButtons() {
   if (nextButton) {
-    nextButton.addEventListener("click", handleNextButton);
+    nextButton.addEventListener(
+      "click",
+      handleNextButton
+    );
   }
 
   if (previousButton) {
@@ -211,7 +281,9 @@ function prepareQuestions(rawQuestions) {
         explanation:
           question.explanation ||
           "No explanation is available.",
-        options: shuffledOptions.map(option => option.text),
+        options: shuffledOptions.map(
+          option => option.text
+        ),
         correctOptionIndex,
         selectedOptionIndex: null,
         submitted: false
@@ -223,7 +295,9 @@ function prepareQuestions(rawQuestions) {
     return shuffleArray(preparedQuestions);
   }
 
-  return sortQuestionsByDifficulty(preparedQuestions);
+  return sortQuestionsByDifficulty(
+    preparedQuestions
+  );
 }
 
 function sortQuestionsByDifficulty(questionList) {
@@ -238,15 +312,17 @@ function sortQuestionsByDifficulty(questionList) {
     Expert: 5
   };
 
-  return [...questionList].sort((first, second) => {
-    const firstDifficulty =
-      difficultyOrder[first.difficulty] || 99;
+  return [...questionList].sort(
+    (first, second) => {
+      const firstDifficulty =
+        difficultyOrder[first.difficulty] || 99;
 
-    const secondDifficulty =
-      difficultyOrder[second.difficulty] || 99;
+      const secondDifficulty =
+        difficultyOrder[second.difficulty] || 99;
 
-    return firstDifficulty - secondDifficulty;
-  });
+      return firstDifficulty - secondDifficulty;
+    }
+  );
 }
 
 function renderQuestion() {
@@ -261,47 +337,71 @@ function renderQuestion() {
 
   quizBox.innerHTML = "";
 
-  const progress = createProgressSection();
-  const questionCard = document.createElement("section");
+  const progress =
+    createProgressSection();
 
-  questionCard.className = "quiz-question-card";
+  const questionCard =
+    document.createElement("section");
 
-  const questionHeader = document.createElement("div");
-  questionHeader.className = "quiz-question-header";
+  questionCard.className =
+    "quiz-question-card";
 
-  const questionNumber = document.createElement("p");
-  questionNumber.className = "quiz-question-number";
+  const questionHeader =
+    document.createElement("div");
+
+  questionHeader.className =
+    "quiz-question-header";
+
+  const questionNumber =
+    document.createElement("p");
+
+  questionNumber.className =
+    "quiz-question-number";
+
   questionNumber.textContent =
     `Question ${currentQuestionIndex + 1} of ${questions.length}`;
 
-  const difficulty = document.createElement("span");
+  const difficulty =
+    document.createElement("span");
+
   difficulty.className =
     `quiz-difficulty ${getDifficultyClass(question.difficulty)}`;
-  difficulty.textContent = question.difficulty;
+
+  difficulty.textContent =
+    question.difficulty;
 
   questionHeader.append(
     questionNumber,
     difficulty
   );
 
-  const questionText = document.createElement("h2");
-  questionText.className = "quiz-question-text";
-  questionText.textContent = question.question;
+  const questionText =
+    document.createElement("h2");
+
+  questionText.className =
+    "quiz-question-text";
+
+  questionText.textContent =
+    question.question;
 
   const optionsContainer =
     document.createElement("div");
 
-  optionsContainer.className = "quiz-options";
+  optionsContainer.className =
+    "quiz-options";
 
   question.options.forEach(
     (optionText, optionIndex) => {
-      const optionButton = createOptionButton(
-        question,
-        optionText,
-        optionIndex
-      );
+      const optionButton =
+        createOptionButton(
+          question,
+          optionText,
+          optionIndex
+        );
 
-      optionsContainer.appendChild(optionButton);
+      optionsContainer.appendChild(
+        optionButton
+      );
     }
   );
 
@@ -312,11 +412,18 @@ function renderQuestion() {
   );
 
   if (question.submitted) {
-    const feedback = createFeedback(question);
-    questionCard.appendChild(feedback);
+    const feedback =
+      createFeedback(question);
+
+    questionCard.appendChild(
+      feedback
+    );
   }
 
-  quizBox.append(progress, questionCard);
+  quizBox.append(
+    progress,
+    questionCard
+  );
 
   updateNavigationButtons();
 }
@@ -325,25 +432,38 @@ function createProgressSection() {
   const progressWrapper =
     document.createElement("div");
 
-  progressWrapper.className = "quiz-progress-wrapper";
+  progressWrapper.className =
+    "quiz-progress-wrapper";
 
-  const progressText = document.createElement("div");
-  progressText.className = "quiz-progress-text";
+  const progressText =
+    document.createElement("div");
 
-  const position = document.createElement("span");
+  progressText.className =
+    "quiz-progress-text";
+
+  const position =
+    document.createElement("span");
+
   position.textContent =
     `${currentQuestionIndex + 1} / ${questions.length}`;
 
-  const answered = document.createElement("span");
+  const answered =
+    document.createElement("span");
+
   answered.textContent =
     `${getAnsweredCount()} answered`;
 
-  progressText.append(position, answered);
+  progressText.append(
+    position,
+    answered
+  );
 
   const progressTrack =
     document.createElement("div");
 
-  progressTrack.className = "quiz-progress-track";
+  progressTrack.className =
+    "quiz-progress-track";
+
   progressTrack.setAttribute(
     "role",
     "progressbar"
@@ -356,23 +476,33 @@ function createProgressSection() {
 
   progressTrack.setAttribute(
     "aria-valuenow",
-    String(Math.round(progressPercentage))
+    String(
+      Math.round(progressPercentage)
+    )
   );
+
   progressTrack.setAttribute(
     "aria-valuemin",
     "0"
   );
+
   progressTrack.setAttribute(
     "aria-valuemax",
     "100"
   );
 
-  const progressBar = document.createElement("div");
-  progressBar.className = "quiz-progress-bar";
+  const progressBar =
+    document.createElement("div");
+
+  progressBar.className =
+    "quiz-progress-bar";
+
   progressBar.style.width =
     `${progressPercentage}%`;
 
-  progressTrack.appendChild(progressBar);
+  progressTrack.appendChild(
+    progressBar
+  );
 
   progressWrapper.append(
     progressText,
@@ -387,31 +517,47 @@ function createOptionButton(
   optionText,
   optionIndex
 ) {
-  const button = document.createElement("button");
+  const button =
+    document.createElement("button");
 
   button.type = "button";
   button.className = "quiz-option";
-  button.dataset.optionIndex = String(optionIndex);
+
+  button.dataset.optionIndex =
+    String(optionIndex);
 
   const optionLetter =
     document.createElement("span");
 
-  optionLetter.className = "quiz-option-letter";
+  optionLetter.className =
+    "quiz-option-letter";
+
   optionLetter.textContent =
-    String.fromCharCode(65 + optionIndex);
+    String.fromCharCode(
+      65 + optionIndex
+    );
 
   const optionLabel =
     document.createElement("span");
 
-  optionLabel.className = "quiz-option-text";
-  optionLabel.textContent = optionText;
+  optionLabel.className =
+    "quiz-option-text";
 
-  button.append(optionLetter, optionLabel);
+  optionLabel.textContent =
+    optionText;
+
+  button.append(
+    optionLetter,
+    optionLabel
+  );
 
   if (
-    question.selectedOptionIndex === optionIndex
+    question.selectedOptionIndex ===
+    optionIndex
   ) {
-    button.classList.add("selected");
+    button.classList.add(
+      "selected"
+    );
   }
 
   if (question.submitted) {
@@ -421,7 +567,9 @@ function createOptionButton(
       optionIndex ===
       question.correctOptionIndex
     ) {
-      button.classList.add("correct");
+      button.classList.add(
+        "correct"
+      );
     }
 
     if (
@@ -430,12 +578,17 @@ function createOptionButton(
       optionIndex !==
         question.correctOptionIndex
     ) {
-      button.classList.add("incorrect");
+      button.classList.add(
+        "incorrect"
+      );
     }
   } else {
-    button.addEventListener("click", () => {
-      selectOption(optionIndex);
-    });
+    button.addEventListener(
+      "click",
+      () => {
+        selectOption(optionIndex);
+      }
+    );
   }
 
   return button;
@@ -460,11 +613,13 @@ function submitCurrentAnswer() {
     questions[currentQuestionIndex];
 
   if (
-    question.selectedOptionIndex === null
+    question.selectedOptionIndex ===
+    null
   ) {
     showTemporaryMessage(
       "Select an answer before continuing."
     );
+
     return false;
   }
 
@@ -480,6 +635,7 @@ function submitCurrentAnswer() {
   }
 
   renderQuestion();
+
   return true;
 }
 
@@ -488,13 +644,15 @@ function createFeedback(question) {
     question.selectedOptionIndex ===
     question.correctOptionIndex;
 
-  const feedback = document.createElement("div");
+  const feedback =
+    document.createElement("div");
 
   feedback.className = isCorrect
     ? "quiz-feedback quiz-feedback-correct"
     : "quiz-feedback quiz-feedback-incorrect";
 
-  const heading = document.createElement("h3");
+  const heading =
+    document.createElement("h3");
 
   heading.textContent = isCorrect
     ? "Correct"
@@ -506,7 +664,10 @@ function createFeedback(question) {
   explanation.textContent =
     question.explanation;
 
-  feedback.append(heading, explanation);
+  feedback.append(
+    heading,
+    explanation
+  );
 
   return feedback;
 }
@@ -530,8 +691,11 @@ function handleNextButton() {
     questions.length - 1
   ) {
     currentQuestionIndex += 1;
+
     renderQuestion();
+
     scrollQuizToTop();
+
     return;
   }
 
@@ -547,7 +711,9 @@ function handlePreviousButton() {
   }
 
   currentQuestionIndex -= 1;
+
   renderQuestion();
+
   scrollQuizToTop();
 }
 
@@ -567,7 +733,9 @@ function updateNavigationButtons() {
   nextButton.disabled = false;
 
   if (!question.submitted) {
-    nextButton.textContent = "Check Answer";
+    nextButton.textContent =
+      "Check Answer";
+
     return;
   }
 
@@ -575,11 +743,14 @@ function updateNavigationButtons() {
     currentQuestionIndex ===
     questions.length - 1
   ) {
-    nextButton.textContent = "View Results";
+    nextButton.textContent =
+      "View Results";
+
     return;
   }
 
-  nextButton.textContent = "Next Question";
+  nextButton.textContent =
+    "Next Question";
 }
 
 function renderResults() {
@@ -589,27 +760,43 @@ function renderResults() {
     return;
   }
 
-  const percentage = Math.round(
-    (score / questions.length) * 100
-  );
+  const percentage =
+    Math.round(
+      (score / questions.length) *
+      100
+    );
 
   const resultLevel =
     getResultLevel(percentage);
 
   quizBox.innerHTML = "";
 
-  const resultCard = document.createElement("section");
-  resultCard.className = "quiz-results";
+  const resultCard =
+    document.createElement("section");
 
-  const eyebrow = document.createElement("p");
+  resultCard.className =
+    "quiz-results";
+
+  const eyebrow =
+    document.createElement("p");
+
   eyebrow.className = "eyebrow";
-  eyebrow.textContent = "Quiz completed";
 
-  const heading = document.createElement("h2");
-  heading.textContent = resultLevel.heading;
+  eyebrow.textContent =
+    "Quiz completed";
 
-  const scoreText = document.createElement("p");
-  scoreText.className = "quiz-result-score";
+  const heading =
+    document.createElement("h2");
+
+  heading.textContent =
+    resultLevel.heading;
+
+  const scoreText =
+    document.createElement("p");
+
+  scoreText.className =
+    "quiz-result-score";
+
   scoreText.textContent =
     `${score} of ${questions.length} correct`;
 
@@ -618,14 +805,21 @@ function renderResults() {
 
   percentageText.className =
     "quiz-result-percentage";
+
   percentageText.textContent =
     `${percentage}%`;
 
-  const message = document.createElement("p");
-  message.className = "quiz-result-message";
-  message.textContent = resultLevel.message;
+  const message =
+    document.createElement("p");
 
-  const review = createResultReview();
+  message.className =
+    "quiz-result-message";
+
+  message.textContent =
+    resultLevel.message;
+
+  const review =
+    createResultReview();
 
   resultCard.append(
     eyebrow,
@@ -636,7 +830,9 @@ function renderResults() {
     review
   );
 
-  quizBox.appendChild(resultCard);
+  quizBox.appendChild(
+    resultCard
+  );
 
   if (previousButton) {
     previousButton.disabled = true;
@@ -644,7 +840,9 @@ function renderResults() {
 
   if (nextButton) {
     nextButton.disabled = false;
-    nextButton.textContent = "Restart Quiz";
+
+    nextButton.textContent =
+      "Restart Quiz";
   }
 
   scrollQuizToTop();
@@ -657,38 +855,64 @@ function createResultReview() {
   reviewSection.className =
     "quiz-result-review";
 
-  const heading = document.createElement("h3");
-  heading.textContent = "Question Review";
+  const heading =
+    document.createElement("h3");
 
-  const reviewList = document.createElement("div");
-  reviewList.className = "quiz-review-list";
+  heading.textContent =
+    "Question Review";
 
-  questions.forEach((question, index) => {
-    const isCorrect =
-      question.selectedOptionIndex ===
-      question.correctOptionIndex;
+  const reviewList =
+    document.createElement("div");
 
-    const item = document.createElement("button");
+  reviewList.className =
+    "quiz-review-list";
 
-    item.type = "button";
-    item.className = isCorrect
-      ? "quiz-review-item correct"
-      : "quiz-review-item incorrect";
+  questions.forEach(
+    (question, index) => {
+      const isCorrect =
+        question.selectedOptionIndex ===
+        question.correctOptionIndex;
 
-    item.textContent =
-      `${index + 1}. ${isCorrect ? "Correct" : "Incorrect"}`;
+      const item =
+        document.createElement("button");
 
-    item.addEventListener("click", () => {
-      quizCompleted = false;
-      currentQuestionIndex = index;
-      renderQuestion();
-      scrollQuizToTop();
-    });
+      item.type = "button";
 
-    reviewList.appendChild(item);
-  });
+      item.className = isCorrect
+        ? "quiz-review-item correct"
+        : "quiz-review-item incorrect";
 
-  reviewSection.append(heading, reviewList);
+      item.textContent =
+        `${index + 1}. ${
+          isCorrect
+            ? "Correct"
+            : "Incorrect"
+        }`;
+
+      item.addEventListener(
+        "click",
+        () => {
+          quizCompleted = false;
+
+          currentQuestionIndex =
+            index;
+
+          renderQuestion();
+
+          scrollQuizToTop();
+        }
+      );
+
+      reviewList.appendChild(
+        item
+      );
+    }
+  );
+
+  reviewSection.append(
+    heading,
+    reviewList
+  );
 
   return reviewSection;
 }
@@ -712,14 +936,16 @@ function getResultLevel(percentage) {
 
   if (percentage >= 60) {
     return {
-      heading: "Developing understanding",
+      heading:
+        "Developing understanding",
       message:
         "You understand several core concepts, but some areas should be reviewed in the reading module."
     };
   }
 
   return {
-    heading: "More review recommended",
+    heading:
+      "More review recommended",
     message:
       "Return to the reading material and focus on the explanations and practical examples before trying again."
   };
@@ -730,22 +956,30 @@ function restartQuiz() {
   currentQuestionIndex = 0;
   quizCompleted = false;
 
-  questions.forEach(question => {
-    question.selectedOptionIndex = null;
-    question.submitted = false;
-  });
+  questions.forEach(
+    question => {
+      question.selectedOptionIndex =
+        null;
+
+      question.submitted =
+        false;
+    }
+  );
 
   if (shuffleQuestionsEnabled) {
-    questions = shuffleArray(questions);
+    questions =
+      shuffleArray(questions);
   }
 
   renderQuestion();
+
   scrollQuizToTop();
 }
 
 function getAnsweredCount() {
   return questions.filter(
-    question => question.submitted
+    question =>
+      question.submitted
   ).length;
 }
 
@@ -753,20 +987,26 @@ function getDifficultyClass(difficulty) {
   return String(difficulty)
     .trim()
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-");
+    .replace(
+      /[^a-z0-9]+/g,
+      "-"
+    );
 }
 
 function shuffleArray(items) {
   const shuffled = [...items];
 
   for (
-    let index = shuffled.length - 1;
+    let index =
+      shuffled.length - 1;
     index > 0;
     index -= 1
   ) {
-    const randomIndex = Math.floor(
-      Math.random() * (index + 1)
-    );
+    const randomIndex =
+      Math.floor(
+        Math.random() *
+        (index + 1)
+      );
 
     [
       shuffled[index],
@@ -783,6 +1023,7 @@ function shuffleArray(items) {
 function showLoading() {
   if (loadingMessage) {
     loadingMessage.hidden = false;
+
     loadingMessage.textContent =
       "Loading quiz...";
   }
@@ -821,7 +1062,8 @@ function showError(message) {
 
   if (errorMessage) {
     errorMessage.hidden = false;
-    errorMessage.textContent = message;
+    errorMessage.textContent =
+      message;
   }
 
   if (quizBox) {
@@ -859,20 +1101,28 @@ function showTemporaryMessage(message) {
       "quiz-temporary-message";
 
     if (quizBox) {
-      quizBox.prepend(messageElement);
+      quizBox.prepend(
+        messageElement
+      );
     }
   }
 
-  messageElement.textContent = message;
+  messageElement.textContent =
+    message;
 
-  window.setTimeout(() => {
-    messageElement?.remove();
-  }, 2500);
+  window.setTimeout(
+    () => {
+      messageElement?.remove();
+    },
+    2500
+  );
 }
 
 function scrollQuizToTop() {
   const quizMain =
-    document.querySelector(".quiz-page") ||
+    document.querySelector(
+      ".quiz-page"
+    ) ||
     quizBox;
 
   if (!quizMain) {
