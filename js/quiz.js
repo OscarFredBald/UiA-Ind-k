@@ -18,6 +18,7 @@ let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 let quizCompleted = false;
+let shuffleQuestionsEnabled = false;
 
 initializeQuiz();
 
@@ -59,6 +60,9 @@ async function initializeQuiz() {
         "Select the best answer for each question.";
     }
 
+    shuffleQuestionsEnabled =
+      data.shuffleQuestions === true;
+
     questions = prepareQuestions(data.questions);
 
     hideLoading();
@@ -68,7 +72,7 @@ async function initializeQuiz() {
 
     showError(
       error.message ||
-        "The quiz could not be loaded."
+      "The quiz could not be loaded."
     );
   }
 }
@@ -214,6 +218,10 @@ function prepareQuestions(rawQuestions) {
       };
     }
   );
+
+  if (shuffleQuestionsEnabled) {
+    return shuffleArray(preparedQuestions);
+  }
 
   return sortQuestionsByDifficulty(preparedQuestions);
 }
@@ -726,6 +734,10 @@ function restartQuiz() {
     question.selectedOptionIndex = null;
     question.submitted = false;
   });
+
+  if (shuffleQuestionsEnabled) {
+    questions = shuffleArray(questions);
+  }
 
   renderQuestion();
   scrollQuizToTop();
